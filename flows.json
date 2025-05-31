@@ -1,0 +1,1937 @@
+[
+    {
+        "id": "0aa00436e9f4a90f",
+        "type": "tab",
+        "label": "INDEX",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a27d609b16f699f0",
+        "type": "tab",
+        "label": "sensoresMQTT",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b5ea6d2a.6e7bb",
+        "type": "tab",
+        "label": "openValve",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "558fe83b50f9dfba",
+        "type": "group",
+        "z": "a27d609b16f699f0",
+        "name": "SIMULACION CIUDAD PASAJE 1",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "23bd402faa87839e",
+            "3aa33020d461e36b",
+            "6efd590bc65cb12b",
+            "93049d8904894741",
+            "c977ff1bc8935b4a",
+            "3a0a3a8c3aa1b0aa",
+            "a1bd9f0975a52b49",
+            "a27fb966f4be5341",
+            "997c24079c5e02a2",
+            "90987fa10b037e2f",
+            "de63d969fe321071",
+            "792bfa3e5ae4743c"
+        ],
+        "x": 14,
+        "y": 59,
+        "w": 1292,
+        "h": 262
+    },
+    {
+        "id": "4e3cfa5ac1a46c29",
+        "type": "group",
+        "z": "a27d609b16f699f0",
+        "name": "SIMULACION MACHALA PARTE CENTRO",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "aa616f49a0d26402",
+            "e6b3dc3e2e03a793",
+            "bccd3b6cd0a5b18d",
+            "fa0be6f2ad1d16bd",
+            "a402d81e01109a12",
+            "c0901005a0a367b2",
+            "3d80bc2735696695",
+            "93139e8da44945be",
+            "0f38f93c982075b0",
+            "32b23430dc674bbf",
+            "f96cf9b02fda2336",
+            "83109593c9acffd3"
+        ],
+        "x": 14,
+        "y": 399,
+        "w": 1292,
+        "h": 262
+    },
+    {
+        "id": "f75a08fb9f09b8b6",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "cd922c1521ea3b4b",
+        "type": "ui_tab",
+        "name": "HOME",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7a0943956e535e2d",
+        "type": "ui_group",
+        "name": "OPCIONES",
+        "tab": "cd922c1521ea3b4b",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6a6b371b335c1959",
+        "type": "ui_group",
+        "name": "cabecera",
+        "tab": "cd922c1521ea3b4b",
+        "order": 1,
+        "disp": false,
+        "width": 25,
+        "collapse": false,
+        "className": "ui-card-panel {         background-color: trasparent ;         border-radius: 10px !important;     }"
+    },
+    {
+        "id": "778525b5c804be1f",
+        "type": "ui_tab",
+        "name": "Tab 2",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "25728a1daa1c705d",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "778525b5c804be1f",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "37da77f10cb455eb",
+        "type": "ui_group",
+        "name": "CIUDAD PASAJE",
+        "tab": "cd922c1521ea3b4b",
+        "order": 3,
+        "disp": true,
+        "width": 15,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2589923f6ec5eb3b",
+        "type": "ui_group",
+        "name": "PRESION",
+        "tab": "cd922c1521ea3b4b",
+        "order": 4,
+        "disp": true,
+        "width": 3,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f9149e06fbbe0794",
+        "type": "ui_group",
+        "name": "CONSUMO ESTIMADO",
+        "tab": "cd922c1521ea3b4b",
+        "order": 5,
+        "disp": true,
+        "width": 3,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0449b3b1fea99d52",
+        "type": "ui_tab",
+        "name": "Demo",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d783cb980c3979fc",
+        "type": "ui_group",
+        "name": "Demo",
+        "tab": "0449b3b1fea99d52",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "3e6e56dcfdf5ebfb",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3e196ac6850fcfad",
+        "type": "ui_spacer",
+        "z": "0aa00436e9f4a90f",
+        "name": "spacer",
+        "group": "6a6b371b335c1959",
+        "order": 1,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "24815f081e2c0fd2",
+        "type": "ui_spacer",
+        "z": "0aa00436e9f4a90f",
+        "name": "spacer",
+        "group": "6a6b371b335c1959",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "d45e2556a9893560",
+        "type": "ui_spacer",
+        "z": "0aa00436e9f4a90f",
+        "name": "spacer",
+        "group": "7a0943956e535e2d",
+        "order": 1,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "1a25ec8ab1cd61fc",
+        "type": "function",
+        "z": "0aa00436e9f4a90f",
+        "name": "obtenerHora",
+        "func": "var fecha = new Date();\n\n\nmsg.hora = fecha.toLocaleTimeString(\"es-ES\", {\n    hour: '2-digit',\n    minute: '2-digit',\n    second: '2-digit'\n});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 100,
+        "wires": [
+            [
+                "a6d3191a4a80e872"
+            ]
+        ]
+    },
+    {
+        "id": "2c844f53158b502e",
+        "type": "ui_text",
+        "z": "0aa00436e9f4a90f",
+        "group": "6a6b371b335c1959",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "fecha",
+        "label": "",
+        "format": "{{msg.fecha}}",
+        "layout": "row-right",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 530,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "8f2bd1b57adaf7c7",
+        "type": "inject",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "1a25ec8ab1cd61fc"
+            ]
+        ]
+    },
+    {
+        "id": "a6d3191a4a80e872",
+        "type": "ui_text",
+        "z": "0aa00436e9f4a90f",
+        "group": "6a6b371b335c1959",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "name": "hora",
+        "label": "",
+        "format": "{{msg.hora}}",
+        "layout": "row-right",
+        "className": "",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "36",
+        "color": "#000000",
+        "x": 530,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f08116e6d50b8b21",
+        "type": "inject",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 00 * * *",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "1c629b75473edb21"
+            ]
+        ]
+    },
+    {
+        "id": "1c629b75473edb21",
+        "type": "function",
+        "z": "0aa00436e9f4a90f",
+        "name": "obtenerFecha",
+        "func": "var fecha = new Date();\n\nmsg.fecha = fecha.toLocaleDateString(\"es-ES\", { weekday: \"long\", year: \"numeric\", month: \"long\", day: \"numeric\" });\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "2c844f53158b502e"
+            ]
+        ]
+    },
+    {
+        "id": "9245d7b004d70d34",
+        "type": "ui_text",
+        "z": "0aa00436e9f4a90f",
+        "group": "6a6b371b335c1959",
+        "order": 5,
+        "width": 25,
+        "height": 1,
+        "name": "",
+        "label": "BIENVENIDO AL SISTEMA DE MONITOREO DE GAS XD",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "26",
+        "color": "#000000",
+        "x": 720,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "5ee864f12a54b9a7",
+        "type": "ui_gauge",
+        "z": "0aa00436e9f4a90f",
+        "name": "NIVELES",
+        "group": "37da77f10cb455eb",
+        "order": 1,
+        "width": 8,
+        "height": 5,
+        "gtype": "wave",
+        "title": "{{payload.nombre}}",
+        "label": "%",
+        "format": "{{presion *10}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1140,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "dde991ad79269379",
+        "type": "ui_dropdown",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "label": "Ciudades",
+        "tooltip": "ciudades",
+        "place": "Seleccione la ciudad",
+        "group": "7a0943956e535e2d",
+        "order": 2,
+        "width": 10,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Pasaje (Centro)",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "Pasaje(Cerritos)",
+                "value": 2,
+                "type": "num"
+            },
+            {
+                "label": "Machala(Puerto)",
+                "value": 3,
+                "type": "num"
+            },
+            {
+                "label": "Machala(Centro)",
+                "value": 4,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 180,
+        "y": 760,
+        "wires": [
+            [
+                "d14b9063b4b8970d"
+            ]
+        ]
+    },
+    {
+        "id": "dbb6c22bf55eb89a",
+        "type": "ui_gauge",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "group": "37da77f10cb455eb",
+        "order": 2,
+        "width": 7,
+        "height": 5,
+        "gtype": "gage",
+        "title": "",
+        "label": "PSI",
+        "format": "{{payload * 10 | number:2 }}",
+        "min": 0,
+        "max": "10",
+        "colors": [
+            "#e73623",
+            "#f9f343",
+            "#49c705"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1150,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "2d66401267a146d9",
+        "type": "ui_chart",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "group": "37da77f10cb455eb",
+        "order": 3,
+        "width": 15,
+        "height": 5,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff9500",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1150,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2cc22929a47b82b3",
+        "type": "ui_template",
+        "z": "0aa00436e9f4a90f",
+        "group": "d783cb980c3979fc",
+        "name": "Node-Red Dashboard Custom CSS",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n\n    /*Main background*/\n    body {\n        background: -webkit-linear-gradient(\n            55deg,\n            #009785 0%,\n            #245aa5 50%,\n            #b800e9 100%\n            );\n    }\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {\n        background-color: transparent !important;\n        color: #FFFFFF !important;\n    }\n\n\n    /*Left menu*/\n    /*Sidebar*/\n    body.nr-dashboard-theme md-sidenav {\n        color: white !important;\n        background-color: rgba(0,0,0,0) !important;\n    }\n    /*Hover selection*/\n    a.md-no-style, button.md-no-style {\n        border-radius: 10px !important;\n    }\n    /*Selected*/\n    .nr-menu-item-active div button {\n        border-right: 4px solid rgb(41 98 255) !important;\n    }\n    /*List*/\n    body.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n        color: white !important;\n        background-color: rgba(40,85,165,1) !important;\n        border-radius: 10px !important;\n    }\n\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: rgba(255,255,255,0.1) !important;\n        border-radius: 10px !important;\n    }\n    .nr-dashboard-theme ui-card-panel {\n        border: none !important;\n    }\n    /*Name groups*/\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: rgba(255, 255, 255, 0.5) !important;\n    }\n\n\n    /*Bouttons*/\n    .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: rgba(255,255,255,.1) !important;\n    }\n    .md-button {\n        border-radius: 10px !important;\n    }\n\n\n    /*Dropdown menu*/\n    .nr-dashboard-theme md-select-menu{\n        background-color: rgba(40,85,165,1) !important;\n    }\n    .nr-dashboard-theme md-select-menu, .nr-dashboard-theme md-select-menu md-option {\n        background-color: transparent !important;\n    }\n    .nr-dashboard-theme .md-select-menu-container {\n        border-radius: 10px !important;\n        border: none !important;\n    }\n    .nr-dashboard-theme md-select-menu md-option[selected] {\n        color: white !important;\n        background-color: #1a3566 !important;\n    }\n\n    /*Template*/\n    md-card>img, md-card>md-card-header img, md-card md-card-title-media img {\n        border-radius: 10px !important;\n    }\n\n    /* Color picker text BG */\n    .nr-dashboard-theme .color-picker-input-wrapper > input {\n        color: white !important;\n        background-color: transparent !important;\n    }\n\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "x": 160,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d14b9063b4b8970d",
+        "type": "switch",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 390,
+        "y": 760,
+        "wires": [
+            [
+                "105766110cf4cf30",
+                "fed8b87e8e360cd8"
+            ],
+            [
+                "770a9596295f4306"
+            ],
+            [
+                "9340fe96260dc284"
+            ],
+            [
+                "ea2fa59ad532723a"
+            ]
+        ]
+    },
+    {
+        "id": "105766110cf4cf30",
+        "type": "change",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "datos",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 660,
+        "wires": [
+            [
+                "5ee864f12a54b9a7",
+                "dbb6c22bf55eb89a",
+                "2d66401267a146d9"
+            ]
+        ]
+    },
+    {
+        "id": "770a9596295f4306",
+        "type": "change",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "presion",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9340fe96260dc284",
+        "type": "change",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea2fa59ad532723a",
+        "type": "change",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f10434f1c9c272d1",
+        "type": "mqtt in",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "topic": "admin123/cilindros/pasaje/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3e6e56dcfdf5ebfb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 340,
+        "wires": [
+            [
+                "182a9c9e11dd4696"
+            ]
+        ]
+    },
+    {
+        "id": "182a9c9e11dd4696",
+        "type": "switch",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "admin123/cilindros/pasaje",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "admin123/cilindros/pasaje/presion",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "admin123/cilindros/pasaje/consumo",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 490,
+        "y": 340,
+        "wires": [
+            [],
+            [
+                "efb3d482c55cbc1c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "efb3d482c55cbc1c",
+        "type": "change",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "presion",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2c28c22c28f69829",
+        "type": "mqtt in",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "topic": "admin123/cilindros/machala/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3e6e56dcfdf5ebfb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 480,
+        "wires": [
+            [
+                "abecf1b6f73adbaf"
+            ]
+        ]
+    },
+    {
+        "id": "2065bb6ed3dfbde9",
+        "type": "debug",
+        "z": "0aa00436e9f4a90f",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "abecf1b6f73adbaf",
+        "type": "switch",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "admin123/cilindros/machala",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "admin123/cilindros/machala/presion",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "admin123/cilindros/machala/consumo",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 430,
+        "y": 480,
+        "wires": [
+            [
+                "c2235d7e990d2815"
+            ],
+            [
+                "420598940b5a4e85"
+            ],
+            [
+                "65ffe90ffea4fcce"
+            ]
+        ]
+    },
+    {
+        "id": "420598940b5a4e85",
+        "type": "change",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "presion",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 480,
+        "wires": [
+            [
+                "f1cca4298a91dbf5"
+            ]
+        ]
+    },
+    {
+        "id": "65ffe90ffea4fcce",
+        "type": "change",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "consumo",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 520,
+        "wires": [
+            [
+                "f1cca4298a91dbf5"
+            ]
+        ]
+    },
+    {
+        "id": "c2235d7e990d2815",
+        "type": "change",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "datos",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 440,
+        "wires": [
+            [
+                "f1cca4298a91dbf5"
+            ]
+        ]
+    },
+    {
+        "id": "f1cca4298a91dbf5",
+        "type": "join",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": true,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 770,
+        "y": 500,
+        "wires": [
+            [
+                "1639fbc31800c696"
+            ]
+        ]
+    },
+    {
+        "id": "1639fbc31800c696",
+        "type": "change",
+        "z": "0aa00436e9f4a90f",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "info",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 620,
+        "wires": [
+            [
+                "d14b9063b4b8970d",
+                "2065bb6ed3dfbde9"
+            ]
+        ]
+    },
+    {
+        "id": "fed8b87e8e360cd8",
+        "type": "debug",
+        "z": "0aa00436e9f4a90f",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "23bd402faa87839e",
+        "type": "mqtt out",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3e6e56dcfdf5ebfb",
+        "x": 1230,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "3aa33020d461e36b",
+        "type": "change",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"id\":1,\"nombre\":\"Pasaje (Centro)\"}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/pasaje",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 100,
+        "wires": [
+            [
+                "23bd402faa87839e"
+            ]
+        ]
+    },
+    {
+        "id": "6efd590bc65cb12b",
+        "type": "inject",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "3aa33020d461e36b"
+            ]
+        ]
+    },
+    {
+        "id": "93049d8904894741",
+        "type": "inject",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "Generar Presión",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "presion",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "c977ff1bc8935b4a"
+            ]
+        ]
+    },
+    {
+        "id": "c977ff1bc8935b4a",
+        "type": "random",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "Presión",
+        "low": "7",
+        "high": "10",
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "997c24079c5e02a2",
+                "90987fa10b037e2f"
+            ]
+        ]
+    },
+    {
+        "id": "3a0a3a8c3aa1b0aa",
+        "type": "random",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "Consumo",
+        "low": "0",
+        "high": "1",
+        "inte": "false",
+        "property": "consumo",
+        "x": 560,
+        "y": 240,
+        "wires": [
+            [
+                "a1bd9f0975a52b49",
+                "de63d969fe321071"
+            ]
+        ]
+    },
+    {
+        "id": "a1bd9f0975a52b49",
+        "type": "function",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "Calcular Operación",
+        "func": "let presion = global.get(\"presionC1\") ; \nlet consumo = msg.consumo;\n\nglobal.set(\"presionC1\", presion - consumo); \n\nmsg.presionr = global.get(\"presionC1\"); \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 280,
+        "wires": [
+            [
+                "792bfa3e5ae4743c"
+            ]
+        ]
+    },
+    {
+        "id": "a27fb966f4be5341",
+        "type": "inject",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "3a0a3a8c3aa1b0aa"
+            ]
+        ]
+    },
+    {
+        "id": "997c24079c5e02a2",
+        "type": "change",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "presionC1",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "3a0a3a8c3aa1b0aa"
+            ]
+        ]
+    },
+    {
+        "id": "90987fa10b037e2f",
+        "type": "change",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/pasaje/presion",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 160,
+        "wires": [
+            [
+                "23bd402faa87839e"
+            ]
+        ]
+    },
+    {
+        "id": "de63d969fe321071",
+        "type": "change",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/pasaje/consumo",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "consumo",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 200,
+        "wires": [
+            [
+                "23bd402faa87839e"
+            ]
+        ]
+    },
+    {
+        "id": "792bfa3e5ae4743c",
+        "type": "change",
+        "z": "a27d609b16f699f0",
+        "g": "558fe83b50f9dfba",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/pasaje/presion",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "presionC1",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 280,
+        "wires": [
+            [
+                "23bd402faa87839e"
+            ]
+        ]
+    },
+    {
+        "id": "aa616f49a0d26402",
+        "type": "mqtt out",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3e6e56dcfdf5ebfb",
+        "x": 1230,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "e6b3dc3e2e03a793",
+        "type": "change",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"id\":2,\"nombre\":\"Machala(Centro)\"}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/machala",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 440,
+        "wires": [
+            [
+                "aa616f49a0d26402"
+            ]
+        ]
+    },
+    {
+        "id": "bccd3b6cd0a5b18d",
+        "type": "inject",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 440,
+        "wires": [
+            [
+                "e6b3dc3e2e03a793"
+            ]
+        ]
+    },
+    {
+        "id": "fa0be6f2ad1d16bd",
+        "type": "inject",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "Generar Presión",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "presion",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 500,
+        "wires": [
+            [
+                "a402d81e01109a12"
+            ]
+        ]
+    },
+    {
+        "id": "a402d81e01109a12",
+        "type": "random",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "Presión",
+        "low": "7",
+        "high": "10",
+        "inte": "true",
+        "property": "payload",
+        "x": 340,
+        "y": 500,
+        "wires": [
+            [
+                "0f38f93c982075b0",
+                "32b23430dc674bbf"
+            ]
+        ]
+    },
+    {
+        "id": "c0901005a0a367b2",
+        "type": "random",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "Consumo",
+        "low": "0",
+        "high": "1",
+        "inte": "false",
+        "property": "consumo",
+        "x": 560,
+        "y": 580,
+        "wires": [
+            [
+                "3d80bc2735696695",
+                "f96cf9b02fda2336"
+            ]
+        ]
+    },
+    {
+        "id": "3d80bc2735696695",
+        "type": "function",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "Calcular Operación",
+        "func": "let presion = global.get(\"presionC1\") ; \nlet consumo = msg.consumo;\n\nglobal.set(\"presionC1\", presion - consumo); \n\nmsg.presionr = global.get(\"presionC1\"); \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 620,
+        "wires": [
+            [
+                "83109593c9acffd3"
+            ]
+        ]
+    },
+    {
+        "id": "93139e8da44945be",
+        "type": "inject",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 580,
+        "wires": [
+            [
+                "c0901005a0a367b2"
+            ]
+        ]
+    },
+    {
+        "id": "0f38f93c982075b0",
+        "type": "change",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "presionC1",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 540,
+        "wires": [
+            [
+                "c0901005a0a367b2"
+            ]
+        ]
+    },
+    {
+        "id": "32b23430dc674bbf",
+        "type": "change",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/machala/presion",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 500,
+        "wires": [
+            [
+                "aa616f49a0d26402"
+            ]
+        ]
+    },
+    {
+        "id": "f96cf9b02fda2336",
+        "type": "change",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/machala/consumo",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "consumo",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 540,
+        "wires": [
+            [
+                "aa616f49a0d26402"
+            ]
+        ]
+    },
+    {
+        "id": "83109593c9acffd3",
+        "type": "change",
+        "z": "a27d609b16f699f0",
+        "g": "4e3cfa5ac1a46c29",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/machala/presion",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "presionC1",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 620,
+        "wires": [
+            [
+                "aa616f49a0d26402"
+            ]
+        ]
+    },
+    {
+        "id": "84ed227552b4e6eb",
+        "type": "join",
+        "z": "b5ea6d2a.6e7bb",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": true,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 490,
+        "y": 300,
+        "wires": [
+            [
+                "f2dba285d7a067cd"
+            ]
+        ]
+    },
+    {
+        "id": "522b4e247e84ac0e",
+        "type": "inject",
+        "z": "b5ea6d2a.6e7bb",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "temperature",
+        "payload": "40",
+        "payloadType": "num",
+        "x": 260,
+        "y": 240,
+        "wires": [
+            [
+                "84ed227552b4e6eb"
+            ]
+        ]
+    },
+    {
+        "id": "12e54e4066bac7a3",
+        "type": "inject",
+        "z": "b5ea6d2a.6e7bb",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "humidity",
+        "payload": "33",
+        "payloadType": "num",
+        "x": 270,
+        "y": 300,
+        "wires": [
+            [
+                "84ed227552b4e6eb"
+            ]
+        ]
+    },
+    {
+        "id": "b04d4f51f0602607",
+        "type": "inject",
+        "z": "b5ea6d2a.6e7bb",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "pressure",
+        "payload": "1000",
+        "payloadType": "num",
+        "x": 270,
+        "y": 360,
+        "wires": [
+            [
+                "84ed227552b4e6eb"
+            ]
+        ]
+    },
+    {
+        "id": "f2dba285d7a067cd",
+        "type": "debug",
+        "z": "b5ea6d2a.6e7bb",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d47a5edb2d5d5b70",
+        "type": "comment",
+        "z": "b5ea6d2a.6e7bb",
+        "name": "Combining three payload into one object ",
+        "info": "",
+        "x": 520,
+        "y": 180,
+        "wires": []
+    }
+]
