@@ -266,7 +266,7 @@
     {
         "id": "778525b5c804be1f",
         "type": "ui_tab",
-        "name": "Tab 2",
+        "name": "MONITOR CIUDADES",
         "icon": "dashboard",
         "order": 2,
         "disabled": false,
@@ -305,11 +305,13 @@
     {
         "id": "25728a1daa1c705d",
         "type": "ui_group",
-        "name": "Group 1",
+        "name": "CIUDAD 2",
         "tab": "778525b5c804be1f",
         "order": 1,
         "disp": true,
-        "width": 6
+        "width": 6,
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "37da77f10cb455eb",
