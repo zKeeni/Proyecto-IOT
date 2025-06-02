@@ -2,5 +2,12 @@
     "name": "node-red-project",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "private": true
+    "private": true,
+    "dependencies": {
+        "node-red-dashboard": "~3.6.5",
+        "node-red-node-random": "~0.4.1"
+    },
+    "scripts": {
+        "fuego":"node-red -p 1880 -u ."
+    }
 }

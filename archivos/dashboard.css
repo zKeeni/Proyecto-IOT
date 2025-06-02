@@ -1,0 +1,102 @@
+    <style>
+    /*Main background*/
+    body {
+        background: -webkit-linear-gradient(55deg,
+                #006797 0%,
+                #245aa5 50%,
+                #00b3e9 100%);
+    }
+
+    /*Top bar*/
+    body.nr-dashboard-theme md-toolbar,
+    body.nr-dashboard-theme md-content md-card {
+        background-color: transparent !important;
+        color: #FFFFFF !important;
+    }
+
+
+    /*Left menu*/
+    /*Sidebar*/
+    body.nr-dashboard-theme md-sidenav {
+        color: white !important;
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+
+    /*Hover selection*/
+    a.md-no-style,
+    button.md-no-style {
+        border-radius: 10px !important;
+    }
+
+    /*Selected*/
+    .nr-menu-item-active div button {
+        border-right: 4px solid rgb(41 98 255) !important;
+    }
+
+    /*List*/
+    body.nr-dashboard-theme md-sidenav div.md-list-item-inner {
+        color: white !important;
+        background-color: rgba(40, 85, 165, 1) !important;
+        border-radius: 10px !important;
+    }
+
+
+    /*Groups*/
+    ui-card-panel {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        border-radius: 10px !important;
+    }
+
+    .nr-dashboard-theme ui-card-panel {
+        border: none !important;
+    }
+
+    /*Name groups*/
+    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {
+        color: rgba(255, 255, 255, 0.5) !important;
+    }
+
+
+    /*Bouttons*/
+    .nr-dashboard-theme .nr-dashboard-button .md-button {
+        background-color: rgba(255, 255, 255, .1) !important;
+    }
+
+    .md-button {
+        border-radius: 10px !important;
+    }
+
+
+    /*Dropdown menu*/
+    .nr-dashboard-theme md-select-menu {
+        background-color: rgba(40, 85, 165, 1) !important;
+    }
+
+    .nr-dashboard-theme md-select-menu,
+    .nr-dashboard-theme md-select-menu md-option {
+        background-color: transparent !important;
+    }
+
+    .nr-dashboard-theme .md-select-menu-container {
+        border-radius: 10px !important;
+        border: none !important;
+    }
+
+    .nr-dashboard-theme md-select-menu md-option[selected] {
+        color: white !important;
+        background-color: #1a3566 !important;
+    }
+
+    /*Template*/
+    md-card>img,
+    md-card>md-card-header img,
+    md-card md-card-title-media img {
+        border-radius: 10px !important;
+    }
+
+    /* Color picker text BG */
+    .nr-dashboard-theme .color-picker-input-wrapper>input {
+        color: white !important;
+        background-color: transparent !important;
+    }
+</style>
