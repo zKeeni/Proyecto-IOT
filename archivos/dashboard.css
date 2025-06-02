@@ -1,10 +1,8 @@
-    <style>
-    /*Main background*/
-    body {
+    <style>body {
         background: -webkit-linear-gradient(55deg,
-                #006797 0%,
-                #245aa5 50%,
-                #00b3e9 100%);
+                #161616 0%,
+                #161616 50%,
+                #161616 100%);
     }
 
     /*Top bar*/
@@ -43,7 +41,7 @@
 
     /*Groups*/
     ui-card-panel {
-        background-color: rgba(255, 255, 255, 0.1) !important;
+        background-color: rgba(255, 255, 255, 0.089) !important;
         border-radius: 10px !important;
     }
 
@@ -68,13 +66,10 @@
 
 
     /*Dropdown menu*/
+    /* Color de fondo en el efecto de abrir */
     .nr-dashboard-theme md-select-menu {
-        background-color: rgba(40, 85, 165, 1) !important;
-    }
-
-    .nr-dashboard-theme md-select-menu,
-    .nr-dashboard-theme md-select-menu md-option {
-        background-color: transparent !important;
+        background-color: rgb(255, 255, 255) !important;
+        /* background-color: transparent !important; */
     }
 
     .nr-dashboard-theme .md-select-menu-container {
@@ -99,4 +94,5 @@
         color: white !important;
         background-color: transparent !important;
     }
-</style>
+
+    </style>

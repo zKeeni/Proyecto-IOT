@@ -32,7 +32,6 @@
         },
         "nodes": [
             "090ff7fcce047770",
-            "2e65edee83aaf433",
             "6f7bf48e63f181d9",
             "e9c4d5483afe6262",
             "803b9183259fe06d",
@@ -42,12 +41,13 @@
             "505187c929d7d2d2",
             "9260d6f26e7dd321",
             "67a940a201ef019c",
-            "dfecde504a4f527f"
+            "dfecde504a4f527f",
+            "b2648353b8090271"
         ],
         "x": 14,
         "y": 59,
-        "w": 1292,
-        "h": 262
+        "w": 1272,
+        "h": 282
     },
     {
         "id": "4a38ddaf1361227b",
@@ -72,8 +72,8 @@
             "bbc916bbc5fa1208"
         ],
         "x": 14,
-        "y": 399,
-        "w": 1292,
+        "y": 359,
+        "w": 1272,
         "h": 262
     },
     {
@@ -320,7 +320,7 @@
         "tab": "cd922c1521ea3b4b",
         "order": 3,
         "disp": true,
-        "width": 15,
+        "width": "6",
         "collapse": false,
         "className": ""
     },
@@ -355,36 +355,6 @@
         "disp": true,
         "width": "6",
         "collapse": false
-    },
-    {
-        "id": "eb44e419915bad36",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "6a6b371b335c1959",
-        "order": 1,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "771f2e468b8da429",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "6a6b371b335c1959",
-        "order": 3,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "6012880c6564a952",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7a0943956e535e2d",
-        "order": 1,
-        "width": 10,
-        "height": 1
     },
     {
         "id": "7373fc3cd0c987ee",
@@ -598,6 +568,24 @@
         "height": 1
     },
     {
+        "id": "82f7a40d18a81935",
+        "type": "ui_group",
+        "name": "Group 6",
+        "tab": "cd922c1521ea3b4b",
+        "order": 6,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "939f7c9fc17ab209",
+        "type": "ui_group",
+        "name": "Group 7",
+        "tab": "cd922c1521ea3b4b",
+        "order": 7,
+        "disp": true,
+        "width": 6
+    },
+    {
         "id": "957883066be49def",
         "type": "function",
         "z": "ed84d3e070727412",
@@ -609,7 +597,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
+        "x": 350,
         "y": 100,
         "wires": [
             [
@@ -621,20 +609,20 @@
         "id": "b9298c58ae924471",
         "type": "ui_text",
         "z": "ed84d3e070727412",
-        "group": "6a6b371b335c1959",
-        "order": 2,
-        "width": 6,
+        "group": "7a0943956e535e2d",
+        "order": 1,
+        "width": 10,
         "height": 1,
         "name": "fecha",
-        "label": "",
+        "label": "Fecha:",
         "format": "{{msg.fecha}}",
-        "layout": "row-right",
+        "layout": "row-left",
         "className": "",
         "style": true,
         "font": "",
-        "fontSize": 16,
+        "fontSize": "20",
         "color": "#000000",
-        "x": 530,
+        "x": 650,
         "y": 140,
         "wires": []
     },
@@ -659,7 +647,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
+        "x": 150,
         "y": 100,
         "wires": [
             [
@@ -671,20 +659,20 @@
         "id": "9294c868009b30c5",
         "type": "ui_text",
         "z": "ed84d3e070727412",
-        "group": "6a6b371b335c1959",
-        "order": 4,
-        "width": 6,
+        "group": "7a0943956e535e2d",
+        "order": 2,
+        "width": 10,
         "height": 1,
         "name": "hora",
-        "label": "",
+        "label": "Hora:",
         "format": "{{msg.hora}}",
-        "layout": "row-right",
+        "layout": "row-left",
         "className": "",
         "style": true,
         "font": "Arial,Arial,Helvetica,sans-serif",
-        "fontSize": "36",
+        "fontSize": "20",
         "color": "#000000",
-        "x": 530,
+        "x": 650,
         "y": 100,
         "wires": []
     },
@@ -709,7 +697,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
+        "x": 150,
         "y": 140,
         "wires": [
             [
@@ -729,7 +717,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
+        "x": 360,
         "y": 140,
         "wires": [
             [
@@ -742,11 +730,11 @@
         "type": "ui_text",
         "z": "ed84d3e070727412",
         "group": "6a6b371b335c1959",
-        "order": 5,
-        "width": 25,
-        "height": 1,
+        "order": 1,
+        "width": "0",
+        "height": "0",
         "name": "",
-        "label": "BIENVENIDO AL SISTEMA DE MONITOREO DE GAS XD",
+        "label": "MONITOREO DE GAS EL ORO",
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
@@ -754,7 +742,7 @@
         "font": "",
         "fontSize": "26",
         "color": "#000000",
-        "x": 720,
+        "x": 630,
         "y": 40,
         "wires": []
     },
@@ -763,9 +751,9 @@
         "type": "ui_gauge",
         "z": "ed84d3e070727412",
         "name": "NIVELES",
-        "group": "37da77f10cb455eb",
+        "group": "82f7a40d18a81935",
         "order": 1,
-        "width": 8,
+        "width": 6,
         "height": 5,
         "gtype": "wave",
         "title": "{{payload.nombre}}",
@@ -790,12 +778,12 @@
         "id": "7350b429e8ffc6a5",
         "type": "ui_dropdown",
         "z": "ed84d3e070727412",
-        "name": "",
+        "name": "cbxCiudades",
         "label": "Ciudades",
         "tooltip": "ciudades",
         "place": "Seleccione la ciudad",
         "group": "7a0943956e535e2d",
-        "order": 2,
+        "order": 3,
         "width": 10,
         "height": 1,
         "passthru": true,
@@ -826,7 +814,7 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 220,
+        "x": 230,
         "y": 960,
         "wires": [
             [
@@ -839,9 +827,9 @@
         "type": "ui_gauge",
         "z": "ed84d3e070727412",
         "name": "",
-        "group": "37da77f10cb455eb",
-        "order": 2,
-        "width": 7,
+        "group": "939f7c9fc17ab209",
+        "order": 1,
+        "width": 6,
         "height": 5,
         "gtype": "gage",
         "title": "",
@@ -868,8 +856,8 @@
         "z": "ed84d3e070727412",
         "name": "",
         "group": "37da77f10cb455eb",
-        "order": 3,
-        "width": 15,
+        "order": 1,
+        "width": 6,
         "height": 5,
         "label": "chart",
         "chartType": "line",
@@ -915,7 +903,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    /*Main background*/\n    body {\n        background: -webkit-linear-gradient(55deg,\n                #006797 0%,\n                #245aa5 50%,\n                #00b3e9 100%);\n    }\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {\n        background-color: transparent !important;\n        color: #FFFFFF !important;\n    }\n\n\n    /*Left menu*/\n    /*Sidebar*/\n    body.nr-dashboard-theme md-sidenav {\n        color: white !important;\n        background-color: rgba(0, 0, 0, 0) !important;\n    }\n\n    /*Hover selection*/\n    a.md-no-style,\n    button.md-no-style {\n        border-radius: 10px !important;\n    }\n\n    /*Selected*/\n    .nr-menu-item-active div button {\n        border-right: 4px solid rgb(41 98 255) !important;\n    }\n\n    /*List*/\n    body.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n        color: white !important;\n        background-color: rgba(40, 85, 165, 1) !important;\n        border-radius: 10px !important;\n    }\n\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: rgba(255, 255, 255, 0.1) !important;\n        border-radius: 10px !important;\n    }\n\n    .nr-dashboard-theme ui-card-panel {\n        border: none !important;\n    }\n\n    /*Name groups*/\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: rgba(255, 255, 255, 0.5) !important;\n    }\n\n\n    /*Bouttons*/\n    .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: rgba(255, 255, 255, .1) !important;\n    }\n\n    .md-button {\n        border-radius: 10px !important;\n    }\n\n\n    /*Dropdown menu*/\n    .nr-dashboard-theme md-select-menu {\n        background-color: rgba(40, 85, 165, 1) !important;\n    }\n\n    .nr-dashboard-theme md-select-menu,\n    .nr-dashboard-theme md-select-menu md-option {\n        background-color: transparent !important;\n    }\n\n    .nr-dashboard-theme .md-select-menu-container {\n        border-radius: 10px !important;\n        border: none !important;\n    }\n\n    .nr-dashboard-theme md-select-menu md-option[selected] {\n        color: white !important;\n        background-color: #1a3566 !important;\n    }\n\n    /*Template*/\n    md-card>img,\n    md-card>md-card-header img,\n    md-card md-card-title-media img {\n        border-radius: 10px !important;\n    }\n\n    /* Color picker text BG */\n    .nr-dashboard-theme .color-picker-input-wrapper>input {\n        color: white !important;\n        background-color: transparent !important;\n    }\n</style>",
+        "format": "    <style>body {\n        background: -webkit-linear-gradient(55deg,\n                #161616 0%,\n                #161616 50%,\n                #161616 100%);\n    }\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {\n        background-color: transparent !important;\n        color: #FFFFFF !important;\n    }\n\n\n    /*Left menu*/\n    /*Sidebar*/\n    body.nr-dashboard-theme md-sidenav {\n        color: white !important;\n        background-color: rgba(0, 0, 0, 0) !important;\n    }\n\n    /*Hover selection*/\n    a.md-no-style,\n    button.md-no-style {\n        border-radius: 10px !important;\n    }\n\n    /*Selected*/\n    .nr-menu-item-active div button {\n        border-right: 4px solid rgb(41 98 255) !important;\n    }\n\n    /*List*/\n    body.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n        color: white !important;\n        background-color: rgba(40, 85, 165, 1) !important;\n        border-radius: 10px !important;\n    }\n\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: rgba(255, 255, 255, 0.089) !important;\n        border-radius: 10px !important;\n    }\n\n    .nr-dashboard-theme ui-card-panel {\n        border: none !important;\n    }\n\n    /*Name groups*/\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: rgba(255, 255, 255, 0.5) !important;\n    }\n\n\n    /*Bouttons*/\n    .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: rgba(255, 255, 255, .1) !important;\n    }\n\n    .md-button {\n        border-radius: 10px !important;\n    }\n\n\n    /*Dropdown menu*/\n    /* Color de fondo en el efecto de abrir */\n    .nr-dashboard-theme md-select-menu {\n        background-color: rgb(255, 255, 255) !important;\n        /* background-color: transparent !important; */\n    }\n\n    .nr-dashboard-theme .md-select-menu-container {\n        border-radius: 10px !important;\n        border: none !important;\n    }\n\n    .nr-dashboard-theme md-select-menu md-option[selected] {\n        color: white !important;\n        background-color: #1a3566 !important;\n    }\n\n    /*Template*/\n    md-card>img,\n    md-card>md-card-header img,\n    md-card md-card-title-media img {\n        border-radius: 10px !important;\n    }\n\n    /* Color picker text BG */\n    .nr-dashboard-theme .color-picker-input-wrapper>input {\n        color: white !important;\n        background-color: transparent !important;\n    }\n\n    .txtHora{\n        text-weight: bold;\n    }\n    </style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -1777,16 +1765,16 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 1230,
+        "x": 1210,
         "y": 100,
         "wires": []
     },
     {
-        "id": "2e65edee83aaf433",
+        "id": "6f7bf48e63f181d9",
         "type": "inject",
         "z": "74273795d1e74a6e",
         "g": "a2ee5c31eb45a2eb",
-        "name": "",
+        "name": "Disparador de datos",
         "props": [
             {
                 "p": "payload"
@@ -1803,41 +1791,11 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
+        "x": 160,
         "y": 100,
         "wires": [
             [
                 "dfecde504a4f527f"
-            ]
-        ]
-    },
-    {
-        "id": "6f7bf48e63f181d9",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Generar Presión",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "0.5",
-        "topic": "presion",
-        "payload": "",
-        "payloadType": "date",
-        "x": 150,
-        "y": 160,
-        "wires": [
-            [
-                "e9c4d5483afe6262"
             ]
         ]
     },
@@ -1851,8 +1809,8 @@
         "high": "10",
         "inte": "true",
         "property": "payload",
-        "x": 340,
-        "y": 160,
+        "x": 360,
+        "y": 140,
         "wires": [
             [
                 "3c6d0959f188901f",
@@ -1870,8 +1828,8 @@
         "high": "1",
         "inte": "false",
         "property": "consumo",
-        "x": 560,
-        "y": 240,
+        "x": 620,
+        "y": 300,
         "wires": [
             [
                 "14147c1964650d34",
@@ -1884,7 +1842,7 @@
         "type": "function",
         "z": "74273795d1e74a6e",
         "g": "a2ee5c31eb45a2eb",
-        "name": "Calcular Operación",
+        "name": "Calcular consumo",
         "func": "let presion = global.get(\"presionC1\") ; \nlet consumo = msg.consumo;\n\nglobal.set(\"presionC1\", presion - consumo); \n\nmsg.presionr = global.get(\"presionC1\"); \nreturn msg;",
         "outputs": 1,
         "timeout": "",
@@ -1892,8 +1850,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 280,
+        "x": 830,
+        "y": 300,
         "wires": [
             [
                 "67a940a201ef019c"
@@ -1905,7 +1863,7 @@
         "type": "inject",
         "z": "74273795d1e74a6e",
         "g": "a2ee5c31eb45a2eb",
-        "name": "",
+        "name": "Disparador de consumo",
         "props": [
             {
                 "p": "payload"
@@ -1922,8 +1880,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 240,
+        "x": 170,
+        "y": 300,
         "wires": [
             [
                 "803b9183259fe06d"
@@ -1935,7 +1893,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "a2ee5c31eb45a2eb",
-        "name": "",
+        "name": "Set presion a payload",
         "rules": [
             {
                 "t": "move",
@@ -1950,7 +1908,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 470,
+        "x": 560,
         "y": 200,
         "wires": [
             [
@@ -1963,7 +1921,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "a2ee5c31eb45a2eb",
-        "name": "",
+        "name": "Enviar presion al topico",
         "rules": [
             {
                 "t": "set",
@@ -1978,8 +1936,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 790,
-        "y": 160,
+        "x": 570,
+        "y": 140,
         "wires": [
             [
                 "090ff7fcce047770"
@@ -1991,7 +1949,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "a2ee5c31eb45a2eb",
-        "name": "",
+        "name": "Enviar datos de consumo al topico",
         "rules": [
             {
                 "t": "set",
@@ -2013,7 +1971,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
+        "x": 960,
         "y": 200,
         "wires": [
             [
@@ -2026,7 +1984,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "a2ee5c31eb45a2eb",
-        "name": "",
+        "name": "Actualizar topico de presion actual",
         "rules": [
             {
                 "t": "set",
@@ -2048,8 +2006,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
-        "y": 280,
+        "x": 1080,
+        "y": 300,
         "wires": [
             [
                 "090ff7fcce047770"
@@ -2071,8 +2029,8 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 1230,
-        "y": 440,
+        "x": 1210,
+        "y": 400,
         "wires": []
     },
     {
@@ -2080,7 +2038,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "4a38ddaf1361227b",
-        "name": "",
+        "name": "Enviar datos de ciudad al topico",
         "rules": [
             {
                 "t": "set",
@@ -2102,8 +2060,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 360,
-        "y": 440,
+        "x": 590,
+        "y": 400,
         "wires": [
             [
                 "f90d413e3b1f65a4"
@@ -2115,7 +2073,7 @@
         "type": "inject",
         "z": "74273795d1e74a6e",
         "g": "4a38ddaf1361227b",
-        "name": "",
+        "name": "Disparador de datos",
         "props": [
             {
                 "p": "payload"
@@ -2132,8 +2090,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 440,
+        "x": 160,
+        "y": 400,
         "wires": [
             [
                 "ac33eeb97a11343c"
@@ -2145,7 +2103,7 @@
         "type": "inject",
         "z": "74273795d1e74a6e",
         "g": "4a38ddaf1361227b",
-        "name": "Generar Presión",
+        "name": "Disparador de presion",
         "props": [
             {
                 "p": "payload"
@@ -2162,8 +2120,8 @@
         "topic": "presion",
         "payload": "",
         "payloadType": "date",
-        "x": 150,
-        "y": 500,
+        "x": 160,
+        "y": 460,
         "wires": [
             [
                 "5b196b9b3dca0dd7"
@@ -2181,7 +2139,7 @@
         "inte": "true",
         "property": "payload",
         "x": 340,
-        "y": 500,
+        "y": 460,
         "wires": [
             [
                 "179d031b87abc932",
@@ -2213,7 +2171,7 @@
         "type": "function",
         "z": "74273795d1e74a6e",
         "g": "4a38ddaf1361227b",
-        "name": "Calcular Operación",
+        "name": "Calcular consumo",
         "func": "let presion = global.get(\"presionC1\") ; \nlet consumo = msg.consumo;\n\nglobal.set(\"presionC1\", presion - consumo); \n\nmsg.presionr = global.get(\"presionC1\"); \nreturn msg;",
         "outputs": 1,
         "timeout": "",
@@ -2221,8 +2179,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 790,
-        "y": 620,
+        "x": 830,
+        "y": 580,
         "wires": [
             [
                 "bbc916bbc5fa1208"
@@ -2234,7 +2192,7 @@
         "type": "inject",
         "z": "74273795d1e74a6e",
         "g": "4a38ddaf1361227b",
-        "name": "",
+        "name": "Disparador de consumo",
         "props": [
             {
                 "p": "payload"
@@ -2251,7 +2209,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
+        "x": 170,
         "y": 580,
         "wires": [
             [
@@ -2264,7 +2222,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "4a38ddaf1361227b",
-        "name": "",
+        "name": "Set presion a payload",
         "rules": [
             {
                 "t": "move",
@@ -2279,8 +2237,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 470,
-        "y": 540,
+        "x": 560,
+        "y": 500,
         "wires": [
             [
                 "eb6e19d5c9488b66"
@@ -2292,7 +2250,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "4a38ddaf1361227b",
-        "name": "",
+        "name": "Enviar datos de presion al topico",
         "rules": [
             {
                 "t": "set",
@@ -2307,8 +2265,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 790,
-        "y": 500,
+        "x": 590,
+        "y": 460,
         "wires": [
             [
                 "f90d413e3b1f65a4"
@@ -2320,7 +2278,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "4a38ddaf1361227b",
-        "name": "",
+        "name": "Enviar datos de consumo al topico",
         "rules": [
             {
                 "t": "set",
@@ -2342,8 +2300,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 540,
+        "x": 960,
+        "y": 500,
         "wires": [
             [
                 "f90d413e3b1f65a4"
@@ -2355,7 +2313,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "4a38ddaf1361227b",
-        "name": "",
+        "name": "Actualizar topico de presion actual",
         "rules": [
             {
                 "t": "set",
@@ -2377,8 +2335,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
-        "y": 620,
+        "x": 1080,
+        "y": 580,
         "wires": [
             [
                 "f90d413e3b1f65a4"
@@ -2390,7 +2348,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "a2ee5c31eb45a2eb",
-        "name": "",
+        "name": "Enviar datos de ciudad al topico",
         "rules": [
             {
                 "t": "set",
@@ -2412,11 +2370,41 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 360,
+        "x": 590,
         "y": 100,
         "wires": [
             [
                 "090ff7fcce047770"
+            ]
+        ]
+    },
+    {
+        "id": "b2648353b8090271",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "a2ee5c31eb45a2eb",
+        "name": "Disparador de presion",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 140,
+        "wires": [
+            [
+                "e9c4d5483afe6262"
             ]
         ]
     },
