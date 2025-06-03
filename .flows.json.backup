@@ -23,34 +23,36 @@
         "info": ""
     },
     {
-        "id": "a2ee5c31eb45a2eb",
+        "id": "969d8996b0110f16",
         "type": "group",
         "z": "74273795d1e74a6e",
-        "name": "SIMULACION CIUDAD PASAJE 1",
+        "name": "SIMULACION PASAJE",
         "style": {
             "label": true
         },
         "nodes": [
-            "090ff7fcce047770",
-            "6f7bf48e63f181d9",
-            "e9c4d5483afe6262",
-            "803b9183259fe06d",
-            "14147c1964650d34",
-            "a6d0d22d085f74b3",
-            "3c6d0959f188901f",
-            "505187c929d7d2d2",
-            "9260d6f26e7dd321",
-            "67a940a201ef019c",
-            "dfecde504a4f527f",
-            "b2648353b8090271"
+            "a650bf9d83e4ec4a",
+            "6ab5784e6c744d2d",
+            "0ac0b9d3f7b20ef1",
+            "59480978506aa25e",
+            "c446106c6309cc8d",
+            "037577b4694f7516",
+            "1076149b27138956",
+            "0f379a02def92561",
+            "461a6de532021279",
+            "ecd44b739172d337",
+            "3a4720e3968a645f",
+            "5d2124aeb552433b",
+            "d75804f66ab62f96",
+            "55111d96b4599d19"
         ],
         "x": 14,
-        "y": 59,
+        "y": 79,
         "w": 1272,
-        "h": 282
+        "h": 262
     },
     {
-        "id": "4a38ddaf1361227b",
+        "id": "bc56705e38d4e3b5",
         "type": "group",
         "z": "74273795d1e74a6e",
         "name": "SIMULACION MACHALA PARTE CENTRO",
@@ -58,51 +60,28 @@
             "label": true
         },
         "nodes": [
-            "f90d413e3b1f65a4",
-            "ac33eeb97a11343c",
-            "00ee8f2fadebb831",
-            "3903719e872611c1",
-            "5b196b9b3dca0dd7",
-            "eb6e19d5c9488b66",
-            "47761ee10653b655",
-            "54cfb07965b6602d",
-            "179d031b87abc932",
-            "5f662281a6de4b29",
-            "59d6b0c31dbeea2c",
-            "bbc916bbc5fa1208"
+            "77ffe9d1cfed9295",
+            "1bd14c4dcc0c6cb6",
+            "df063d180870820d",
+            "29da828dbbe96b49",
+            "b27ae96fcc0d0838",
+            "2c5e564e5282b805",
+            "6ae4098b59963be4",
+            "0da613f624bd8d62",
+            "cb25313795a0dc02",
+            "51bf719b31eb9ee4",
+            "cd61c7530ba70d4d",
+            "351f4998cc86a846",
+            "6df59d79c3837f81",
+            "5a73e1dbc78a0981"
         ],
-        "x": 14,
-        "y": 359,
-        "w": 1272,
-        "h": 262
+        "x": 34,
+        "y": 479,
+        "w": 1292,
+        "h": 302
     },
     {
-        "id": "b0d2720703c40ad4",
-        "type": "group",
-        "z": "ed84d3e070727412",
-        "name": "MQTT MACHALA ",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "50bc6a215521888c",
-            "82b0780e1307790a",
-            "d334e97092f2808b",
-            "520e5a3f3cc09aab",
-            "305c3c0c03ae0355",
-            "60b3d8e2e19ec498",
-            "e5366730de0dcb5a",
-            "33ae51b54f9e2879",
-            "a7d4539d346465ca",
-            "9116487937a2bc6d"
-        ],
-        "x": 74,
-        "y": 399,
-        "w": 1212,
-        "h": 162
-    },
-    {
-        "id": "1adf73174dcdf0d2",
+        "id": "eca886a5d7cbed9d",
         "type": "group",
         "z": "ed84d3e070727412",
         "name": "MQTT PASAJE",
@@ -110,20 +89,47 @@
             "label": true
         },
         "nodes": [
-            "0c04a9284964dc5c",
-            "e3644cb53b4f61ba",
-            "4ed18513759d6448",
-            "8ecd8ecfaefa5dd3",
-            "1acf3e6bf85e0737",
-            "2c0e8e1441e73bc8",
-            "b1a5d77aa3d98336",
-            "fbe1a869068162cf",
-            "5fe729c055c96975",
-            "4dad148bd6fa8fb2"
+            "f4c38b6556a8367c",
+            "5187dd1a456b334e",
+            "7ab6a756468eec78",
+            "fe9ff1d4dc59e5bd",
+            "ff1ce7930c0ad493",
+            "33ef1a64101770bb",
+            "ab3cc78b737a790a",
+            "d81be35f7d46219d",
+            "d311c769d7924cd1",
+            "853ccbbedfbb94f9",
+            "afb71e2ddc111536"
         ],
-        "x": 74,
-        "y": 199,
-        "w": 1212,
+        "x": 34,
+        "y": 259,
+        "w": 1232,
+        "h": 162
+    },
+    {
+        "id": "c97e8c04f9d3064f",
+        "type": "group",
+        "z": "ed84d3e070727412",
+        "name": "MQTT MACHALA ",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0791da82643a4d5d",
+            "9aa6665478ba486b",
+            "3269b7fb63aaea86",
+            "7865b6b72b90e3b5",
+            "812ecef174a9686f",
+            "dbcef5dc4b83f9dd",
+            "79e311249fd5b2e1",
+            "83def08cd58251da",
+            "689c5ff4468693e8",
+            "3e2a9eb66d5ee59e",
+            "7b947fe869622745"
+        ],
+        "x": 34,
+        "y": 459,
+        "w": 1232,
         "h": 162
     },
     {
@@ -1066,186 +1072,6 @@
         ]
     },
     {
-        "id": "50bc6a215521888c",
-        "type": "mqtt in",
-        "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
-        "name": "",
-        "topic": "admin123/cilindros/machala/#",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "3e6e56dcfdf5ebfb",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 220,
-        "y": 480,
-        "wires": [
-            [
-                "82b0780e1307790a"
-            ]
-        ]
-    },
-    {
-        "id": "82b0780e1307790a",
-        "type": "switch",
-        "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
-        "name": "",
-        "property": "topic",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "admin123/cilindros/machala",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "admin123/cilindros/machala/presion",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "admin123/cilindros/machala/consumo",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 430,
-        "y": 480,
-        "wires": [
-            [
-                "305c3c0c03ae0355"
-            ],
-            [
-                "d334e97092f2808b"
-            ],
-            [
-                "520e5a3f3cc09aab"
-            ]
-        ]
-    },
-    {
-        "id": "d334e97092f2808b",
-        "type": "change",
-        "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "presion",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 590,
-        "y": 480,
-        "wires": [
-            [
-                "60b3d8e2e19ec498"
-            ]
-        ]
-    },
-    {
-        "id": "520e5a3f3cc09aab",
-        "type": "change",
-        "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "consumo",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 590,
-        "y": 520,
-        "wires": [
-            [
-                "60b3d8e2e19ec498"
-            ]
-        ]
-    },
-    {
-        "id": "305c3c0c03ae0355",
-        "type": "change",
-        "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "datos",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 590,
-        "y": 440,
-        "wires": [
-            [
-                "60b3d8e2e19ec498"
-            ]
-        ]
-    },
-    {
-        "id": "60b3d8e2e19ec498",
-        "type": "join",
-        "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
-        "name": "",
-        "mode": "custom",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": true,
-        "accumulate": true,
-        "timeout": "",
-        "count": "3",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "num",
-        "reduceFixup": "",
-        "x": 770,
-        "y": 500,
-        "wires": [
-            [
-                "e5366730de0dcb5a",
-                "33ae51b54f9e2879",
-                "9116487937a2bc6d"
-            ]
-        ]
-    },
-    {
         "id": "d7363ad6b4cce219",
         "type": "debug",
         "z": "ed84d3e070727412",
@@ -1286,153 +1112,10 @@
         ]
     },
     {
-        "id": "e5366730de0dcb5a",
-        "type": "ui_gauge",
-        "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
-        "name": "NIVELES",
-        "group": "7373fc3cd0c987ee",
-        "order": 1,
-        "width": 5,
-        "height": 4,
-        "gtype": "wave",
-        "title": "{{payload.datos.nombre}}",
-        "label": "%",
-        "format": "{{payload.presion*10}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 1200,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "33ae51b54f9e2879",
-        "type": "ui_gauge",
-        "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
-        "name": "",
-        "group": "7373fc3cd0c987ee",
-        "order": 2,
-        "width": 5,
-        "height": 4,
-        "gtype": "gage",
-        "title": "",
-        "label": "PSI",
-        "format": "{{payload.presion* 10 | number:2 }}",
-        "min": 0,
-        "max": "10",
-        "colors": [
-            "#e73623",
-            "#f9f343",
-            "#49c705"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 1190,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "a7d4539d346465ca",
-        "type": "ui_chart",
-        "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
-        "name": "",
-        "group": "7373fc3cd0c987ee",
-        "order": 4,
-        "width": 6,
-        "height": 5,
-        "label": "chart",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#ff9500",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 1190,
-        "y": 520,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9116487937a2bc6d",
-        "type": "change",
-        "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "consumo",
-                "pt": "msg",
-                "to": "payload.consumo",
-                "tot": "msg"
-            },
-            {
-                "t": "delete",
-                "p": "payload",
-                "pt": "msg"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "consumo",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1020,
-        "y": 520,
-        "wires": [
-            [
-                "a7d4539d346465ca"
-            ]
-        ]
-    },
-    {
-        "id": "0c04a9284964dc5c",
+        "id": "f4c38b6556a8367c",
         "type": "mqtt in",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
+        "g": "eca886a5d7cbed9d",
         "name": "",
         "topic": "admin123/cilindros/pasaje/#",
         "qos": "2",
@@ -1442,19 +1125,19 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 220,
-        "y": 280,
+        "x": 180,
+        "y": 340,
         "wires": [
             [
-                "e3644cb53b4f61ba"
+                "5187dd1a456b334e"
             ]
         ]
     },
     {
-        "id": "e3644cb53b4f61ba",
+        "id": "5187dd1a456b334e",
         "type": "switch",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
+        "g": "eca886a5d7cbed9d",
         "name": "",
         "property": "topic",
         "propertyType": "msg",
@@ -1478,25 +1161,25 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 430,
-        "y": 280,
+        "x": 390,
+        "y": 340,
         "wires": [
             [
-                "1acf3e6bf85e0737"
+                "ff1ce7930c0ad493"
             ],
             [
-                "4ed18513759d6448"
+                "7ab6a756468eec78"
             ],
             [
-                "8ecd8ecfaefa5dd3"
+                "fe9ff1d4dc59e5bd"
             ]
         ]
     },
     {
-        "id": "4ed18513759d6448",
+        "id": "7ab6a756468eec78",
         "type": "change",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
+        "g": "eca886a5d7cbed9d",
         "name": "",
         "rules": [
             {
@@ -1512,19 +1195,19 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
-        "y": 280,
+        "x": 550,
+        "y": 340,
         "wires": [
             [
-                "2c0e8e1441e73bc8"
+                "33ef1a64101770bb"
             ]
         ]
     },
     {
-        "id": "8ecd8ecfaefa5dd3",
+        "id": "fe9ff1d4dc59e5bd",
         "type": "change",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
+        "g": "eca886a5d7cbed9d",
         "name": "",
         "rules": [
             {
@@ -1540,19 +1223,19 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
-        "y": 320,
+        "x": 550,
+        "y": 380,
         "wires": [
             [
-                "2c0e8e1441e73bc8"
+                "33ef1a64101770bb"
             ]
         ]
     },
     {
-        "id": "1acf3e6bf85e0737",
+        "id": "ff1ce7930c0ad493",
         "type": "change",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
+        "g": "eca886a5d7cbed9d",
         "name": "",
         "rules": [
             {
@@ -1568,19 +1251,17 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
-        "y": 240,
+        "x": 550,
+        "y": 300,
         "wires": [
-            [
-                "2c0e8e1441e73bc8"
-            ]
+            []
         ]
     },
     {
-        "id": "2c0e8e1441e73bc8",
+        "id": "33ef1a64101770bb",
         "type": "join",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
+        "g": "eca886a5d7cbed9d",
         "name": "",
         "mode": "custom",
         "build": "object",
@@ -1598,28 +1279,28 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 770,
-        "y": 300,
+        "x": 730,
+        "y": 340,
         "wires": [
             [
-                "b1a5d77aa3d98336",
-                "fbe1a869068162cf",
-                "4dad148bd6fa8fb2"
+                "d81be35f7d46219d",
+                "853ccbbedfbb94f9",
+                "afb71e2ddc111536"
             ]
         ]
     },
     {
-        "id": "b1a5d77aa3d98336",
+        "id": "ab3cc78b737a790a",
         "type": "ui_gauge",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
-        "name": "NIVELES",
+        "g": "eca886a5d7cbed9d",
+        "name": "NIVELES ",
         "group": "25728a1daa1c705d",
         "order": 1,
         "width": 5,
         "height": 4,
         "gtype": "wave",
-        "title": "{{payload.datos.nombre}}",
+        "title": "",
         "label": "%",
         "format": "{{payload.presion*10}}",
         "min": 0,
@@ -1633,16 +1314,16 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1200,
-        "y": 240,
+        "x": 1160,
+        "y": 300,
         "wires": []
     },
     {
-        "id": "fbe1a869068162cf",
+        "id": "d81be35f7d46219d",
         "type": "ui_gauge",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
-        "name": "",
+        "g": "eca886a5d7cbed9d",
+        "name": "PRESION",
         "group": "25728a1daa1c705d",
         "order": 2,
         "width": 5,
@@ -1652,7 +1333,7 @@
         "label": "PSI",
         "format": "{{payload.presion* 10 | number:2 }}",
         "min": 0,
-        "max": "10",
+        "max": "150",
         "colors": [
             "#e73623",
             "#f9f343",
@@ -1662,16 +1343,16 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1190,
-        "y": 280,
+        "x": 1160,
+        "y": 340,
         "wires": []
     },
     {
-        "id": "5fe729c055c96975",
+        "id": "d311c769d7924cd1",
         "type": "ui_chart",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
-        "name": "",
+        "g": "eca886a5d7cbed9d",
+        "name": "CONSUMO",
         "group": "25728a1daa1c705d",
         "order": 4,
         "width": 6,
@@ -1705,17 +1386,17 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1190,
-        "y": 320,
+        "x": 1170,
+        "y": 380,
         "wires": [
             []
         ]
     },
     {
-        "id": "4dad148bd6fa8fb2",
+        "id": "853ccbbedfbb94f9",
         "type": "change",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
+        "g": "eca886a5d7cbed9d",
         "name": "",
         "rules": [
             {
@@ -1743,221 +1424,334 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1020,
-        "y": 320,
+        "x": 980,
+        "y": 380,
         "wires": [
             [
-                "5fe729c055c96975"
+                "d311c769d7924cd1"
             ]
         ]
     },
     {
-        "id": "090ff7fcce047770",
-        "type": "mqtt out",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
+        "id": "afb71e2ddc111536",
+        "type": "range",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "minin": "0",
+        "maxin": "15",
+        "minout": "0",
+        "maxout": "10",
+        "action": "scale",
+        "round": false,
+        "property": "payload.presion",
         "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
+        "x": 930,
+        "y": 300,
+        "wires": [
+            [
+                "ab3cc78b737a790a"
+            ]
+        ]
+    },
+    {
+        "id": "0791da82643a4d5d",
+        "type": "mqtt in",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "name": "",
+        "topic": "admin123/cilindros/machala/#",
+        "qos": "2",
+        "datatype": "auto-detect",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 1210,
-        "y": 100,
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 540,
+        "wires": [
+            [
+                "9aa6665478ba486b"
+            ]
+        ]
+    },
+    {
+        "id": "9aa6665478ba486b",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "admin123/cilindros/machala",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "admin123/cilindros/machala/presion",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "admin123/cilindros/machala/consumo",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 390,
+        "y": 540,
+        "wires": [
+            [
+                "812ecef174a9686f"
+            ],
+            [
+                "3269b7fb63aaea86"
+            ],
+            [
+                "7865b6b72b90e3b5"
+            ]
+        ]
+    },
+    {
+        "id": "3269b7fb63aaea86",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "presion",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 540,
+        "wires": [
+            [
+                "dbcef5dc4b83f9dd"
+            ]
+        ]
+    },
+    {
+        "id": "7865b6b72b90e3b5",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "consumo",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 580,
+        "wires": [
+            [
+                "dbcef5dc4b83f9dd"
+            ]
+        ]
+    },
+    {
+        "id": "812ecef174a9686f",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "datos",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dbcef5dc4b83f9dd",
+        "type": "join",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": true,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 730,
+        "y": 560,
+        "wires": [
+            [
+                "83def08cd58251da",
+                "3e2a9eb66d5ee59e",
+                "7b947fe869622745"
+            ]
+        ]
+    },
+    {
+        "id": "79e311249fd5b2e1",
+        "type": "ui_gauge",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "name": "NIVELES",
+        "group": "7373fc3cd0c987ee",
+        "order": 1,
+        "width": 5,
+        "height": 4,
+        "gtype": "wave",
+        "title": "{{payload.datos.nombre}}",
+        "label": "%",
+        "format": "{{payload.presion*10}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1160,
+        "y": 500,
         "wires": []
     },
     {
-        "id": "6f7bf48e63f181d9",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Disparador de datos",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
+        "id": "83def08cd58251da",
+        "type": "ui_gauge",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "name": "PRESION",
+        "group": "7373fc3cd0c987ee",
+        "order": 2,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "",
+        "label": "PSI",
+        "format": "{{payload.presion* 10 | number:2 }}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#e73623",
+            "#f9f343",
+            "#49c705"
         ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "0.5",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 100,
-        "wires": [
-            [
-                "dfecde504a4f527f"
-            ]
-        ]
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1160,
+        "y": 540,
+        "wires": []
     },
     {
-        "id": "e9c4d5483afe6262",
-        "type": "random",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Presión",
-        "low": "7",
-        "high": "10",
-        "inte": "true",
-        "property": "payload",
-        "x": 360,
-        "y": 140,
-        "wires": [
-            [
-                "3c6d0959f188901f",
-                "505187c929d7d2d2"
-            ]
-        ]
-    },
-    {
-        "id": "803b9183259fe06d",
-        "type": "random",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Consumo",
-        "low": "0",
-        "high": "1",
-        "inte": "false",
-        "property": "consumo",
-        "x": 620,
-        "y": 300,
-        "wires": [
-            [
-                "14147c1964650d34",
-                "9260d6f26e7dd321"
-            ]
-        ]
-    },
-    {
-        "id": "14147c1964650d34",
-        "type": "function",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Calcular consumo",
-        "func": "let presion = global.get(\"presionC1\") ; \nlet consumo = msg.consumo;\n\nglobal.set(\"presionC1\", presion - consumo); \n\nmsg.presionr = global.get(\"presionC1\"); \nreturn msg;",
+        "id": "689c5ff4468693e8",
+        "type": "ui_chart",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "name": "CONSUMO",
+        "group": "7373fc3cd0c987ee",
+        "order": 4,
+        "width": 6,
+        "height": 5,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff9500",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
         "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 830,
-        "y": 300,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1170,
+        "y": 580,
         "wires": [
-            [
-                "67a940a201ef019c"
-            ]
+            []
         ]
     },
     {
-        "id": "a6d0d22d085f74b3",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Disparador de consumo",
-        "props": [
+        "id": "3e2a9eb66d5ee59e",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "name": "",
+        "rules": [
             {
-                "p": "payload"
+                "t": "set",
+                "p": "consumo",
+                "pt": "msg",
+                "to": "payload.consumo",
+                "tot": "msg"
             },
             {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "10",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 300,
-        "wires": [
-            [
-                "803b9183259fe06d"
-            ]
-        ]
-    },
-    {
-        "id": "3c6d0959f188901f",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Set presion a payload",
-        "rules": [
-            {
-                "t": "move",
+                "t": "delete",
                 "p": "payload",
-                "pt": "msg",
-                "to": "presionC1",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 560,
-        "y": 200,
-        "wires": [
-            [
-                "803b9183259fe06d"
-            ]
-        ]
-    },
-    {
-        "id": "505187c929d7d2d2",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Enviar presion al topico",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "admin123/cilindros/pasaje/presion",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 570,
-        "y": 140,
-        "wires": [
-            [
-                "090ff7fcce047770"
-            ]
-        ]
-    },
-    {
-        "id": "9260d6f26e7dd321",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Enviar datos de consumo al topico",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "admin123/cilindros/pasaje/consumo",
-                "tot": "str"
+                "pt": "msg"
             },
             {
                 "t": "set",
@@ -1972,54 +1766,40 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 960,
-        "y": 200,
+        "x": 980,
+        "y": 580,
         "wires": [
             [
-                "090ff7fcce047770"
+                "689c5ff4468693e8"
             ]
         ]
     },
     {
-        "id": "67a940a201ef019c",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Actualizar topico de presion actual",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "admin123/cilindros/pasaje/presion",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "presionC1",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1080,
-        "y": 300,
+        "id": "7b947fe869622745",
+        "type": "range",
+        "z": "ed84d3e070727412",
+        "g": "c97e8c04f9d3064f",
+        "minin": "0",
+        "maxin": "15",
+        "minout": "0",
+        "maxout": "10",
+        "action": "scale",
+        "round": false,
+        "property": "payload.presion",
+        "name": "",
+        "x": 970,
+        "y": 500,
         "wires": [
             [
-                "090ff7fcce047770"
+                "79e311249fd5b2e1"
             ]
         ]
     },
     {
-        "id": "f90d413e3b1f65a4",
+        "id": "a650bf9d83e4ec4a",
         "type": "mqtt out",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
+        "g": "969d8996b0110f16",
         "name": "",
         "topic": "",
         "qos": "",
@@ -2031,15 +1811,402 @@
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
         "x": 1210,
-        "y": 400,
+        "y": 120,
         "wires": []
     },
     {
-        "id": "ac33eeb97a11343c",
+        "id": "6ab5784e6c744d2d",
         "type": "change",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
-        "name": "Enviar datos de ciudad al topico",
+        "g": "969d8996b0110f16",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"id\":1,\"nombre\":\"PASAJE(Centro)\"}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/pasaje",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "a650bf9d83e4ec4a"
+            ]
+        ]
+    },
+    {
+        "id": "0ac0b9d3f7b20ef1",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "6ab5784e6c744d2d"
+            ]
+        ]
+    },
+    {
+        "id": "59480978506aa25e",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "Generar Presión",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "presion",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 180,
+        "wires": [
+            [
+                "c446106c6309cc8d"
+            ]
+        ]
+    },
+    {
+        "id": "c446106c6309cc8d",
+        "type": "random",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "Presión",
+        "low": "15",
+        "high": "15",
+        "inte": "true",
+        "property": "payload",
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "461a6de532021279",
+                "55111d96b4599d19"
+            ]
+        ]
+    },
+    {
+        "id": "037577b4694f7516",
+        "type": "random",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "Consumo",
+        "low": "0",
+        "high": "1",
+        "inte": "false",
+        "property": "consumo",
+        "x": 550,
+        "y": 260,
+        "wires": [
+            [
+                "1076149b27138956",
+                "d75804f66ab62f96"
+            ]
+        ]
+    },
+    {
+        "id": "1076149b27138956",
+        "type": "function",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "Calcular Operación",
+        "func": "let presion = flow.get(\"ppasaje\") ; \nlet consumo = msg.consumo;\n\nflow.set(\"ppasaje\", presion - consumo); \n\nmsg.presionr = flow.get(\"ppasaje\"); \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 300,
+        "wires": [
+            [
+                "d75804f66ab62f96",
+                "5d2124aeb552433b"
+            ]
+        ]
+    },
+    {
+        "id": "0f379a02def92561",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "4",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "037577b4694f7516"
+            ]
+        ]
+    },
+    {
+        "id": "461a6de532021279",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/pasaje/presion",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 180,
+        "wires": [
+            [
+                "a650bf9d83e4ec4a"
+            ]
+        ]
+    },
+    {
+        "id": "ecd44b739172d337",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/pasaje/consumo",
+                "tot": "str"
+            },
+            {
+                "t": "move",
+                "p": "consumo",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "presionr",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 220,
+        "wires": [
+            [
+                "a650bf9d83e4ec4a"
+            ]
+        ]
+    },
+    {
+        "id": "3a4720e3968a645f",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/pasaje/presion",
+                "tot": "str"
+            },
+            {
+                "t": "move",
+                "p": "presionr",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "consumo",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 300,
+        "wires": [
+            [
+                "a650bf9d83e4ec4a"
+            ]
+        ]
+    },
+    {
+        "id": "5d2124aeb552433b",
+        "type": "switch",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "",
+        "property": "presionr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 990,
+        "y": 300,
+        "wires": [
+            [
+                "3a4720e3968a645f"
+            ]
+        ]
+    },
+    {
+        "id": "d75804f66ab62f96",
+        "type": "switch",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "",
+        "property": "presionr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 870,
+        "y": 220,
+        "wires": [
+            [
+                "ecd44b739172d337"
+            ]
+        ]
+    },
+    {
+        "id": "55111d96b4599d19",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "Set flow.presionC1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ppasaje",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "x": 510,
+        "y": 220,
+        "wires": [
+            [
+                "037577b4694f7516"
+            ]
+        ]
+    },
+    {
+        "id": "77ffe9d1cfed9295",
+        "type": "mqtt out",
+        "z": "74273795d1e74a6e",
+        "g": "bc56705e38d4e3b5",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3e6e56dcfdf5ebfb",
+        "x": 1250,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "1bd14c4dcc0c6cb6",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "bc56705e38d4e3b5",
+        "name": "",
         "rules": [
             {
                 "t": "set",
@@ -2061,20 +2228,20 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
-        "y": 400,
+        "x": 380,
+        "y": 520,
         "wires": [
             [
-                "f90d413e3b1f65a4"
+                "77ffe9d1cfed9295"
             ]
         ]
     },
     {
-        "id": "00ee8f2fadebb831",
+        "id": "df063d180870820d",
         "type": "inject",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
-        "name": "Disparador de datos",
+        "g": "bc56705e38d4e3b5",
+        "name": "",
         "props": [
             {
                 "p": "payload"
@@ -2091,20 +2258,20 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
-        "y": 400,
+        "x": 150,
+        "y": 520,
         "wires": [
             [
-                "ac33eeb97a11343c"
+                "1bd14c4dcc0c6cb6"
             ]
         ]
     },
     {
-        "id": "3903719e872611c1",
+        "id": "29da828dbbe96b49",
         "type": "inject",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
-        "name": "Disparador de presion",
+        "g": "bc56705e38d4e3b5",
+        "name": "Generar Presión",
         "props": [
             {
                 "p": "payload"
@@ -2117,83 +2284,84 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": "0.5",
+        "onceDelay": "3",
         "topic": "presion",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
-        "y": 460,
+        "x": 170,
+        "y": 580,
         "wires": [
             [
-                "5b196b9b3dca0dd7"
+                "b27ae96fcc0d0838"
             ]
         ]
     },
     {
-        "id": "5b196b9b3dca0dd7",
+        "id": "b27ae96fcc0d0838",
         "type": "random",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
+        "g": "bc56705e38d4e3b5",
         "name": "Presión",
-        "low": "7",
-        "high": "10",
+        "low": "15",
+        "high": "15",
         "inte": "true",
         "property": "payload",
-        "x": 340,
-        "y": 460,
+        "x": 360,
+        "y": 580,
         "wires": [
             [
-                "179d031b87abc932",
-                "5f662281a6de4b29"
+                "cb25313795a0dc02",
+                "5a73e1dbc78a0981"
             ]
         ]
     },
     {
-        "id": "eb6e19d5c9488b66",
+        "id": "2c5e564e5282b805",
         "type": "random",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
+        "g": "bc56705e38d4e3b5",
         "name": "Consumo",
         "low": "0",
         "high": "1",
         "inte": "false",
         "property": "consumo",
-        "x": 560,
-        "y": 580,
+        "x": 480,
+        "y": 700,
         "wires": [
             [
-                "47761ee10653b655",
-                "59d6b0c31dbeea2c"
+                "6ae4098b59963be4",
+                "cd61c7530ba70d4d"
             ]
         ]
     },
     {
-        "id": "47761ee10653b655",
+        "id": "6ae4098b59963be4",
         "type": "function",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
-        "name": "Calcular consumo",
-        "func": "let presion = global.get(\"presionC1\") ; \nlet consumo = msg.consumo;\n\nglobal.set(\"presionC1\", presion - consumo); \n\nmsg.presionr = global.get(\"presionC1\"); \nreturn msg;",
+        "g": "bc56705e38d4e3b5",
+        "name": "Calcular Operación",
+        "func": "let presion = flow.get(\"pmachala\") ; \nlet consumo = msg.consumo;\n\nflow.set(\"pmachala\", presion - consumo); \n\nmsg.presionr = flow.get(\"pmachala\"); \nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
-        "y": 580,
+        "x": 770,
+        "y": 740,
         "wires": [
             [
-                "bbc916bbc5fa1208"
+                "cd61c7530ba70d4d",
+                "51bf719b31eb9ee4"
             ]
         ]
     },
     {
-        "id": "54cfb07965b6602d",
+        "id": "0da613f624bd8d62",
         "type": "inject",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
-        "name": "Disparador de consumo",
+        "g": "bc56705e38d4e3b5",
+        "name": "",
         "props": [
             {
                 "p": "payload"
@@ -2206,52 +2374,24 @@
         "repeat": "10",
         "crontab": "",
         "once": false,
-        "onceDelay": 0.1,
+        "onceDelay": "4",
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 170,
-        "y": 580,
+        "x": 150,
+        "y": 700,
         "wires": [
             [
-                "eb6e19d5c9488b66"
+                "2c5e564e5282b805"
             ]
         ]
     },
     {
-        "id": "179d031b87abc932",
+        "id": "cb25313795a0dc02",
         "type": "change",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
-        "name": "Set presion a payload",
-        "rules": [
-            {
-                "t": "move",
-                "p": "payload",
-                "pt": "msg",
-                "to": "presionC1",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 560,
-        "y": 500,
-        "wires": [
-            [
-                "eb6e19d5c9488b66"
-            ]
-        ]
-    },
-    {
-        "id": "5f662281a6de4b29",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
-        "name": "Enviar datos de presion al topico",
+        "g": "bc56705e38d4e3b5",
+        "name": "",
         "rules": [
             {
                 "t": "set",
@@ -2266,20 +2406,112 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
-        "y": 460,
+        "x": 770,
+        "y": 580,
         "wires": [
             [
-                "f90d413e3b1f65a4"
+                "77ffe9d1cfed9295"
             ]
         ]
     },
     {
-        "id": "59d6b0c31dbeea2c",
+        "id": "51bf719b31eb9ee4",
+        "type": "switch",
+        "z": "74273795d1e74a6e",
+        "g": "bc56705e38d4e3b5",
+        "name": "",
+        "property": "presionr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 990,
+        "y": 740,
+        "wires": [
+            [
+                "351f4998cc86a846"
+            ]
+        ]
+    },
+    {
+        "id": "cd61c7530ba70d4d",
+        "type": "switch",
+        "z": "74273795d1e74a6e",
+        "g": "bc56705e38d4e3b5",
+        "name": "",
+        "property": "presionr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 750,
+        "y": 660,
+        "wires": [
+            [
+                "6df59d79c3837f81"
+            ]
+        ]
+    },
+    {
+        "id": "351f4998cc86a846",
         "type": "change",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
-        "name": "Enviar datos de consumo al topico",
+        "g": "bc56705e38d4e3b5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/machala/presion",
+                "tot": "str"
+            },
+            {
+                "t": "move",
+                "p": "presionr",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "consumo",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 740,
+        "wires": [
+            [
+                "77ffe9d1cfed9295"
+            ]
+        ]
+    },
+    {
+        "id": "6df59d79c3837f81",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "bc56705e38d4e3b5",
+        "name": "",
         "rules": [
             {
                 "t": "set",
@@ -2289,11 +2521,16 @@
                 "tot": "str"
             },
             {
-                "t": "set",
-                "p": "payload",
+                "t": "move",
+                "p": "consumo",
                 "pt": "msg",
-                "to": "consumo",
+                "to": "payload",
                 "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "presionr",
+                "pt": "msg"
             }
         ],
         "action": "",
@@ -2302,110 +2539,33 @@
         "to": "",
         "reg": false,
         "x": 960,
-        "y": 500,
+        "y": 660,
         "wires": [
             [
-                "f90d413e3b1f65a4"
+                "77ffe9d1cfed9295"
             ]
         ]
     },
     {
-        "id": "bbc916bbc5fa1208",
+        "id": "5a73e1dbc78a0981",
         "type": "change",
         "z": "74273795d1e74a6e",
-        "g": "4a38ddaf1361227b",
-        "name": "Actualizar topico de presion actual",
+        "g": "bc56705e38d4e3b5",
+        "name": "Set flow.presionC2",
         "rules": [
             {
                 "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "admin123/cilindros/machala/presion",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "presionC1",
-                "tot": "global"
+                "p": "pmachala",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
             }
         ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1080,
-        "y": 580,
+        "x": 510,
+        "y": 640,
         "wires": [
             [
-                "f90d413e3b1f65a4"
-            ]
-        ]
-    },
-    {
-        "id": "dfecde504a4f527f",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Enviar datos de ciudad al topico",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\"id\":1,\"nombre\":\"Pasaje (Centro)\"}",
-                "tot": "json"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "admin123/cilindros/pasaje",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 590,
-        "y": 100,
-        "wires": [
-            [
-                "090ff7fcce047770"
-            ]
-        ]
-    },
-    {
-        "id": "b2648353b8090271",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "a2ee5c31eb45a2eb",
-        "name": "Disparador de presion",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 140,
-        "wires": [
-            [
-                "e9c4d5483afe6262"
+                "2c5e564e5282b805"
             ]
         ]
     },
