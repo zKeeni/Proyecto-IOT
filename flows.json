@@ -103,7 +103,7 @@
         ],
         "x": 34,
         "y": 259,
-        "w": 1232,
+        "w": 1212,
         "h": 162
     },
     {
@@ -129,7 +129,7 @@
         ],
         "x": 34,
         "y": 459,
-        "w": 1232,
+        "w": 1212,
         "h": 162
     },
     {
@@ -851,6 +851,50 @@
         ]
     },
     {
+        "id": "a827b1b2a378b5ed",
+        "type": "ui_chart",
+        "z": "ed84d3e070727412",
+        "name": "",
+        "group": "37da77f10cb455eb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1170,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "f4c38b6556a8367c",
         "type": "mqtt in",
         "z": "ed84d3e070727412",
@@ -1092,7 +1136,7 @@
         "id": "d311c769d7924cd1",
         "type": "ui_chart",
         "z": "ed84d3e070727412",
-        "g": "b0d2720703c40ad4",
+        "g": "eca886a5d7cbed9d",
         "name": "",
         "group": "7373fc3cd0c987ee",
         "order": 3,
@@ -1436,7 +1480,7 @@
         "id": "689c5ff4468693e8",
         "type": "ui_chart",
         "z": "ed84d3e070727412",
-        "g": "1adf73174dcdf0d2",
+        "g": "c97e8c04f9d3064f",
         "name": "",
         "group": "25728a1daa1c705d",
         "order": 3,
@@ -1515,94 +1559,6 @@
             [
                 "689c5ff4468693e8"
             ]
-        ]
-    },
-    {
-        "id": "a827b1b2a378b5ed",
-        "type": "ui_chart",
-        "z": "ed84d3e070727412",
-        "name": "",
-        "group": "37da77f10cb455eb",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "label": "chart",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 1170,
-        "y": 920,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a827b1b2a378b5ed",
-        "type": "ui_chart",
-        "z": "ed84d3e070727412",
-        "name": "",
-        "group": "37da77f10cb455eb",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "label": "chart",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 1170,
-        "y": 920,
-        "wires": [
-            []
         ]
     },
     {
@@ -1769,8 +1725,8 @@
         "high": "1",
         "inte": "false",
         "property": "consumo",
-        "x": 550,
-        "y": 260,
+        "x": 540,
+        "y": 300,
         "wires": [
             [
                 "1076149b27138956",
@@ -1823,7 +1779,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 130,
-        "y": 260,
+        "y": 300,
         "wires": [
             [
                 "037577b4694f7516"
@@ -1894,7 +1850,8 @@
         "y": 220,
         "wires": [
             [
-                "a650bf9d83e4ec4a"
+                "a650bf9d83e4ec4a",
+                "6c2bf33235bb16bf"
             ]
         ]
     },
@@ -2399,6 +2356,22 @@
                 "2c5e564e5282b805"
             ]
         ]
+    },
+    {
+        "id": "6c2bf33235bb16bf",
+        "type": "debug",
+        "z": "74273795d1e74a6e",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 380,
+        "wires": []
     },
     {
         "id": "5be65dbce585fe33",
