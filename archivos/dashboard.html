@@ -8,6 +8,32 @@
     );
   }
 
+  /* ui_text */
+
+  /* Cambiar el bold para label y value de los text */
+  .nr-dashboard-text .label {
+    font-weight: bold !important;
+  }
+  .nr-dashboard-text .value {
+    font-weight: normal !important;
+  }
+
+  /* Gauge */
+  /* Color de los gauges */
+  .nr-dashboard-gauge path {
+    fill: #ff7b00 !important;
+  }
+
+  .nr-dashboard-gauge circle {
+    fill: #ff7b00 !important;
+  }
+
+  element {
+    background: rgb(255, 106, 7);
+  }
+
+
+
   /*Top bar*/
   body.nr-dashboard-theme md-toolbar,
   body.nr-dashboard-theme md-content md-card {
@@ -70,16 +96,7 @@
     border-radius: 10px !important;
   }
 
-  /* Gauge */
-
-  /* Color de los gauges */
-  .nr-dashboard-gauge path {
-    fill: #ff7b00 !important;
-  }
-
-  element {
-    background: rgb(255, 106, 7);
-  }
+  
 
   /*Groups*/
   ui-card-panel {
@@ -106,9 +123,10 @@
   }
 
   /*Dropdown menu*/
+
   /* Color de fondo en el efecto de abrir */
   .nr-dashboard-theme md-select-menu {
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgb(39, 39, 39) !important;
     /* background-color: transparent !important; */
   }
 
@@ -117,11 +135,19 @@
     border: none !important;
   }
 
+  /* Color de la opcion seleccionada en el menú desplegable */
   .nr-dashboard-theme md-select-menu md-option[selected] {
     color: white !important;
-    background-color: #1a3566 !important;
+    background-color: #ff7b00 !important;
   }
 
+  /* Color con hover sobre las opciones del menú desplegable */
+  .nr-dashboard-theme md-select-menu md-option:hover {
+    background-color: #555555 !important;
+  }
+
+
+  
   /*Template*/
   md-card > img,
   md-card > md-card-header img,
