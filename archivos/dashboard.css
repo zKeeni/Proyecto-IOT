@@ -20,23 +20,49 @@
         background-color: rgba(0, 0, 0, 0) !important;
     }
 
+    /* Añadir espacio entre los botones */
+    /* md-list-item {
+        margin-bottom: 10px !important;
+        margin-top: 10px !important;
+    }*/
+
+    md-list-item._md-button-wrap {
+        margin: 10px;
+    }
+
+    nr-menu-item-active {
+        border-right: 4px solid #ffe600;
+    }
+
     /*Hover selection*/
     a.md-no-style,
     button.md-no-style {
         border-radius: 10px !important;
     }
 
+    .md-button.md-default-theme:not([disabled]).md-focused,
+    .md-button:not([disabled]).md-focused,
+    .md-button.md-default-theme:not([disabled]):hover,
+    .md-button:not([disabled]):hover {
+        background-color: none !important;
+    }
+
     /*Selected*/
     .nr-menu-item-active div button {
-        border-right: 4px solid rgb(41 98 255) !important;
+        /* border-right: 4px solid rgb(255, 255, 255) !important;
+        border-left: 4px solid rgb(255, 255, 255) !important; */
+        background-color: #ff7300;
+        border: none !important;
     }
 
     /*List*/
     body.nr-dashboard-theme md-sidenav div.md-list-item-inner {
         color: white !important;
-        background-color: rgba(40, 85, 165, 1) !important;
+        background-color: rgb(165, 75, 40) !important;
         border-radius: 10px !important;
     }
+
+
 
 
     /*Groups*/
