@@ -44,12 +44,13 @@
             "3a4720e3968a645f",
             "5d2124aeb552433b",
             "d75804f66ab62f96",
-            "55111d96b4599d19"
+            "55111d96b4599d19",
+            "c067b2ee2268df33"
         ],
         "x": 14,
         "y": 79,
         "w": 1272,
-        "h": 262
+        "h": 282
     },
     {
         "id": "bc56705e38d4e3b5",
@@ -94,7 +95,6 @@
             "7ab6a756468eec78",
             "fe9ff1d4dc59e5bd",
             "ff1ce7930c0ad493",
-            "33ef1a64101770bb",
             "ab3cc78b737a790a",
             "d81be35f7d46219d",
             "d311c769d7924cd1",
@@ -103,7 +103,7 @@
         ],
         "x": 34,
         "y": 259,
-        "w": 1232,
+        "w": 1212,
         "h": 162
     },
     {
@@ -129,7 +129,7 @@
         ],
         "x": 34,
         "y": 459,
-        "w": 1232,
+        "w": 1212,
         "h": 162
     },
     {
@@ -372,17 +372,6 @@
         "order": 4,
         "disp": true,
         "width": 6,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "e6d4b29440634fdb",
-        "type": "ui_group",
-        "name": "Group 6",
-        "tab": "cd922c1521ea3b4b",
-        "order": 6,
-        "disp": true,
-        "width": "20",
         "collapse": false,
         "className": ""
     },
@@ -650,50 +639,6 @@
         "x": 1170,
         "y": 880,
         "wires": []
-    },
-    {
-        "id": "2d2304e88d8fc1c9",
-        "type": "ui_chart",
-        "z": "ed84d3e070727412",
-        "name": "",
-        "group": "e6d4b29440634fdb",
-        "order": 1,
-        "width": 6,
-        "height": 5,
-        "label": "chart",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "1",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#ff9500",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 1170,
-        "y": 920,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "99b63fa91f544066",
@@ -993,7 +938,9 @@
         "y": 340,
         "wires": [
             [
-                "33ef1a64101770bb"
+                "d81be35f7d46219d",
+                "afb71e2ddc111536",
+                "13223b4ca1f132a0"
             ]
         ]
     },
@@ -1021,7 +968,7 @@
         "y": 380,
         "wires": [
             [
-                "33ef1a64101770bb"
+                "853ccbbedfbb94f9"
             ]
         ]
     },
@@ -1052,38 +999,6 @@
         ]
     },
     {
-        "id": "33ef1a64101770bb",
-        "type": "join",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "",
-        "mode": "custom",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": true,
-        "accumulate": true,
-        "timeout": "",
-        "count": "3",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "num",
-        "reduceFixup": "",
-        "x": 730,
-        "y": 340,
-        "wires": [
-            [
-                "d81be35f7d46219d",
-                "853ccbbedfbb94f9",
-                "afb71e2ddc111536"
-            ]
-        ]
-    },
-    {
         "id": "ab3cc78b737a790a",
         "type": "ui_gauge",
         "z": "ed84d3e070727412",
@@ -1096,7 +1011,7 @@
         "gtype": "wave",
         "title": "",
         "label": "%",
-        "format": "{{payload.presion*10}}",
+        "format": "{{msg.payload*10}}",
         "min": 0,
         "max": "100",
         "colors": [
@@ -1125,7 +1040,7 @@
         "gtype": "gage",
         "title": "",
         "label": "PSI",
-        "format": "{{payload.presion* 10 | number:2 }}",
+        "format": "{{msg.payload*10 | number:2 }}",
         "min": 0,
         "max": "150",
         "colors": [
@@ -1146,9 +1061,9 @@
         "type": "ui_chart",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
-        "name": "CONSUMO",
-        "group": "25728a1daa1c705d",
-        "order": 4,
+        "name": "",
+        "group": "7373fc3cd0c987ee",
+        "order": 3,
         "width": 6,
         "height": 4,
         "label": "chart",
@@ -1237,7 +1152,7 @@
         "maxout": "10",
         "action": "scale",
         "round": false,
-        "property": "payload.presion",
+        "property": "payload",
         "name": "",
         "x": 930,
         "y": 300,
@@ -1390,7 +1305,9 @@
         "x": 550,
         "y": 500,
         "wires": [
-            []
+            [
+                "dbcef5dc4b83f9dd"
+            ]
         ]
     },
     {
@@ -1416,7 +1333,7 @@
         "reduceInitType": "num",
         "reduceFixup": "",
         "x": 730,
-        "y": 560,
+        "y": 540,
         "wires": [
             [
                 "83def08cd58251da",
@@ -1488,9 +1405,9 @@
         "type": "ui_chart",
         "z": "ed84d3e070727412",
         "g": "c97e8c04f9d3064f",
-        "name": "CONSUMO",
-        "group": "7373fc3cd0c987ee",
-        "order": 4,
+        "name": "",
+        "group": "25728a1daa1c705d",
+        "order": 3,
         "width": 6,
         "height": 4,
         "label": "chart",
@@ -1578,7 +1495,7 @@
         "width": 0,
         "height": 0,
         "label": "chart",
-        "chartType": "bar",
+        "chartType": "line",
         "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
@@ -1607,7 +1524,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1170,
-        "y": 960,
+        "y": 920,
         "wires": [
             []
         ]
@@ -1632,6 +1549,23 @@
                 "79e311249fd5b2e1"
             ]
         ]
+    },
+    {
+        "id": "13223b4ca1f132a0",
+        "type": "debug",
+        "z": "ed84d3e070727412",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 200,
+        "wires": []
     },
     {
         "id": "a650bf9d83e4ec4a",
@@ -1761,8 +1695,8 @@
         "y": 180,
         "wires": [
             [
-                "461a6de532021279",
-                "55111d96b4599d19"
+                "55111d96b4599d19",
+                "c067b2ee2268df33"
             ]
         ]
     },
@@ -1791,15 +1725,15 @@
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
         "name": "Calcular Operación",
-        "func": "let presion = flow.get(\"ppasaje\") ; \nlet consumo = msg.consumo;\n\nflow.set(\"ppasaje\", presion - consumo); \n\nmsg.presionr = flow.get(\"ppasaje\"); \nreturn msg;",
+        "func": "let presion = flow.get(\"ppasaje\") ; \nlet consumo = msg.consumo;\n\n\nif (presion>0){\n    flow.set(\"ppasaje\", (presion - consumo));\n\n}\n\nmsg.presionr = flow.get(\"ppasaje\"); \nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
-        "y": 300,
+        "x": 790,
+        "y": 320,
         "wires": [
             [
                 "d75804f66ab62f96",
@@ -1822,7 +1756,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "10",
+        "repeat": "6",
         "crontab": "",
         "once": false,
         "onceDelay": "4",
@@ -1861,6 +1795,7 @@
         "y": 180,
         "wires": [
             [
+                "b5eaf98bd01fa844",
                 "a650bf9d83e4ec4a"
             ]
         ]
@@ -1901,7 +1836,8 @@
         "y": 220,
         "wires": [
             [
-                "a650bf9d83e4ec4a"
+                "a650bf9d83e4ec4a",
+                "ca57e6b53aa188e2"
             ]
         ]
     },
@@ -1941,7 +1877,8 @@
         "y": 300,
         "wires": [
             [
-                "a650bf9d83e4ec4a"
+                "a650bf9d83e4ec4a",
+                "efbe09b42de01536"
             ]
         ]
     },
@@ -1963,7 +1900,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 990,
+        "x": 1010,
         "y": 300,
         "wires": [
             [
@@ -2178,7 +2115,7 @@
         "z": "74273795d1e74a6e",
         "g": "bc56705e38d4e3b5",
         "name": "Calcular Operación",
-        "func": "let presion = flow.get(\"pmachala\") ; \nlet consumo = msg.consumo;\n\nflow.set(\"pmachala\", presion - consumo); \n\nmsg.presionr = flow.get(\"pmachala\"); \nreturn msg;",
+        "func": "let presion = flow.get(\"pmachala\") ; \nlet consumo = msg.consumo;\n\nif(presion>0){\n    flow.set(\"pmachala\", presion - consumo); \n}\nmsg.presionr = flow.get(\"pmachala\"); \n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -2404,6 +2341,83 @@
         "wires": [
             [
                 "2c5e564e5282b805"
+            ]
+        ]
+    },
+    {
+        "id": "b5eaf98bd01fa844",
+        "type": "debug",
+        "z": "74273795d1e74a6e",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "ca57e6b53aa188e2",
+        "type": "debug",
+        "z": "74273795d1e74a6e",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "efbe09b42de01536",
+        "type": "debug",
+        "z": "74273795d1e74a6e",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c067b2ee2268df33",
+        "type": "switch",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 570,
+        "y": 180,
+        "wires": [
+            [
+                "461a6de532021279"
             ]
         ]
     },
