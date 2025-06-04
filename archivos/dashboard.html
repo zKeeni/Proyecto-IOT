@@ -8,8 +8,7 @@
     );
   }
 
-  /* ui_text */
-
+  /************************************* ui_text *************************************/
   /* Cambiar el bold para label y value de los text */
   .nr-dashboard-text .label {
     font-weight: bold !important;
@@ -18,7 +17,7 @@
     font-weight: normal !important;
   }
 
-  /* Gauge */
+  /************************************* ui_Gauge *************************************/
   /* Color de los gauges */
   .nr-dashboard-gauge path {
     fill: #ff7b00 !important;
@@ -32,7 +31,15 @@
     background: rgb(255, 106, 7);
   }
 
-
+  /************************************* ui_switch *************************************/
+  /* Color del circulo del switch */
+  .nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-thumb {
+    background-color: #ff981d;
+  }
+  /* Color de la barra del switch */
+  .nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-bar {
+    background-color: rgb(163 113 41 / 50%);
+  }
 
   /*Top bar*/
   body.nr-dashboard-theme md-toolbar,
@@ -96,8 +103,6 @@
     border-radius: 10px !important;
   }
 
-  
-
   /*Groups*/
   ui-card-panel {
     background-color: rgba(255, 255, 255, 0.089) !important;
@@ -146,8 +151,6 @@
     background-color: #555555 !important;
   }
 
-
-  
   /*Template*/
   md-card > img,
   md-card > md-card-header img,
