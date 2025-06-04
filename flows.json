@@ -106,20 +106,19 @@
             "afbf9c4d79d0185c",
             "689c5ff4468693e8",
             "0ad30251fa78784a",
-            "bebab00e84672e49",
             "902b1c8a928ffe6a",
             "02899c84331de550",
             "2abda30277bd5535",
             "1b5d8b8a0c3b7e77",
             "bed00d5bd4b1128d",
-            "98258f222ce807e5",
             "57cc4b3fec6bccff",
-            "c022c5cd2337e7fa"
+            "b42022fad9496d6d",
+            "98258f222ce807e5"
         ],
         "x": 34,
-        "y": 179,
-        "w": 1512,
-        "h": 342
+        "y": -21,
+        "w": 1532,
+        "h": 542
     },
     {
         "id": "c97e8c04f9d3064f",
@@ -402,27 +401,57 @@
         "className": ""
     },
     {
-        "id": "6832d289a0608eed",
+        "id": "87db350260a04862",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "25728a1daa1c705d",
         "order": 2,
-        "width": 8,
+        "width": 5,
         "height": 1
     },
     {
-        "id": "0c5927589fc1ce53",
+        "id": "02d42564b937b3bc",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "25728a1daa1c705d",
-        "order": 9,
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "45510a69dabc29ac",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "25728a1daa1c705d",
+        "order": 5,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "450570544a9ec8e6",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "25728a1daa1c705d",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "7ec3487de9bdd3dc",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "25728a1daa1c705d",
+        "order": 12,
         "width": 11,
         "height": 1
     },
     {
-        "id": "9d47f39c34eb46c1",
+        "id": "2666192de820d07c",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -432,7 +461,7 @@
         "height": 1
     },
     {
-        "id": "94a2053ef7bb4000",
+        "id": "7d4442fb1edb8467",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -442,7 +471,7 @@
         "height": 1
     },
     {
-        "id": "86cb6075b7b7f2a3",
+        "id": "2cfe09e425e4e28b",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -452,7 +481,7 @@
         "height": 1
     },
     {
-        "id": "ddfd1c647097c800",
+        "id": "e98159c5f4039846",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -462,7 +491,7 @@
         "height": 1
     },
     {
-        "id": "6798e85a2e363a82",
+        "id": "b99352a8242111ba",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -745,7 +774,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<style>\n  body {\n    background: -webkit-linear-gradient(55deg,\n        #161616 0%,\n        #161616 50%,\n        #161616 100%);\n  }\n\n  /************************************* ui_text *************************************/\n  /* Cambiar el bold para label y value de los text */\n  .nr-dashboard-text .label {\n    font-weight: bold !important;\n  }\n\n  .nr-dashboard-text .value {\n    font-weight: normal !important;\n  }\n\n  /************************************* ui_Gauge *************************************/\n  /* Color de los gauges */\n  .nr-dashboard-gauge path {\n    fill: #ff7b00 !important;\n  }\n\n  .nr-dashboard-gauge circle {\n    fill: #ff7b00 !important;\n  }\n\n  element {\n    background: rgb(255, 106, 7);\n  }\n\n  /************************************* ui_switch *************************************/\n  .nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-thumb {\n    background-color: #ff981d;\n  }\n\n  .nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-bar {\n    background-color: rgb(163 113 41 / 50%);\n  }\n\n  /*Top bar*/\n  body.nr-dashboard-theme md-toolbar,\n  body.nr-dashboard-theme md-content md-card {\n    background-color: transparent !important;\n    color: #ffffff !important;\n  }\n\n  /*Left menu*/\n  /*Sidebar*/\n  body.nr-dashboard-theme md-sidenav {\n    color: white !important;\n    background-color: rgba(0, 0, 0, 0) !important;\n  }\n\n  /* Añadir espacio entre los botones */\n  /* md-list-item {\n            margin-bottom: 10px !important;\n            margin-top: 10px !important;\n        }*/\n\n  md-list-item._md-button-wrap {\n    margin: 10px;\n  }\n\n  nr-menu-item-active {\n    border-right: 4px solid #ffe600;\n  }\n\n  /*Hover selection*/\n  a.md-no-style,\n  button.md-no-style {\n    border-radius: 10px !important;\n  }\n\n  .md-button.md-default-theme:not([disabled]).md-focused,\n  .md-button:not([disabled]).md-focused,\n  .md-button.md-default-theme:not([disabled]):hover,\n  .md-button:not([disabled]):hover {\n    background-color: none !important;\n  }\n\n  /*Selected*/\n  .nr-menu-item-active div button {\n    /* border-right: 4px solid rgb(255, 255, 255) !important;\n            border-left: 4px solid rgb(255, 255, 255) !important; */\n    /* background-color: #ff730000; */\n    border: none !important;\n  }\n\n  md-list-item.md-no-proxy.md-button,\n  md-list-item .md-no-style.md-button {\n    margin: 0px 5px !important;\n    width: 95% !important;\n  }\n\n  /*List*/\n  body.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n    color: white !important;\n    background-color: rgb(165, 75, 40) !important;\n    border-radius: 10px !important;\n  }\n\n  /*Groups*/\n  ui-card-panel {\n    background-color: rgba(255, 255, 255, 0.089) !important;\n    border-radius: 10px !important;\n  }\n\n  .nr-dashboard-theme ui-card-panel {\n    border: none !important;\n  }\n\n  /*Name groups*/\n  .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n    color: rgba(255, 255, 255, 0.5) !important;\n  }\n\n  /*Bouttons*/\n  .nr-dashboard-theme .nr-dashboard-button .md-button {\n    background-color: rgba(255, 255, 255, 0.1) !important;\n  }\n\n  .md-button {\n    border-radius: 10px !important;\n  }\n\n  /*Dropdown menu*/\n\n  /* Color de fondo en el efecto de abrir */\n  .nr-dashboard-theme md-select-menu {\n    background-color: rgb(39, 39, 39) !important;\n    /* background-color: transparent !important; */\n  }\n\n  .nr-dashboard-theme .md-select-menu-container {\n    border-radius: 10px !important;\n    border: none !important;\n  }\n\n  /* Color de la opcion seleccionada en el menú desplegable */\n  .nr-dashboard-theme md-select-menu md-option[selected] {\n    color: white !important;\n    background-color: #ff7b00 !important;\n  }\n\n  /* Color con hover sobre las opciones del menú desplegable */\n  .nr-dashboard-theme md-select-menu md-option:hover {\n    background-color: #555555 !important;\n  }\n\n  /*Template*/\n  md-card>img,\n  md-card>md-card-header img,\n  md-card md-card-title-media img {\n    border-radius: 10px !important;\n  }\n\n  /* Color picker text BG */\n  .nr-dashboard-theme .color-picker-input-wrapper>input {\n    color: white !important;\n    background-color: transparent !important;\n  }\n</style>",
+        "format": "<style>\n  body {\n    background: -webkit-linear-gradient(55deg,\n        #161616 0%,\n        #161616 50%,\n        #161616 100%);\n  }\n\n  /************************************* ui_text *************************************/\n  /* Cambiar el bold para label y value de los text */\n  .nr-dashboard-text .label {\n    font-weight: bold !important;\n  }\n\n  .nr-dashboard-text .value {\n    font-weight: normal !important;\n  }\n\n  /************************************* ui_Gauge *************************************/\n  /* Color de los gauges */\n  .nr-dashboard-gauge path {\n    fill: #ff7b00 !important;\n  }\n\n  .nr-dashboard-gauge circle {\n    fill: #ff7b00 !important;\n  }\n\n  element {\n    background: rgb(255, 106, 7);\n  }\n\n  /************************************* ui_switch *************************************/\n  /* Color del circulo del switch */\n  .nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-thumb {\n    background-color: #ff981d;\n  }\n\n  /* Color de la barra del switch */\n  .nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-bar {\n    background-color: rgb(163 113 41 / 50%);\n  }\n\n  /* template ui_switch */\n  .nr-dashboard-theme .nr-dashboard-template md-switch.md-checked:not([disabled]) .md-thumb {\n    background-color: #ffb900;\n  }\n\n  .nr-dashboard-theme .nr-dashboard-template md-switch.md-checked:not([disabled]) .md-bar {\n    background-color: rgb(255 165 22 / 50%);\n  }\n\n\n  /*Top bar*/\n  body.nr-dashboard-theme md-toolbar,\n  body.nr-dashboard-theme md-content md-card {\n    background-color: transparent !important;\n    color: #ffffff !important;\n  }\n\n  /*Left menu*/\n  /*Sidebar*/\n  body.nr-dashboard-theme md-sidenav {\n    color: white !important;\n    background-color: rgba(0, 0, 0, 0) !important;\n  }\n\n  /* Añadir espacio entre los botones */\n  /* md-list-item {\n            margin-bottom: 10px !important;\n            margin-top: 10px !important;\n        }*/\n\n  md-list-item._md-button-wrap {\n    margin: 10px;\n  }\n\n  nr-menu-item-active {\n    border-right: 4px solid #ffe600;\n  }\n\n  /*Hover selection*/\n  a.md-no-style,\n  button.md-no-style {\n    border-radius: 10px !important;\n  }\n\n  .md-button.md-default-theme:not([disabled]).md-focused,\n  .md-button:not([disabled]).md-focused,\n  .md-button.md-default-theme:not([disabled]):hover,\n  .md-button:not([disabled]):hover {\n    background-color: none !important;\n  }\n\n  /*Selected*/\n  .nr-menu-item-active div button {\n    /* border-right: 4px solid rgb(255, 255, 255) !important;\n            border-left: 4px solid rgb(255, 255, 255) !important; */\n    /* background-color: #ff730000; */\n    border: none !important;\n  }\n\n  md-list-item.md-no-proxy.md-button,\n  md-list-item .md-no-style.md-button {\n    margin: 0px 5px !important;\n    width: 95% !important;\n  }\n\n  /*List*/\n  body.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n    color: white !important;\n    background-color: rgb(165, 75, 40) !important;\n    border-radius: 10px !important;\n  }\n\n  /*Groups*/\n  ui-card-panel {\n    background-color: rgba(255, 255, 255, 0.089) !important;\n    border-radius: 10px !important;\n  }\n\n  .nr-dashboard-theme ui-card-panel {\n    border: none !important;\n  }\n\n  /*Name groups*/\n  .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n    color: rgba(255, 255, 255, 0.5) !important;\n  }\n\n  /*Bouttons*/\n  .nr-dashboard-theme .nr-dashboard-button .md-button {\n    background-color: rgba(255, 255, 255, 0.1) !important;\n  }\n\n  .md-button {\n    border-radius: 10px !important;\n  }\n\n  /*Dropdown menu*/\n\n  /* Color de fondo en el efecto de abrir */\n  .nr-dashboard-theme md-select-menu {\n    background-color: rgb(39, 39, 39) !important;\n    /* background-color: transparent !important; */\n  }\n\n  .nr-dashboard-theme .md-select-menu-container {\n    border-radius: 10px !important;\n    border: none !important;\n  }\n\n  /* Color de la opcion seleccionada en el menú desplegable */\n  .nr-dashboard-theme md-select-menu md-option[selected] {\n    color: white !important;\n    background-color: #ff7b00 !important;\n  }\n\n  /* Color con hover sobre las opciones del menú desplegable */\n  .nr-dashboard-theme md-select-menu md-option:hover {\n    background-color: #555555 !important;\n  }\n\n  /*Template*/\n  md-card>img,\n  md-card>md-card-header img,\n  md-card md-card-title-media img {\n    border-radius: 10px !important;\n  }\n\n  /* Color picker text BG */\n  .nr-dashboard-theme .color-picker-input-wrapper>input {\n    color: white !important;\n    background-color: transparent !important;\n  }\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -1129,7 +1158,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "NIVELES ",
         "group": "25728a1daa1c705d",
-        "order": 5,
+        "order": 8,
         "width": 3,
         "height": 3,
         "gtype": "wave",
@@ -1158,7 +1187,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "PRESION",
         "group": "25728a1daa1c705d",
-        "order": 6,
+        "order": 9,
         "width": 3,
         "height": 3,
         "gtype": "gage",
@@ -1168,9 +1197,9 @@
         "min": 0,
         "max": "150",
         "colors": [
-            "#e73623",
-            "#f9f343",
-            "#49c705"
+            "#ff0000",
+            "#ff9838",
+            "#fff700"
         ],
         "seg1": "",
         "seg2": "",
@@ -1549,7 +1578,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "",
         "group": "25728a1daa1c705d",
-        "order": 7,
+        "order": 10,
         "width": 4,
         "height": 3,
         "label": "Historial de consumo",
@@ -1633,48 +1662,13 @@
         ]
     },
     {
-        "id": "bebab00e84672e49",
-        "type": "ui_switch",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "",
-        "label": "Valvula",
-        "tooltip": "",
-        "group": "25728a1daa1c705d",
-        "order": 3,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 1380,
-        "y": 240,
-        "wires": [
-            [
-                "57cc4b3fec6bccff"
-            ]
-        ]
-    },
-    {
         "id": "0ad30251fa78784a",
         "type": "ui_template",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "name": "",
-        "order": 4,
+        "order": 7,
         "width": 5,
         "height": 3,
         "format": "<!-- <div ng-bind-html=\"msg.payload\"></div> -->\n<!-- <div styles=\"margin: 0\"> -->\n<img src=\"https://www.duragas.com.ec/wp-content/uploads/2020/01/bombona03.png\"\n     style=\"display: block; margin: auto;\"><!-- </div> -->",
@@ -1683,8 +1677,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1100,
-        "y": 220,
+        "x": 1140,
+        "y": 20,
         "wires": [
             []
         ]
@@ -1751,7 +1745,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
-        "order": 8,
+        "order": 11,
         "width": 4,
         "height": 1,
         "name": "",
@@ -1819,8 +1813,7 @@
         "y": 400,
         "wires": [
             [
-                "02899c84331de550",
-                "8c767c6c6cb7bdbf"
+                "02899c84331de550"
             ]
         ]
     },
@@ -1848,7 +1841,8 @@
         "y": 440,
         "wires": [
             [
-                "02899c84331de550"
+                "02899c84331de550",
+                "b42022fad9496d6d"
             ]
         ]
     },
@@ -1881,48 +1875,6 @@
         ]
     },
     {
-        "id": "98258f222ce807e5",
-        "type": "ui_template",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "group": "25728a1daa1c705d",
-        "name": "",
-        "order": 10,
-        "width": 15,
-        "height": 2,
-        "format": "<style>\n    .desplegable {\n        border: 1px solid #ccc;\n        border-radius: 6px;\n        padding: 10px;\n        margin-bottom: 10px;\n        background-color: transparent;\n    }\n\n    .header {\n        display: flex;\n        justify-content: space-between;\n        cursor: pointer;\n        font-weight: bold;\n        user-select: none;\n    }\n\n    .flecha {\n        transition: transform 0.3s ease;\n    }\n\n    .flecha.abierto {\n        transform: rotate(90deg);\n    }\n\n    .contenido {\n        display: none;\n        margin-top: 10px;\n    }\n\n    .contenido.visible {\n        display: block;\n    }\n</style>\n\n<div class=\"desplegable\">\n    <div class=\"header\" onclick=\"alternarDesplegable(this)\">\n        Información del tanque\n        <span class=\"flecha\">▶</span>\n    </div>\n    <div class=\"contenido\">\n        <p><strong>Ubicación:</strong> Zona Norte</p>\n        <p><strong>Presión:</strong> 190 PSI</p>\n        <p><strong>Nivel:</strong> 65%</p>\n    </div>\n</div>\n\n<script>\n    function alternarDesplegable(header) {\n    const flecha = header.querySelector('.flecha');\n    const contenido = header.nextElementSibling;\n    flecha.classList.toggle('abierto');\n    contenido.classList.toggle('visible');\n  }\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 480,
-        "y": 480,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "dea3372b5c040839",
-        "type": "ui_toast",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "position": "bottom left",
-        "displayTime": "5",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "",
-        "name": "",
-        "x": 1410,
-        "y": 540,
-        "wires": []
-    },
-    {
         "id": "57cc4b3fec6bccff",
         "type": "mqtt out",
         "z": "ed84d3e070727412",
@@ -1937,70 +1889,73 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 1360,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "cbc6bb722b88792f",
-        "type": "ui_text",
-        "z": "ed84d3e070727412",
-        "group": "c8562f8666449872",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 1770,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "8c767c6c6cb7bdbf",
-        "type": "ui_toast",
-        "z": "ed84d3e070727412",
-        "position": "top right",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "",
-        "name": "",
-        "x": 1690,
-        "y": 420,
+        "x": 1400,
+        "y": 140,
         "wires": []
     },
     {
         "id": "b42022fad9496d6d",
         "type": "ui_template",
         "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
         "group": "c8562f8666449872",
         "name": "",
-        "order": 10,
+        "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<div id=\"custom-alert\" style=\"background-color: red; color: white; padding: 10px; border-radius: 5px;\">\n    <p>Estado crítico: Atención requerida.</p>\n    <button onclick=\"document.getElementById('custom-alert').style.display='none';\"\n            style=\"background-color: white; color: red; border: none; padding: 5px 10px; cursor: pointer;\">\n        Cerrar\n    </button>\n</div>",
+        "format": "<div id=\"custom-alert\" style=\"background-color: red; color: white; padding: 10px; border-radius: 5px;\">\n    <p>Estado : {{msg.payload}}</p>\n    <button onclick=\"document.getElementById('custom-alert').style.display='none';\"\n            style=\"background-color: white; color: red; border: none; padding: 5px 10px; cursor: pointer;\">\n        Cerrar\n    </button>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1660,
-        "y": 500,
+        "x": 1460,
+        "y": 480,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "83b326d4e32474a9",
+        "type": "debug",
+        "z": "ed84d3e070727412",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "98258f222ce807e5",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "25728a1daa1c705d",
+        "name": "Switch valvula",
+        "order": 3,
+        "width": 3,
+        "height": 2,
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #f4f4f4;\n    border: 2px solid #ccc;\n    border-radius: 8px;\n    padding: 10px;\n  }\n</style>\n\n<!-- Switch control -->\n<md-switch class=\"custom-switch\" ng-checked=\"switchState\" ng-click=\"confirmChange()\"></md-switch>\n\n<script>\n  (function(scope) {\n    // Estado inicial del switch\n    scope.switchState = false;\n\n    // Función para manejar el clic en el switch\n    scope.confirmChange = function() {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Estado opuesto al actual\n\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para cambiar el estado',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#3085d6',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Refleja los cambios en el switch\n      });\n    };\n\n    // Recibe mensajes entrantes (opcional)\n    scope.$watch(\"msg\", function(msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Actualiza el switch si recibe un mensaje externo\n      }\n    });\n  })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1140,
+        "y": 140,
+        "wires": [
+            [
+                "57cc4b3fec6bccff"
+            ]
+        ],
+        "icon": "node-red-dashboard/ui_switch.png"
     },
     {
         "id": "a650bf9d83e4ec4a",
@@ -2866,7 +2821,7 @@
         "g": "969d8996b0110f16",
         "name": "Si valvula == consumo (TRUE)",
         "property": "valvula",
-        "propertyType": "msg",
+        "propertyType": "flow",
         "rules": [
             {
                 "t": "eq",
@@ -2877,7 +2832,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 770,
+        "x": 790,
         "y": 380,
         "wires": [
             [

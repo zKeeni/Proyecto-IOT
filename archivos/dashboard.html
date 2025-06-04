@@ -33,13 +33,24 @@
 
   /************************************* ui_switch *************************************/
   /* Color del circulo del switch */
-  .nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-thumb {
+  .nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-thumb{
     background-color: #ff981d;
   }
+
   /* Color de la barra del switch */
   .nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-bar {
     background-color: rgb(163 113 41 / 50%);
   }
+
+  /* template ui_switch */
+  .nr-dashboard-theme .nr-dashboard-template md-switch.md-checked:not([disabled]) .md-thumb {
+      background-color: #ffb900;
+  }
+
+  .nr-dashboard-theme .nr-dashboard-template md-switch.md-checked:not([disabled]) .md-bar {
+    background-color: rgb(255 165 22 / 50%);
+  }
+
 
   /*Top bar*/
   body.nr-dashboard-theme md-toolbar,
