@@ -2079,7 +2079,7 @@
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
         "name": "Consumir gas",
-        "low": "1",
+        "low": "0",
         "high": "1",
         "inte": "false",
         "property": "consumo",
