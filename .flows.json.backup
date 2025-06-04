@@ -111,13 +111,13 @@
             "1b5d8b8a0c3b7e77",
             "bed00d5bd4b1128d",
             "98258f222ce807e5",
-            "dea3372b5c040839",
-            "57cc4b3fec6bccff"
+            "57cc4b3fec6bccff",
+            "c022c5cd2337e7fa"
         ],
         "x": 34,
-        "y": 159,
-        "w": 1792,
-        "h": 402
+        "y": 179,
+        "w": 1512,
+        "h": 342
     },
     {
         "id": "c97e8c04f9d3064f",
@@ -330,9 +330,9 @@
         "tab": "778525b5c804be1f",
         "order": 1,
         "disp": false,
-        "width": 20,
+        "width": 15,
         "collapse": false,
-        "className": ""
+        "className": "contenedor1"
     },
     {
         "id": "37da77f10cb455eb",
@@ -360,7 +360,7 @@
         "type": "ui_group",
         "name": "Machala",
         "tab": "778525b5c804be1f",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": "20",
         "collapse": false,
@@ -389,37 +389,38 @@
         "className": ""
     },
     {
-        "id": "acaafe2945506c42",
+        "id": "c8562f8666449872",
+        "type": "ui_group",
+        "name": "mensajes",
+        "tab": "778525b5c804be1f",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6832d289a0608eed",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "25728a1daa1c705d",
         "order": 2,
-        "width": 12,
+        "width": 8,
         "height": 1
     },
     {
-        "id": "151a515161bdbc11",
+        "id": "0c5927589fc1ce53",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "25728a1daa1c705d",
-        "order": 4,
-        "width": 1,
+        "order": 9,
+        "width": 11,
         "height": 1
     },
     {
-        "id": "ce2fbe6adc6d45c3",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "25728a1daa1c705d",
-        "order": 10,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "9910a73a18453626",
+        "id": "9d47f39c34eb46c1",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -429,7 +430,7 @@
         "height": 1
     },
     {
-        "id": "7e6e0689d4cc3cae",
+        "id": "94a2053ef7bb4000",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -439,7 +440,7 @@
         "height": 1
     },
     {
-        "id": "6ffaccb97d6ea1b5",
+        "id": "86cb6075b7b7f2a3",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -449,7 +450,7 @@
         "height": 1
     },
     {
-        "id": "65c984d2eb159370",
+        "id": "ddfd1c647097c800",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -459,7 +460,7 @@
         "height": 1
     },
     {
-        "id": "d872dd32dcd23215",
+        "id": "6798e85a2e363a82",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -985,7 +986,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 180,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
                 "5187dd1a456b334e"
@@ -1021,7 +1022,7 @@
         "repair": false,
         "outputs": 3,
         "x": 420,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
                 "ff1ce7930c0ad493"
@@ -1055,7 +1056,7 @@
         "to": "",
         "reg": false,
         "x": 670,
-        "y": 320,
+        "y": 340,
         "wires": [
             [
                 "afb71e2ddc111536",
@@ -1084,7 +1085,7 @@
         "to": "",
         "reg": false,
         "x": 670,
-        "y": 380,
+        "y": 400,
         "wires": [
             [
                 "689c5ff4468693e8"
@@ -1112,7 +1113,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 260,
+        "y": 280,
         "wires": [
             [
                 "b98b3653f9dbb8f8"
@@ -1126,9 +1127,9 @@
         "g": "eca886a5d7cbed9d",
         "name": "NIVELES ",
         "group": "25728a1daa1c705d",
-        "order": 6,
-        "width": 4,
-        "height": 5,
+        "order": 5,
+        "width": 3,
+        "height": 3,
         "gtype": "wave",
         "title": "Nivel",
         "label": "%",
@@ -1145,7 +1146,7 @@
         "diff": false,
         "className": "",
         "x": 1040,
-        "y": 300,
+        "y": 320,
         "wires": []
     },
     {
@@ -1155,9 +1156,9 @@
         "g": "eca886a5d7cbed9d",
         "name": "PRESION",
         "group": "25728a1daa1c705d",
-        "order": 7,
-        "width": 5,
-        "height": 5,
+        "order": 6,
+        "width": 3,
+        "height": 3,
         "gtype": "gage",
         "title": "Presion",
         "label": "PSI",
@@ -1174,7 +1175,7 @@
         "diff": false,
         "className": "",
         "x": 1040,
-        "y": 340,
+        "y": 360,
         "wires": []
     },
     {
@@ -1191,7 +1192,7 @@
         "property": "payload",
         "name": "",
         "x": 870,
-        "y": 300,
+        "y": 320,
         "wires": [
             [
                 "ab3cc78b737a790a"
@@ -1514,7 +1515,7 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 870,
-        "y": 260,
+        "y": 280,
         "wires": []
     },
     {
@@ -1531,7 +1532,7 @@
         "property": "payload",
         "name": "",
         "x": 880,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
                 "d81be35f7d46219d",
@@ -1546,9 +1547,9 @@
         "g": "eca886a5d7cbed9d",
         "name": "",
         "group": "25728a1daa1c705d",
-        "order": 8,
-        "width": 6,
-        "height": 5,
+        "order": 7,
+        "width": 4,
+        "height": 3,
         "label": "Historial de consumo",
         "chartType": "line",
         "legend": "false",
@@ -1579,7 +1580,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 720,
-        "y": 460,
+        "y": 480,
         "wires": [
             []
         ]
@@ -1656,7 +1657,7 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 1420,
+        "x": 1380,
         "y": 240,
         "wires": [
             [
@@ -1671,9 +1672,9 @@
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "name": "",
-        "order": 5,
+        "order": 4,
         "width": 5,
-        "height": 5,
+        "height": 3,
         "format": "<!-- <div ng-bind-html=\"msg.payload\"></div> -->\n<!-- <div styles=\"margin: 0\"> -->\n<img src=\"https://www.duragas.com.ec/wp-content/uploads/2020/01/bombona03.png\"\n     style=\"display: block; margin: auto;\"><!-- </div> -->",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -1681,7 +1682,7 @@
         "templateScope": "local",
         "className": "",
         "x": 1100,
-        "y": 200,
+        "y": 220,
         "wires": [
             []
         ]
@@ -1726,7 +1727,7 @@
         "repair": false,
         "outputs": 4,
         "x": 1030,
-        "y": 400,
+        "y": 420,
         "wires": [
             [
                 "2abda30277bd5535"
@@ -1748,7 +1749,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
-        "order": 9,
+        "order": 8,
         "width": 4,
         "height": 1,
         "name": "",
@@ -1760,8 +1761,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1420,
-        "y": 400,
+        "x": 1460,
+        "y": 420,
         "wires": []
     },
     {
@@ -1785,7 +1786,7 @@
         "to": "",
         "reg": false,
         "x": 1210,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
                 "02899c84331de550"
@@ -1813,7 +1814,7 @@
         "to": "",
         "reg": false,
         "x": 1210,
-        "y": 380,
+        "y": 400,
         "wires": [
             [
                 "02899c84331de550"
@@ -1841,7 +1842,7 @@
         "to": "",
         "reg": false,
         "x": 1210,
-        "y": 420,
+        "y": 440,
         "wires": [
             [
                 "02899c84331de550"
@@ -1852,6 +1853,7 @@
         "id": "c022c5cd2337e7fa",
         "type": "change",
         "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
         "name": "Estado critico",
         "rules": [
             {
@@ -1868,7 +1870,7 @@
         "to": "",
         "reg": false,
         "x": 1220,
-        "y": 460,
+        "y": 480,
         "wires": [
             [
                 "02899c84331de550"
@@ -1882,9 +1884,9 @@
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "name": "",
-        "order": 11,
-        "width": "20",
-        "height": "3",
+        "order": 10,
+        "width": 15,
+        "height": 2,
         "format": "<style>\n    .desplegable {\n        border: 1px solid #ccc;\n        border-radius: 6px;\n        padding: 10px;\n        margin-bottom: 10px;\n        background-color: transparent;\n    }\n\n    .header {\n        display: flex;\n        justify-content: space-between;\n        cursor: pointer;\n        font-weight: bold;\n        user-select: none;\n    }\n\n    .flecha {\n        transition: transform 0.3s ease;\n    }\n\n    .flecha.abierto {\n        transform: rotate(90deg);\n    }\n\n    .contenido {\n        display: none;\n        margin-top: 10px;\n    }\n\n    .contenido.visible {\n        display: block;\n    }\n</style>\n\n<div class=\"desplegable\">\n    <div class=\"header\" onclick=\"alternarDesplegable(this)\">\n        Información del tanque\n        <span class=\"flecha\">▶</span>\n    </div>\n    <div class=\"contenido\">\n        <p><strong>Ubicación:</strong> Zona Norte</p>\n        <p><strong>Presión:</strong> 190 PSI</p>\n        <p><strong>Nivel:</strong> 65%</p>\n    </div>\n</div>\n\n<script>\n    function alternarDesplegable(header) {\n    const flecha = header.querySelector('.flecha');\n    const contenido = header.nextElementSibling;\n    flecha.classList.toggle('abierto');\n    contenido.classList.toggle('visible');\n  }\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -1892,30 +1894,10 @@
         "templateScope": "local",
         "className": "",
         "x": 480,
-        "y": 460,
+        "y": 480,
         "wires": [
             []
         ]
-    },
-    {
-        "id": "dea3372b5c040839",
-        "type": "ui_toast",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "position": "bottom left",
-        "displayTime": "5",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "",
-        "name": "",
-        "x": 1570,
-        "y": 520,
-        "wires": []
     },
     {
         "id": "57cc4b3fec6bccff",
@@ -1932,9 +1914,70 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 1660,
-        "y": 240,
+        "x": 1360,
+        "y": 300,
         "wires": []
+    },
+    {
+        "id": "cbc6bb722b88792f",
+        "type": "ui_text",
+        "z": "ed84d3e070727412",
+        "group": "c8562f8666449872",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1770,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "8c767c6c6cb7bdbf",
+        "type": "ui_toast",
+        "z": "ed84d3e070727412",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1690,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b42022fad9496d6d",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "group": "25728a1daa1c705d",
+        "name": "",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "format": "<div id=\"custom-alert\" style=\"background-color: red; color: white; padding: 10px; border-radius: 5px;\">\n    <p>Estado crítico: Atención requerida.</p>\n    <button onclick=\"document.getElementById('custom-alert').style.display='none';\"\n            style=\"background-color: white; color: red; border: none; padding: 5px 10px; cursor: pointer;\">\n        Cerrar\n    </button>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1660,
+        "y": 500,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "a650bf9d83e4ec4a",
@@ -2075,11 +2118,11 @@
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
         "name": "Consumir gas",
-        "low": "0",
+        "low": "1",
         "high": "1",
         "inte": "false",
         "property": "consumo",
-        "x": 600,
+        "x": 680,
         "y": 400,
         "wires": [
             [
@@ -2101,7 +2144,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
+        "x": 960,
         "y": 400,
         "wires": [
             [
@@ -2265,7 +2308,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 870,
+        "x": 910,
         "y": 320,
         "wires": [
             [
@@ -2715,7 +2758,7 @@
         "type": "switch",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "",
+        "name": "Validar valvula abierta",
         "property": "valvula",
         "propertyType": "flow",
         "rules": [
@@ -2726,7 +2769,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 410,
+        "x": 460,
         "y": 400,
         "wires": [
             [
@@ -2749,7 +2792,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 170,
-        "y": 260,
+        "y": 280,
         "wires": [
             [
                 "8565c56ba519a0be"
@@ -2761,7 +2804,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "",
+        "name": "Mover payload a valvula",
         "rules": [
             {
                 "t": "move",
@@ -2776,7 +2819,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 370,
+        "x": 350,
         "y": 340,
         "wires": [
             [
