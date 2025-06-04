@@ -100,16 +100,18 @@
             "b98b3653f9dbb8f8",
             "afbf9c4d79d0185c",
             "689c5ff4468693e8",
-            "ecfac302d3ff2776",
             "0ad30251fa78784a",
             "bebab00e84672e49",
-            "cfd3abbfdaede0c3",
-            "57db5c24082338a1"
+            "902b1c8a928ffe6a",
+            "02899c84331de550",
+            "2abda30277bd5535",
+            "1b5d8b8a0c3b7e77",
+            "bed00d5bd4b1128d"
         ],
         "x": 34,
         "y": 179,
-        "w": 1192,
-        "h": 362
+        "w": 1472,
+        "h": 322
     },
     {
         "id": "c97e8c04f9d3064f",
@@ -381,7 +383,7 @@
         "className": ""
     },
     {
-        "id": "c8796181f149b369",
+        "id": "01e5f42003184ae9",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -391,7 +393,17 @@
         "height": 1
     },
     {
-        "id": "0474b7fb567c2e7a",
+        "id": "1b61cd734daa21f2",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "25728a1daa1c705d",
+        "order": 10,
+        "width": 17,
+        "height": 1
+    },
+    {
+        "id": "50bc22622d08adea",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -401,7 +413,7 @@
         "height": 1
     },
     {
-        "id": "c62fce49cf58bcb5",
+        "id": "af7b927b002cbd51",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -411,7 +423,7 @@
         "height": 1
     },
     {
-        "id": "372b565586d859c3",
+        "id": "a1161b937a4d293e",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -421,7 +433,7 @@
         "height": 1
     },
     {
-        "id": "460170b336b1946f",
+        "id": "42044d923c6ed5eb",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -431,7 +443,7 @@
         "height": 1
     },
     {
-        "id": "3410bb792c277f4a",
+        "id": "1e4e637003b502d4",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -1076,8 +1088,7 @@
         "y": 380,
         "wires": [
             [
-                "689c5ff4468693e8",
-                "ecfac302d3ff2776"
+                "689c5ff4468693e8"
             ]
         ]
     },
@@ -1134,7 +1145,7 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1140,
+        "x": 1040,
         "y": 300,
         "wires": []
     },
@@ -1163,7 +1174,7 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1140,
+        "x": 1040,
         "y": 340,
         "wires": []
     },
@@ -1180,7 +1191,7 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 950,
+        "x": 870,
         "y": 300,
         "wires": [
             [
@@ -1503,7 +1514,7 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 930,
+        "x": 870,
         "y": 260,
         "wires": []
     },
@@ -1520,11 +1531,12 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 960,
+        "x": 880,
         "y": 340,
         "wires": [
             [
-                "d81be35f7d46219d"
+                "d81be35f7d46219d",
+                "902b1c8a928ffe6a"
             ]
         ]
     },
@@ -1567,8 +1579,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1000,
-        "y": 380,
+        "x": 760,
+        "y": 460,
         "wires": [
             []
         ]
@@ -1619,24 +1631,6 @@
         ]
     },
     {
-        "id": "ecfac302d3ff2776",
-        "type": "debug",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "debug 2",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 780,
-        "y": 500,
-        "wires": []
-    },
-    {
         "id": "bebab00e84672e49",
         "type": "ui_switch",
         "z": "ed84d3e070727412",
@@ -1663,8 +1657,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 1140,
-        "y": 260,
+        "x": 1400,
+        "y": 220,
         "wires": [
             []
         ]
@@ -1685,66 +1679,200 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1140,
-        "y": 440,
+        "x": 1240,
+        "y": 220,
         "wires": [
             []
         ]
     },
     {
-        "id": "cfd3abbfdaede0c3",
+        "id": "902b1c8a928ffe6a",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "200",
+                "vt": "num",
+                "v2": "100",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "60",
+                "vt": "num",
+                "v2": "99",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "59",
+                "v2t": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 1030,
+        "y": 400,
+        "wires": [
+            [
+                "2abda30277bd5535"
+            ],
+            [
+                "1b5d8b8a0c3b7e77"
+            ],
+            [
+                "bed00d5bd4b1128d"
+            ],
+            [
+                "c022c5cd2337e7fa"
+            ]
+        ]
+    },
+    {
+        "id": "02899c84331de550",
         "type": "ui_text",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "order": 9,
-        "width": 0,
-        "height": 0,
+        "width": 3,
+        "height": 1,
         "name": "",
-        "label": "Estado",
+        "label": "Estado:",
         "format": "{{msg.payload}}",
-        "layout": "row-spread",
+        "layout": "row-left",
         "className": "",
         "style": false,
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1080,
-        "y": 220,
+        "x": 1420,
+        "y": 400,
         "wires": []
     },
     {
-        "id": "57db5c24082338a1",
-        "type": "ui_led",
+        "id": "2abda30277bd5535",
+        "type": "change",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
-        "order": 1,
-        "group": "25728a1daa1c705d",
-        "width": 1,
-        "height": 1,
-        "label": "",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
+        "name": "Estado ALTO",
+        "rules": [
             {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "⚠️ Alto",
+                "tot": "str"
             }
         ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 895,
-        "y": 220,
-        "wires": [],
-        "l": false
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1210,
+        "y": 340,
+        "wires": [
+            [
+                "02899c84331de550"
+            ]
+        ]
+    },
+    {
+        "id": "1b5d8b8a0c3b7e77",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "Estado OK",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "🟢 OK",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1210,
+        "y": 380,
+        "wires": [
+            [
+                "02899c84331de550"
+            ]
+        ]
+    },
+    {
+        "id": "bed00d5bd4b1128d",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "Estado bajo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "🟡 Bajo\t",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1210,
+        "y": 420,
+        "wires": [
+            [
+                "02899c84331de550"
+            ]
+        ]
+    },
+    {
+        "id": "c022c5cd2337e7fa",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "name": "Estado critico",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "🔴 Crítico\t",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 460,
+        "wires": [
+            [
+                "02899c84331de550"
+            ]
+        ]
     },
     {
         "id": "a650bf9d83e4ec4a",
