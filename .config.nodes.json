@@ -684,5 +684,24 @@
                 "file": "C:\\Users\\Keni\\Documents\\Node-RED\\Proyecto-IOT\\node_modules\\node-red-node-random\\random.js"
             }
         }
+    },
+    "node-red-contrib-ui-led": {
+        "name": "node-red-contrib-ui-led",
+        "version": "0.4.11",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_led": {
+                "name": "ui_led",
+                "types": [
+                    "ui_led"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-ui-led",
+                "file": "C:\\Users\\Keni\\Documents\\Node-RED\\Proyecto-IOT\\node_modules\\node-red-contrib-ui-led\\dist\\nodes\\ui_led\\ui_led.js"
+            }
+        }
     }
 }
