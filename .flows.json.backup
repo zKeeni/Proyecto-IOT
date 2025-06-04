@@ -42,15 +42,14 @@
             "461a6de532021279",
             "ecd44b739172d337",
             "3a4720e3968a645f",
-            "5d2124aeb552433b",
             "d75804f66ab62f96",
             "55111d96b4599d19",
             "c067b2ee2268df33"
         ],
-        "x": 14,
+        "x": -6,
         "y": 79,
-        "w": 1272,
-        "h": 282
+        "w": 1392,
+        "h": 362
     },
     {
         "id": "bc56705e38d4e3b5",
@@ -99,12 +98,14 @@
             "d81be35f7d46219d",
             "d311c769d7924cd1",
             "853ccbbedfbb94f9",
-            "afb71e2ddc111536"
+            "afb71e2ddc111536",
+            "b98b3653f9dbb8f8",
+            "afbf9c4d79d0185c"
         ],
         "x": 34,
-        "y": 259,
-        "w": 1212,
-        "h": 162
+        "y": 219,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "c97e8c04f9d3064f",
@@ -275,7 +276,7 @@
         "type": "ui_tab",
         "name": "MONITOR CIUDADES",
         "icon": "dashboard",
-        "order": 3,
+        "order": 1,
         "disabled": false,
         "hidden": false
     },
@@ -284,7 +285,7 @@
         "type": "ui_tab",
         "name": "Demo",
         "icon": "dashboard",
-        "order": 4,
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
@@ -921,7 +922,7 @@
         "type": "switch",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
-        "name": "",
+        "name": "Filtrar topicos",
         "property": "topic",
         "propertyType": "msg",
         "rules": [
@@ -944,7 +945,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 390,
+        "x": 420,
         "y": 340,
         "wires": [
             [
@@ -963,7 +964,7 @@
         "type": "change",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
-        "name": "",
+        "name": "Set topic presion",
         "rules": [
             {
                 "t": "set",
@@ -978,13 +979,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 550,
-        "y": 340,
+        "x": 670,
+        "y": 320,
         "wires": [
             [
-                "d81be35f7d46219d",
                 "afb71e2ddc111536",
-                "13223b4ca1f132a0"
+                "afbf9c4d79d0185c"
             ]
         ]
     },
@@ -993,7 +993,7 @@
         "type": "change",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
-        "name": "",
+        "name": "Set topic consumo",
         "rules": [
             {
                 "t": "set",
@@ -1008,7 +1008,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 550,
+        "x": 670,
         "y": 380,
         "wires": [
             [
@@ -1021,7 +1021,7 @@
         "type": "change",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
-        "name": "",
+        "name": "Set topic datos",
         "rules": [
             {
                 "t": "set",
@@ -1036,11 +1036,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 550,
-        "y": 300,
+        "x": 680,
+        "y": 260,
         "wires": [
             [
-                "33ef1a64101770bb"
+                "b98b3653f9dbb8f8"
             ]
         ]
     },
@@ -1055,9 +1055,9 @@
         "width": 6,
         "height": "5",
         "gtype": "wave",
-        "title": "{{payload.datos.nombre}}",
+        "title": "",
         "label": "%",
-        "format": "{{msg.payload*10}}",
+        "format": "{{payload * 10}}",
         "min": 0,
         "max": "100",
         "colors": [
@@ -1069,7 +1069,7 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1160,
+        "x": 1140,
         "y": 300,
         "wires": []
     },
@@ -1086,7 +1086,7 @@
         "gtype": "gage",
         "title": "",
         "label": "PSI",
-        "format": "{{msg.payload*10 | number:2 }}",
+        "format": "{{payload | number:2 }}",
         "min": 0,
         "max": "150",
         "colors": [
@@ -1098,7 +1098,7 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1160,
+        "x": 1140,
         "y": 340,
         "wires": []
     },
@@ -1123,7 +1123,7 @@
         "ymax": "1",
         "removeOlder": 1,
         "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlderUnit": "60",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -1141,7 +1141,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1170,
+        "x": 1130,
         "y": 380,
         "wires": [
             []
@@ -1200,7 +1200,7 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 930,
+        "x": 950,
         "y": 300,
         "wires": [
             [
@@ -1532,50 +1532,6 @@
         ]
     },
     {
-        "id": "a827b1b2a378b5ed",
-        "type": "ui_chart",
-        "z": "ed84d3e070727412",
-        "name": "",
-        "group": "37da77f10cb455eb",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "label": "chart",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 1170,
-        "y": 920,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "7b947fe869622745",
         "type": "range",
         "z": "ed84d3e070727412",
@@ -1597,21 +1553,47 @@
         ]
     },
     {
-        "id": "13223b4ca1f132a0",
-        "type": "debug",
+        "id": "b98b3653f9dbb8f8",
+        "type": "ui_text",
         "z": "ed84d3e070727412",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1060,
-        "y": 200,
+        "g": "eca886a5d7cbed9d",
+        "group": "25728a1daa1c705d",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload.nombre}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 930,
+        "y": 260,
         "wires": []
+    },
+    {
+        "id": "afbf9c4d79d0185c",
+        "type": "range",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "minin": "0",
+        "maxin": "15",
+        "minout": "0",
+        "maxout": "150",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 960,
+        "y": 340,
+        "wires": [
+            [
+                "d81be35f7d46219d"
+            ]
+        ]
     },
     {
         "id": "a650bf9d83e4ec4a",
@@ -1628,7 +1610,7 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 1210,
+        "x": 1310,
         "y": 120,
         "wires": []
     },
@@ -1637,7 +1619,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "",
+        "name": "Set datos a payload y su topic",
         "rules": [
             {
                 "t": "set",
@@ -1659,7 +1641,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 370,
+        "x": 450,
         "y": 120,
         "wires": [
             [
@@ -1672,7 +1654,7 @@
         "type": "inject",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "",
+        "name": "Disparador datos",
         "props": [
             {
                 "p": "payload"
@@ -1689,7 +1671,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
+        "x": 150,
         "y": 120,
         "wires": [
             [
@@ -1751,13 +1733,13 @@
         "type": "random",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "Consumo",
+        "name": "Consumir gas",
         "low": "0",
         "high": "1",
         "inte": "false",
         "property": "consumo",
-        "x": 540,
-        "y": 300,
+        "x": 460,
+        "y": 400,
         "wires": [
             [
                 "1076149b27138956",
@@ -1770,7 +1752,7 @@
         "type": "function",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "Calcular Operación",
+        "name": "Calcular presion resultante",
         "func": "let presion = flow.get(\"ppasaje\") ; \nlet consumo = msg.consumo;\n\n\nif (presion>0){\n    flow.set(\"ppasaje\", (presion - consumo));\n\n}\n\nmsg.presionr = flow.get(\"ppasaje\"); \nreturn msg;",
         "outputs": 1,
         "timeout": "",
@@ -1778,12 +1760,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 790,
-        "y": 320,
+        "x": 780,
+        "y": 400,
         "wires": [
             [
-                "d75804f66ab62f96",
-                "5d2124aeb552433b"
+                "d75804f66ab62f96"
             ]
         ]
     },
@@ -1792,7 +1773,7 @@
         "type": "inject",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "",
+        "name": "Disparador de consumo",
         "props": [
             {
                 "p": "payload"
@@ -1809,8 +1790,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 300,
+        "x": 150,
+        "y": 400,
         "wires": [
             [
                 "037577b4694f7516"
@@ -1822,7 +1803,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "",
+        "name": "Set presion topic",
         "rules": [
             {
                 "t": "set",
@@ -1837,11 +1818,10 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 750,
+        "x": 850,
         "y": 180,
         "wires": [
             [
-                "b5eaf98bd01fa844",
                 "a650bf9d83e4ec4a"
             ]
         ]
@@ -1851,7 +1831,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "",
+        "name": "Set consumo a topic consumo",
         "rules": [
             {
                 "t": "set",
@@ -1878,12 +1858,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1040,
-        "y": 220,
+        "x": 1110,
+        "y": 240,
         "wires": [
             [
-                "a650bf9d83e4ec4a",
-                "ca57e6b53aa188e2"
+                "a650bf9d83e4ec4a"
             ]
         ]
     },
@@ -1892,7 +1871,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "",
+        "name": "Set presion a topic presion",
         "rules": [
             {
                 "t": "set",
@@ -1919,38 +1898,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1160,
+        "x": 1120,
         "y": 300,
         "wires": [
             [
-                "a650bf9d83e4ec4a",
-                "efbe09b42de01536"
-            ]
-        ]
-    },
-    {
-        "id": "5d2124aeb552433b",
-        "type": "switch",
-        "z": "74273795d1e74a6e",
-        "g": "969d8996b0110f16",
-        "name": "",
-        "property": "presionr",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1010,
-        "y": 300,
-        "wires": [
-            [
-                "3a4720e3968a645f"
+                "a650bf9d83e4ec4a"
             ]
         ]
     },
@@ -1959,7 +1911,7 @@
         "type": "switch",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "",
+        "name": "Validar presionr > 0",
         "property": "presionr",
         "propertyType": "msg",
         "rules": [
@@ -1972,11 +1924,12 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 870,
-        "y": 220,
+        "x": 770,
+        "y": 320,
         "wires": [
             [
-                "ecd44b739172d337"
+                "ecd44b739172d337",
+                "3a4720e3968a645f"
             ]
         ]
     },
@@ -1985,7 +1938,7 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "Set flow.presionC1",
+        "name": "Set ppasaje a payload",
         "rules": [
             {
                 "t": "set",
@@ -1995,8 +1948,8 @@
                 "tot": "msg"
             }
         ],
-        "x": 510,
-        "y": 220,
+        "x": 480,
+        "y": 280,
         "wires": [
             [
                 "037577b4694f7516"
@@ -2391,62 +2344,11 @@
         ]
     },
     {
-        "id": "b5eaf98bd01fa844",
-        "type": "debug",
-        "z": "74273795d1e74a6e",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 940,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "ca57e6b53aa188e2",
-        "type": "debug",
-        "z": "74273795d1e74a6e",
-        "name": "debug 5",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1240,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "efbe09b42de01536",
-        "type": "debug",
-        "z": "74273795d1e74a6e",
-        "name": "debug 6",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1320,
-        "y": 200,
-        "wires": []
-    },
-    {
         "id": "c067b2ee2268df33",
         "type": "switch",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "",
+        "name": "Validar presion > 0",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
@@ -2459,7 +2361,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 570,
+        "x": 590,
         "y": 180,
         "wires": [
             [
