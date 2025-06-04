@@ -115,10 +115,10 @@
             "b42022fad9496d6d",
             "98258f222ce807e5"
         ],
-        "x": 34,
-        "y": -21,
+        "x": 14,
+        "y": 219,
         "w": 1532,
-        "h": 542
+        "h": 522
     },
     {
         "id": "c97e8c04f9d3064f",
@@ -142,7 +142,7 @@
             "d311c769d7924cd1"
         ],
         "x": 54,
-        "y": 639,
+        "y": 879,
         "w": 1212,
         "h": 162
     },
@@ -686,7 +686,7 @@
         "diff": false,
         "className": "",
         "x": 1160,
-        "y": 840,
+        "y": 1160,
         "wires": []
     },
     {
@@ -730,7 +730,7 @@
         "topicType": "msg",
         "className": "",
         "x": 210,
-        "y": 960,
+        "y": 1280,
         "wires": [
             [
                 "5cf57aed3c334388"
@@ -762,7 +762,7 @@
         "diff": false,
         "className": "",
         "x": 1150,
-        "y": 880,
+        "y": 1200,
         "wires": []
     },
     {
@@ -819,7 +819,7 @@
         "repair": false,
         "outputs": 4,
         "x": 410,
-        "y": 960,
+        "y": 1280,
         "wires": [
             [
                 "97e74b2a9d6748c9"
@@ -855,7 +855,7 @@
         "to": "",
         "reg": false,
         "x": 900,
-        "y": 860,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -880,7 +880,7 @@
         "to": "",
         "reg": false,
         "x": 900,
-        "y": 900,
+        "y": 1220,
         "wires": [
             []
         ]
@@ -905,7 +905,7 @@
         "to": "",
         "reg": false,
         "x": 900,
-        "y": 940,
+        "y": 1260,
         "wires": [
             []
         ]
@@ -930,7 +930,7 @@
         "to": "",
         "reg": false,
         "x": 900,
-        "y": 980,
+        "y": 1300,
         "wires": [
             []
         ]
@@ -953,7 +953,7 @@
         "repair": false,
         "outputs": 1,
         "x": 610,
-        "y": 900,
+        "y": 1220,
         "wires": [
             []
         ]
@@ -997,7 +997,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1150,
-        "y": 920,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -1016,8 +1016,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 180,
-        "y": 360,
+        "x": 160,
+        "y": 580,
         "wires": [
             [
                 "5187dd1a456b334e"
@@ -1052,8 +1052,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 420,
-        "y": 360,
+        "x": 400,
+        "y": 580,
         "wires": [
             [
                 "ff1ce7930c0ad493"
@@ -1086,8 +1086,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
-        "y": 340,
+        "x": 650,
+        "y": 560,
         "wires": [
             [
                 "afb71e2ddc111536",
@@ -1115,8 +1115,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
-        "y": 400,
+        "x": 650,
+        "y": 620,
         "wires": [
             [
                 "689c5ff4468693e8"
@@ -1143,8 +1143,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 280,
+        "x": 640,
+        "y": 500,
         "wires": [
             [
                 "b98b3653f9dbb8f8"
@@ -1176,8 +1176,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1040,
-        "y": 320,
+        "x": 1020,
+        "y": 540,
         "wires": []
     },
     {
@@ -1205,8 +1205,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1040,
-        "y": 360,
+        "x": 1020,
+        "y": 580,
         "wires": []
     },
     {
@@ -1222,8 +1222,8 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 870,
-        "y": 320,
+        "x": 850,
+        "y": 540,
         "wires": [
             [
                 "ab3cc78b737a790a"
@@ -1245,7 +1245,7 @@
         "rh": 0,
         "inputs": 0,
         "x": 200,
-        "y": 720,
+        "y": 960,
         "wires": [
             [
                 "9aa6665478ba486b"
@@ -1281,7 +1281,7 @@
         "repair": false,
         "outputs": 3,
         "x": 410,
-        "y": 720,
+        "y": 960,
         "wires": [
             [
                 "812ecef174a9686f"
@@ -1315,7 +1315,7 @@
         "to": "",
         "reg": false,
         "x": 570,
-        "y": 720,
+        "y": 960,
         "wires": [
             [
                 "dbcef5dc4b83f9dd"
@@ -1343,7 +1343,7 @@
         "to": "",
         "reg": false,
         "x": 570,
-        "y": 760,
+        "y": 1000,
         "wires": [
             [
                 "dbcef5dc4b83f9dd"
@@ -1371,7 +1371,7 @@
         "to": "",
         "reg": false,
         "x": 570,
-        "y": 680,
+        "y": 920,
         "wires": [
             [
                 "dbcef5dc4b83f9dd"
@@ -1401,7 +1401,7 @@
         "reduceInitType": "num",
         "reduceFixup": "",
         "x": 750,
-        "y": 720,
+        "y": 960,
         "wires": [
             [
                 "83def08cd58251da",
@@ -1436,7 +1436,7 @@
         "diff": false,
         "className": "",
         "x": 1180,
-        "y": 680,
+        "y": 920,
         "wires": []
     },
     {
@@ -1465,7 +1465,7 @@
         "diff": false,
         "className": "",
         "x": 1180,
-        "y": 720,
+        "y": 960,
         "wires": []
     },
     {
@@ -1501,7 +1501,7 @@
         "to": "",
         "reg": false,
         "x": 1000,
-        "y": 760,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -1520,7 +1520,7 @@
         "property": "payload.presion",
         "name": "",
         "x": 990,
-        "y": 680,
+        "y": 920,
         "wires": [
             [
                 "79e311249fd5b2e1"
@@ -1545,8 +1545,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 870,
-        "y": 280,
+        "x": 850,
+        "y": 500,
         "wires": []
     },
     {
@@ -1562,8 +1562,8 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 880,
-        "y": 360,
+        "x": 860,
+        "y": 580,
         "wires": [
             [
                 "d81be35f7d46219d",
@@ -1610,8 +1610,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 720,
-        "y": 480,
+        "x": 700,
+        "y": 700,
         "wires": [
             []
         ]
@@ -1656,7 +1656,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1190,
-        "y": 760,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -1677,8 +1677,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1140,
-        "y": 20,
+        "x": 1120,
+        "y": 260,
         "wires": [
             []
         ]
@@ -1722,8 +1722,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 1030,
-        "y": 420,
+        "x": 1010,
+        "y": 640,
         "wires": [
             [
                 "2abda30277bd5535"
@@ -1757,8 +1757,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1460,
-        "y": 420,
+        "x": 1440,
+        "y": 640,
         "wires": []
     },
     {
@@ -1781,8 +1781,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1210,
-        "y": 360,
+        "x": 1190,
+        "y": 580,
         "wires": [
             [
                 "02899c84331de550"
@@ -1809,8 +1809,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1210,
-        "y": 400,
+        "x": 1190,
+        "y": 620,
         "wires": [
             [
                 "02899c84331de550"
@@ -1837,8 +1837,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1210,
-        "y": 440,
+        "x": 1190,
+        "y": 660,
         "wires": [
             [
                 "02899c84331de550",
@@ -1889,8 +1889,8 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 1400,
-        "y": 140,
+        "x": 1380,
+        "y": 340,
         "wires": []
     },
     {
@@ -1909,8 +1909,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1460,
-        "y": 480,
+        "x": 1440,
+        "y": 700,
         "wires": [
             []
         ]
@@ -1942,14 +1942,14 @@
         "order": 3,
         "width": 3,
         "height": 2,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #f4f4f4;\n    border: 2px solid #ccc;\n    border-radius: 8px;\n    padding: 10px;\n  }\n</style>\n\n<!-- Switch control -->\n<md-switch class=\"custom-switch\" ng-checked=\"switchState\" ng-click=\"confirmChange()\"></md-switch>\n\n<script>\n  (function(scope) {\n    // Estado inicial del switch\n    scope.switchState = false;\n\n    // Función para manejar el clic en el switch\n    scope.confirmChange = function() {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Estado opuesto al actual\n\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para cambiar el estado',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#3085d6',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Refleja los cambios en el switch\n      });\n    };\n\n    // Recibe mensajes entrantes (opcional)\n    scope.$watch(\"msg\", function(msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Actualiza el switch si recibe un mensaje externo\n      }\n    });\n  })(scope);\n</script>",
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-warning {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .valve-container {\n    text-align: center;\n    cursor: pointer;\n  }\n\n  .valve-image {\n    width: 100px;\n    height: 100px;\n  }\n\n  .valve-text {\n    font-size: 16px;\n    font-weight: bold;\n    margin-top: 8px;\n  }\n\n  .valve-open {\n    color: green;\n  }\n\n  .valve-closed {\n    color: red;\n  }\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? '~/.Proyecto-IOT/public/ui/img/tuberia-de-gas.png' : '../ui/img/tuberia-de-gas.png'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = false;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n      }\n    });\n  })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1140,
-        "y": 140,
+        "x": 1120,
+        "y": 360,
         "wires": [
             [
                 "57cc4b3fec6bccff"
