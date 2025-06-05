@@ -49,7 +49,8 @@
             "8565c56ba519a0be",
             "31b8113f5e28d529",
             "d756e4ac2a0679d1",
-            "14c265f16e9267eb"
+            "14c265f16e9267eb",
+            "50afd0bd8a44f86f"
         ],
         "x": 54,
         "y": 39,
@@ -98,7 +99,6 @@
             "5187dd1a456b334e",
             "7ab6a756468eec78",
             "fe9ff1d4dc59e5bd",
-            "ff1ce7930c0ad493",
             "ab3cc78b737a790a",
             "d81be35f7d46219d",
             "afb71e2ddc111536",
@@ -112,13 +112,17 @@
             "1b5d8b8a0c3b7e77",
             "bed00d5bd4b1128d",
             "57cc4b3fec6bccff",
-            "b42022fad9496d6d",
-            "98258f222ce807e5"
+            "98258f222ce807e5",
+            "00f14f57bbaec306",
+            "3687ee3b09b52dd2",
+            "662d9e463741798e",
+            "517efacade9bcf8a",
+            "aef2b33a57ae564e"
         ],
-        "x": 14,
-        "y": 219,
+        "x": 154,
+        "y": 359,
         "w": 1532,
-        "h": 522
+        "h": 362
     },
     {
         "id": "c97e8c04f9d3064f",
@@ -261,7 +265,7 @@
             "hideToolbar": "false",
             "allowSwipe": "false",
             "lockMenu": "true",
-            "allowTempTheme": "true",
+            "allowTempTheme": "false",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
                 "sx": 48,
@@ -363,7 +367,7 @@
         "tab": "778525b5c804be1f",
         "order": 3,
         "disp": true,
-        "width": "20",
+        "width": 15,
         "collapse": false,
         "className": ""
     },
@@ -396,108 +400,135 @@
         "tab": "778525b5c804be1f",
         "order": 2,
         "disp": true,
-        "width": 6,
+        "width": 5,
         "collapse": false,
         "className": ""
     },
     {
-        "id": "87db350260a04862",
+        "id": "dashboard-tab",
+        "type": "ui_tab",
+        "name": "Monitoreo",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "dashboard-group",
+        "type": "ui_group",
+        "name": "Alertas",
+        "tab": "dashboard-tab",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "14a4a8617d2fe96a",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "25728a1daa1c705d",
-        "order": 2,
-        "width": 5,
+        "order": 3,
+        "width": 12,
         "height": 1
     },
     {
-        "id": "02d42564b937b3bc",
+        "id": "c823fa6c9142b40e",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "25728a1daa1c705d",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "45510a69dabc29ac",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "25728a1daa1c705d",
-        "order": 5,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "450570544a9ec8e6",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "25728a1daa1c705d",
-        "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "7ec3487de9bdd3dc",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "25728a1daa1c705d",
-        "order": 12,
+        "order": 9,
         "width": 11,
         "height": 1
     },
     {
-        "id": "2666192de820d07c",
+        "id": "d0ac2d9f9c11e130",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4d983a71e59032f1",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "7373fc3cd0c987ee",
         "order": 4,
-        "width": 2,
+        "width": 3,
         "height": 1
     },
     {
-        "id": "7d4442fb1edb8467",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7373fc3cd0c987ee",
-        "order": 5,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "2cfe09e425e4e28b",
+        "id": "0b60edf203eb7e3e",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "7373fc3cd0c987ee",
         "order": 6,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "e98159c5f4039846",
+        "id": "f51bed694b36f89a",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "7373fc3cd0c987ee",
         "order": 7,
-        "width": 2,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "b99352a8242111ba",
+        "id": "872367bff62960fb",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "7373fc3cd0c987ee",
         "order": 8,
-        "width": 14,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f4b634258a52151b",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "69a405d818af251c",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "953da824864757ef",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 11,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "23f35fd11df4aeec",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 12,
+        "width": 1,
         "height": 1
     },
     {
@@ -685,8 +716,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1160,
-        "y": 1160,
+        "x": 1220,
+        "y": 1280,
         "wires": []
     },
     {
@@ -729,8 +760,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 210,
-        "y": 1280,
+        "x": 270,
+        "y": 1400,
         "wires": [
             [
                 "5cf57aed3c334388"
@@ -761,8 +792,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1150,
-        "y": 1200,
+        "x": 1210,
+        "y": 1320,
         "wires": []
     },
     {
@@ -818,8 +849,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 410,
-        "y": 1280,
+        "x": 470,
+        "y": 1400,
         "wires": [
             [
                 "97e74b2a9d6748c9"
@@ -854,8 +885,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
-        "y": 1180,
+        "x": 960,
+        "y": 1300,
         "wires": [
             []
         ]
@@ -879,8 +910,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
-        "y": 1220,
+        "x": 960,
+        "y": 1340,
         "wires": [
             []
         ]
@@ -904,8 +935,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
-        "y": 1260,
+        "x": 960,
+        "y": 1380,
         "wires": [
             []
         ]
@@ -929,8 +960,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
-        "y": 1300,
+        "x": 960,
+        "y": 1420,
         "wires": [
             []
         ]
@@ -952,8 +983,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 610,
-        "y": 1220,
+        "x": 670,
+        "y": 1340,
         "wires": [
             []
         ]
@@ -996,8 +1027,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1150,
-        "y": 1240,
+        "x": 1210,
+        "y": 1360,
         "wires": [
             []
         ]
@@ -1016,8 +1047,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 160,
-        "y": 580,
+        "x": 300,
+        "y": 560,
         "wires": [
             [
                 "5187dd1a456b334e"
@@ -1052,11 +1083,12 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 400,
-        "y": 580,
+        "x": 540,
+        "y": 560,
         "wires": [
             [
-                "ff1ce7930c0ad493"
+                "b98b3653f9dbb8f8",
+                "00f14f57bbaec306"
             ],
             [
                 "7ab6a756468eec78"
@@ -1086,8 +1118,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 650,
-        "y": 560,
+        "x": 770,
+        "y": 520,
         "wires": [
             [
                 "afb71e2ddc111536",
@@ -1115,39 +1147,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 650,
-        "y": 620,
+        "x": 770,
+        "y": 580,
         "wires": [
             [
                 "689c5ff4468693e8"
-            ]
-        ]
-    },
-    {
-        "id": "ff1ce7930c0ad493",
-        "type": "change",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "Set topic datos",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "datos",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 640,
-        "y": 500,
-        "wires": [
-            [
-                "b98b3653f9dbb8f8"
             ]
         ]
     },
@@ -1158,7 +1162,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "NIVELES ",
         "group": "25728a1daa1c705d",
-        "order": 8,
+        "order": 5,
         "width": 3,
         "height": 3,
         "gtype": "wave",
@@ -1176,8 +1180,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1020,
-        "y": 540,
+        "x": 1160,
+        "y": 460,
         "wires": []
     },
     {
@@ -1187,7 +1191,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "PRESION",
         "group": "25728a1daa1c705d",
-        "order": 9,
+        "order": 6,
         "width": 3,
         "height": 3,
         "gtype": "gage",
@@ -1205,8 +1209,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1020,
-        "y": 580,
+        "x": 1160,
+        "y": 500,
         "wires": []
     },
     {
@@ -1222,8 +1226,8 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 850,
-        "y": 540,
+        "x": 970,
+        "y": 500,
         "wires": [
             [
                 "ab3cc78b737a790a"
@@ -1418,8 +1422,8 @@
         "name": "NIVELES",
         "group": "7373fc3cd0c987ee",
         "order": 1,
-        "width": 6,
-        "height": 5,
+        "width": 5,
+        "height": 3,
         "gtype": "wave",
         "title": "{{payload.datos.nombre}}",
         "label": "%",
@@ -1446,9 +1450,9 @@
         "g": "c97e8c04f9d3064f",
         "name": "PRESION",
         "group": "7373fc3cd0c987ee",
-        "order": 2,
-        "width": 6,
-        "height": 4,
+        "order": 3,
+        "width": 3,
+        "height": 3,
         "gtype": "gage",
         "title": "",
         "label": "PSI",
@@ -1534,7 +1538,7 @@
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "order": 1,
-        "width": 4,
+        "width": 12,
         "height": 1,
         "name": "",
         "label": "",
@@ -1545,8 +1549,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 850,
-        "y": 500,
+        "x": 730,
+        "y": 480,
         "wires": []
     },
     {
@@ -1562,12 +1566,13 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 860,
-        "y": 580,
+        "x": 980,
+        "y": 540,
         "wires": [
             [
                 "d81be35f7d46219d",
-                "902b1c8a928ffe6a"
+                "902b1c8a928ffe6a",
+                "662d9e463741798e"
             ]
         ]
     },
@@ -1578,7 +1583,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "",
         "group": "25728a1daa1c705d",
-        "order": 10,
+        "order": 7,
         "width": 4,
         "height": 3,
         "label": "Historial de consumo",
@@ -1610,8 +1615,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 700,
-        "y": 700,
+        "x": 880,
+        "y": 680,
         "wires": [
             []
         ]
@@ -1623,9 +1628,9 @@
         "g": "c97e8c04f9d3064f",
         "name": "",
         "group": "7373fc3cd0c987ee",
-        "order": 3,
-        "width": 6,
-        "height": 4,
+        "order": 5,
+        "width": 2,
+        "height": 3,
         "label": "chart",
         "chartType": "line",
         "legend": "false",
@@ -1668,17 +1673,17 @@
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "name": "",
-        "order": 7,
+        "order": 4,
         "width": 5,
         "height": 3,
-        "format": "<!-- <div ng-bind-html=\"msg.payload\"></div> -->\n<!-- <div styles=\"margin: 0\"> -->\n<img src=\"https://www.duragas.com.ec/wp-content/uploads/2020/01/bombona03.png\"\n     style=\"display: block; margin: auto;\"><!-- </div> -->",
+        "format": "<!-- <div ng-bind-html=\"msg.payload\"></div> -->\n<!-- <div styles=\"margin: 0\"> -->\n<img src=\"https://tatsa.mx/wp-content/uploads/2023/01/tanques-de-carburacio204129n-02.webp\"\n     style=\"display: block; margin: auto;\"><!-- </div> -->",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1120,
-        "y": 260,
+        "x": 580,
+        "y": 660,
         "wires": [
             []
         ]
@@ -1722,8 +1727,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 1010,
-        "y": 640,
+        "x": 1150,
+        "y": 560,
         "wires": [
             [
                 "2abda30277bd5535"
@@ -1745,7 +1750,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
-        "order": 11,
+        "order": 8,
         "width": 4,
         "height": 1,
         "name": "",
@@ -1757,8 +1762,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1440,
-        "y": 640,
+        "x": 1600,
+        "y": 540,
         "wires": []
     },
     {
@@ -1781,8 +1786,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1190,
-        "y": 580,
+        "x": 1410,
+        "y": 500,
         "wires": [
             [
                 "02899c84331de550"
@@ -1809,8 +1814,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1190,
-        "y": 620,
+        "x": 1410,
+        "y": 540,
         "wires": [
             [
                 "02899c84331de550"
@@ -1837,12 +1842,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1190,
-        "y": 660,
+        "x": 1410,
+        "y": 580,
         "wires": [
             [
-                "02899c84331de550",
-                "b42022fad9496d6d"
+                "02899c84331de550"
             ]
         ]
     },
@@ -1866,8 +1870,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 480,
+        "x": 1420,
+        "y": 620,
         "wires": [
             [
                 "02899c84331de550"
@@ -1889,47 +1893,8 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 1380,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "b42022fad9496d6d",
-        "type": "ui_template",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "group": "c8562f8666449872",
-        "name": "",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "format": "<div id=\"custom-alert\" style=\"background-color: red; color: white; padding: 10px; border-radius: 5px;\">\n    <p>Estado : {{msg.payload}}</p>\n    <button onclick=\"document.getElementById('custom-alert').style.display='none';\"\n            style=\"background-color: white; color: red; border: none; padding: 5px 10px; cursor: pointer;\">\n        Cerrar\n    </button>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 1440,
-        "y": 700,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "83b326d4e32474a9",
-        "type": "debug",
-        "z": "ed84d3e070727412",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 740,
-        "y": 600,
+        "x": 1520,
+        "y": 400,
         "wires": []
     },
     {
@@ -1939,23 +1904,200 @@
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "name": "Switch valvula",
-        "order": 3,
+        "order": 2,
         "width": 3,
         "height": 2,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-warning {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .valve-container {\n    text-align: center;\n    cursor: pointer;\n  }\n\n  .valve-image {\n    width: 100px;\n    height: 100px;\n  }\n\n  .valve-text {\n    font-size: 16px;\n    font-weight: bold;\n    margin-top: 8px;\n  }\n\n  .valve-open {\n    color: green;\n  }\n\n  .valve-closed {\n    color: red;\n  }\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? '~/.Proyecto-IOT/public/ui/img/tuberia-de-gas.png' : '../ui/img/tuberia-de-gas.png'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = false;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n      }\n    });\n  })(scope);\n</script>",
+        "format": "<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-warning {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .valve-container {\n    text-align: center;\n    cursor: pointer;\n  }\n\n  .valve-image {\n    width: 50px;\n    height: 50px;\n  }\n\n  .valve-text {\n    font-size: 16px;\n    font-weight: bold;\n    margin-top: 8px;\n  }\n\n  .valve-open {\n    color: green;\n  }\n\n  .valve-closed {\n    color: red;\n  }\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? 'https://cdn-icons-png.freepik.com/512/406/406977.png?ga=GA1.1.431446104.1747788654' : ' https://cdn-icons-png.freepik.com/512/2266/2266310.png?ga=GA1.1.431446104.1747788654'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = false;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n      }\n    });\n  })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1120,
-        "y": 360,
+        "x": 1260,
+        "y": 400,
         "wires": [
             [
                 "57cc4b3fec6bccff"
             ]
         ],
         "icon": "node-red-dashboard/ui_switch.png"
+    },
+    {
+        "id": "68238b8109beea8f",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "name": "Actualizar alertas",
+        "func": "// Obtener o inicializar el estado global\nconst alerts = global.get('alerts') || {};\nconst cylinder = msg.nombre;\nconst pressure = msg.payload;\n\n// Definir rangos\nconst ranges = {\n    normal: { min: 100, max: 200 },\n    warning: { min: 60, max: 90 },\n    alarm: { min: 0, max: 59 }\n};\n\n// Determinar estado\nlet status, message, color;\nif (pressure >= ranges.normal.min && pressure <= ranges.normal.max) {\n    status = 'normal';\n} else if (pressure >= ranges.warning.min && pressure <= ranges.warning.max) {\n    status = 'warning';\n    message = `Advertencia: Presión baja ${pressure} PSI`;\n    color = '#59544c';\n} else if (pressure >= ranges.alarm.min && pressure <= ranges.alarm.max) {\n    status = 'alarm';\n    message = `¡Alarma! Presión crítica ${pressure} PSI`;\n    color = '#a32929';\n}\n\n// Validar y actualizar estado de alertas\nif (status === 'normal') {\n    delete alerts[cylinder]; // Eliminar alerta si está en estado normal\n} else {\n    // Asegurarse de que el cilindro y los valores sean válidos\n    if (cylinder && cylinder !== 'undefined' && message && color) {\n        alerts[cylinder] = { message, color }; // Agregar o actualizar alerta\n    }\n}\n\n// Guardar en el contexto global\nglobal.set('alerts', alerts);\n\n// Generar arreglo limpio de alertas\nmsg.alerts = Object.entries(alerts)\n    .filter(([key, value]) => key && key !== 'undefined' && value.message && value.color) // Filtrar alertas válidas\n    .map(([key, value]) => ({ cylinder: key, ...value })); // Formatear las alertas\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1850,
+        "y": 760,
+        "wires": [
+            [
+                "39d3d59025217cd5"
+            ]
+        ]
+    },
+    {
+        "id": "00f14f57bbaec306",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.nombre",
+                "pt": "msg",
+                "to": "nombre",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3687ee3b09b52dd2",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "nombre",
+                "pt": "msg",
+                "to": "nombre",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 680,
+        "wires": [
+            [
+                "aef2b33a57ae564e"
+            ]
+        ]
+    },
+    {
+        "id": "662d9e463741798e",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1150,
+        "y": 620,
+        "wires": [
+            [
+                "3687ee3b09b52dd2"
+            ]
+        ]
+    },
+    {
+        "id": "39d3d59025217cd5",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "group": "c8562f8666449872",
+        "name": "Renderizar alertas",
+        "order": 1,
+        "width": 5,
+        "height": 6,
+        "format": "<div style=\"border-left: 1px solid orange; border-radius: 5px; overflow: hidden; margin-bottom: 5px;\"\n  ng-repeat=\"alert in msg.alerts\">\n  <div style=\"background-color: {{alert.color}}; padding: 10px;\">\n    <h3>{{alert.cylinder}}</h3>\n    <p>{{alert.message}}</p>\n  </div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2050,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "517efacade9bcf8a",
+        "type": "inject",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1030,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aef2b33a57ae564e",
+        "type": "link out",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "06b07078a652f65d"
+        ],
+        "x": 1285,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "06b07078a652f65d",
+        "type": "link in",
+        "z": "ed84d3e070727412",
+        "name": "link in 1",
+        "links": [
+            "aef2b33a57ae564e"
+        ],
+        "x": 1725,
+        "y": 760,
+        "wires": [
+            [
+                "68238b8109beea8f"
+            ]
+        ]
     },
     {
         "id": "a650bf9d83e4ec4a",
@@ -1987,7 +2129,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"id\":1,\"nombre\":\"PASAJE(Centro)\"}",
+                "to": "{\"id\":1,\"nombre\":\"MACHALA (SECTOR NORTE ENTRE AV QUITO Y CLEMENTE)\"}",
                 "tot": "json"
             },
             {
@@ -2003,7 +2145,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 490,
+        "x": 510,
         "y": 120,
         "wires": [
             [
@@ -2081,7 +2223,7 @@
         "high": "15",
         "inte": "true",
         "property": "payload",
-        "x": 420,
+        "x": 460,
         "y": 180,
         "wires": [
             [
@@ -2723,7 +2865,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 630,
+        "x": 670,
         "y": 180,
         "wires": [
             [
@@ -2749,7 +2891,8 @@
         "y": 360,
         "wires": [
             [
-                "8565c56ba519a0be"
+                "8565c56ba519a0be",
+                "50afd0bd8a44f86f"
             ]
         ]
     },
@@ -2865,6 +3008,24 @@
                 "037577b4694f7516"
             ]
         ]
+    },
+    {
+        "id": "50afd0bd8a44f86f",
+        "type": "debug",
+        "z": "74273795d1e74a6e",
+        "g": "969d8996b0110f16",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 260,
+        "wires": []
     },
     {
         "id": "5be65dbce585fe33",
