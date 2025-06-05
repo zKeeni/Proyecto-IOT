@@ -117,7 +117,6 @@
             "6c2321c85b7fee9e",
             "dc355fd6c0f2bfb9",
             "ab6442dca4a352a0",
-            "c58f3dd4296eadd2",
             "91b9c2381652a748",
             "6d1c51736053af55",
             "3c6173d7d1582dad",
@@ -136,7 +135,7 @@
         ],
         "x": 34,
         "y": 119,
-        "w": 2032,
+        "w": 1972,
         "h": 542
     },
     {
@@ -160,9 +159,9 @@
             "7b947fe869622745",
             "d311c769d7924cd1"
         ],
-        "x": 134,
+        "x": 54,
         "y": 1059,
-        "w": 1212,
+        "w": 1292,
         "h": 162
     },
     {
@@ -459,106 +458,6 @@
         "collapse": false
     },
     {
-        "id": "73d8b2bc32217a26",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "25728a1daa1c705d",
-        "order": 5,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "ce708b2191c2757d",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7373fc3cd0c987ee",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "3485edfbba96d8f9",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7373fc3cd0c987ee",
-        "order": 4,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "ca11f725fe2b3b40",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7373fc3cd0c987ee",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9bdc748110fd1beb",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7373fc3cd0c987ee",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "3cd6c47ff6d3854b",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7373fc3cd0c987ee",
-        "order": 8,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "3474a127f2361015",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7373fc3cd0c987ee",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "95494a247bad4369",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7373fc3cd0c987ee",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d334ed25ec5fadae",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7373fc3cd0c987ee",
-        "order": 11,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "212b570c5816c4f0",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "7373fc3cd0c987ee",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "70113bd572087aab",
         "type": "mqtt-broker",
         "name": "",
@@ -588,6 +487,116 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
+    },
+    {
+        "id": "69988364ce6b8885",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "25728a1daa1c705d",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "b0202028e977db9d",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "25728a1daa1c705d",
+        "order": 8,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "95ea49720e63c43a",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 2,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "704240babd0777fd",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "59786fc273751ee4",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 5,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3d42259a40f64ef1",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "523177805bb55bb5",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 8,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "72f6155200a9ef0b",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "d75b4e6d743f131d",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c72f7343b9aff0ba",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 11,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "8345760fe1e846d9",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "7373fc3cd0c987ee",
+        "order": 12,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "957883066be49def",
@@ -1177,8 +1186,8 @@
         "g": "eca886a5d7cbed9d",
         "name": "NIVELES ",
         "group": "25728a1daa1c705d",
-        "order": 8,
-        "width": 3,
+        "order": 10,
+        "width": 5,
         "height": 3,
         "gtype": "wave",
         "title": "Nivel",
@@ -1206,8 +1215,8 @@
         "g": "eca886a5d7cbed9d",
         "name": "PRESION",
         "group": "25728a1daa1c705d",
-        "order": 9,
-        "width": 5,
+        "order": 11,
+        "width": 4,
         "height": 3,
         "gtype": "gage",
         "title": "Presion",
@@ -1263,7 +1272,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 280,
+        "x": 200,
         "y": 1140,
         "wires": [
             [
@@ -1299,7 +1308,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 490,
+        "x": 430,
         "y": 1140,
         "wires": [
             [
@@ -1553,7 +1562,7 @@
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "order": 1,
-        "width": 9,
+        "width": 7,
         "height": 1,
         "name": "",
         "label": "",
@@ -1599,9 +1608,9 @@
         "g": "eca886a5d7cbed9d",
         "name": "",
         "group": "25728a1daa1c705d",
-        "order": 11,
-        "width": 8,
-        "height": 3,
+        "order": 12,
+        "width": 13,
+        "height": 4,
         "label": "Historial de consumo",
         "chartType": "line",
         "legend": "false",
@@ -1644,7 +1653,7 @@
         "g": "c97e8c04f9d3064f",
         "name": "",
         "group": "7373fc3cd0c987ee",
-        "order": 5,
+        "order": 6,
         "width": 2,
         "height": 3,
         "label": "chart",
@@ -1744,8 +1753,8 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
-        "order": 3,
-        "width": 5,
+        "order": 4,
+        "width": 3,
         "height": 1,
         "name": "",
         "label": "Estado:",
@@ -1898,17 +1907,17 @@
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "name": "Switch valvula",
-        "order": 2,
-        "width": 4,
-        "height": 2,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-warning {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .valve-container {\n    text-align: center;\n    cursor: pointer;\n  }\n\n  .valve-image {\n    width: 50px;\n    height: 50px;\n  }\n\n  .valve-text {\n    font-size: 16px;\n    font-weight: bold;\n    margin-top: 8px;\n  }\n\n  .valve-open {\n    color: green;\n  }\n\n  .valve-closed {\n    color: red;\n  }\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? 'https://cdn-icons-png.freepik.com/512/406/406977.png?ga=GA1.1.431446104.1747788654' : 'https://cdn-icons-png.freepik.com/512/2266/2266310.png?ga=GA1.1.431446104.1747788654'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n          scope.send({ topic: \"valvula\", payload: scope.switchState }); // nuevo: para guardar en el flow\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>\n",
+        "order": 3,
+        "width": 2,
+        "height": 3,
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\ndisplay: block; /* Añadido para centrar */\nmargin: 0 auto; /* Añadido para centrar */\nwidth: 50px;\nheight: 50px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: green;\n}\n\n.valve-closed {\ncolor: red;\n}\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? 'https://cdn-icons-png.freepik.com/512/406/406977.png?ga=GA1.1.431446104.1747788654' : 'https://cdn-icons-png.freepik.com/512/2266/2266310.png?ga=GA1.1.431446104.1747788654'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n          scope.send({ topic: \"valvula\", payload: scope.switchState }); // nuevo: para guardar en el flow\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1120,
-        "y": 220,
+        "x": 1140,
+        "y": 160,
         "wires": [
             [
                 "57cc4b3fec6bccff",
@@ -2123,26 +2132,6 @@
         ]
     },
     {
-        "id": "c58f3dd4296eadd2",
-        "type": "ui_toast",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "position": "top right",
-        "displayTime": "10",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "className": "",
-        "topic": "",
-        "name": "Alerta de FUGA 🔥",
-        "x": 1770,
-        "y": 540,
-        "wires": []
-    },
-    {
         "id": "91b9c2381652a748",
         "type": "mqtt in",
         "z": "ed84d3e070727412",
@@ -2214,8 +2203,8 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
-        "name": "",
-        "order": 4,
+        "name": "Notificacion fuga gas sensor ambiente",
+        "order": 6,
         "width": 1,
         "height": 1,
         "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Componente de alerta -->\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function (scope) {\n    let lastPayload = null; // Variable para almacenar el último valor recibido\n    let alertActive = false; // Estado de la alerta activa\n\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload.estado !== lastPayload) {\n        lastPayload = msg.payload.estado; // Actualiza el último valor recibido\n\n        if (msg.payload.estado === true && !alertActive) {\n          alertActive = true;\n          Swal.fire({\n            title: \"¡Fuga de Gas Detectada!\",\n            text: \"Se ha detectado una fuga de gas en: \"+  msg.ciudad.nombre +  \". Tome precauciones inmediatas. +\\n + Por su seguridad se activara la ventilacion al maximo y se cerrara la valvula de suministro\",\n            icon: \"error\",\n            confirmButtonText: \"Entendido\",\n            confirmButtonColor: \"#ff0000\",\n          }).then(() => {\n            scope.send({ payload: true });\n            alertActive = false; // Reinicia el estado de alerta después de cerrar\n          });\n        }\n      }\n    });\n  })(scope);\n</script>",
@@ -2224,7 +2213,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 540,
+        "x": 630,
         "y": 240,
         "wires": [
             [
@@ -2253,8 +2242,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
-        "y": 220,
+        "x": 1100,
+        "y": 240,
         "wires": [
             [
                 "98258f222ce807e5"
@@ -2277,8 +2266,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 690,
-        "y": 220,
+        "x": 890,
+        "y": 240,
         "wires": [
             [
                 "3c6173d7d1582dad"
@@ -2291,9 +2280,9 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
-        "name": "",
-        "order": 10,
-        "width": 5,
+        "name": "Ventilador",
+        "order": 2,
+        "width": 4,
         "height": 3,
         "format": "<style>\n  .state-container {\n    text-align: center;\n    margin: 20px;\n  }\n\n  .state-image {\n    width: 75px;\n    height: auto;\n  }\n\n  .state-text {\n    font-size: 10px;\n    font-weight: bold;\n    margin-top: 10px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Template de cambio de estado\n\n -->\n<div class=\"state-container\">\n  <img style=\"display: block; margin: auto;\"\n    ng-src=\"{{state ? 'https://i.pinimg.com/originals/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.gif' : 'https://i.pinimg.com/236x/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.jpg'}}\"\n    alt=\"Estado\"\n    class=\"state-image\"\n  />\n   <p class=\"state-text\">\n    {{state ? ' ESTANO NORMAL  CONCENTRACION EN PPM: '+ msg.payload.concentracion : 'ESTO CRÍTICO CONCENTRACION EN PPM:'+ msg.payload.concentracion}}\n  </p>\n \n</div>\n\n<script>\n  (function (scope) {\n    // Inicializamos el estado por defecto\n    scope.state = false;\n\n    // Observamos el mensaje entrante\n    scope.$watch('msg', function (msg) {\n      if (msg && msg.payload.estado !== undefined) {\n        scope.state = msg.payload.estado; // Sincronizamos el estado con el payload\n      }\n    });\n  })(scope);\n</script>\n",
         "storeOutMessages": true,
@@ -2301,7 +2290,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1180,
+        "x": 1100,
         "y": 720,
         "wires": [
             []
@@ -2314,10 +2303,10 @@
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "name": "IMAGEN TANQUE GAS",
-        "order": 7,
-        "width": 5,
+        "order": 9,
+        "width": 4,
         "height": 3,
-        "format": "<!-- <div ng-bind-html=\"msg.payload\"></div> -->\n<!-- <div styles=\"margin: 0\"> -->\n<img src=\"https://tatsa.mx/wp-content/uploads/2023/01/tanques-de-carburacio204129n-02.webp\"\n     style=\"display: block; margin: auto;\"><!-- </div> -->",
+        "format": "<img src=\"https://tatsa.mx/wp-content/uploads/2023/01/tanques-de-carburacio204129n-02.webp\"\n     style=\"display: block; margin: auto;\">\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -2435,7 +2424,7 @@
         "topic": "",
         "payload": "false",
         "payloadType": "bool",
-        "x": 920,
+        "x": 860,
         "y": 160,
         "wires": [
             [
@@ -2473,17 +2462,17 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
-        "name": "",
-        "order": 6,
-        "width": 0,
-        "height": 0,
+        "name": "Alerta fuga gas tanque cerrado",
+        "order": 7,
+        "width": 1,
+        "height": 1,
         "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Contenedor opcional si lo usas en Dashboard -->\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function(scope) {\n  scope.$watch('msg', function(msg) {\n    if (!msg) return;\n\n    // Asegúrate de que msg.flow tenga datos válidos\n    //const ciudad = flow.get(\"datosCiudad1\") || 'Ubicación desconocida';\n    //console.log(ciudad);\n    //const ciudad = 'Ubicación desconocida';\n    const ciudad = msg.ciudad\n \n\n    Swal.fire({\n      title: \"¡Fuga de Gas Detectada!\",\n      text: \"Se ha detectado una fuga de gas en: \" + ciudad.nombre +\n        \". Tome precauciones inmediatas.\\nPor su seguridad se activará la ventilación al máximo y se cerrará la válvula de suministro.\",\n      icon: \"error\",\n      confirmButtonText: \"Entendido\",\n      confirmButtonColor: \"#ff0000\"\n    });\n  });\n})(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1980,
+        "x": 1850,
         "y": 480,
         "wires": [
             []
@@ -2530,7 +2519,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1960,
+        "x": 1900,
         "y": 420,
         "wires": [
             [
