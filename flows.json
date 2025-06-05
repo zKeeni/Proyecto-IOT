@@ -104,7 +104,6 @@
             "b98b3653f9dbb8f8",
             "afbf9c4d79d0185c",
             "689c5ff4468693e8",
-            "0ad30251fa78784a",
             "902b1c8a928ffe6a",
             "02899c84331de550",
             "2abda30277bd5535",
@@ -116,7 +115,8 @@
             "662d9e463741798e",
             "aef2b33a57ae564e",
             "98258f222ce807e5",
-            "c022c5cd2337e7fa"
+            "c022c5cd2337e7fa",
+            "0ad30251fa78784a"
         ],
         "x": 174,
         "y": 259,
@@ -144,8 +144,8 @@
             "7b947fe869622745",
             "d311c769d7924cd1"
         ],
-        "x": 194,
-        "y": 699,
+        "x": 54,
+        "y": 879,
         "w": 1212,
         "h": 162
     },
@@ -163,12 +163,13 @@
             "63f76027b3399f33",
             "7da0fb93c70ecbc9",
             "1a601e7a6d191818",
-            "f813178647af73dd"
+            "f813178647af73dd",
+            "12478f6e258b997f"
         ],
         "x": 2094,
-        "y": 99,
+        "y": 159,
         "w": 572,
-        "h": 182
+        "h": 202
     },
     {
         "id": "3e6e56dcfdf5ebfb",
@@ -442,7 +443,7 @@
         "collapse": false
     },
     {
-        "id": "14a4a8617d2fe96a",
+        "id": "8e3617f26bfad9cf",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -452,17 +453,47 @@
         "height": 1
     },
     {
-        "id": "c823fa6c9142b40e",
+        "id": "6061d1a2b8dd2d6e",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "25728a1daa1c705d",
+        "order": 7,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "9ca7c4a3e3dc95f2",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "25728a1daa1c705d",
+        "order": 8,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "0d6452c8aa76375e",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "25728a1daa1c705d",
         "order": 9,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "68f9d513303032d9",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "25728a1daa1c705d",
+        "order": 11,
         "width": 11,
         "height": 1
     },
     {
-        "id": "d0ac2d9f9c11e130",
+        "id": "d5c6164d827e072b",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -472,7 +503,7 @@
         "height": 1
     },
     {
-        "id": "4d983a71e59032f1",
+        "id": "6fe6d6555cabb8f8",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -482,7 +513,7 @@
         "height": 1
     },
     {
-        "id": "0b60edf203eb7e3e",
+        "id": "acf89c94ca81fcde",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -492,7 +523,7 @@
         "height": 1
     },
     {
-        "id": "f51bed694b36f89a",
+        "id": "b9c8434916613c52",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -502,7 +533,7 @@
         "height": 1
     },
     {
-        "id": "872367bff62960fb",
+        "id": "cd356e74a83bc5e0",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -512,7 +543,7 @@
         "height": 1
     },
     {
-        "id": "f4b634258a52151b",
+        "id": "b457901d88662727",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -522,7 +553,7 @@
         "height": 1
     },
     {
-        "id": "69a405d818af251c",
+        "id": "4afef94aad773f46",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -532,7 +563,7 @@
         "height": 1
     },
     {
-        "id": "953da824864757ef",
+        "id": "a4ce21e5685496d2",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -542,7 +573,7 @@
         "height": 1
     },
     {
-        "id": "23f35fd11df4aeec",
+        "id": "e31afed60a6ab107",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -1182,7 +1213,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "NIVELES ",
         "group": "25728a1daa1c705d",
-        "order": 5,
+        "order": 4,
         "width": 3,
         "height": 3,
         "gtype": "wave",
@@ -1211,7 +1242,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "PRESION",
         "group": "25728a1daa1c705d",
-        "order": 6,
+        "order": 5,
         "width": 3,
         "height": 3,
         "gtype": "gage",
@@ -1268,8 +1299,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 340,
-        "y": 780,
+        "x": 200,
+        "y": 960,
         "wires": [
             [
                 "9aa6665478ba486b"
@@ -1304,8 +1335,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 550,
-        "y": 780,
+        "x": 410,
+        "y": 960,
         "wires": [
             [
                 "812ecef174a9686f"
@@ -1338,8 +1369,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 710,
-        "y": 780,
+        "x": 570,
+        "y": 960,
         "wires": [
             [
                 "dbcef5dc4b83f9dd"
@@ -1366,8 +1397,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 710,
-        "y": 820,
+        "x": 570,
+        "y": 1000,
         "wires": [
             [
                 "dbcef5dc4b83f9dd"
@@ -1394,8 +1425,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 710,
-        "y": 740,
+        "x": 570,
+        "y": 920,
         "wires": [
             [
                 "dbcef5dc4b83f9dd"
@@ -1424,8 +1455,8 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 890,
-        "y": 780,
+        "x": 750,
+        "y": 960,
         "wires": [
             [
                 "83def08cd58251da",
@@ -1459,8 +1490,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1320,
-        "y": 740,
+        "x": 1180,
+        "y": 920,
         "wires": []
     },
     {
@@ -1488,8 +1519,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1320,
-        "y": 780,
+        "x": 1180,
+        "y": 960,
         "wires": []
     },
     {
@@ -1524,8 +1555,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1140,
-        "y": 820,
+        "x": 1000,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -1543,8 +1574,8 @@
         "round": false,
         "property": "payload.presion",
         "name": "",
-        "x": 1130,
-        "y": 740,
+        "x": 990,
+        "y": 920,
         "wires": [
             [
                 "79e311249fd5b2e1"
@@ -1603,7 +1634,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "",
         "group": "25728a1daa1c705d",
-        "order": 7,
+        "order": 6,
         "width": 4,
         "height": 3,
         "label": "Historial de consumo",
@@ -1680,8 +1711,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1330,
-        "y": 820,
+        "x": 1190,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -1702,7 +1733,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 600,
+        "x": 560,
         "y": 560,
         "wires": [
             []
@@ -1713,7 +1744,7 @@
         "type": "switch",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
-        "name": "Estado del tanque",
+        "name": "",
         "property": "payload",
         "propertyType": "msg",
         "rules": [
@@ -1770,7 +1801,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
-        "order": 8,
+        "order": 10,
         "width": 4,
         "height": 1,
         "name": "",
@@ -1891,7 +1922,7 @@
         "to": "",
         "reg": false,
         "x": 1440,
-        "y": 520,
+        "y": 540,
         "wires": [
             [
                 "02899c84331de550"
@@ -1916,31 +1947,6 @@
         "x": 1540,
         "y": 300,
         "wires": []
-    },
-    {
-        "id": "98258f222ce807e5",
-        "type": "ui_template",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "group": "25728a1daa1c705d",
-        "name": "Switch valvula",
-        "order": 2,
-        "width": 3,
-        "height": 2,
-        "format": "<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-warning {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .valve-container {\n    text-align: center;\n    cursor: pointer;\n  }\n\n  .valve-image {\n    width: 50px;\n    height: 50px;\n  }\n\n  .valve-text {\n    font-size: 16px;\n    font-weight: bold;\n    margin-top: 8px;\n  }\n\n  .valve-open {\n    color: green;\n  }\n\n  .valve-closed {\n    color: red;\n  }\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? 'https://cdn-icons-png.freepik.com/512/406/406977.png?ga=GA1.1.431446104.1747788654' : ' https://cdn-icons-png.freepik.com/512/2266/2266310.png?ga=GA1.1.431446104.1747788654'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = false;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n      }\n    });\n  })(scope);\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 1140,
-        "y": 380,
-        "wires": [
-            [
-                "57cc4b3fec6bccff"
-            ]
-        ],
-        "icon": "node-red-dashboard/ui_switch.png"
     },
     {
         "id": "68238b8109beea8f",
@@ -2062,34 +2068,6 @@
         ]
     },
     {
-        "id": "517efacade9bcf8a",
-        "type": "inject",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 910,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "aef2b33a57ae564e",
         "type": "link out",
         "z": "ed84d3e070727412",
@@ -2143,6 +2121,66 @@
             ]
         ],
         "icon": "node-red-dashboard/ui_switch.png"
+    },
+    {
+        "id": "4867fd6968c7b4e5",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "group": "25728a1daa1c705d",
+        "name": "",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Componente de alerta -->\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function (scope) {\n    let lastPayload = null; // Variable para almacenar el último valor recibido\n    let alertActive = false; // Estado de la alerta activa\n\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== lastPayload) {\n        lastPayload = msg.payload; // Actualiza el último valor recibido\n\n        if (msg.payload === true && !alertActive) {\n          alertActive = true;\n          Swal.fire({\n            title: \"¡Fuga de Gas Detectada!\",\n            text: \"Se ha detectado una posible fuga de gas. Tome precauciones inmediatas.\",\n            icon: \"error\",\n            confirmButtonText: \"Entendido\",\n            confirmButtonColor: \"#ff0000\",\n          }).then(() => {\n            scope.send({ payload: true });\n            alertActive = false; // Reinicia el estado de alerta después de cerrar\n          });\n        }\n      }\n    });\n  })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1180,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1de5cf89f6460d70",
+        "type": "mqtt in",
+        "z": "ed84d3e070727412",
+        "name": "",
+        "topic": "admin123/punto1/sensores/fuga",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3e6e56dcfdf5ebfb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 810,
+        "y": 740,
+        "wires": [
+            [
+                "4867fd6968c7b4e5",
+                "c6900ac354371415"
+            ]
+        ]
+    },
+    {
+        "id": "c6900ac354371415",
+        "type": "debug",
+        "z": "ed84d3e070727412",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 800,
+        "wires": []
     },
     {
         "id": "a650bf9d83e4ec4a",
@@ -3065,9 +3103,7 @@
                 "vt": "str"
             },
             {
-                "p": "true",
-                "v": "",
-                "vt": "str"
+                "p": "payload"
             }
         ],
         "repeat": "",
@@ -3075,8 +3111,10 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "admin123/punto1/sensores/fuga",
+        "payload": "true",
+        "payloadType": "bool",
         "x": 2280,
-        "y": 160,
+        "y": 200,
         "wires": [
             [
                 "e9174388a10ad829"
@@ -3099,7 +3137,7 @@
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
         "x": 2590,
-        "y": 140,
+        "y": 200,
         "wires": []
     },
     {
@@ -3125,7 +3163,7 @@
         "onceDelay": 0.1,
         "topic": "admin123/punto2/sensores/fuga",
         "x": 2280,
-        "y": 200,
+        "y": 280,
         "wires": [
             [
                 "7da0fb93c70ecbc9"
@@ -3148,7 +3186,7 @@
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
         "x": 2590,
-        "y": 180,
+        "y": 260,
         "wires": []
     },
     {
@@ -3174,7 +3212,7 @@
         "onceDelay": 0.1,
         "topic": "admin123/punto3/sensores/fuga",
         "x": 2280,
-        "y": 240,
+        "y": 320,
         "wires": [
             [
                 "f813178647af73dd"
@@ -3197,8 +3235,38 @@
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
         "x": 2590,
-        "y": 220,
+        "y": 300,
         "wires": []
+    },
+    {
+        "id": "12478f6e258b997f",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "1db8133a62cab60c",
+        "name": "SIMULAR FUGA DE GAS PUNTO 1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "admin123/punto1/sensores/fuga",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 2320,
+        "y": 240,
+        "wires": [
+            [
+                "e9174388a10ad829"
+            ]
+        ]
     },
     {
         "id": "5be65dbce585fe33",
