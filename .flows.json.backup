@@ -140,7 +140,6 @@
             "94a20f8c52bf66e3",
             "9439d99e468635cf",
             "ad12f1451bc31dda",
-            "c10ff95acd99fd8c",
             "891da69baaef99e8",
             "c022c5cd2337e7fa",
             "1cace0f5ab7337a9",
@@ -149,7 +148,7 @@
         "x": 74,
         "y": 439,
         "w": 1972,
-        "h": 562
+        "h": 542
     },
     {
         "id": "1db8133a62cab60c",
@@ -190,7 +189,7 @@
         ],
         "x": 74,
         "y": 319,
-        "w": 912,
+        "w": 872,
         "h": 82
     },
     {
@@ -341,39 +340,6 @@
         "hidden": false
     },
     {
-        "id": "7a0943956e535e2d",
-        "type": "ui_group",
-        "name": "OPCIONES",
-        "tab": "",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": true,
-        "className": ""
-    },
-    {
-        "id": "6a6b371b335c1959",
-        "type": "ui_group",
-        "name": "cabecera",
-        "tab": "",
-        "order": 1,
-        "disp": false,
-        "width": 25,
-        "collapse": false,
-        "className": "ui-card-panel {         background-color: trasparent ;         border-radius: 10px !important;     }"
-    },
-    {
-        "id": "37da77f10cb455eb",
-        "type": "ui_group",
-        "name": "Historial de consumo",
-        "tab": "",
-        "order": 5,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "d783cb980c3979fc",
         "type": "ui_group",
         "name": "Demo",
@@ -382,28 +348,6 @@
         "disp": true,
         "width": "6",
         "collapse": false
-    },
-    {
-        "id": "82f7a40d18a81935",
-        "type": "ui_group",
-        "name": "Consumo (%)",
-        "tab": "",
-        "order": 3,
-        "disp": true,
-        "width": 6,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "939f7c9fc17ab209",
-        "type": "ui_group",
-        "name": "Presion (PSI)",
-        "tab": "",
-        "order": 4,
-        "disp": true,
-        "width": 6,
-        "collapse": false,
-        "className": ""
     },
     {
         "id": "c8562f8666449872",
@@ -670,7 +614,7 @@
         "name": "Machala norte",
         "tab": "778525b5c804be1f",
         "order": 2,
-        "disp": true,
+        "disp": false,
         "width": 16,
         "collapse": false,
         "className": ""
@@ -682,7 +626,7 @@
         "tab": "778525b5c804be1f",
         "order": 1,
         "disp": true,
-        "width": 15,
+        "width": 12,
         "collapse": false,
         "className": ""
     },
@@ -867,63 +811,84 @@
         "height": 1
     },
     {
-        "id": "27677f23f8df831d",
+        "id": "2cc601547f7522ff",
+        "type": "ui_group",
+        "name": "Fecha y hora",
+        "tab": "778525b5c804be1f",
+        "order": 4,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b2561a8887615bcc",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "d6a565f559b0906a",
-        "order": 2,
-        "width": 4,
+        "order": 6,
+        "width": 16,
         "height": 1
     },
     {
-        "id": "7271be749affb194",
+        "id": "14f1db501c1fb187",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "d6a565f559b0906a",
+        "order": 7,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "e3404359cdd5c6b6",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "d6a565f559b0906a",
         "order": 8,
-        "width": 7,
+        "width": 16,
         "height": 1
     },
     {
-        "id": "b3b91335f099aa5c",
+        "id": "6a6da31eff8c41a9",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "d6a565f559b0906a",
         "order": 9,
-        "width": 10,
+        "width": 5,
         "height": 1
     },
     {
-        "id": "dfb123e373f8a6e1",
+        "id": "b222566cb13c7f99",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "d6a565f559b0906a",
-        "order": 10,
-        "width": 14,
+        "order": 12,
+        "width": 2,
         "height": 1
     },
     {
-        "id": "b4bd2d7049191e2d",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "d6a565f559b0906a",
-        "order": 11,
-        "width": 10,
-        "height": 1
-    },
-    {
-        "id": "15cf5a9412397e71",
+        "id": "10aa4704356db270",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "d6a565f559b0906a",
         "order": 15,
-        "width": 6,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "98f9a6670b471fb1",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "d6a565f559b0906a",
+        "order": 16,
+        "width": 5,
         "height": 1
     },
     {
@@ -931,7 +896,7 @@
         "type": "function",
         "z": "ed84d3e070727412",
         "name": "obtenerHora",
-        "func": "var fecha = new Date();\n\n\nmsg.hora = fecha.toLocaleTimeString(\"es-ES\", {\n    hour: '2-digit',\n    minute: '2-digit',\n    second: '2-digit'\n});\n\nreturn msg;",
+        "func": "var fecha = new Date();\n\nmsg.hora = fecha.toLocaleTimeString(\"es-ES\", {\n    hour: '2-digit',\n    minute: '2-digit',\n    second: '2-digit'\n});\n\nmsg.topic = \"hora\";\nmsg.payload = msg.hora;\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -942,30 +907,10 @@
         "y": 20,
         "wires": [
             [
-                "9294c868009b30c5"
+                "a5162c4aa79f7f5a",
+                "11a921e2f9af2660"
             ]
         ]
-    },
-    {
-        "id": "b9298c58ae924471",
-        "type": "ui_text",
-        "z": "ed84d3e070727412",
-        "group": "7a0943956e535e2d",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "fecha",
-        "label": "Fecha:",
-        "format": "{{msg.fecha}}",
-        "layout": "row-left",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": "20",
-        "color": "#000000",
-        "x": 1470,
-        "y": 60,
-        "wires": []
     },
     {
         "id": "22d03304d1339daa",
@@ -995,27 +940,6 @@
                 "957883066be49def"
             ]
         ]
-    },
-    {
-        "id": "9294c868009b30c5",
-        "type": "ui_text",
-        "z": "ed84d3e070727412",
-        "group": "7a0943956e535e2d",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "name": "hora",
-        "label": "Hora:",
-        "format": "{{msg.hora}}",
-        "layout": "row-left",
-        "className": "label-bold",
-        "style": false,
-        "font": "Arial,Arial,Helvetica,sans-serif",
-        "fontSize": "20",
-        "color": "#000000",
-        "x": 1470,
-        "y": 20,
-        "wires": []
     },
     {
         "id": "e404673525a72701",
@@ -1051,7 +975,7 @@
         "type": "function",
         "z": "ed84d3e070727412",
         "name": "obtenerFecha",
-        "func": "var fecha = new Date();\n\nmsg.fecha = fecha.toLocaleDateString(\"es-ES\", { weekday: \"long\", year: \"numeric\", month: \"long\", day: \"numeric\" });\n\n\nreturn msg;",
+        "func": "var fecha = new Date();\n\nmsg.fecha = fecha.toLocaleDateString(\"es-ES\", {\n    weekday: \"long\",\n    year: \"numeric\",\n    month: \"long\",\n    day: \"numeric\"\n});\n\nmsg.topic = \"fecha\";\nmsg.payload = msg.fecha;\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1062,7 +986,8 @@
         "y": 60,
         "wires": [
             [
-                "b9298c58ae924471"
+                "a5162c4aa79f7f5a",
+                "10c7e9c325f823ac"
             ]
         ]
     },
@@ -1070,7 +995,7 @@
         "id": "7cf930cb2bae9f90",
         "type": "ui_text",
         "z": "ed84d3e070727412",
-        "group": "6a6b371b335c1959",
+        "group": "",
         "order": 1,
         "width": 0,
         "height": 0,
@@ -1194,7 +1119,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "NIVELES ",
         "group": "d6a565f559b0906a",
-        "order": 13,
+        "order": 4,
         "width": 5,
         "height": 3,
         "gtype": "wave",
@@ -1223,7 +1148,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "PRESION",
         "group": "d6a565f559b0906a",
-        "order": 14,
+        "order": 5,
         "width": 5,
         "height": 3,
         "gtype": "gage",
@@ -1273,18 +1198,18 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "order": 1,
-        "width": 6,
+        "width": 13,
         "height": 1,
         "name": "",
         "label": "",
         "format": "{{msg.payload.nombre}}",
         "layout": "row-left",
         "className": "",
-        "style": false,
+        "style": true,
         "font": "",
-        "fontSize": 16,
+        "fontSize": "20",
         "color": "#000000",
-        "x": 650,
+        "x": 670,
         "y": 640,
         "wires": []
     },
@@ -1419,13 +1344,13 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
-        "order": 7,
+        "order": 2,
         "width": 3,
         "height": 1,
         "name": "",
         "label": "Estado:",
         "format": "{{msg.payload}}",
-        "layout": "row-left",
+        "layout": "row-right",
         "className": "",
         "style": false,
         "font": "",
@@ -1573,9 +1498,9 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Switch valvula",
-        "order": 6,
-        "width": 2,
-        "height": 3,
+        "order": 10,
+        "width": 3,
+        "height": 2,
         "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\ndisplay: block; /* Añadido para centrar */\nmargin: 0 auto; /* Añadido para centrar */\nwidth: 50px;\nheight: 50px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: green;\n}\n\n.valve-closed {\ncolor: red;\n}\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? 'https://cdn-icons-png.freepik.com/512/406/406977.png?ga=GA1.1.431446104.1747788654' : 'https://cdn-icons-png.freepik.com/512/2266/2266310.png?ga=GA1.1.431446104.1747788654'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n          scope.send({ topic: \"valvula\", payload: scope.switchState }); // nuevo: para guardar en el flow\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -1870,7 +1795,7 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Notificacion fuga gas sensor ambiente",
-        "order": 4,
+        "order": 14,
         "width": 1,
         "height": 1,
         "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Componente de alerta -->\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function (scope) {\n    let lastPayload = null; // Variable para almacenar el último valor recibido\n    let alertActive = false; // Estado de la alerta activa\n\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload.estado !== lastPayload) {\n        lastPayload = msg.payload.estado; // Actualiza el último valor recibido\n\n        if (msg.payload.estado === true && !alertActive) {\n          alertActive = true;\n          Swal.fire({\n            title: \"¡Fuga de Gas Detectada!\",\n            text: \"Se ha detectado una fuga de gas en: \"+  msg.ciudad.nombre +  \". Tome precauciones inmediatas. +\\n + Por su seguridad se activara la ventilacion al maximo y se cerrara la valvula de suministro\",\n            icon: \"error\",\n            confirmButtonText: \"Entendido\",\n            confirmButtonColor: \"#ff0000\",\n          }).then(() => {\n            scope.send({ payload: true });\n            alertActive = false; // Reinicia el estado de alerta después de cerrar\n          });\n        }\n      }\n    });\n  })(scope);\n</script>",
@@ -1947,17 +1872,17 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Ventilador",
-        "order": 5,
-        "width": 4,
-        "height": 3,
-        "format": "<style>\n  .state-container {\n    text-align: center;\n    margin: 20px;\n  }\n\n  .state-image {\n    width: 75px;\n    height: auto;\n  }\n\n  .state-text {\n    font-size: 10px;\n    font-weight: bold;\n    margin-top: 10px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Template de cambio de estado\n\n -->\n<div class=\"state-container\">\n  <img style=\"display: block; margin: auto;\"\n    ng-src=\"{{state ? 'https://i.pinimg.com/originals/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.gif' : 'https://i.pinimg.com/236x/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.jpg'}}\"\n    alt=\"Estado\"\n    class=\"state-image\"\n  />\n   <p class=\"state-text\">\n    {{state ? ' ESTANO NORMAL  CONCENTRACION EN PPM: '+ msg.payload.concentracion : 'ESTO CRÍTICO CONCENTRACION EN PPM:'+ msg.payload.concentracion}}\n  </p>\n \n</div>\n\n<script>\n  (function (scope) {\n    // Inicializamos el estado por defecto\n    scope.state = false;\n\n    // Observamos el mensaje entrante\n    scope.$watch('msg', function (msg) {\n      if (msg && msg.payload.estado !== undefined) {\n        scope.state = msg.payload.estado; // Sincronizamos el estado con el payload\n      }\n    });\n  })(scope);\n</script>\n",
+        "order": 11,
+        "width": 3,
+        "height": 2,
+        "format": "<style>\n  .state-container {\n    text-align: center;\n    margin: 20px;\n  }\n\n  .state-image {\n    width: 75px;\n    height: auto;\n  }\n\n  .state-text {\n    font-size: 10px;\n    font-weight: bold;\n    margin-top: 10px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Template de cambio de estado\n\n -->\n<div class=\"state-container\">\n  <img style=\"display: block; margin: auto;\"\n    ng-src=\"{{state ? 'https://i.pinimg.com/originals/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.gif' : 'https://i.pinimg.com/236x/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.jpg'}}\"\n    alt=\"Estado\"\n    class=\"state-image\"\n  />\n  <p class=\"state-text\">\n    {{state ? ' ESTANO NORMAL CONCENTRACION EN PPM: '+ msg.payload.concentracion : 'ESTO CRÍTICO CONCENTRACION EN PPM:'+\n    msg.payload.concentracion}}\n  </p>\n\n</div>\n\n<script>\n  (function (scope) {\n    // Inicializamos el estado por defecto\n    scope.state = false;\n\n    // Observamos el mensaje entrante\n    scope.$watch('msg', function (msg) {\n      if (msg && msg.payload.estado !== undefined) {\n        scope.state = msg.payload.estado; // Sincronizamos el estado con el payload\n      }\n    });\n  })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1060,
-        "y": 920,
+        "x": 1040,
+        "y": 940,
         "wires": [
             []
         ]
@@ -1969,7 +1894,7 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "IMAGEN TANQUE GAS",
-        "order": 12,
+        "order": 3,
         "width": 6,
         "height": 3,
         "format": "<img src=\"https://tatsa.mx/wp-content/uploads/2023/01/tanques-de-carburacio204129n-02.webp\"\n     style=\"display: block; margin: auto;\">\n",
@@ -2011,28 +1936,9 @@
         "y": 940,
         "wires": [
             [
-                "1cace0f5ab7337a9",
-                "c10ff95acd99fd8c"
+                "1cace0f5ab7337a9"
             ]
         ]
-    },
-    {
-        "id": "c10ff95acd99fd8c",
-        "type": "debug",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1060,
-        "y": 960,
-        "wires": []
     },
     {
         "id": "eb1d5441a5493e8d",
@@ -2131,8 +2037,8 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Alerta fuga gas tanque cerrado",
-        "order": 3,
-        "width": 1,
+        "order": 13,
+        "width": 2,
         "height": 1,
         "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Contenedor opcional si lo usas en Dashboard -->\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function(scope) {\n  scope.$watch('msg', function(msg) {\n    if (!msg) return;\n\n    // Asegúrate de que msg.flow tenga datos válidos\n    //const ciudad = flow.get(\"datosCiudad1\") || 'Ubicación desconocida';\n    //console.log(ciudad);\n    //const ciudad = 'Ubicación desconocida';\n    const ciudad = msg.ciudad\n \n\n    Swal.fire({\n      title: \"¡Fuga de Gas Detectada!\",\n      text: \"Se ha detectado una fuga de gas en: \" + ciudad.nombre +\n        \". Tome precauciones inmediatas.\\nPor su seguridad se activará la ventilación al máximo y se cerrará la válvula de suministro.\",\n      icon: \"error\",\n      confirmButtonText: \"Entendido\",\n      confirmButtonColor: \"#ff0000\"\n    });\n  });\n})(scope);\n</script>",
         "storeOutMessages": true,
@@ -2166,7 +2072,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 460,
+        "x": 480,
         "y": 640,
         "wires": [
             [
@@ -2297,7 +2203,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
+        "x": 690,
         "y": 360,
         "wires": [
             [
@@ -2321,11 +2227,113 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 910,
+        "x": 870,
         "y": 360,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "d7b57c5759641909",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "group": "2cc601547f7522ff",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .clock-widget{\n        text-align: center;\n        font-family: 'Segoe UI', sans-serif;\n        color: #fff;\n    }\n    .clock-widget .fecha {\n        font-size: 14px;\n        color: #ccc;\n        margin-bottom: 8px;\n    }\n\n    .clock-widget .hora {\n        font-size: 32px;\n        font-weight: bold;\n        color: #ffa500;\n    }\n</style>\n\n<div class=\"clock-widget\">\n    <div class=\"fecha\">{{msg.payload.fecha}}</div>\n    <div class=\"hora\">{{msg.payload.hora}}</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1520,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a5162c4aa79f7f5a",
+        "type": "join",
+        "z": "ed84d3e070727412",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1350,
+        "y": 160,
+        "wires": [
+            [
+                "d7b57c5759641909",
+                "8f503a2b66d02a1b"
+            ]
+        ]
+    },
+    {
+        "id": "8f503a2b66d02a1b",
+        "type": "debug",
+        "z": "ed84d3e070727412",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1500,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "11a921e2f9af2660",
+        "type": "debug",
+        "z": "ed84d3e070727412",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "10c7e9c325f823ac",
+        "type": "debug",
+        "z": "ed84d3e070727412",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 100,
+        "wires": []
     },
     {
         "id": "a650bf9d83e4ec4a",
