@@ -49,8 +49,7 @@
             "8565c56ba519a0be",
             "31b8113f5e28d529",
             "d756e4ac2a0679d1",
-            "14c265f16e9267eb",
-            "50afd0bd8a44f86f"
+            "14c265f16e9267eb"
         ],
         "x": 54,
         "y": 39,
@@ -112,12 +111,11 @@
             "1b5d8b8a0c3b7e77",
             "bed00d5bd4b1128d",
             "57cc4b3fec6bccff",
-            "98258f222ce807e5",
             "00f14f57bbaec306",
             "3687ee3b09b52dd2",
             "662d9e463741798e",
-            "517efacade9bcf8a",
-            "aef2b33a57ae564e"
+            "aef2b33a57ae564e",
+            "98258f222ce807e5"
         ],
         "x": 34,
         "y": 339,
@@ -2100,6 +2098,31 @@
         ]
     },
     {
+        "id": "98258f222ce807e5",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "25728a1daa1c705d",
+        "name": "Switch valvula",
+        "order": 2,
+        "width": 3,
+        "height": 2,
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-warning {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .valve-container {\n    text-align: center;\n    cursor: pointer;\n  }\n\n  .valve-image {\n    width: 50px;\n    height: 50px;\n  }\n\n  .valve-text {\n    font-size: 16px;\n    font-weight: bold;\n    margin-top: 8px;\n  }\n\n  .valve-open {\n    color: green;\n  }\n\n  .valve-closed {\n    color: red;\n  }\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? 'https://cdn-icons-png.freepik.com/512/406/406977.png?ga=GA1.1.431446104.1747788654' : ' https://cdn-icons-png.freepik.com/512/2266/2266310.png?ga=GA1.1.431446104.1747788654'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n      }\n    });\n  })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1160,
+        "y": 400,
+        "wires": [
+            [
+                "57cc4b3fec6bccff"
+            ]
+        ],
+        "icon": "node-red-dashboard/ui_switch.png"
+    },
+    {
         "id": "a650bf9d83e4ec4a",
         "type": "mqtt out",
         "z": "74273795d1e74a6e",
@@ -2891,8 +2914,7 @@
         "y": 360,
         "wires": [
             [
-                "8565c56ba519a0be",
-                "50afd0bd8a44f86f"
+                "8565c56ba519a0be"
             ]
         ]
     },
@@ -3008,24 +3030,6 @@
                 "037577b4694f7516"
             ]
         ]
-    },
-    {
-        "id": "50afd0bd8a44f86f",
-        "type": "debug",
-        "z": "74273795d1e74a6e",
-        "g": "969d8996b0110f16",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 320,
-        "y": 260,
-        "wires": []
     },
     {
         "id": "5be65dbce585fe33",
