@@ -52,9 +52,9 @@
             "14c265f16e9267eb",
             "6e84991db96a8aeb"
         ],
-        "x": 714,
-        "y": 59,
-        "w": 1872,
+        "x": 54,
+        "y": 139,
+        "w": 1992,
         "h": 422
     },
     {
@@ -81,8 +81,8 @@
             "6df59d79c3837f81",
             "5a73e1dbc78a0981"
         ],
-        "x": 14,
-        "y": 639,
+        "x": 254,
+        "y": 859,
         "w": 1292,
         "h": 302
     },
@@ -123,12 +123,17 @@
             "8339172ce95d2620",
             "5211150b44ba8d87",
             "8b6afcd9f5ab4582",
-            "e317e42ec2300f1c"
+            "e317e42ec2300f1c",
+            "3c6173d7d1582dad",
+            "fbefe42c368dc1b5",
+            "4867fd6968c7b4e5",
+            "0ad30251fa78784a",
+            "b1a718579ce91be6"
         ],
-        "x": 174,
-        "y": 19,
-        "w": 1752,
-        "h": 602
+        "x": 214,
+        "y": 119,
+        "w": 2012,
+        "h": 482
     },
     {
         "id": "c97e8c04f9d3064f",
@@ -170,12 +175,13 @@
             "63f76027b3399f33",
             "7da0fb93c70ecbc9",
             "1a601e7a6d191818",
-            "f813178647af73dd"
+            "f813178647af73dd",
+            "e53014b8fc5a1fc2"
         ],
-        "x": 2094,
-        "y": 119,
+        "x": 74,
+        "y": 579,
         "w": 512,
-        "h": 162
+        "h": 242
     },
     {
         "id": "3e6e56dcfdf5ebfb",
@@ -362,7 +368,7 @@
         "tab": "778525b5c804be1f",
         "order": 1,
         "disp": false,
-        "width": 15,
+        "width": 13,
         "collapse": false,
         "className": "contenedor1"
     },
@@ -427,7 +433,7 @@
         "tab": "778525b5c804be1f",
         "order": 2,
         "disp": true,
-        "width": 5,
+        "width": 4,
         "collapse": false,
         "className": ""
     },
@@ -449,57 +455,37 @@
         "collapse": false
     },
     {
-        "id": "8e3617f26bfad9cf",
+        "id": "d6fc6dd6e417f72b",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "25728a1daa1c705d",
         "order": 3,
-        "width": 12,
+        "width": 1,
         "height": 1
     },
     {
-        "id": "6061d1a2b8dd2d6e",
+        "id": "c9dc42d166b61c92",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "25728a1daa1c705d",
-        "order": 7,
-        "width": 5,
+        "order": 5,
+        "width": 7,
         "height": 1
     },
     {
-        "id": "9ca7c4a3e3dc95f2",
+        "id": "5f44c725052048db",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "25728a1daa1c705d",
-        "order": 8,
-        "width": 5,
+        "order": 12,
+        "width": 8,
         "height": 1
     },
     {
-        "id": "0d6452c8aa76375e",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "25728a1daa1c705d",
-        "order": 9,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "68f9d513303032d9",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "25728a1daa1c705d",
-        "order": 11,
-        "width": 11,
-        "height": 1
-    },
-    {
-        "id": "d5c6164d827e072b",
+        "id": "43cd78ceac821a76",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -509,7 +495,7 @@
         "height": 1
     },
     {
-        "id": "6fe6d6555cabb8f8",
+        "id": "f4efbba984f89c01",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -519,7 +505,7 @@
         "height": 1
     },
     {
-        "id": "acf89c94ca81fcde",
+        "id": "57731d38e958805b",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -529,7 +515,7 @@
         "height": 1
     },
     {
-        "id": "b9c8434916613c52",
+        "id": "66a2500be83ff0a2",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -539,7 +525,7 @@
         "height": 1
     },
     {
-        "id": "cd356e74a83bc5e0",
+        "id": "cfc7368000b56f6c",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -549,7 +535,7 @@
         "height": 1
     },
     {
-        "id": "b457901d88662727",
+        "id": "453d94a57ec6209a",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -559,7 +545,7 @@
         "height": 1
     },
     {
-        "id": "4afef94aad773f46",
+        "id": "66326e5ccc76e8a9",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -569,7 +555,7 @@
         "height": 1
     },
     {
-        "id": "a4ce21e5685496d2",
+        "id": "d8d2dbb3cc482614",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -579,7 +565,7 @@
         "height": 1
     },
     {
-        "id": "e31afed60a6ab107",
+        "id": "86a9a6d635f28ccc",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -600,8 +586,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 100,
+        "x": 1170,
+        "y": 20,
         "wires": [
             [
                 "9294c868009b30c5"
@@ -625,8 +611,8 @@
         "font": "",
         "fontSize": "20",
         "color": "#000000",
-        "x": 650,
-        "y": 140,
+        "x": 1470,
+        "y": 60,
         "wires": []
     },
     {
@@ -650,8 +636,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 150,
-        "y": 100,
+        "x": 970,
+        "y": 20,
         "wires": [
             [
                 "957883066be49def"
@@ -675,8 +661,8 @@
         "font": "Arial,Arial,Helvetica,sans-serif",
         "fontSize": "20",
         "color": "#000000",
-        "x": 650,
-        "y": 100,
+        "x": 1470,
+        "y": 20,
         "wires": []
     },
     {
@@ -700,8 +686,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 150,
-        "y": 140,
+        "x": 970,
+        "y": 60,
         "wires": [
             [
                 "6a89e6ec70116b66"
@@ -720,8 +706,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 140,
+        "x": 1180,
+        "y": 60,
         "wires": [
             [
                 "b9298c58ae924471"
@@ -745,7 +731,7 @@
         "font": "",
         "fontSize": "26",
         "color": "#000000",
-        "x": 630,
+        "x": 670,
         "y": 40,
         "wires": []
     },
@@ -868,7 +854,7 @@
         "resendOnRefresh": false,
         "templateScope": "global",
         "className": "",
-        "x": 160,
+        "x": 300,
         "y": 40,
         "wires": [
             []
@@ -1104,8 +1090,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 340,
-        "y": 480,
+        "x": 380,
+        "y": 420,
         "wires": [
             [
                 "fe9ff1d4dc59e5bd"
@@ -1132,8 +1118,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 790,
-        "y": 420,
+        "x": 670,
+        "y": 340,
         "wires": [
             [
                 "afb71e2ddc111536",
@@ -1161,8 +1147,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 790,
-        "y": 480,
+        "x": 650,
+        "y": 420,
         "wires": [
             [
                 "689c5ff4468693e8"
@@ -1176,7 +1162,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "NIVELES ",
         "group": "25728a1daa1c705d",
-        "order": 4,
+        "order": 7,
         "width": 3,
         "height": 3,
         "gtype": "wave",
@@ -1194,8 +1180,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1160,
-        "y": 360,
+        "x": 1020,
+        "y": 240,
         "wires": []
     },
     {
@@ -1205,8 +1191,8 @@
         "g": "eca886a5d7cbed9d",
         "name": "PRESION",
         "group": "25728a1daa1c705d",
-        "order": 5,
-        "width": 3,
+        "order": 8,
+        "width": 5,
         "height": 3,
         "gtype": "gage",
         "title": "Presion",
@@ -1223,8 +1209,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1160,
-        "y": 400,
+        "x": 1120,
+        "y": 340,
         "wires": []
     },
     {
@@ -1240,8 +1226,8 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 990,
-        "y": 420,
+        "x": 850,
+        "y": 300,
         "wires": [
             [
                 "ab3cc78b737a790a"
@@ -1552,7 +1538,7 @@
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
         "order": 1,
-        "width": 12,
+        "width": 9,
         "height": 1,
         "name": "",
         "label": "",
@@ -1563,8 +1549,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 790,
-        "y": 380,
+        "x": 570,
+        "y": 260,
         "wires": []
     },
     {
@@ -1580,8 +1566,8 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 1000,
-        "y": 460,
+        "x": 860,
+        "y": 360,
         "wires": [
             [
                 "d81be35f7d46219d",
@@ -1598,8 +1584,8 @@
         "g": "eca886a5d7cbed9d",
         "name": "",
         "group": "25728a1daa1c705d",
-        "order": 6,
-        "width": 4,
+        "order": 9,
+        "width": 8,
         "height": 3,
         "label": "Historial de consumo",
         "chartType": "line",
@@ -1630,8 +1616,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 900,
-        "y": 580,
+        "x": 880,
+        "y": 420,
         "wires": [
             []
         ]
@@ -1682,28 +1668,6 @@
         ]
     },
     {
-        "id": "0ad30251fa78784a",
-        "type": "ui_template",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "group": "25728a1daa1c705d",
-        "name": "",
-        "order": 4,
-        "width": 5,
-        "height": 3,
-        "format": "<!-- <div ng-bind-html=\"msg.payload\"></div> -->\n<!-- <div styles=\"margin: 0\"> -->\n<img src=\"https://tatsa.mx/wp-content/uploads/2023/01/tanques-de-carburacio204129n-02.webp\"\n     style=\"display: block; margin: auto;\"><!-- </div> -->",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 560,
-        "y": 560,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "902b1c8a928ffe6a",
         "type": "switch",
         "z": "ed84d3e070727412",
@@ -1742,8 +1706,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 1190,
-        "y": 460,
+        "x": 1110,
+        "y": 400,
         "wires": [
             [
                 "2abda30277bd5535"
@@ -1765,8 +1729,8 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "25728a1daa1c705d",
-        "order": 10,
-        "width": 4,
+        "order": 11,
+        "width": 5,
         "height": 1,
         "name": "",
         "label": "Estado:",
@@ -1777,8 +1741,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1620,
-        "y": 440,
+        "x": 1700,
+        "y": 400,
         "wires": []
     },
     {
@@ -1801,8 +1765,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1430,
-        "y": 400,
+        "x": 1470,
+        "y": 340,
         "wires": [
             [
                 "02899c84331de550"
@@ -1829,8 +1793,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1430,
-        "y": 440,
+        "x": 1470,
+        "y": 380,
         "wires": [
             [
                 "02899c84331de550"
@@ -1857,8 +1821,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1430,
-        "y": 480,
+        "x": 1470,
+        "y": 420,
         "wires": [
             [
                 "02899c84331de550"
@@ -1885,8 +1849,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1440,
-        "y": 540,
+        "x": 1480,
+        "y": 460,
         "wires": [
             [
                 "02899c84331de550"
@@ -1909,7 +1873,7 @@
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
         "x": 1660,
-        "y": 60,
+        "y": 160,
         "wires": []
     },
     {
@@ -1920,16 +1884,16 @@
         "group": "25728a1daa1c705d",
         "name": "Switch valvula",
         "order": 2,
-        "width": 3,
+        "width": 4,
         "height": 2,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-warning {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .valve-container {\n    text-align: center;\n    cursor: pointer;\n  }\n\n  .valve-image {\n    width: 50px;\n    height: 50px;\n  }\n\n  .valve-text {\n    font-size: 16px;\n    font-weight: bold;\n    margin-top: 8px;\n  }\n\n  .valve-open {\n    color: green;\n  }\n\n  .valve-closed {\n    color: red;\n  }\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? 'https://cdn-icons-png.freepik.com/512/406/406977.png?ga=GA1.1.431446104.1747788654' : ' https://cdn-icons-png.freepik.com/512/2266/2266310.png?ga=GA1.1.431446104.1747788654'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = false;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n      }\n    });\n  })(scope);\n</script>",
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-warning {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .valve-container {\n    text-align: center;\n    cursor: pointer;\n  }\n\n  .valve-image {\n    width: 50px;\n    height: 50px;\n  }\n\n  .valve-text {\n    font-size: 16px;\n    font-weight: bold;\n    margin-top: 8px;\n  }\n\n  .valve-open {\n    color: green;\n  }\n\n  .valve-closed {\n    color: red;\n  }\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? 'https://cdn-icons-png.freepik.com/512/406/406977.png?ga=GA1.1.431446104.1747788654' : 'https://cdn-icons-png.freepik.com/512/2266/2266310.png?ga=GA1.1.431446104.1747788654'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
         "x": 1300,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "57cc4b3fec6bccff",
@@ -1950,38 +1914,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1850,
-        "y": 760,
+        "x": 1870,
+        "y": 1060,
         "wires": [
             [
                 "39d3d59025217cd5"
             ]
-        ]
-    },
-    {
-        "id": "00f14f57bbaec306",
-        "type": "change",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "",
-        "rules": [
-            {
-                "t": "move",
-                "p": "payload.nombre",
-                "pt": "msg",
-                "to": "nombre",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 820,
-        "y": 320,
-        "wires": [
-            []
         ]
     },
     {
@@ -2004,8 +1942,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1180,
-        "y": 580,
+        "x": 1300,
+        "y": 500,
         "wires": [
             [
                 "aef2b33a57ae564e"
@@ -2028,8 +1966,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1150,
-        "y": 520,
+        "x": 1110,
+        "y": 460,
         "wires": [
             [
                 "3687ee3b09b52dd2"
@@ -2043,7 +1981,7 @@
         "group": "c8562f8666449872",
         "name": "Renderizar alertas",
         "order": 1,
-        "width": 5,
+        "width": 4,
         "height": 6,
         "format": "<div style=\"border-left: 1px solid orange; border-radius: 5px; overflow: hidden; margin-bottom: 5px;\"\n  ng-repeat=\"alert in msg.alerts\">\n  <div style=\"background-color: {{alert.color}}; padding: 10px;\">\n    <h3>{{alert.cylinder}}</h3>\n    <p>{{alert.message}}</p>\n  </div>\n</div>",
         "storeOutMessages": true,
@@ -2051,8 +1989,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 2050,
-        "y": 760,
+        "x": 2070,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -2067,8 +2005,8 @@
         "links": [
             "06b07078a652f65d"
         ],
-        "x": 1325,
-        "y": 580,
+        "x": 1445,
+        "y": 500,
         "wires": []
     },
     {
@@ -2079,8 +2017,8 @@
         "links": [
             "aef2b33a57ae564e"
         ],
-        "x": 1725,
-        "y": 760,
+        "x": 1745,
+        "y": 1060,
         "wires": [
             [
                 "68238b8109beea8f"
@@ -2105,8 +2043,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1330,
-        "y": 280,
+        "x": 1310,
+        "y": 300,
         "wires": [
             [
                 "dc355fd6c0f2bfb9"
@@ -2134,7 +2072,7 @@
         "to": "",
         "reg": false,
         "x": 1470,
-        "y": 280,
+        "y": 300,
         "wires": [
             [
                 "e317e42ec2300f1c"
@@ -2161,8 +2099,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1170,
-        "y": 280,
+        "x": 1150,
+        "y": 300,
         "wires": [
             [
                 "6c2321c85b7fee9e"
@@ -2185,7 +2123,7 @@
         "className": "",
         "topic": "",
         "name": "",
-        "x": 1810,
+        "x": 2110,
         "y": 320,
         "wires": []
     },
@@ -2203,8 +2141,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 340,
-        "y": 420,
+        "x": 380,
+        "y": 340,
         "wires": [
             [
                 "7ab6a756468eec78"
@@ -2225,11 +2163,10 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 310,
-        "y": 340,
+        "x": 350,
+        "y": 260,
         "wires": [
             [
-                "00f14f57bbaec306",
                 "b98b3653f9dbb8f8"
             ]
         ]
@@ -2254,8 +2191,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1800,
-        "y": 240,
+        "x": 1900,
+        "y": 260,
         "wires": [
             [
                 "c58f3dd4296eadd2"
@@ -2278,8 +2215,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1590,
-        "y": 120,
+        "x": 1490,
+        "y": 240,
         "wires": [
             [
                 "8b6afcd9f5ab4582"
@@ -2304,8 +2241,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1750,
-        "y": 120,
+        "x": 1730,
+        "y": 240,
         "wires": [
             [
                 "8339172ce95d2620"
@@ -2328,11 +2265,184 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1590,
-        "y": 220,
+        "x": 1650,
+        "y": 300,
         "wires": [
             [
                 "8b6afcd9f5ab4582"
+            ]
+        ]
+    },
+    {
+        "id": "fbefe42c368dc1b5",
+        "type": "mqtt in",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "topic": "admin123/punto1/sensores/fuga",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3e6e56dcfdf5ebfb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "4867fd6968c7b4e5"
+            ]
+        ]
+    },
+    {
+        "id": "4867fd6968c7b4e5",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "25728a1daa1c705d",
+        "name": "",
+        "order": 4,
+        "width": 1,
+        "height": 1,
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Componente de alerta -->\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function (scope) {\n    let lastPayload = null; // Variable para almacenar el último valor recibido\n    let alertActive = false; // Estado de la alerta activa\n\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload.estado !== lastPayload) {\n        lastPayload = msg.payload.estado; // Actualiza el último valor recibido\n\n        if (msg.payload.estado === true && !alertActive) {\n          alertActive = true;\n          Swal.fire({\n            title: \"¡Fuga de Gas Detectada!\",\n            text: \"Se ha detectado una fuga de gas en: \"+  msg.payload.nombre +  \". Tome precauciones inmediatas. +\\n + Por su seguridad se activara la ventilacion al maximo y se cerrara la valvula de suministro\",\n            icon: \"error\",\n            confirmButtonText: \"Entendido\",\n            confirmButtonColor: \"#ff0000\",\n          }).then(() => {\n            scope.send({ payload: true });\n            alertActive = false; // Reinicia el estado de alerta después de cerrar\n          });\n        }\n      }\n    });\n  })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 640,
+        "y": 180,
+        "wires": [
+            [
+                "c96b90951e2d8e7b",
+                "b1a718579ce91be6"
+            ]
+        ]
+    },
+    {
+        "id": "3c6173d7d1582dad",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1080,
+        "y": 160,
+        "wires": [
+            [
+                "98258f222ce807e5"
+            ]
+        ]
+    },
+    {
+        "id": "c96b90951e2d8e7b",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 890,
+        "y": 160,
+        "wires": [
+            [
+                "3c6173d7d1582dad"
+            ]
+        ]
+    },
+    {
+        "id": "1cace0f5ab7337a9",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "25728a1daa1c705d",
+        "name": "",
+        "order": 10,
+        "width": 5,
+        "height": 3,
+        "format": "<style>\n  .state-container {\n    text-align: center;\n    margin: 20px;\n  }\n\n  .state-image {\n    width: 100px;\n    height: auto;\n  }\n\n  .state-text {\n    font-size: 18px;\n    font-weight: bold;\n    margin-top: 10px;\n    color: #333;\n  }\n</style>\n\n<!-- Template de cambio de estado\n <p class=\"state-text\">\n    {{state ? 'Estado: Fuga Detectada' : 'Estado: Sin Fuga'}}\n  </p>\n -->\n<div class=\"state-container\">\n  <img style=\"display: block; margin: auto;\"\n    ng-src=\"{{state ? 'https://i.pinimg.com/originals/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.gif' : 'https://i.pinimg.com/236x/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.jpg'}}\"\n    alt=\"Estado\"\n    class=\"state-image\"\n  />\n \n</div>\n\n<script>\n  (function (scope) {\n    // Inicializamos el estado por defecto\n    scope.state = false;\n\n    // Observamos el mensaje entrante\n    scope.$watch('msg', function (msg) {\n      if (msg && msg.payload.estado !== undefined) {\n        scope.state = msg.payload.estado; // Sincronizamos el estado con el payload\n      }\n    });\n  })(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1180,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ad30251fa78784a",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "25728a1daa1c705d",
+        "name": "IMAGEN TANQUE GAS",
+        "order": 6,
+        "width": 5,
+        "height": 3,
+        "format": "<!-- <div ng-bind-html=\"msg.payload\"></div> -->\n<!-- <div styles=\"margin: 0\"> -->\n<img src=\"https://tatsa.mx/wp-content/uploads/2023/01/tanques-de-carburacio204129n-02.webp\"\n     style=\"display: block; margin: auto;\"><!-- </div> -->",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 350,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b1a718579ce91be6",
+        "type": "link out",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "891da69baaef99e8"
+        ],
+        "x": 855,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "891da69baaef99e8",
+        "type": "link in",
+        "z": "ed84d3e070727412",
+        "name": "link in 2",
+        "links": [
+            "b1a718579ce91be6"
+        ],
+        "x": 915,
+        "y": 720,
+        "wires": [
+            [
+                "1cace0f5ab7337a9"
             ]
         ]
     },
@@ -2344,15 +2454,15 @@
         "name": "",
         "topic": "",
         "qos": "",
-        "retain": "",
+        "retain": "false",
         "respTopic": "",
         "contentType": "",
         "userProps": "",
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 2510,
-        "y": 100,
+        "x": 1970,
+        "y": 180,
         "wires": []
     },
     {
@@ -2382,8 +2492,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1170,
-        "y": 140,
+        "x": 510,
+        "y": 220,
         "wires": [
             [
                 "a650bf9d83e4ec4a"
@@ -2412,8 +2522,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 850,
-        "y": 140,
+        "x": 190,
+        "y": 220,
         "wires": [
             [
                 "6ab5784e6c744d2d"
@@ -2442,8 +2552,8 @@
         "topic": "presion",
         "payload": "",
         "payloadType": "date",
-        "x": 850,
-        "y": 200,
+        "x": 190,
+        "y": 280,
         "wires": [
             [
                 "c446106c6309cc8d"
@@ -2460,8 +2570,8 @@
         "high": "15",
         "inte": "true",
         "property": "payload",
-        "x": 1120,
-        "y": 200,
+        "x": 440,
+        "y": 280,
         "wires": [
             [
                 "55111d96b4599d19",
@@ -2479,8 +2589,8 @@
         "high": "1",
         "inte": "false",
         "property": "consumo",
-        "x": 1760,
-        "y": 300,
+        "x": 1060,
+        "y": 400,
         "wires": [
             [
                 "1076149b27138956",
@@ -2501,8 +2611,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2060,
-        "y": 380,
+        "x": 1020,
+        "y": 340,
         "wires": [
             [
                 "d75804f66ab62f96"
@@ -2531,8 +2641,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 890,
-        "y": 440,
+        "x": 230,
+        "y": 520,
         "wires": [
             [
                 "31b8113f5e28d529"
@@ -2559,8 +2669,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1550,
-        "y": 200,
+        "x": 910,
+        "y": 280,
         "wires": [
             [
                 "a650bf9d83e4ec4a"
@@ -2599,8 +2709,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1610,
-        "y": 220,
+        "x": 1550,
+        "y": 300,
         "wires": [
             [
                 "a650bf9d83e4ec4a"
@@ -2639,8 +2749,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1620,
-        "y": 280,
+        "x": 1560,
+        "y": 360,
         "wires": [
             [
                 "a650bf9d83e4ec4a"
@@ -2665,8 +2775,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1370,
-        "y": 280,
+        "x": 1310,
+        "y": 340,
         "wires": [
             [
                 "ecd44b739172d337",
@@ -2689,8 +2799,8 @@
                 "tot": "msg"
             }
         ],
-        "x": 680,
-        "y": 240,
+        "x": 500,
+        "y": 360,
         "wires": [
             [
                 "037577b4694f7516"
@@ -2712,8 +2822,8 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 1230,
-        "y": 680,
+        "x": 1470,
+        "y": 900,
         "wires": []
     },
     {
@@ -2743,8 +2853,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 360,
-        "y": 680,
+        "x": 600,
+        "y": 900,
         "wires": [
             [
                 "77ffe9d1cfed9295"
@@ -2773,8 +2883,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 680,
+        "x": 370,
+        "y": 900,
         "wires": [
             [
                 "1bd14c4dcc0c6cb6"
@@ -2803,8 +2913,8 @@
         "topic": "presion",
         "payload": "",
         "payloadType": "date",
-        "x": 150,
-        "y": 740,
+        "x": 390,
+        "y": 960,
         "wires": [
             [
                 "b27ae96fcc0d0838"
@@ -2821,8 +2931,8 @@
         "high": "15",
         "inte": "true",
         "property": "payload",
-        "x": 340,
-        "y": 740,
+        "x": 580,
+        "y": 960,
         "wires": [
             [
                 "cb25313795a0dc02",
@@ -2840,8 +2950,8 @@
         "high": "1",
         "inte": "false",
         "property": "consumo",
-        "x": 460,
-        "y": 860,
+        "x": 700,
+        "y": 1080,
         "wires": [
             [
                 "6ae4098b59963be4",
@@ -2862,8 +2972,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 750,
-        "y": 900,
+        "x": 990,
+        "y": 1120,
         "wires": [
             [
                 "cd61c7530ba70d4d",
@@ -2893,8 +3003,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 860,
+        "x": 370,
+        "y": 1080,
         "wires": [
             [
                 "2c5e564e5282b805"
@@ -2921,8 +3031,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 750,
-        "y": 740,
+        "x": 990,
+        "y": 960,
         "wires": [
             [
                 "77ffe9d1cfed9295"
@@ -2947,8 +3057,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 970,
-        "y": 900,
+        "x": 1210,
+        "y": 1120,
         "wires": [
             [
                 "351f4998cc86a846"
@@ -2973,8 +3083,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 730,
-        "y": 820,
+        "x": 970,
+        "y": 1040,
         "wires": [
             [
                 "6df59d79c3837f81"
@@ -3013,8 +3123,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1140,
-        "y": 900,
+        "x": 1380,
+        "y": 1120,
         "wires": [
             [
                 "77ffe9d1cfed9295"
@@ -3053,8 +3163,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 940,
-        "y": 820,
+        "x": 1180,
+        "y": 1040,
         "wires": [
             [
                 "77ffe9d1cfed9295"
@@ -3076,8 +3186,8 @@
                 "tot": "msg"
             }
         ],
-        "x": 490,
-        "y": 800,
+        "x": 730,
+        "y": 1020,
         "wires": [
             [
                 "2c5e564e5282b805"
@@ -3102,8 +3212,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1330,
-        "y": 200,
+        "x": 690,
+        "y": 280,
         "wires": [
             [
                 "461a6de532021279"
@@ -3124,8 +3234,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 870,
-        "y": 380,
+        "x": 210,
+        "y": 460,
         "wires": [
             [
                 "8565c56ba519a0be"
@@ -3152,8 +3262,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1150,
-        "y": 380,
+        "x": 610,
+        "y": 460,
         "wires": [
             [
                 "d756e4ac2a0679d1"
@@ -3185,8 +3295,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1160,
-        "y": 440,
+        "x": 620,
+        "y": 520,
         "wires": [
             [
                 "d756e4ac2a0679d1"
@@ -3211,8 +3321,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 790,
-        "y": 420,
+        "x": 950,
+        "y": 520,
         "wires": [
             [
                 "14c265f16e9267eb"
@@ -3237,8 +3347,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1060,
-        "y": 420,
+        "x": 1260,
+        "y": 480,
         "wires": [
             [
                 "037577b4694f7516"
@@ -3267,8 +3377,8 @@
         "topic": "admin123/punto1/sensores/fuga",
         "payload": "{\"id\":1,\"nombre\":\"MACHALA (SECTOR NORTE ENTRE AV QUITO Y CLEMENTE)\",\"estado\":true}",
         "payloadType": "json",
-        "x": 2860,
-        "y": 180,
+        "x": 260,
+        "y": 620,
         "wires": [
             [
                 "e9174388a10ad829"
@@ -3290,8 +3400,8 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 2530,
-        "y": 160,
+        "x": 510,
+        "y": 620,
         "wires": []
     },
     {
@@ -3316,8 +3426,8 @@
         "topic": "admin123/punto2/sensores/fuga",
         "payload": "true",
         "payloadType": "bool",
-        "x": 2280,
-        "y": 200,
+        "x": 260,
+        "y": 720,
         "wires": [
             [
                 "7da0fb93c70ecbc9"
@@ -3339,8 +3449,8 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 2530,
-        "y": 200,
+        "x": 510,
+        "y": 740,
         "wires": []
     },
     {
@@ -3365,8 +3475,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "admin123/punto3/sensores/fuga",
-        "x": 2860,
-        "y": 300,
+        "x": 260,
+        "y": 780,
         "wires": [
             [
                 "f813178647af73dd"
@@ -3388,8 +3498,8 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 2530,
-        "y": 240,
+        "x": 510,
+        "y": 780,
         "wires": []
     },
     {
@@ -3404,11 +3514,41 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 850,
-        "y": 320,
+        "x": 190,
+        "y": 400,
         "wires": [
             [
                 "037577b4694f7516"
+            ]
+        ]
+    },
+    {
+        "id": "e53014b8fc5a1fc2",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "1db8133a62cab60c",
+        "name": "SIMULAR FUGA DE GAS PUNTO 1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "admin123/punto1/sensores/fuga",
+        "payload": "{\"id\":1,\"nombre\":\"MACHALA (SECTOR NORTE ENTRE AV QUITO Y CLEMENTE)\",\"estado\":false}",
+        "payloadType": "json",
+        "x": 300,
+        "y": 660,
+        "wires": [
+            [
+                "e9174388a10ad829"
             ]
         ]
     },
