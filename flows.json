@@ -2382,7 +2382,7 @@
         "order": 10,
         "width": 5,
         "height": 3,
-        "format": "<style>\n  .state-container {\n    text-align: center;\n    margin: 20px;\n  }\n\n  .state-image {\n    width: 100px;\n    height: auto;\n  }\n\n  .state-text {\n    font-size: 18px;\n    font-weight: bold;\n    margin-top: 10px;\n    color: #333;\n  }\n</style>\n\n<!-- Template de cambio de estado\n <p class=\"state-text\">\n    {{state ? 'Estado: Fuga Detectada' : 'Estado: Sin Fuga'}}\n  </p>\n -->\n<div class=\"state-container\">\n  <img style=\"display: block; margin: auto;\"\n    ng-src=\"{{state ? 'https://i.pinimg.com/originals/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.gif' : 'https://i.pinimg.com/236x/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.jpg'}}\"\n    alt=\"Estado\"\n    class=\"state-image\"\n  />\n \n</div>\n\n<script>\n  (function (scope) {\n    // Inicializamos el estado por defecto\n    scope.state = false;\n\n    // Observamos el mensaje entrante\n    scope.$watch('msg', function (msg) {\n      if (msg && msg.payload.estado !== undefined) {\n        scope.state = msg.payload.estado; // Sincronizamos el estado con el payload\n      }\n    });\n  })(scope);\n</script>\n",
+        "format": "<style>\n  .state-container {\n    text-align: center;\n    margin: 20px;\n  }\n\n  .state-image {\n    width: 75px;\n    height: auto;\n  }\n\n  .state-text {\n    font-size: 10px;\n    font-weight: bold;\n    margin-top: 10px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Template de cambio de estado\n\n -->\n<div class=\"state-container\">\n  <img style=\"display: block; margin: auto;\"\n    ng-src=\"{{state ? 'https://i.pinimg.com/originals/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.gif' : 'https://i.pinimg.com/236x/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.jpg'}}\"\n    alt=\"Estado\"\n    class=\"state-image\"\n  />\n   <p class=\"state-text\">\n    {{state ? ' ESTANO NORMAL  CONCENTRACION EN PPM: '+ msg.payload.concentracion : 'ESTO CRÍTICO CONCENTRACION EN PPM:'+ msg.payload.concentracion}}\n  </p>\n \n</div>\n\n<script>\n  (function (scope) {\n    // Inicializamos el estado por defecto\n    scope.state = false;\n\n    // Observamos el mensaje entrante\n    scope.$watch('msg', function (msg) {\n      if (msg && msg.payload.estado !== undefined) {\n        scope.state = msg.payload.estado; // Sincronizamos el estado con el payload\n      }\n    });\n  })(scope);\n</script>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -2442,9 +2442,27 @@
         "y": 720,
         "wires": [
             [
-                "1cace0f5ab7337a9"
+                "1cace0f5ab7337a9",
+                "c10ff95acd99fd8c"
             ]
         ]
+    },
+    {
+        "id": "c10ff95acd99fd8c",
+        "type": "debug",
+        "z": "ed84d3e070727412",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 800,
+        "wires": []
     },
     {
         "id": "a650bf9d83e4ec4a",
@@ -3375,7 +3393,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "admin123/punto1/sensores/fuga",
-        "payload": "{\"id\":1,\"nombre\":\"MACHALA (SECTOR NORTE ENTRE AV QUITO Y CLEMENTE)\",\"estado\":true}",
+        "payload": "{\"id\":1,\"nombre\":\"MACHALA (SECTOR NORTE ENTRE AV QUITO Y CLEMENTE)\",\"concentracion\":1000,\"estado\":true}",
         "payloadType": "json",
         "x": 260,
         "y": 620,
@@ -3542,7 +3560,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "admin123/punto1/sensores/fuga",
-        "payload": "{\"id\":1,\"nombre\":\"MACHALA (SECTOR NORTE ENTRE AV QUITO Y CLEMENTE)\",\"estado\":false}",
+        "payload": "{\"id\":1,\"nombre\":\"MACHALA (SECTOR NORTE ENTRE AV QUITO Y CLEMENTE)\",\"concentracion\":100,\"estado\":false}",
         "payloadType": "json",
         "x": 300,
         "y": 660,
