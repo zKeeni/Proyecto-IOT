@@ -115,10 +115,11 @@
             "3687ee3b09b52dd2",
             "662d9e463741798e",
             "aef2b33a57ae564e",
-            "98258f222ce807e5"
+            "98258f222ce807e5",
+            "c022c5cd2337e7fa"
         ],
-        "x": 154,
-        "y": 359,
+        "x": 174,
+        "y": 259,
         "w": 1532,
         "h": 362
     },
@@ -143,10 +144,31 @@
             "7b947fe869622745",
             "d311c769d7924cd1"
         ],
-        "x": 54,
-        "y": 879,
+        "x": 194,
+        "y": 699,
         "w": 1212,
         "h": 162
+    },
+    {
+        "id": "1db8133a62cab60c",
+        "type": "group",
+        "z": "74273795d1e74a6e",
+        "name": "SIMULADOR DE FUGAS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b477bb105718138e",
+            "e9174388a10ad829",
+            "63f76027b3399f33",
+            "7da0fb93c70ecbc9",
+            "1a601e7a6d191818",
+            "f813178647af73dd"
+        ],
+        "x": 2094,
+        "y": 99,
+        "w": 572,
+        "h": 182
     },
     {
         "id": "3e6e56dcfdf5ebfb",
@@ -1045,8 +1067,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 300,
-        "y": 560,
+        "x": 320,
+        "y": 460,
         "wires": [
             [
                 "5187dd1a456b334e"
@@ -1081,8 +1103,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 540,
-        "y": 560,
+        "x": 560,
+        "y": 460,
         "wires": [
             [
                 "b98b3653f9dbb8f8",
@@ -1116,8 +1138,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 770,
-        "y": 520,
+        "x": 790,
+        "y": 420,
         "wires": [
             [
                 "afb71e2ddc111536",
@@ -1145,8 +1167,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 770,
-        "y": 580,
+        "x": 790,
+        "y": 480,
         "wires": [
             [
                 "689c5ff4468693e8"
@@ -1178,8 +1200,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1160,
-        "y": 460,
+        "x": 1180,
+        "y": 360,
         "wires": []
     },
     {
@@ -1207,8 +1229,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1160,
-        "y": 500,
+        "x": 1180,
+        "y": 400,
         "wires": []
     },
     {
@@ -1224,8 +1246,8 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 970,
-        "y": 500,
+        "x": 990,
+        "y": 400,
         "wires": [
             [
                 "ab3cc78b737a790a"
@@ -1246,8 +1268,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 200,
-        "y": 960,
+        "x": 340,
+        "y": 780,
         "wires": [
             [
                 "9aa6665478ba486b"
@@ -1282,8 +1304,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 410,
-        "y": 960,
+        "x": 550,
+        "y": 780,
         "wires": [
             [
                 "812ecef174a9686f"
@@ -1316,8 +1338,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 570,
-        "y": 960,
+        "x": 710,
+        "y": 780,
         "wires": [
             [
                 "dbcef5dc4b83f9dd"
@@ -1344,8 +1366,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 570,
-        "y": 1000,
+        "x": 710,
+        "y": 820,
         "wires": [
             [
                 "dbcef5dc4b83f9dd"
@@ -1372,8 +1394,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 570,
-        "y": 920,
+        "x": 710,
+        "y": 740,
         "wires": [
             [
                 "dbcef5dc4b83f9dd"
@@ -1402,8 +1424,8 @@
         "reduceInit": "",
         "reduceInitType": "num",
         "reduceFixup": "",
-        "x": 750,
-        "y": 960,
+        "x": 890,
+        "y": 780,
         "wires": [
             [
                 "83def08cd58251da",
@@ -1437,8 +1459,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1180,
-        "y": 920,
+        "x": 1320,
+        "y": 740,
         "wires": []
     },
     {
@@ -1466,8 +1488,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1180,
-        "y": 960,
+        "x": 1320,
+        "y": 780,
         "wires": []
     },
     {
@@ -1502,8 +1524,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
-        "y": 1000,
+        "x": 1140,
+        "y": 820,
         "wires": [
             []
         ]
@@ -1521,8 +1543,8 @@
         "round": false,
         "property": "payload.presion",
         "name": "",
-        "x": 990,
-        "y": 920,
+        "x": 1130,
+        "y": 740,
         "wires": [
             [
                 "79e311249fd5b2e1"
@@ -1547,8 +1569,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 730,
-        "y": 480,
+        "x": 750,
+        "y": 380,
         "wires": []
     },
     {
@@ -1564,8 +1586,8 @@
         "round": false,
         "property": "payload",
         "name": "",
-        "x": 980,
-        "y": 540,
+        "x": 1000,
+        "y": 440,
         "wires": [
             [
                 "d81be35f7d46219d",
@@ -1613,8 +1635,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 880,
-        "y": 680,
+        "x": 900,
+        "y": 580,
         "wires": [
             []
         ]
@@ -1658,8 +1680,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1190,
-        "y": 1000,
+        "x": 1330,
+        "y": 820,
         "wires": [
             []
         ]
@@ -1680,8 +1702,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 580,
-        "y": 660,
+        "x": 600,
+        "y": 560,
         "wires": [
             []
         ]
@@ -1725,8 +1747,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 1150,
-        "y": 560,
+        "x": 1170,
+        "y": 460,
         "wires": [
             [
                 "2abda30277bd5535"
@@ -1760,8 +1782,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1600,
-        "y": 540,
+        "x": 1620,
+        "y": 440,
         "wires": []
     },
     {
@@ -1784,8 +1806,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1410,
-        "y": 500,
+        "x": 1430,
+        "y": 400,
         "wires": [
             [
                 "02899c84331de550"
@@ -1812,8 +1834,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1410,
-        "y": 540,
+        "x": 1430,
+        "y": 440,
         "wires": [
             [
                 "02899c84331de550"
@@ -1840,8 +1862,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1410,
-        "y": 580,
+        "x": 1430,
+        "y": 480,
         "wires": [
             [
                 "02899c84331de550"
@@ -1868,8 +1890,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1420,
-        "y": 620,
+        "x": 1440,
+        "y": 520,
         "wires": [
             [
                 "02899c84331de550"
@@ -1891,8 +1913,8 @@
         "correl": "",
         "expiry": "",
         "broker": "3e6e56dcfdf5ebfb",
-        "x": 1520,
-        "y": 400,
+        "x": 1540,
+        "y": 300,
         "wires": []
     },
     {
@@ -1935,8 +1957,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 440,
+        "x": 820,
+        "y": 340,
         "wires": [
             []
         ]
@@ -1961,8 +1983,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1120,
-        "y": 680,
+        "x": 1140,
+        "y": 580,
         "wires": [
             [
                 "aef2b33a57ae564e"
@@ -1985,8 +2007,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1150,
-        "y": 620,
+        "x": 1170,
+        "y": 520,
         "wires": [
             [
                 "3687ee3b09b52dd2"
@@ -2024,8 +2046,8 @@
         "links": [
             "06b07078a652f65d"
         ],
-        "x": 1285,
-        "y": 680,
+        "x": 1305,
+        "y": 580,
         "wires": []
     },
     {
@@ -2060,8 +2082,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1160,
-        "y": 400,
+        "x": 1180,
+        "y": 300,
         "wires": [
             [
                 "57cc4b3fec6bccff"
@@ -2212,7 +2234,7 @@
         "high": "1",
         "inte": "false",
         "property": "consumo",
-        "x": 1220,
+        "x": 1100,
         "y": 280,
         "wires": [
             [
@@ -2234,7 +2256,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1460,
+        "x": 1400,
         "y": 360,
         "wires": [
             [
@@ -2398,8 +2420,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1430,
-        "y": 220,
+        "x": 1410,
+        "y": 240,
         "wires": [
             [
                 "ecd44b739172d337",
@@ -2944,8 +2966,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 790,
-        "y": 380,
+        "x": 830,
+        "y": 340,
         "wires": [
             [
                 "14c265f16e9267eb"
@@ -2970,13 +2992,160 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1060,
-        "y": 380,
+        "x": 1020,
+        "y": 420,
         "wires": [
             [
                 "037577b4694f7516"
             ]
         ]
+    },
+    {
+        "id": "b477bb105718138e",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "1db8133a62cab60c",
+        "name": "SIMULAR FUGA DE GAS PUNTO 1",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "true",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "admin123/punto1/sensores/fuga",
+        "x": 2280,
+        "y": 160,
+        "wires": [
+            [
+                "e9174388a10ad829"
+            ]
+        ]
+    },
+    {
+        "id": "e9174388a10ad829",
+        "type": "mqtt out",
+        "z": "74273795d1e74a6e",
+        "g": "1db8133a62cab60c",
+        "name": "",
+        "topic": "",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3e6e56dcfdf5ebfb",
+        "x": 2590,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "63f76027b3399f33",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "1db8133a62cab60c",
+        "name": "SIMULAR FUGA DE GAS PUNTO 2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "true",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "admin123/punto2/sensores/fuga",
+        "x": 2280,
+        "y": 200,
+        "wires": [
+            [
+                "7da0fb93c70ecbc9"
+            ]
+        ]
+    },
+    {
+        "id": "7da0fb93c70ecbc9",
+        "type": "mqtt out",
+        "z": "74273795d1e74a6e",
+        "g": "1db8133a62cab60c",
+        "name": "",
+        "topic": "",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3e6e56dcfdf5ebfb",
+        "x": 2590,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "1a601e7a6d191818",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "1db8133a62cab60c",
+        "name": "SIMULAR FUGA DE GAS PUNTO 3",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "true",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "admin123/punto3/sensores/fuga",
+        "x": 2280,
+        "y": 240,
+        "wires": [
+            [
+                "f813178647af73dd"
+            ]
+        ]
+    },
+    {
+        "id": "f813178647af73dd",
+        "type": "mqtt out",
+        "z": "74273795d1e74a6e",
+        "g": "1db8133a62cab60c",
+        "name": "",
+        "topic": "",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3e6e56dcfdf5ebfb",
+        "x": 2590,
+        "y": 220,
+        "wires": []
     },
     {
         "id": "5be65dbce585fe33",
