@@ -139,7 +139,6 @@
             "bccc0eb40a4e684b",
             "306d32d1ec8d7c16",
             "894d3164b6ac88be",
-            "47c5213329ee5147",
             "94a20f8c52bf66e3",
             "9439d99e468635cf",
             "ad12f1451bc31dda",
@@ -147,7 +146,6 @@
             "c022c5cd2337e7fa",
             "1cace0f5ab7337a9",
             "c96b90951e2d8e7b",
-            "8c36f798c8968543",
             "20bf5a741d78c032",
             "de890ab489854ac3",
             "a769c677763b97df",
@@ -155,11 +153,12 @@
             "6a85c26a0847dc5e",
             "77586fe3e35bfc10",
             "abb5e44725e92a48",
-            "73c323a0992f611b"
+            "73c323a0992f611b",
+            "47c5213329ee5147"
         ],
         "x": 54,
         "y": 439,
-        "w": 2012,
+        "w": 2032,
         "h": 602
     },
     {
@@ -867,12 +866,12 @@
         "className": ""
     },
     {
-        "id": "c0ae33396c121984",
+        "id": "8c9899407a85303a",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "d6a565f559b0906a",
-        "order": 8,
+        "order": 9,
         "width": 2,
         "height": 1
     },
@@ -1470,7 +1469,7 @@
         "order": 1,
         "width": 3,
         "height": 3,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\ndisplay: block; /* Añadido para centrar */\nmargin: 0 auto; /* Añadido para centrar */\nwidth: 50px;\nheight: 50px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: green;\n}\n\n.valve-closed {\ncolor: red;\n}\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <img\n    ng-src=\"{{switchState ? 'https://cdn-icons-png.freepik.com/512/406/406977.png?ga=GA1.1.431446104.1747788654' : 'https://cdn-icons-png.freepik.com/512/2266/2266310.png?ga=GA1.1.431446104.1747788654'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n          scope.send({ topic: \"valvula\", payload: scope.switchState }); // nuevo: para guardar en el flow\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>",
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\n  display: block; /* Añadido para centrar */\n  margin: 0 auto; /* Añadido para centrar */\n  width: 50px;\n  height: auto;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: #ffc900;\n}\n\n.valve-closed {\ncolor: #ff1f00;\n}\n\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <!-- <img src=\"/valvula_abierta.png\" alt=\"Válvula abierta\" width=\"50\" height=\"50\" /> -->\n  <img\nng-src=\"{{switchState ? '/valvula_abierta.png' : '/valvula_cerrada.png'}}\"    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n          scope.send({ topic: \"valvula\", payload: scope.switchState }); // nuevo: para guardar en el flow\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -1764,7 +1763,7 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Notificacion fuga gas sensor ambiente",
-        "order": 6,
+        "order": 7,
         "width": 6,
         "height": 1,
         "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Componente de alerta -->\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function (scope) {\n    let lastPayload = null; // Variable para almacenar el último valor recibido\n    let alertActive = false; // Estado de la alerta activa\n\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload.estado !== lastPayload) {\n        lastPayload = msg.payload.estado; // Actualiza el último valor recibido\n\n        if (msg.payload.estado === true && !alertActive) {\n          alertActive = true;\n          Swal.fire({\n            title: \"¡Fuga de Gas Detectada!\",\n            text: \"Se ha detectado una fuga de gas en: \"+  msg.ciudad.nombre +  \". Tome precauciones inmediatas. +\\n + Por su seguridad se activara la ventilacion al maximo y se cerrara la valvula de suministro\",\n            icon: \"error\",\n            confirmButtonText: \"Entendido\",\n            confirmButtonColor: \"#ff0000\",\n          }).then(() => {\n            scope.send({ payload: true });\n            alertActive = false; // Reinicia el estado de alerta después de cerrar\n          });\n        }\n      }\n    });\n  })(scope);\n</script>",
@@ -2000,28 +1999,6 @@
         ]
     },
     {
-        "id": "47c5213329ee5147",
-        "type": "ui_template",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "group": "d6a565f559b0906a",
-        "name": "Alerta fuga gas tanque cerrado",
-        "order": 7,
-        "width": 6,
-        "height": 1,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Contenedor opcional si lo usas en Dashboard -->\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function(scope) {\n  scope.$watch('msg', function(msg) {\n    if (!msg) return;\n\n    // Asegúrate de que msg.flow tenga datos válidos\n    //const ciudad = flow.get(\"datosCiudad1\") || 'Ubicación desconocida';\n    //console.log(ciudad);\n    //const ciudad = 'Ubicación desconocida';\n    const ciudad = msg.ciudad\n \n\n    Swal.fire({\n      title: \"¡Fuga de Gas Detectada!\",\n      text: \"Se ha detectado una fuga de gas en: \" + ciudad.nombre +\n        \". Tome precauciones inmediatas.\\nPor su seguridad se activará la ventilación al máximo y se cerrará la válvula de suministro.\",\n      icon: \"error\",\n      confirmButtonText: \"Entendido\",\n      confirmButtonColor: \"#ff0000\"\n    });\n  });\n})(scope);\n</script>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 1890,
-        "y": 800,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "94a20f8c52bf66e3",
         "type": "change",
         "z": "ed84d3e070727412",
@@ -2062,7 +2039,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1940,
+        "x": 1920,
         "y": 740,
         "wires": [
             [
@@ -2255,42 +2232,16 @@
         ]
     },
     {
-        "id": "8c36f798c8968543",
-        "type": "ui_slider",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "",
-        "label": "slider",
-        "tooltip": "",
-        "group": "ad726ee97b3c56ec",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "outs": "all",
-        "topic": "topic",
-        "topicType": "msg",
-        "min": 0,
-        "max": 10,
-        "step": 1,
-        "className": "",
-        "x": 490,
-        "y": 1000,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "20bf5a741d78c032",
         "type": "ui_template",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "",
-        "order": 9,
+        "order": 6,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .contenedor {\n        margin: 20px;\n        font-family: Arial, sans-serif;\n        padding: 10px;\n        border: 1px solid #ccc;\n        border-radius: 8px;\n        width: fit-content;\n        //background-color: #f9f9f9;\n    }\n\n    .contenedor p {\n        margin: 5px 0;\n    }\n\n    .etiqueta {\n        font-weight: bold;\n    }\n</style>\n<div class=\"contenedor\">\n    <p><span class=\"etiqueta\">Nivel:</span> {{msg.payload.nivel* 10|number:2}}%</p>\n    <p><span class=\"etiqueta\">Presión:</span> {{msg.payload.presion}} PSI</p>\n    <p><span class=\"etiqueta\">Concentración:</span> {{msg.payload.concentracion}} ppm</p>\n    <p><span class=\"etiqueta\">Direccion:</span> {{msg.payload.direccion}}</p>\n</div>",
+        "format": "<style>\n    .contenedor-horizontal {\n        display: flex;\n        align-items: center;\n        justify-content: space-around;\n        padding: 10px;\n        font-family: Arial, sans-serif;\n        text-align: center;\n        /* background-color: #f0f0f0; */\n        border-radius: 8px;\n        margin: 10px 20px;\n    }\n\n    .contenedor-horizontal div {\n        margin: 0 10px;\n    }\n\n    .etiqueta {\n        font-weight: bold;\n    }\n\n    .contenedor-horizontal p {\n        margin: 0;\n    }\n\n    .contenedor-horizontal p:first-child {\n        font-weight: bold;\n    }\n</style>\n\n<div class=\"contenedor-horizontal\">\n    <div>\n        <p>Nivel</p>\n        <p>{{msg.payload.nivel * 10 | number:2}}%</p>\n    </div>\n    <div>\n        <p>Presión</p>\n        <p>{{msg.payload.presion | number:2}} PSI</p>\n    </div>\n    <div>\n        <p>Concentración</p>\n        <p>{{msg.payload.concentracion}} ppm</p>\n    </div>\n    <div>\n        <p>Dirección</p>\n        <p>{{msg.payload.direccion}}</p>\n    </div>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -2466,6 +2417,28 @@
             [
                 "ab6442dca4a352a0"
             ]
+        ]
+    },
+    {
+        "id": "47c5213329ee5147",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "d6a565f559b0906a",
+        "name": "Alerta fuga gas tanque cerrado",
+        "order": 8,
+        "width": 6,
+        "height": 1,
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function(scope) {\n    scope.$watch('msg', function(msg) {\n      if (msg && msg.alerta === true && msg.ciudad) {\n        Swal.fire({\n          title: \"¡Fuga de Gas Detectada!\",\n          text: \"Se ha detectado una fuga de gas en: \" + msg.ciudad.nombre +\n            \". Tome precauciones inmediatas.\\nPor su seguridad se activará la ventilación al máximo y se cerrará la válvula de suministro.\",\n          icon: \"error\",\n          confirmButtonText: \"Entendido\",\n          confirmButtonColor: \"#ff0000\"\n        }).then(() => {\n          // Enviar un nuevo mensaje al flujo con alerta = false\n          scope.send({ alerta: false });\n        });\n      }\n    });\n  })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1930,
+        "y": 800,
+        "wires": [
+            []
         ]
     },
     {
@@ -3663,7 +3636,7 @@
         "links": [
             "86a3598925e12381"
         ],
-        "x": 675,
+        "x": 695,
         "y": 300,
         "wires": [
             [

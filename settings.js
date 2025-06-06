@@ -229,7 +229,7 @@ module.exports = {
      * When httpStaticRoot is set differently to httpAdminRoot, there is no need
      * to move httpAdminRoot
      */
-    //httpStatic: '/home/nol/node-red-static/', //single static source
+    httpStatic: 'C:\\Users\\Keni\\Documents\\Node-RED\\Proyecto-IOT\\static',
     /**
      *  OR multiple static sources can be created using an array of objects...
      *  Each object can also contain an options object for further configuration.
