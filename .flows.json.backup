@@ -155,12 +155,15 @@
             "abb5e44725e92a48",
             "73c323a0992f611b",
             "47c5213329ee5147",
-            "7df77b2c4d632e1f"
+            "7df77b2c4d632e1f",
+            "1d1bd6d13873be6a",
+            "cc123f932a686064",
+            "8c5670e652ef5ce7"
         ],
         "x": 54,
         "y": 439,
         "w": 2032,
-        "h": 602
+        "h": 682
     },
     {
         "id": "1db8133a62cab60c",
@@ -1470,7 +1473,7 @@
         "order": 1,
         "width": 3,
         "height": 4,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\n  display: block; /* Añadido para centrar */\n  margin: 0 auto; /* Añadido para centrar */\n  width: 50px;\n  height: 150px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: #ffc900;\n}\n\n.valve-closed {\ncolor: #ff1f00;\n}\n\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <!-- <img src=\"/valvula_abierta.png\" alt=\"Válvula abierta\" width=\"50\" height=\"50\" /> -->\n  <img\nng-src=\"{{switchState ? '/valvula_abierta.png' : '/valvula_cerrada.png'}}\"    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n          scope.send({ topic: \"valvula\", payload: scope.switchState }); // nuevo: para guardar en el flow\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>",
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\n  display: block; /* Añadido para centrar */\n  margin: 0 auto; /* Añadido para centrar */\n  width: 50px;\n  height: 120px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: #ffc900;\n}\n\n.valve-closed {\ncolor: #ff1f00;\n}\n\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <!-- <img src=\"/valvula_abierta.png\" alt=\"Válvula abierta\" width=\"50\" height=\"50\" /> -->\n  <img\nng-src=\"{{switchState ? '/valvula_abierta.png' : '/valvula_cerrada.png'}}\"    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n          scope.send({ topic: \"valvula\", payload: scope.switchState }); // nuevo: para guardar en el flow\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -1901,11 +1904,12 @@
         "links": [
             "b1a718579ce91be6"
         ],
-        "x": 835,
-        "y": 940,
+        "x": 245,
+        "y": 1040,
         "wires": [
             [
-                "1cace0f5ab7337a9"
+                "cc123f932a686064",
+                "8c5670e652ef5ce7"
             ]
         ]
     },
@@ -2452,7 +2456,7 @@
         "order": 3,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .wrapper {\n        margin: 20px;\n        position: relative;\n        width: 87%;\n        height: 1.5rem;\n    }\n\n    .wrapper::before,\n    .wrapper::after {\n        content: '';\n        display: block;\n        position: absolute;\n        z-index: 99;\n        color: #fff;\n        height: 100%;\n        text-align: center;\n        font-size: 1.5rem;\n        line-height: 1;\n        padding: 0 0.75rem;\n        pointer-events: none;\n    }\n\n    .wrapper::before {\n        left: 0;\n        top: 0;\n    }\n\n    .wrapper::after {\n        right: 0;\n        top: 0;\n    }\n\n    input[type=\"range\"] {\n        position:absolute;\n        -webkit-appearance: none;\n        appearance: none;\n        background-color: rgba(255, 255, 255, 0.2);\n        top: 50%;\n        left: 50%;\n        margin: 0;\n        width: 15rem;\n        height: 3.5rem;\n        transform: translate(-50%, -50%);\n        border-radius: 1rem;\n        overflow: hidden;\n        cursor: col-resize;\n    }\n\n    input[type=\"range\"]::-webkit-slider-runnable-track {\n        background-color: rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        appearance: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-moz-range-thumb {\n        border: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n</style>\n\n<div class=\"wrapper\">\n    <input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"50\" ng-model=\"sliderValue\" />\n</div>\n\n<script>\n    (function(scope) {\n    scope.$watch('sliderValue', function(newValue) {\n      if (newValue !== undefined) {\n        scope.send({ payload: newValue });\n      }\n    });\n  })(scope);\n</script>",
+        "format": "<style>\n    .wrapper {\n        margin: 20px;\n        position: relative;\n        width: 87%;\n        height: 1.5rem;\n    }\n\n    .wrapper::before,\n    .wrapper::after {\n        content: '';\n        display: block;\n        position: absolute;\n        z-index: 99;\n        color: #fff;\n        height: 100%;\n        text-align: center;\n        font-size: 1.5rem;\n        line-height: 1;\n        padding: 0 0.75rem;\n        pointer-events: none;\n    }\n\n    .wrapper::before {\n        left: 0;\n        top: 0;\n    }\n\n    .wrapper::after {\n        right: 0;\n        top: 0;\n    }\n\n    input[type=\"range\"] {\n        position:absolute;\n        -webkit-appearance: none;\n        appearance: none;\n        background-color: rgba(255, 255, 255, 0.2);\n        top: 50%;\n        left: 50%;\n        margin: 0;\n        width: 15rem;\n        height: 3.5rem;\n        transform: translate(-50%, -50%);\n        border-radius: 1rem;\n        overflow: hidden;\n        cursor: col-resize;\n    }\n\n    input[type=\"range\"]::-webkit-slider-runnable-track {\n        background-color: rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        appearance: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-moz-range-thumb {\n        border: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n</style>\n\n<div class=\"wrapper\">\n    <input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"50\" ng-model=\"sliderValue\" />\n</div>\n\n<script>\n    (function(scope) {\n    // Actualiza el slider cuando cambia\n    scope.$watch('sliderValue', function(newValue) {\n    if (newValue !== undefined) {\n    scope.send({ payload: newValue });\n    }\n    });\n    \n    // Escucha nuevos valores desde el exterior (por ejemplo, Node-RED o backend)\n    scope.on('payload', function(msg) {\n    if (msg && typeof msg.payload === 'number') {\n    scope.sliderValue = msg.payload;\n    }\n    });\n    })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -2463,6 +2467,77 @@
         "wires": [
             [
                 "1cace0f5ab7337a9"
+            ]
+        ]
+    },
+    {
+        "id": "1d1bd6d13873be6a",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "100",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 1080,
+        "wires": [
+            [
+                "7df77b2c4d632e1f",
+                "1cace0f5ab7337a9"
+            ]
+        ]
+    },
+    {
+        "id": "cc123f932a686064",
+        "type": "debug",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "8c5670e652ef5ce7",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "property": "payload.estado",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 370,
+        "y": 1080,
+        "wires": [
+            [
+                "1d1bd6d13873be6a"
             ]
         ]
     },
