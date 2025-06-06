@@ -69,35 +69,6 @@
         "h": 382
     },
     {
-        "id": "bc56705e38d4e3b5",
-        "type": "group",
-        "z": "74273795d1e74a6e",
-        "name": "SIMULACION MACHALA PARTE CENTRO",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "77ffe9d1cfed9295",
-            "1bd14c4dcc0c6cb6",
-            "df063d180870820d",
-            "29da828dbbe96b49",
-            "b27ae96fcc0d0838",
-            "2c5e564e5282b805",
-            "6ae4098b59963be4",
-            "0da613f624bd8d62",
-            "cb25313795a0dc02",
-            "51bf719b31eb9ee4",
-            "cd61c7530ba70d4d",
-            "351f4998cc86a846",
-            "6df59d79c3837f81",
-            "5a73e1dbc78a0981"
-        ],
-        "x": 64,
-        "y": 699,
-        "w": 1302,
-        "h": 302
-    },
-    {
         "id": "eca886a5d7cbed9d",
         "type": "group",
         "z": "ed84d3e070727412",
@@ -171,17 +142,13 @@
         "nodes": [
             "b477bb105718138e",
             "e9174388a10ad829",
-            "63f76027b3399f33",
-            "7da0fb93c70ecbc9",
-            "1a601e7a6d191818",
-            "f813178647af73dd",
             "e53014b8fc5a1fc2",
             "86a3598925e12381"
         ],
         "x": 54,
         "y": 439,
         "w": 532,
-        "h": 242
+        "h": 122
     },
     {
         "id": "3366b3234dc8cf7b",
@@ -1025,7 +992,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "name": "",
-        "topic": "admin123/cilindros/pasaje/consumo",
+        "topic": "admin123/cilindros/punto1/consumo",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "70113bd572087aab",
@@ -1467,7 +1434,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "name": "",
-        "topic": "admin123/cilindros/pasaje/valvula",
+        "topic": "admin123/cilindros/punto1/valvula",
         "qos": "",
         "retain": "",
         "respTopic": "",
@@ -1717,7 +1684,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "name": "",
-        "topic": "admin123/cilindros/pasaje/presion",
+        "topic": "admin123/cilindros/punto1/presion",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "70113bd572087aab",
@@ -1739,7 +1706,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "name": "",
-        "topic": "admin123/cilindros/pasaje",
+        "topic": "admin123/cilindros/punto1",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "70113bd572087aab",
@@ -2595,7 +2562,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "admin123/cilindros/pasaje",
+                "to": "admin123/cilindros/punto1",
                 "tot": "str"
             }
         ],
@@ -2772,7 +2739,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "admin123/cilindros/pasaje/presion",
+                "to": "admin123/cilindros/punto1/presion",
                 "tot": "str"
             }
         ],
@@ -2800,7 +2767,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "admin123/cilindros/pasaje/consumo",
+                "to": "admin123/cilindros/punto1/consumo",
                 "tot": "str"
             },
             {
@@ -2840,7 +2807,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "admin123/cilindros/pasaje/presion",
+                "to": "admin123/cilindros/punto1/presion",
                 "tot": "str"
             },
             {
@@ -2920,393 +2887,6 @@
         ]
     },
     {
-        "id": "77ffe9d1cfed9295",
-        "type": "mqtt out",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "70113bd572087aab",
-        "x": 1290,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "1bd14c4dcc0c6cb6",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\"id\":2,\"nombre\":\"Machala(Centro)\"}",
-                "tot": "json"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "admin123/cilindros/machala",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 420,
-        "y": 740,
-        "wires": [
-            [
-                "77ffe9d1cfed9295"
-            ]
-        ]
-    },
-    {
-        "id": "df063d180870820d",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "2",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 190,
-        "y": 740,
-        "wires": [
-            [
-                "1bd14c4dcc0c6cb6"
-            ]
-        ]
-    },
-    {
-        "id": "29da828dbbe96b49",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "Generar Presión",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "3",
-        "topic": "presion",
-        "payload": "",
-        "payloadType": "date",
-        "x": 210,
-        "y": 800,
-        "wires": [
-            [
-                "b27ae96fcc0d0838"
-            ]
-        ]
-    },
-    {
-        "id": "b27ae96fcc0d0838",
-        "type": "random",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "Presión",
-        "low": "15",
-        "high": "15",
-        "inte": "true",
-        "property": "payload",
-        "x": 400,
-        "y": 800,
-        "wires": [
-            [
-                "cb25313795a0dc02",
-                "5a73e1dbc78a0981"
-            ]
-        ]
-    },
-    {
-        "id": "2c5e564e5282b805",
-        "type": "random",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "Consumo",
-        "low": "0",
-        "high": "1",
-        "inte": "false",
-        "property": "consumo",
-        "x": 520,
-        "y": 920,
-        "wires": [
-            [
-                "6ae4098b59963be4",
-                "cd61c7530ba70d4d"
-            ]
-        ]
-    },
-    {
-        "id": "6ae4098b59963be4",
-        "type": "function",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "Calcular Operación",
-        "func": "let presion = flow.get(\"pmachala\") ; \nlet consumo = msg.consumo;\n\nif(presion>0){\n    flow.set(\"pmachala\", presion - consumo); \n}\nmsg.presionr = flow.get(\"pmachala\"); \n\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 810,
-        "y": 960,
-        "wires": [
-            [
-                "cd61c7530ba70d4d",
-                "51bf719b31eb9ee4"
-            ]
-        ]
-    },
-    {
-        "id": "0da613f624bd8d62",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "10",
-        "crontab": "",
-        "once": false,
-        "onceDelay": "4",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 190,
-        "y": 920,
-        "wires": [
-            [
-                "2c5e564e5282b805"
-            ]
-        ]
-    },
-    {
-        "id": "cb25313795a0dc02",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "admin123/cilindros/machala/presion",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 800,
-        "wires": [
-            [
-                "77ffe9d1cfed9295"
-            ]
-        ]
-    },
-    {
-        "id": "51bf719b31eb9ee4",
-        "type": "switch",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "",
-        "property": "presionr",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1030,
-        "y": 960,
-        "wires": [
-            [
-                "351f4998cc86a846"
-            ]
-        ]
-    },
-    {
-        "id": "cd61c7530ba70d4d",
-        "type": "switch",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "",
-        "property": "presionr",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 790,
-        "y": 880,
-        "wires": [
-            [
-                "6df59d79c3837f81"
-            ]
-        ]
-    },
-    {
-        "id": "351f4998cc86a846",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "admin123/cilindros/machala/presion",
-                "tot": "str"
-            },
-            {
-                "t": "move",
-                "p": "presionr",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            },
-            {
-                "t": "delete",
-                "p": "consumo",
-                "pt": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1200,
-        "y": 960,
-        "wires": [
-            [
-                "77ffe9d1cfed9295"
-            ]
-        ]
-    },
-    {
-        "id": "6df59d79c3837f81",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "admin123/cilindros/machala/consumo",
-                "tot": "str"
-            },
-            {
-                "t": "move",
-                "p": "consumo",
-                "pt": "msg",
-                "to": "payload",
-                "tot": "msg"
-            },
-            {
-                "t": "delete",
-                "p": "presionr",
-                "pt": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1000,
-        "y": 880,
-        "wires": [
-            [
-                "77ffe9d1cfed9295"
-            ]
-        ]
-    },
-    {
-        "id": "5a73e1dbc78a0981",
-        "type": "change",
-        "z": "74273795d1e74a6e",
-        "g": "bc56705e38d4e3b5",
-        "name": "Set flow.presionC2",
-        "rules": [
-            {
-                "t": "set",
-                "p": "pmachala",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "x": 550,
-        "y": 860,
-        "wires": [
-            [
-                "2c5e564e5282b805"
-            ]
-        ]
-    },
-    {
         "id": "c067b2ee2268df33",
         "type": "switch",
         "z": "74273795d1e74a6e",
@@ -3338,7 +2918,7 @@
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
         "name": "",
-        "topic": "admin123/cilindros/pasaje/valvula",
+        "topic": "admin123/cilindros/punto1/valvula",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "70113bd572087aab",
@@ -3346,7 +2926,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 210,
+        "x": 220,
         "y": 320,
         "wires": [
             [
@@ -3374,7 +2954,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 470,
+        "x": 530,
         "y": 320,
         "wires": [
             [
@@ -3515,104 +3095,6 @@
         "broker": "70113bd572087aab",
         "x": 510,
         "y": 480,
-        "wires": []
-    },
-    {
-        "id": "63f76027b3399f33",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "1db8133a62cab60c",
-        "name": "SIMULAR FUGA DE GAS PUNTO 2",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "admin123/punto2/sensores/fuga",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 240,
-        "y": 580,
-        "wires": [
-            [
-                "7da0fb93c70ecbc9"
-            ]
-        ]
-    },
-    {
-        "id": "7da0fb93c70ecbc9",
-        "type": "mqtt out",
-        "z": "74273795d1e74a6e",
-        "g": "1db8133a62cab60c",
-        "name": "",
-        "topic": "",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "70113bd572087aab",
-        "x": 490,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "1a601e7a6d191818",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "1db8133a62cab60c",
-        "name": "SIMULAR FUGA DE GAS PUNTO 3",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "true",
-                "v": "",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "admin123/punto3/sensores/fuga",
-        "x": 240,
-        "y": 640,
-        "wires": [
-            [
-                "f813178647af73dd"
-            ]
-        ]
-    },
-    {
-        "id": "f813178647af73dd",
-        "type": "mqtt out",
-        "z": "74273795d1e74a6e",
-        "g": "1db8133a62cab60c",
-        "name": "",
-        "topic": "",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "70113bd572087aab",
-        "x": 490,
-        "y": 640,
         "wires": []
     },
     {
