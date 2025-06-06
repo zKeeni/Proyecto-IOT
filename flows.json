@@ -154,7 +154,8 @@
             "77586fe3e35bfc10",
             "abb5e44725e92a48",
             "73c323a0992f611b",
-            "47c5213329ee5147"
+            "47c5213329ee5147",
+            "7df77b2c4d632e1f"
         ],
         "x": 54,
         "y": 439,
@@ -866,7 +867,7 @@
         "className": ""
     },
     {
-        "id": "8c9899407a85303a",
+        "id": "b955dd51cbb95c90",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -1468,8 +1469,8 @@
         "name": "Switch valvula",
         "order": 1,
         "width": 3,
-        "height": 3,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\n  display: block; /* Añadido para centrar */\n  margin: 0 auto; /* Añadido para centrar */\n  width: 50px;\n  height: auto;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: #ffc900;\n}\n\n.valve-closed {\ncolor: #ff1f00;\n}\n\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <!-- <img src=\"/valvula_abierta.png\" alt=\"Válvula abierta\" width=\"50\" height=\"50\" /> -->\n  <img\nng-src=\"{{switchState ? '/valvula_abierta.png' : '/valvula_cerrada.png'}}\"    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n          scope.send({ topic: \"valvula\", payload: scope.switchState }); // nuevo: para guardar en el flow\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>",
+        "height": 4,
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\n  display: block; /* Añadido para centrar */\n  margin: 0 auto; /* Añadido para centrar */\n  width: 50px;\n  height: 120px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: #ffc900;\n}\n\n.valve-closed {\ncolor: #ff1f00;\n}\n\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <!-- <img src=\"/valvula_abierta.png\" alt=\"Válvula abierta\" width=\"50\" height=\"50\" /> -->\n  <img\nng-src=\"{{switchState ? '/valvula_abierta.png' : '/valvula_cerrada.png'}}\"    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n          scope.send({ topic: \"valvula\", payload: scope.switchState }); // nuevo: para guardar en el flow\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -1842,8 +1843,8 @@
         "name": "Ventilador",
         "order": 2,
         "width": 3,
-        "height": 3,
-        "format": "<style>\n  .state-container {\n    text-align: center;\n    //margin: 20px;\n  }\n\n  .state-image {\n    width: 70%;\n    height: auto;\n  }\n\n  .state-text {\n    font-size: 10px;\n    font-weight: bold;\n    margin-top: 10px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Template de cambio de estado\n\n -->\n<div class=\"state-container\">\n  <img style=\"display: block; margin: auto;\"\n    ng-src=\"{{state ? 'https://i.pinimg.com/originals/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.gif' : 'https://i.pinimg.com/236x/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.jpg'}}\"\n    alt=\"Estado\"\n    class=\"state-image\"\n  />\n\n</div>\n\n<script>\n  (function (scope) {\n    // Inicializamos el estado por defecto\n    scope.state = false;\n\n    // Observamos el mensaje entrante\n    scope.$watch('msg', function (msg) {\n      if (msg && msg.payload.estado !== undefined) {\n        scope.state = msg.payload.estado; // Sincronizamos el estado con el payload\n      }\n    });\n  })(scope);\n</script>",
+        "height": 4,
+        "format": "<style>\n  .rotating-image {\n    margin-top: 40px;\n    width: 100px;\n    height: 100px;\n    transition: transform 0.05s linear;\n  }\n</style>\n\n<div>\n  <img\n    id=\"rotatingImage\"\n    src=\"/ventilador.png\"\n    alt=\"Rotating Fan\"\n    class=\"rotating-image\"\n  />\n</div>\n\n<script>\n  (function(scope) {\n    let angle = 0;\n    let interval = null;\n    let lastSpeed = -1; // -1 para forzar la primera ejecución\n\n    function applyRotation() {\n      const imageElement = document.getElementById(\"rotatingImage\");\n      imageElement.style.transform = `rotate(${angle}deg)`;\n    }\n\n    function updateRotation(speed) {\n      if (speed === 0) {\n        if (interval) {\n          clearInterval(interval);\n          interval = null;\n        }\n        return;\n      }\n\n      if (speed === lastSpeed) return;\n\n      if (interval) clearInterval(interval);\n\n      interval = setInterval(() => {\n        angle = (angle + 10) % 360;\n        applyRotation(); // Aplica el ángulo actual\n      }, speed);\n\n      lastSpeed = speed;\n    }\n\n    scope.$watch(\"msg\", function(msg) {\n      if (msg && msg.payload !== undefined) {\n        const payloadValue = parseInt(msg.payload, 10);\n        let speed;\n\n        if (payloadValue >= 1 && payloadValue <= 10) {\n          speed = 200;\n        } else if (payloadValue >= 11 && payloadValue <= 75) {\n          speed = 100;\n        } else if (payloadValue >= 76 && payloadValue <= 100) {\n          speed = 10;\n        } else {\n          speed = 0;\n        }\n\n        updateRotation(speed);\n      }\n    });\n\n    scope.$on(\"$destroy\", function() {\n      if (interval) clearInterval(interval);\n    });\n  })(scope);\n</script>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -2439,6 +2440,30 @@
         "y": 800,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "7df77b2c4d632e1f",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "ad726ee97b3c56ec",
+        "name": "Slider ventilador",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .wrapper {\n        margin: 20px;\n        position: relative;\n        width: 87%;\n        height: 1.5rem;\n    }\n\n    .wrapper::before,\n    .wrapper::after {\n        content: '';\n        display: block;\n        position: absolute;\n        z-index: 99;\n        color: #fff;\n        height: 100%;\n        text-align: center;\n        font-size: 1.5rem;\n        line-height: 1;\n        padding: 0 0.75rem;\n        pointer-events: none;\n    }\n\n    .wrapper::before {\n        left: 0;\n        top: 0;\n    }\n\n    .wrapper::after {\n        right: 0;\n        top: 0;\n    }\n\n    input[type=\"range\"] {\n        position:absolute;\n        -webkit-appearance: none;\n        appearance: none;\n        background-color: rgba(255, 255, 255, 0.2);\n        top: 50%;\n        left: 50%;\n        margin: 0;\n        width: 15rem;\n        height: 3.5rem;\n        transform: translate(-50%, -50%);\n        border-radius: 1rem;\n        overflow: hidden;\n        cursor: col-resize;\n    }\n\n    input[type=\"range\"]::-webkit-slider-runnable-track {\n        background-color: rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        appearance: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-moz-range-thumb {\n        border: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n</style>\n\n<div class=\"wrapper\">\n    <input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"50\" ng-model=\"sliderValue\" />\n</div>\n\n<script>\n    (function(scope) {\n    scope.$watch('sliderValue', function(newValue) {\n      if (newValue !== undefined) {\n        scope.send({ payload: newValue });\n      }\n    });\n  })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 640,
+        "y": 1000,
+        "wires": [
+            [
+                "1cace0f5ab7337a9"
+            ]
         ]
     },
     {
