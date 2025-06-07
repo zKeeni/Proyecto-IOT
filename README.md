@@ -1,11 +1,5 @@
 # DASHBOARD PARA EL MONITOREO DE TANQUES DE GAS
 
-## 🖼️ Diseño
-> Puedes agregar aquí una imagen del dashboard (como la que compartiste) usando:
-
-![Dashboard](./archivos/Dashboard%20inicial.png)
-![Historial de consumo](./archivos/Historial%20de%20consumo.png)
-
 Este proyecto es un dashboard interactivo creado con Node-RED que permite gestionar y monitorear tanques de gas distribuidos en distintas zonas de una ciudad.
 
 ## 🚀 Funcionalidades
@@ -85,6 +79,15 @@ httpStatic: "/home/usuario/tu-proyecto/static",
 ```
 
 3. Reinicia Node-RED para aplicar los cambios.
+
+## 🖼️ Diseño
+### Vista general del dashboard
+
+![Dashboard](./archivos/Dashboard%20inicial.png)
+
+### Historial de consumo de gas
+
+![Historial de consumo](./archivos/Historial%20de%20consumo.png))
 
 ## 📄 Licencia
 
