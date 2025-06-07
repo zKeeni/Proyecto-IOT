@@ -34,7 +34,7 @@
         "id": "969d8996b0110f16",
         "type": "group",
         "z": "74273795d1e74a6e",
-        "name": "SIMULACION PASAJE",
+        "name": "SIMULACION NORTE",
         "style": {
             "label": true
         },
@@ -72,7 +72,7 @@
         "id": "eca886a5d7cbed9d",
         "type": "group",
         "z": "ed84d3e070727412",
-        "name": "MQTT PASAJE",
+        "name": "PUNTO 1",
         "style": {
             "label": true
         },
@@ -81,7 +81,6 @@
             "7ab6a756468eec78",
             "fe9ff1d4dc59e5bd",
             "ab3cc78b737a790a",
-            "d81be35f7d46219d",
             "afb71e2ddc111536",
             "b98b3653f9dbb8f8",
             "afbf9c4d79d0185c",
@@ -124,12 +123,23 @@
             "abb5e44725e92a48",
             "73c323a0992f611b",
             "47c5213329ee5147",
-            "1c0628dc9c34f4f0"
+            "891da69baaef99e8",
+            "7df77b2c4d632e1f",
+            "1d1bd6d13873be6a",
+            "8c5670e652ef5ce7",
+            "26555eba38a5eb5b",
+            "1cace0f5ab7337a9",
+            "d9b2016a8168c0da",
+            "9e859c70cca70c58",
+            "35d79753365ab065",
+            "902a80765e1907ad",
+            "e57b0a5fa5a12ded",
+            "3680ed389112da9f"
         ],
         "x": 14,
         "y": 419,
-        "w": 2032,
-        "h": 748
+        "w": 2172,
+        "h": 742
     },
     {
         "id": "1db8133a62cab60c",
@@ -142,17 +152,13 @@
         "nodes": [
             "b477bb105718138e",
             "e9174388a10ad829",
-            "63f76027b3399f33",
-            "7da0fb93c70ecbc9",
-            "1a601e7a6d191818",
-            "f813178647af73dd",
             "e53014b8fc5a1fc2",
             "86a3598925e12381"
         ],
         "x": 54,
         "y": 439,
         "w": 532,
-        "h": 242
+        "h": 122
     },
     {
         "id": "3366b3234dc8cf7b",
@@ -169,8 +175,8 @@
             "ee729e06a0f51a57",
             "8c4c681ca32f3a98"
         ],
-        "x": 14,
-        "y": 319,
+        "x": 754,
+        "y": 179,
         "w": 872,
         "h": 82
     },
@@ -196,26 +202,134 @@
         "h": 122
     },
     {
-        "id": "1c0628dc9c34f4f0",
+        "id": "002439cbc743be15",
         "type": "group",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "Widget ventilador",
+        "z": "74273795d1e74a6e",
+        "name": "SIMULACION SUR",
         "style": {
             "label": true
         },
         "nodes": [
-            "1cace0f5ab7337a9",
-            "891da69baaef99e8",
-            "7df77b2c4d632e1f",
-            "1d1bd6d13873be6a",
-            "cc123f932a686064",
-            "8c5670e652ef5ce7"
+            "bdf388fe84f5929e",
+            "abbc73519a43cf40",
+            "b64c79cbb1963c68",
+            "ee85d086284b972d",
+            "cf654264896d33aa",
+            "7055b65fe7c82bc4",
+            "882c1868ae840680",
+            "0c4658f6189f0708",
+            "c26ca30ae6ead40b",
+            "dd08bdda4cc7dcf9",
+            "85ef10671fbcda12",
+            "824c9e7b9d877577",
+            "29b2c3035b6c3512",
+            "70b59a5e52e1da6d",
+            "a0185919abbf334f",
+            "d3185f0e1e4a21da",
+            "1aafba5141555154",
+            "6c9312ae69513302",
+            "c9a23152d8e93a29",
+            "bb50623ca3650235",
+            "ecbd08dd8175dfb3",
+            "429f2eeec85a809f",
+            "b54d4a5e11474111"
         ],
-        "x": 44,
+        "x": 54,
+        "y": 599,
+        "w": 2072,
+        "h": 382
+    },
+    {
+        "id": "b717994f86bfd42c",
+        "type": "group",
+        "z": "74273795d1e74a6e",
+        "name": "SENSOR DE FUGA DE GAS AMBIENTE",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "60534678f991e6f9",
+            "968e399859c072d7",
+            "d3f96eaf8900312e",
+            "6286436424c36dd0"
+        ],
+        "x": 54,
         "y": 999,
-        "w": 902,
-        "h": 142
+        "w": 532,
+        "h": 122
+    },
+    {
+        "id": "b1ec3d039689d046",
+        "type": "group",
+        "z": "ed84d3e070727412",
+        "name": "PUNTO 1",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3c8f3249d4cbddd3",
+            "a00b7c100644d27c",
+            "2ee99f74550ca0c9",
+            "e8ffd0aab921e656",
+            "95256d997c2041e2",
+            "e56e7699fb376330",
+            "f9f70714eecdf6aa",
+            "1c34a74654e0f101",
+            "b64a1759b1511cd5",
+            "578392ba56197111",
+            "0eb0b541ace7d2d5",
+            "6214512901fc8c4a",
+            "3c1bf62ca0a8d807",
+            "d52a86a392475a33",
+            "7ebff2a8c2274d23",
+            "84016675def9d3ae",
+            "084c6441ee8e9f44",
+            "01bb6204515db810",
+            "f9e3710cd7707f8d",
+            "eeaf3baaf1f4a0ba",
+            "2ced170761c1f3a6",
+            "2e5ac239575c51d8",
+            "7429dbf58dc40f20",
+            "147599d650d9f7e9",
+            "bffc347ada118b60",
+            "2fef373ea7a36588",
+            "1a8a6ca38a96564a",
+            "0935314888241822",
+            "efed553a178bf503",
+            "a97b15eeb61c85ee",
+            "a9a5113eef5c50e8",
+            "e6d0a9ecb0b56d5c",
+            "dcd6c9f22235b7c7",
+            "66bb621a76a13186",
+            "82afbb8ecffc5f8b",
+            "b4e4c216c08fb7ec",
+            "443e1fd8f52537e1",
+            "083b1bbcdd5cd393",
+            "6d174ffebf23c487",
+            "ded1b19d4795f763",
+            "374a51204e4fb67b",
+            "b7f7973b8078c7e1",
+            "343f4ce283c46eef",
+            "6c89d3b5757ae75b",
+            "76eeba0af4176ccb",
+            "c69ead3cb476f0f4",
+            "4b2713081afec830",
+            "ca74fadd6bd71475",
+            "23cfb007dca1b014",
+            "aa203185084de920",
+            "2bc08e92e116faf3",
+            "9d19a3b315c6a6c8",
+            "ca4b52459d6d4317",
+            "7d03dde6b59bfa1b",
+            "1a33f941b50e38d8",
+            "d01690597d7edb6b",
+            "46404e9ff2ae70e7",
+            "0bb628b3cf316c54"
+        ],
+        "x": 14,
+        "y": 1219,
+        "w": 2122,
+        "h": 722
     },
     {
         "id": "3e6e56dcfdf5ebfb",
@@ -360,7 +474,7 @@
         "type": "ui_tab",
         "name": "Demo",
         "icon": "dashboard",
-        "order": 3,
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -390,7 +504,7 @@
         "type": "ui_tab",
         "name": "Monitoreo",
         "icon": "dashboard",
-        "order": 1
+        "order": 2
     },
     {
         "id": "dashboard-group",
@@ -434,198 +548,18 @@
         "sessionExpiry": ""
     },
     {
-        "id": "d8e2becf24225cb7",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 7,
-        "width": 7,
-        "height": 1
-    },
-    {
-        "id": "25e39827c9ed041e",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 8,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "d025bcda0945d884",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 9,
-        "width": 7,
-        "height": 1
-    },
-    {
-        "id": "9c3bfab2a6cadd18",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 10,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "65f34c8373a656eb",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "97a5ddd0c9e3cf37",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1405f52a5b527180",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "0aa3d0c967f66295",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6f9e83e7b83e482a",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 18,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "939b68daf24e523f",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 19,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "4a28910e79dc4c65",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 20,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "16ee6225f964e994",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 21,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "053f6c3e0565591f",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 22,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "074649756ea43739",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 23,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "2c34e7cf8386caaa",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 24,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "b6e5da2cc91fd1bf",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 25,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "c051fe833f16b886",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 26,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "49cf1117ca56fd29",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 27,
-        "width": 3,
-        "height": 1
-    },
-    {
         "id": "b9e0c0e2d60ab491",
         "type": "ui_tab",
         "name": "Estadisticas",
         "icon": "dashboard",
-        "order": 5,
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
     {
         "id": "1b2646b7e26b1af9",
         "type": "ui_group",
-        "name": "Ciudad 1",
+        "name": "Estadistica P1",
         "tab": "b9e0c0e2d60ab491",
         "order": 1,
         "disp": true,
@@ -636,7 +570,7 @@
     {
         "id": "d6a565f559b0906a",
         "type": "ui_group",
-        "name": "Machala norte",
+        "name": "P1",
         "tab": "778525b5c804be1f",
         "order": 4,
         "disp": false,
@@ -656,186 +590,6 @@
         "className": ""
     },
     {
-        "id": "1b4fb603c21b6c4c",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 2,
-        "width": 10,
-        "height": 1
-    },
-    {
-        "id": "de221a3c0e28744e",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 4,
-        "width": 7,
-        "height": 1
-    },
-    {
-        "id": "3ed9d485c786d51e",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 5,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "4cd002e437bc4696",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a3670f424151c935",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 8,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "90a87e84562ec653",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 9,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "3271f59cb6ebdfc1",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "db1c81f37f99e6f7",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 11,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "8f4db3a10940da48",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "dcfbc8ef6244364b",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 2,
-        "width": 10,
-        "height": 1
-    },
-    {
-        "id": "0992529d33bd4570",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 4,
-        "width": 7,
-        "height": 1
-    },
-    {
-        "id": "0b1d9e5e9ee4adbe",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 5,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "d17995abdb87ab03",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a9cab67ba3e8badd",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 8,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "c4a7ee537e743002",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 9,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "f1eaa9fc262e931d",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "78911cca8b633447",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 11,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "9ef6303595298cd3",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "2cc601547f7522ff",
         "type": "ui_group",
         "name": "Fecha y hora",
@@ -849,7 +603,7 @@
     {
         "id": "ad726ee97b3c56ec",
         "type": "ui_group",
-        "name": "Controles",
+        "name": "P1 controles",
         "tab": "778525b5c804be1f",
         "order": 5,
         "disp": true,
@@ -858,11 +612,203 @@
         "className": ""
     },
     {
-        "id": "b955dd51cbb95c90",
+        "id": "c08ac066cd43cd8b",
+        "type": "ui_group",
+        "name": "P2",
+        "tab": "778525b5c804be1f",
+        "order": 6,
+        "disp": false,
+        "width": 14,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b62f81231a279246",
+        "type": "ui_group",
+        "name": "P2 controles",
+        "tab": "778525b5c804be1f",
+        "order": 7,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "159b390760a2eed2",
+        "type": "ui_group",
+        "name": "Estadistica P2",
+        "tab": "b9e0c0e2d60ab491",
+        "order": 2,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "20bb081.66afff8",
+        "type": "ui_tab",
+        "name": "Ohh",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3ca910b5.3d50a",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "20bb081.66afff8",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2c0d82c5cbab11fd",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "20bb081.66afff8",
+        "order": 3,
+        "disp": false,
+        "width": 5,
+        "collapse": false
+    },
+    {
+        "id": "d7e8ab4ae6aaf9bf",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "20bb081.66afff8",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7a51399e7d0ee9fa",
+        "type": "ui_spacer",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "spacer",
+        "group": "3ca910b5.3d50a",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d3f4e498483a652d",
+        "type": "ui_spacer",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "spacer",
+        "group": "3ca910b5.3d50a",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "761dcaba8c211ddd",
+        "type": "ui_spacer",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "spacer",
+        "group": "3ca910b5.3d50a",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fcb4dc1e761db2fa",
+        "type": "ui_spacer",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "spacer",
+        "group": "3ca910b5.3d50a",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c2e36c5919557eb6",
+        "type": "ui_spacer",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "spacer",
+        "group": "3ca910b5.3d50a",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "877675ca0c15945f",
+        "type": "ui_spacer",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "spacer",
+        "group": "3ca910b5.3d50a",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "dbd0f36ae9707a06",
+        "type": "ui_spacer",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "spacer",
+        "group": "3ca910b5.3d50a",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "9ec8c1bb45485192",
+        "type": "ui_spacer",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "spacer",
+        "group": "3ca910b5.3d50a",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "37118b30f8f7b52b",
+        "type": "ui_spacer",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "spacer",
+        "group": "3ca910b5.3d50a",
+        "order": 12,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "66deccecc5653024",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "d6a565f559b0906a",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "feb040b43e9a7a9a",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "d6a565f559b0906a",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6ff695b12aef7a1d",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "c08ac066cd43cd8b",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3421e54a8f35606b",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "c08ac066cd43cd8b",
         "order": 9,
         "width": 2,
         "height": 1
@@ -1077,7 +1023,7 @@
         "g": "eca886a5d7cbed9d",
         "name": "NIVELES ",
         "group": "d6a565f559b0906a",
-        "order": 4,
+        "order": 5,
         "width": 4,
         "height": 3,
         "gtype": "wave",
@@ -1100,35 +1046,6 @@
         "wires": []
     },
     {
-        "id": "d81be35f7d46219d",
-        "type": "ui_gauge",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "PRESION",
-        "group": "d6a565f559b0906a",
-        "order": 5,
-        "width": 5,
-        "height": 3,
-        "gtype": "gage",
-        "title": "Presion",
-        "label": "PSI",
-        "format": "{{payload | number:2 }}",
-        "min": 0,
-        "max": "150",
-        "colors": [
-            "#ff0000",
-            "#ff9838",
-            "#fff700"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 920,
-        "y": 700,
-        "wires": []
-    },
-    {
         "id": "afb71e2ddc111536",
         "type": "range",
         "z": "ed84d3e070727412",
@@ -1145,8 +1062,8 @@
         "y": 660,
         "wires": [
             [
-                "ab3cc78b737a790a",
-                "a769c677763b97df"
+                "a769c677763b97df",
+                "ab3cc78b737a790a"
             ]
         ]
     },
@@ -1157,7 +1074,7 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "order": 1,
-        "width": 10,
+        "width": 6,
         "height": 1,
         "name": "",
         "label": "",
@@ -1189,11 +1106,11 @@
         "y": 720,
         "wires": [
             [
-                "d81be35f7d46219d",
                 "902b1c8a928ffe6a",
                 "662d9e463741798e",
                 "de890ab489854ac3",
-                "77586fe3e35bfc10"
+                "77586fe3e35bfc10",
+                "3680ed389112da9f"
             ]
         ]
     },
@@ -1304,7 +1221,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
-        "order": 2,
+        "order": 3,
         "width": 4,
         "height": 1,
         "name": "",
@@ -1438,7 +1355,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "name": "",
-        "topic": "admin123/cilindros/punto1/valvula",
+        "topic": "admin123/cilindros/norte/valvula",
         "qos": "",
         "retain": "",
         "respTopic": "",
@@ -1447,7 +1364,7 @@
         "correl": "",
         "expiry": "",
         "broker": "70113bd572087aab",
-        "x": 1420,
+        "x": 1410,
         "y": 520,
         "wires": []
     },
@@ -1461,7 +1378,7 @@
         "order": 1,
         "width": 3,
         "height": 4,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\n  display: block; /* Añadido para centrar */\n  margin: 0 auto; /* Añadido para centrar */\n  width: 50px;\n  height: 120px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: #ffc900;\n}\n\n.valve-closed {\ncolor: #ff1f00;\n}\n\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChange()\">\n  <!-- <img src=\"/valvula_abierta.png\" alt=\"Válvula abierta\" width=\"50\" height=\"50\" /> -->\n  <img\nng-src=\"{{switchState ? '/valvula_abierta.png' : '/valvula_cerrada.png'}}\"    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchState, 'valve-closed': !switchState}\">\n    {{switchState ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function (scope) {\n    // Estado inicial del switch (válvula cerrada)\n    scope.switchState = true;\n\n    // Función para manejar el clic y confirmar el cambio de estado\n    scope.confirmChange = function () {\n      const previousState = scope.switchState; // Guarda el estado actual\n      const newState = !previousState; // Cambia el estado al opuesto\n\n      // Muestra la confirmación al usuario\n      Swal.fire({\n        title: '¿Estás seguro?',\n        text: 'Confirma para realizar acción',\n        icon: 'warning',\n        showCancelButton: true,\n        confirmButtonText: 'Sí',\n        cancelButtonText: 'No',\n        confirmButtonColor: '#ff7b00',\n        cancelButtonColor: '#d33',\n      }).then((result) => {\n        if (result.isConfirmed) {\n          scope.switchState = newState; // Actualiza el estado si confirma\n          scope.send({ payload: scope.switchState }); // Envía el nuevo estado\n          scope.send({ topic: \"valvula\", payload: scope.switchState }); // nuevo: para guardar en el flow\n        } else {\n          scope.switchState = previousState; // Mantiene el estado anterior si cancela\n        }\n        scope.$apply(); // Actualiza el DOM\n      });\n    };\n\n    // Maneja mensajes externos para actualizar el estado del switch\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload !== undefined) {\n        scope.switchState = msg.payload; // Sincroniza con el estado recibido\n        scope.$apply(); // Actualiza el DOM\n      }\n    });\n  })(scope);\n</script>",
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\n  display: block; /* Añadido para centrar */\n  margin: 0 auto; /* Añadido para centrar */\n  width: 50px;\n  height: 120px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: #ffc900;\n}\n\n.valve-closed {\ncolor: #ff1f00;\n}\n\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChangeValve1()\">\n  <img\n    ng-src=\"{{switchStateValve1 ? '/valvula_abierta.png' : '/valvula_cerrada.png'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchStateValve1, 'valve-closed': !switchStateValve1}\">\n    {{switchStateValve1 ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function(scope) {\n  scope.switchStateValve1 = true;\n\n  scope.confirmChangeValve1 = function() {\n    const previousState = scope.switchStateValve1;\n    const newState = !previousState;\n\n    Swal.fire({\n      title: '¿Estás seguro?',\n      text: 'Confirma para cambiar VÁLVULA 1',\n      icon: 'warning',\n      showCancelButton: true,\n      confirmButtonText: 'Sí',\n      cancelButtonText: 'No',\n      confirmButtonColor: '#ff7b00',\n      cancelButtonColor: '#d33',\n    }).then((result) => {\n      if (result.isConfirmed) {\n        scope.switchStateValve1 = newState;\n        scope.send({ topic: \"valvula1\", payload: scope.switchStateValve1 });\n      } else {\n        scope.switchStateValve1 = previousState;\n      }\n      scope.$apply();\n    });\n  };\n\n  scope.$watch(\"msg\", function(msg) {\n    if (msg && msg.topic === \"valvula1\" && msg.payload !== undefined) {\n      scope.switchStateValve1 = msg.payload;\n      scope.$apply();\n    }\n  });\n})(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -1482,15 +1399,15 @@
         "type": "function",
         "z": "ed84d3e070727412",
         "name": "Actualizar alertas",
-        "func": "// Obtener o inicializar el estado global\nconst alerts = global.get('alerts') || {};\nconst cylinder = flow.get(\"datosCiudad1\");\nconst pressure = msg.payload;\n\n// Definir rangos\nconst ranges = {\n    normal: { min: 100, max: 200 },\n    warning: { min: 60, max: 90 },\n    alarm: { min: 0, max: 59 }\n};\n\n// Determinar estado\nlet status, message, color;\nif (pressure >= ranges.normal.min && pressure <= ranges.normal.max) {\n    status = 'normal';\n} else if (pressure >= ranges.warning.min && pressure <= ranges.warning.max) {\n    status = 'warning';\n    message = `Advertencia: Presión baja ${pressure} PSI`;\n    color = '#59544c';\n} else if (pressure >= ranges.alarm.min && pressure <= ranges.alarm.max) {\n    status = 'alarm';\n    message = `¡Alarma! Presión crítica ${pressure} PSI`;\n    color = '#a32929';\n}\n\n// Validar y actualizar estado de alertas\nif (status === 'normal') {\n    delete alerts[cylinder.nombre]; // Eliminar alerta si está en estado normal\n} else {\n    // Asegurarse de que el cilindro y los valores sean válidos\n    if (cylinder.nombre && cylinder.nombre !== 'undefined' && message && color) {\n        alerts[cylinder.nombre] = { message, color }; // Agregar o actualizar alerta\n    }\n}\n\n// Guardar en el contexto global\nglobal.set('alerts', alerts);\n\n// Generar arreglo limpio de alertas\nmsg.alerts = Object.entries(alerts)\n    .filter(([key, value]) => key && key !== 'undefined' && value.message && value.color) // Filtrar alertas válidas\n    .map(([key, value]) => ({ cylinder: key, ...value })); // Formatear las alertas\n\nreturn msg;\n",
+        "func": "// Obtener o inicializar el estado global\nconst alerts = global.get('alerts') || {};\n//const cylinder = flow.get(\"datosCiudad1\");\nconst cylinder = msg.ciudad;\nconst pressure = msg.payload;\n\n// Definir rangos\nconst ranges = {\n    normal: { min: 100, max: 200 },\n    warning: { min: 60, max: 90 },\n    alarm: { min: 0, max: 59 }\n};\n\n// Determinar estado\nlet status, message, color;\nif (pressure >= ranges.normal.min && pressure <= ranges.normal.max) {\n    status = 'normal';\n} else if (pressure >= ranges.warning.min && pressure <= ranges.warning.max) {\n    status = 'warning';\n    message = `Advertencia: Presión baja ${pressure} PSI`;\n    color = '#59544c';\n} else if (pressure >= ranges.alarm.min && pressure <= ranges.alarm.max) {\n    status = 'alarm';\n    message = `¡Alarma! Presión crítica ${pressure} PSI`;\n    color = '#a32929';\n}\n\n// Validar y actualizar estado de alertas\nif (status === 'normal') {\n    delete alerts[cylinder.nombre]; // Eliminar alerta si está en estado normal\n} else {\n    // Asegurarse de que el cilindro y los valores sean válidos\n    if (cylinder.nombre && cylinder.nombre !== 'undefined' && message && color) {\n        alerts[cylinder.nombre] = { message, color }; // Agregar o actualizar alerta\n    }\n}\n\n// Guardar en el contexto global\nglobal.set('alerts', alerts);\n\n// Generar arreglo limpio de alertas\nmsg.alerts = Object.entries(alerts)\n    .filter(([key, value]) => key && key !== 'undefined' && value.message && value.color) // Filtrar alertas válidas\n    .map(([key, value]) => ({ cylinder: key, ...value })); // Formatear las alertas\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1750,
-        "y": 400,
+        "x": 1850,
+        "y": 360,
         "wires": [
             [
                 "39d3d59025217cd5"
@@ -1521,7 +1438,7 @@
         "y": 860,
         "wires": [
             [
-                "aef2b33a57ae564e"
+                "26555eba38a5eb5b"
             ]
         ]
     },
@@ -1564,8 +1481,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1950,
-        "y": 400,
+        "x": 2050,
+        "y": 360,
         "wires": [
             []
         ]
@@ -1580,7 +1497,7 @@
         "links": [
             "06b07078a652f65d"
         ],
-        "x": 1265,
+        "x": 1495,
         "y": 860,
         "wires": []
     },
@@ -1590,10 +1507,11 @@
         "z": "ed84d3e070727412",
         "name": "link in 1",
         "links": [
-            "aef2b33a57ae564e"
+            "aef2b33a57ae564e",
+            "084c6441ee8e9f44"
         ],
-        "x": 1605,
-        "y": 400,
+        "x": 1715,
+        "y": 360,
         "wires": [
             [
                 "68238b8109beea8f"
@@ -1755,10 +1673,10 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Notificacion fuga gas sensor ambiente",
-        "order": 7,
+        "order": 8,
         "width": 6,
         "height": 1,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Componente de alerta -->\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function (scope) {\n    let lastPayload = null; // Variable para almacenar el último valor recibido\n    let alertActive = false; // Estado de la alerta activa\n\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload.estado !== lastPayload) {\n        lastPayload = msg.payload.estado; // Actualiza el último valor recibido\n\n        if (msg.payload.estado === true && !alertActive) {\n          alertActive = true;\n          Swal.fire({\n            title: \"¡Fuga de Gas Detectada!\",\n            text: \"Se ha detectado una fuga de gas en: \"+  msg.ciudad.nombre +  \". Tome precauciones inmediatas. +\\n + Por su seguridad se activara la ventilacion al maximo y se cerrara la valvula de suministro\",\n            icon: \"error\",\n            confirmButtonText: \"Entendido\",\n            confirmButtonColor: \"#ff0000\",\n          }).then(() => {\n            scope.send({ payload: true });\n            alertActive = false; // Reinicia el estado de alerta después de cerrar\n          });\n        }\n      }\n    });\n  })(scope);\n</script>",
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Componente de alerta -->\n<div class=\"alert-container\" id=\"alert-container11\"></div>\n\n<script>\n  (function (scope) {\n    let lastPayload = null; // Variable para almacenar el último valor recibido\n    let alertActive = false; // Estado de la alerta activa\n\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload.estado !== lastPayload) {\n        lastPayload = msg.payload.estado; // Actualiza el último valor recibido\n\n        if (msg.payload.estado === true && !alertActive) {\n          alertActive = true;\n          Swal.fire({\n            title: \"¡Fuga de Gas Detectada!\",\n            text: \"Se ha detectado una fuga de gas en: \"+  msg.ciudad.nombre +  \". Tome precauciones inmediatas. +\\n + Por su seguridad se activara la ventilacion al maximo y se cerrara la valvula de suministro\",\n            icon: \"error\",\n            confirmButtonText: \"Entendido\",\n            confirmButtonColor: \"#ff0000\",\n          }).then(() => {\n            scope.send({ payload: true });\n            alertActive = false; // Reinicia el estado de alerta después de cerrar\n          });\n        }\n      }\n    });\n  })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -1826,35 +1744,13 @@
         ]
     },
     {
-        "id": "1cace0f5ab7337a9",
-        "type": "ui_template",
-        "z": "ed84d3e070727412",
-        "g": "1c0628dc9c34f4f0",
-        "group": "ad726ee97b3c56ec",
-        "name": "Ventilador",
-        "order": 2,
-        "width": 3,
-        "height": 4,
-        "format": "<style>\n  .rotating-image {\n    margin-top: 40px;\n    width: 100px;\n    height: 100px;\n    transition: transform 0.05s linear;\n  }\n</style>\n\n<div>\n  <img\n    id=\"rotatingImage\"\n    src=\"/ventilador.png\"\n    alt=\"Rotating Fan\"\n    class=\"rotating-image\"\n  />\n</div>\n\n<script>\n  (function(scope) {\n    let angle = 0;\n    let interval = null;\n    let lastSpeed = -1; // -1 para forzar la primera ejecución\n\n    function applyRotation() {\n      const imageElement = document.getElementById(\"rotatingImage\");\n      imageElement.style.transform = `rotate(${angle}deg)`;\n    }\n\n    function updateRotation(speed) {\n      if (speed === 0) {\n        if (interval) {\n          clearInterval(interval);\n          interval = null;\n        }\n        return;\n      }\n\n      if (speed === lastSpeed) return;\n\n      if (interval) clearInterval(interval);\n\n      interval = setInterval(() => {\n        angle = (angle + 10) % 360;\n        applyRotation(); // Aplica el ángulo actual\n      }, speed);\n\n      lastSpeed = speed;\n    }\n\n    scope.$watch(\"msg\", function(msg) {\n      if (msg && msg.payload !== undefined) {\n        const payloadValue = parseInt(msg.payload, 10);\n        let speed;\n\n        if (payloadValue >= 1 && payloadValue <= 10) {\n          speed = 200;\n        } else if (payloadValue >= 11 && payloadValue <= 75) {\n          speed = 100;\n        } else if (payloadValue >= 76 && payloadValue <= 100) {\n          speed = 10;\n        } else {\n          speed = 0;\n        }\n\n        updateRotation(speed);\n      }\n    });\n\n    scope.$on(\"$destroy\", function() {\n      if (interval) clearInterval(interval);\n    });\n  })(scope);\n</script>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 860,
-        "y": 1100,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "0ad30251fa78784a",
         "type": "ui_template",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "IMAGEN TANQUE GAS",
-        "order": 3,
+        "order": 4,
         "width": 5,
         "height": 3,
         "format": "<img src=\"https://tatsa.mx/wp-content/uploads/2023/01/tanques-de-carburacio204129n-02.webp\"\n     style=\"display: block; margin: auto;\">\n",
@@ -1887,16 +1783,15 @@
         "id": "891da69baaef99e8",
         "type": "link in",
         "z": "ed84d3e070727412",
-        "g": "1c0628dc9c34f4f0",
+        "g": "eca886a5d7cbed9d",
         "name": "link in 2",
         "links": [
             "b1a718579ce91be6"
         ],
-        "x": 85,
-        "y": 1060,
+        "x": 635,
+        "y": 1120,
         "wires": [
             [
-                "cc123f932a686064",
                 "8c5670e652ef5ce7"
             ]
         ]
@@ -1907,7 +1802,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "name": "Valvula = False && fuga = True",
-        "func": "let estadoValvula = flow.get(\"estado_valvula\"); // true o false\nlet hayFuga = msg.fuga === true;\nlet alerta = false;\n\nif (estadoValvula === false && hayFuga) {\n    alerta = true;\n}\n\nmsg.alerta = alerta;\nreturn msg;\n",
+        "func": "let estadoValvula = flow.get(\"estado_valvula_p1\"); // true o false\nlet hayFuga = msg.fuga === true;\nlet alerta = false;\n\nif (estadoValvula === false && hayFuga) {\n    alerta = true;\n}\n\nmsg.alerta = alerta;\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1928,7 +1823,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "name": "Guardar estado valvula en el flujo",
-        "func": "flow.set(\"estado_valvula\", msg.payload);\nreturn null; // no necesitamos enviar nada más\n",
+        "func": "flow.set(\"estado_valvula_p1\", msg.payload);\nreturn null; // no necesitamos enviar nada más\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1950,13 +1845,17 @@
         "props": [
             {
                 "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
             }
         ],
         "repeat": "",
         "crontab": "",
         "once": true,
         "onceDelay": 0.1,
-        "topic": "",
+        "topic": "valvula1",
         "payload": "false",
         "payloadType": "bool",
         "x": 860,
@@ -1987,7 +1886,8 @@
         "y": 660,
         "wires": [
             [
-                "9439d99e468635cf"
+                "9439d99e468635cf",
+                "d9b2016a8168c0da"
             ]
         ]
     },
@@ -2079,8 +1979,8 @@
         "topic": "",
         "payload": "{ \t\"temp\" : 54, \t\"hum\" : 43 }",
         "payloadType": "json",
-        "x": 110,
-        "y": 360,
+        "x": 850,
+        "y": 220,
         "wires": [
             [
                 "75452209a15ebcd7"
@@ -2104,8 +2004,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 270,
-        "y": 360,
+        "x": 1010,
+        "y": 220,
         "wires": [
             [
                 "65ac218cfe1c5490"
@@ -2121,8 +2021,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 430,
-        "y": 360,
+        "x": 1170,
+        "y": 220,
         "wires": [
             [
                 "ee729e06a0f51a57"
@@ -2142,8 +2042,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 630,
-        "y": 360,
+        "x": 1370,
+        "y": 220,
         "wires": [
             [
                 "8c4c681ca32f3a98"
@@ -2166,8 +2066,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 810,
-        "y": 360,
+        "x": 1550,
+        "y": 220,
         "wires": [
             []
         ]
@@ -2231,9 +2131,9 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Descripcion general",
-        "order": 6,
-        "width": 0,
-        "height": 0,
+        "order": 7,
+        "width": 14,
+        "height": 2,
         "format": "<style>\n    .contenedor-horizontal {\n        display: flex;\n        align-items: center;\n        justify-content: space-around;\n        padding: 10px;\n        font-family: Arial, sans-serif;\n        text-align: center;\n        /* background-color: #f0f0f0; */\n        border-radius: 8px;\n        margin: 10px 20px;\n    }\n\n    .contenedor-horizontal div {\n        margin: 0 10px;\n    }\n\n    .etiqueta {\n        font-weight: bold;\n    }\n\n    .contenedor-horizontal p {\n        margin: 0;\n    }\n\n    .contenedor-horizontal p:first-child {\n        font-weight: bold;\n    }\n</style>\n\n<div class=\"contenedor-horizontal\">\n    <div>\n        <p>Nivel</p>\n        <p>{{msg.payload.nivel * 10 | number:2}}%</p>\n    </div>\n    <div>\n        <p>Presión</p>\n        <p>{{msg.payload.presion | number:2}} PSI</p>\n    </div>\n    <div>\n        <p>Concentración</p>\n        <p>{{msg.payload.concentracion}} ppm</p>\n    </div>\n    <div>\n        <p>Dirección</p>\n        <p>{{msg.payload.direccion}}</p>\n    </div>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -2400,7 +2300,7 @@
         "type": "link in",
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
-        "name": "Link recibir consumo",
+        "name": "Link recibir consumo P1",
         "links": [
             "abb5e44725e92a48"
         ],
@@ -2419,10 +2319,10 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Alerta fuga gas tanque cerrado",
-        "order": 8,
+        "order": 10,
         "width": 6,
         "height": 1,
-        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<div class=\"alert-container\" id=\"alert-container\"></div>\n\n<script>\n  (function(scope) {\n    scope.$watch('msg', function(msg) {\n      if (msg && msg.alerta === true && msg.ciudad) {\n        Swal.fire({\n          title: \"¡Fuga de Gas Detectada!\",\n          text: \"Se ha detectado una fuga de gas en: \" + msg.ciudad.nombre +\n            \". Tome precauciones inmediatas.\\nPor su seguridad se activará la ventilación al máximo y se cerrará la válvula de suministro.\",\n          icon: \"error\",\n          confirmButtonText: \"Entendido\",\n          confirmButtonColor: \"#ff0000\"\n        }).then(() => {\n          // Enviar un nuevo mensaje al flujo con alerta = false\n          scope.send({ alerta: false });\n        });\n      }\n    });\n  })(scope);\n</script>",
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<div class=\"alert-container\" id=\"alert-container1\"></div>\n\n<script>\n  (function(scope) {\n    scope.$watch('msg', function(msg) {\n      if (msg && msg.alerta === true && msg.ciudad) {\n        Swal.fire({\n          title: \"¡Fuga de Gas Detectada!\",\n          text: \"Se ha detectado una fuga de gas en: \" + msg.ciudad.nombre +\n            \". Tome precauciones inmediatas.\\nPor su seguridad se activará la ventilación al máximo y se cerrará la válvula de suministro.\",\n          icon: \"error\",\n          confirmButtonText: \"Entendido\",\n          confirmButtonColor: \"#ff0000\"\n        }).then(() => {\n          // Enviar un nuevo mensaje al flujo con alerta = false\n          scope.send({ alerta: false });\n        });\n      }\n    });\n  })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -2438,20 +2338,20 @@
         "id": "7df77b2c4d632e1f",
         "type": "ui_template",
         "z": "ed84d3e070727412",
-        "g": "1c0628dc9c34f4f0",
+        "g": "eca886a5d7cbed9d",
         "group": "ad726ee97b3c56ec",
-        "name": "Slider ventilador",
+        "name": "Slider ventilador P1",
         "order": 3,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .wrapper {\n        margin: 20px;\n        position: relative;\n        width: 87%;\n        height: 1.5rem;\n    }\n\n    .wrapper::before,\n    .wrapper::after {\n        content: '';\n        display: block;\n        position: absolute;\n        z-index: 99;\n        color: #fff;\n        height: 100%;\n        text-align: center;\n        font-size: 1.5rem;\n        line-height: 1;\n        padding: 0 0.75rem;\n        pointer-events: none;\n    }\n\n    .wrapper::before {\n        left: 0;\n        top: 0;\n    }\n\n    .wrapper::after {\n        right: 0;\n        top: 0;\n    }\n\n    input[type=\"range\"] {\n        position:absolute;\n        -webkit-appearance: none;\n        appearance: none;\n        background-color: rgba(255, 255, 255, 0.2);\n        top: 50%;\n        left: 50%;\n        margin: 0;\n        width: 15rem;\n        height: 3.5rem;\n        transform: translate(-50%, -50%);\n        border-radius: 1rem;\n        overflow: hidden;\n        cursor: col-resize;\n    }\n\n    input[type=\"range\"]::-webkit-slider-runnable-track {\n        background-color: rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        appearance: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-moz-range-thumb {\n        border: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n</style>\n\n<div class=\"wrapper\">\n    <input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"50\" ng-model=\"sliderValue\" />\n</div>\n\n<script>\n    (function(scope) {\n    // Actualiza el slider cuando cambia\n    scope.$watch('sliderValue', function(newValue) {\n    if (newValue !== undefined) {\n    scope.send({ payload: newValue });\n    }\n    });\n    \n    // Escucha nuevos valores desde el exterior (por ejemplo, Node-RED o backend)\n    scope.on('payload', function(msg) {\n    if (msg && typeof msg.payload === 'number') {\n    scope.sliderValue = msg.payload;\n    }\n    });\n    })(scope);\n</script>",
+        "format": "<style>\n    .wrapper {\n        margin: 20px;\n        position: relative;\n        width: 87%;\n        height: 1.5rem;\n    }\n\n    .wrapper::before,\n    .wrapper::after {\n        content: '';\n        display: block;\n        position: absolute;\n        z-index: 99;\n        color: #fff;\n        height: 100%;\n        text-align: center;\n        font-size: 1.5rem;\n        line-height: 1;\n        padding: 0 0.75rem;\n        pointer-events: none;\n    }\n\n    .wrapper::before {\n        left: 0;\n        top: 0;\n    }\n\n    .wrapper::after {\n        right: 0;\n        top: 0;\n    }\n\n    input[type=\"range\"] {\n        position:absolute;\n        -webkit-appearance: none;\n        appearance: none;\n        background-color: rgba(255, 255, 255, 0.2);\n        top: 50%;\n        left: 50%;\n        margin: 0;\n        width: 15rem;\n        height: 3.5rem;\n        transform: translate(-50%, -50%);\n        border-radius: 1rem;\n        overflow: hidden;\n        cursor: col-resize;\n    }\n\n    input[type=\"range\"]::-webkit-slider-runnable-track {\n        background-color: rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        appearance: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-moz-range-thumb {\n        border: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n</style>\n\n<div class=\"wrapper\">\n    <input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"50\" ng-model=\"sliderValue1\" />\n</div>\n\n<script>\n    (function(scope) {\n    // Actualiza el slider cuando cambia\n    scope.$watch('sliderValue1', function(newValue) {\n    if (newValue !== undefined) {\n    scope.send({ payload: newValue });\n    }\n    });\n    \n    // Escucha nuevos valores desde el exterior (por ejemplo, Node-RED o backend)\n    scope.on('payload', function(msg) {\n    if (msg && typeof msg.payload === 'number') {\n    scope.sliderValue1 = msg.payload;\n    }\n    });\n    })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 680,
-        "y": 1060,
+        "x": 1450,
+        "y": 1080,
         "wires": [
             [
                 "1cace0f5ab7337a9"
@@ -2462,7 +2362,1285 @@
         "id": "1d1bd6d13873be6a",
         "type": "change",
         "z": "ed84d3e070727412",
-        "g": "1c0628dc9c34f4f0",
+        "g": "eca886a5d7cbed9d",
+        "name": "velocidad ventilador = 100",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "100",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1190,
+        "y": 1120,
+        "wires": [
+            [
+                "7df77b2c4d632e1f",
+                "1cace0f5ab7337a9"
+            ]
+        ]
+    },
+    {
+        "id": "8c5670e652ef5ce7",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "Si estado es True",
+        "property": "payload.estado",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 1120,
+        "wires": [
+            [
+                "1d1bd6d13873be6a"
+            ]
+        ]
+    },
+    {
+        "id": "3c8f3249d4cbddd3",
+        "type": "mqtt in",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "topic": "admin123/cilindros/punto2/consumo",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "70113bd572087aab",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 1580,
+        "wires": [
+            [
+                "2ee99f74550ca0c9"
+            ]
+        ]
+    },
+    {
+        "id": "a00b7c100644d27c",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Set topic presion",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "presion",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 1500,
+        "wires": [
+            [
+                "95256d997c2041e2",
+                "f9f70714eecdf6aa"
+            ]
+        ]
+    },
+    {
+        "id": "2ee99f74550ca0c9",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Set topic consumo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "consumo",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 150,
+        "y": 1660,
+        "wires": [
+            [
+                "343f4ce283c46eef",
+                "1c34a74654e0f101"
+            ]
+        ]
+    },
+    {
+        "id": "e8ffd0aab921e656",
+        "type": "ui_gauge",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "NIVELES ",
+        "group": "c08ac066cd43cd8b",
+        "order": 5,
+        "width": 4,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Nivel",
+        "label": "%",
+        "format": "{{payload * 10}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 840,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "95256d997c2041e2",
+        "type": "range",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "minin": "0",
+        "maxin": "15",
+        "minout": "0",
+        "maxout": "10",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 670,
+        "y": 1460,
+        "wires": [
+            [
+                "e8ffd0aab921e656",
+                "ded1b19d4795f763"
+            ]
+        ]
+    },
+    {
+        "id": "e56e7699fb376330",
+        "type": "ui_text",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "c08ac066cd43cd8b",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload.nombre}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": "20",
+        "color": "#000000",
+        "x": 630,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "f9f70714eecdf6aa",
+        "type": "range",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "minin": "0",
+        "maxin": "15",
+        "minout": "0",
+        "maxout": "150",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 680,
+        "y": 1520,
+        "wires": [
+            [
+                "b64a1759b1511cd5",
+                "84016675def9d3ae",
+                "6d174ffebf23c487",
+                "343f4ce283c46eef",
+                "46404e9ff2ae70e7"
+            ]
+        ]
+    },
+    {
+        "id": "1c34a74654e0f101",
+        "type": "ui_chart",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "group": "159b390760a2eed2",
+        "order": 1,
+        "width": 20,
+        "height": 4,
+        "label": "Historial de consumo",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff9500",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 440,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b64a1759b1511cd5",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "200",
+                "vt": "num",
+                "v2": "100",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "60",
+                "vt": "num",
+                "v2": "99",
+                "v2t": "num"
+            },
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "59",
+                "v2t": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 930,
+        "y": 1560,
+        "wires": [
+            [
+                "0eb0b541ace7d2d5"
+            ],
+            [
+                "6214512901fc8c4a"
+            ],
+            [
+                "3c1bf62ca0a8d807"
+            ],
+            [
+                "b4e4c216c08fb7ec"
+            ]
+        ]
+    },
+    {
+        "id": "578392ba56197111",
+        "type": "ui_text",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "c08ac066cd43cd8b",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Estado:",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1520,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "0eb0b541ace7d2d5",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Estado ALTO",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "⚠️ Alto",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 1500,
+        "wires": [
+            [
+                "578392ba56197111"
+            ]
+        ]
+    },
+    {
+        "id": "6214512901fc8c4a",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Estado OK",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "🟢 OK",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 1540,
+        "wires": [
+            [
+                "578392ba56197111"
+            ]
+        ]
+    },
+    {
+        "id": "3c1bf62ca0a8d807",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Estado bajo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "🟡 Bajo\t",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 1580,
+        "wires": [
+            [
+                "578392ba56197111"
+            ]
+        ]
+    },
+    {
+        "id": "d52a86a392475a33",
+        "type": "mqtt out",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "topic": "admin123/cilindros/punto2/valvula",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "70113bd572087aab",
+        "x": 1420,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "7ebff2a8c2274d23",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "nombre",
+                "pt": "msg",
+                "to": "nombre",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 1660,
+        "wires": [
+            [
+                "9d19a3b315c6a6c8"
+            ]
+        ]
+    },
+    {
+        "id": "84016675def9d3ae",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Valida si no es nulo",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 910,
+        "y": 1660,
+        "wires": [
+            [
+                "7ebff2a8c2274d23"
+            ]
+        ]
+    },
+    {
+        "id": "084c6441ee8e9f44",
+        "type": "link out",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "link out 3 P2",
+        "mode": "link",
+        "links": [
+            "06b07078a652f65d"
+        ],
+        "x": 1525,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "01bb6204515db810",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "b62f81231a279246",
+        "name": "Switch valvula",
+        "order": 1,
+        "width": 3,
+        "height": 4,
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\n  display: block; /* Añadido para centrar */\n  margin: 0 auto; /* Añadido para centrar */\n  width: 50px;\n  height: 120px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: #ffc900;\n}\n\n.valve-closed {\ncolor: #ff1f00;\n}\n\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChangeValve2()\">\n  <img\n    ng-src=\"{{switchStateValve2 ? '/valvula_abierta.png' : '/valvula_cerrada.png'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchStateValve2, 'valve-closed': !switchStateValve2}\">\n    {{switchStateValve2 ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function(scope) {\n  scope.switchStateValve2 = true;\n\n  scope.confirmChangeValve2 = function() {\n    const previousState = scope.switchStateValve2;\n    const newState = !previousState;\n\n    Swal.fire({\n      title: '¿Estás seguro?',\n      text: 'Confirma para cambiar VÁLVULA 2',\n      icon: 'warning',\n      showCancelButton: true,\n      confirmButtonText: 'Sí',\n      cancelButtonText: 'No',\n      confirmButtonColor: '#ff7b00',\n      cancelButtonColor: '#d33',\n    }).then((result) => {\n      if (result.isConfirmed) {\n        scope.switchStateValve2 = newState;\n        scope.send({ topic: \"valvula2\", payload: scope.switchStateValve2 });\n      } else {\n        scope.switchStateValve2 = previousState;\n      }\n      scope.$apply();\n    });\n  };\n\n  scope.$watch(\"msg\", function(msg) {\n    if (msg && msg.topic === \"valvula2\" && msg.payload !== undefined) {\n      scope.switchStateValve2 = msg.payload;\n      scope.$apply();\n    }\n  });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1140,
+        "y": 1260,
+        "wires": [
+            [
+                "a97b15eeb61c85ee",
+                "d52a86a392475a33"
+            ]
+        ],
+        "icon": "node-red-dashboard/ui_switch.png"
+    },
+    {
+        "id": "f9e3710cd7707f8d",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Validar fuga > 0",
+        "property": "fuga",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1200,
+        "y": 1460,
+        "wires": [
+            [
+                "eeaf3baaf1f4a0ba"
+            ]
+        ]
+    },
+    {
+        "id": "eeaf3baaf1f4a0ba",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Fuga == True",
+        "rules": [
+            {
+                "t": "set",
+                "p": "fuga",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1380,
+        "y": 1460,
+        "wires": [
+            [
+                "efed553a178bf503"
+            ]
+        ]
+    },
+    {
+        "id": "2ced170761c1f3a6",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Mover playload a msg.fuga",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "fuga",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 980,
+        "y": 1460,
+        "wires": [
+            [
+                "f9e3710cd7707f8d"
+            ]
+        ]
+    },
+    {
+        "id": "2e5ac239575c51d8",
+        "type": "mqtt in",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "topic": "admin123/cilindros/punto2/presion",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "70113bd572087aab",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 1500,
+        "wires": [
+            [
+                "a00b7c100644d27c"
+            ]
+        ]
+    },
+    {
+        "id": "7429dbf58dc40f20",
+        "type": "mqtt in",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "topic": "admin123/cilindros/punto2",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "70113bd572087aab",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 1420,
+        "wires": [
+            [
+                "dcd6c9f22235b7c7"
+            ]
+        ]
+    },
+    {
+        "id": "147599d650d9f7e9",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1340,
+        "wires": [
+            [
+                "01bb6204515db810"
+            ]
+        ]
+    },
+    {
+        "id": "bffc347ada118b60",
+        "type": "mqtt in",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "topic": "admin123/punto2/sensores/fuga",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "70113bd572087aab",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 1340,
+        "wires": [
+            [
+                "82afbb8ecffc5f8b"
+            ]
+        ]
+    },
+    {
+        "id": "2fef373ea7a36588",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "c08ac066cd43cd8b",
+        "name": "Notificacion fuga gas sensor ambiente",
+        "order": 8,
+        "width": 6,
+        "height": 1,
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Componente de alerta -->\n<div class=\"alert-container\" id=\"alert-container22\"></div>\n\n<script>\n  (function (scope) {\n    let lastPayload = null; // Variable para almacenar el último valor recibido\n    let alertActive = false; // Estado de la alerta activa\n\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload.estado !== lastPayload) {\n        lastPayload = msg.payload.estado; // Actualiza el último valor recibido\n\n        if (msg.payload.estado === true && !alertActive) {\n          alertActive = true;\n          Swal.fire({\n            title: \"¡Fuga de Gas Detectada!\",\n            text: \"Se ha detectado una fuga de gas en: \"+  msg.ciudad.nombre +  \". Tome precauciones inmediatas. +\\n + Por su seguridad se activara la ventilacion al maximo y se cerrara la valvula de suministro\",\n            icon: \"error\",\n            confirmButtonText: \"Entendido\",\n            confirmButtonColor: \"#ff0000\",\n          }).then(() => {\n            scope.send({ payload: true });\n            alertActive = false; // Reinicia el estado de alerta después de cerrar\n          });\n        }\n      }\n    });\n  })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 630,
+        "y": 1340,
+        "wires": [
+            [
+                "443e1fd8f52537e1",
+                "0935314888241822"
+            ]
+        ]
+    },
+    {
+        "id": "1a8a6ca38a96564a",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "c08ac066cd43cd8b",
+        "name": "IMAGEN TANQUE GAS",
+        "order": 4,
+        "width": 5,
+        "height": 3,
+        "format": "<img src=\"https://tatsa.mx/wp-content/uploads/2023/01/tanques-de-carburacio204129n-02.webp\"\n     style=\"display: block; margin: auto;\">\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 590,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0935314888241822",
+        "type": "link out",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "link out 4 P2",
+        "mode": "link",
+        "links": [
+            "ca74fadd6bd71475"
+        ],
+        "x": 705,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "efed553a178bf503",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Valvula = False && fuga = True",
+        "func": "let estadoValvula1 = flow.get(\"estado_valvula_p2\"); // true o false\nlet hayFuga = msg.fuga === true;\nlet alerta = false;\n\nif (estadoValvula1 === false && hayFuga) {\n    alerta = true;\n}\n\nmsg.alerta = alerta;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1630,
+        "y": 1460,
+        "wires": [
+            [
+                "a9a5113eef5c50e8"
+            ]
+        ]
+    },
+    {
+        "id": "a97b15eeb61c85ee",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Guardar estado valvula en el flujo",
+        "func": "flow.set(\"estado_valvula_p2\", msg.payload);\nreturn null; // no necesitamos enviar nada más\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1420,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9a5113eef5c50e8",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Valida alerta == true",
+        "property": "alerta",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1900,
+        "y": 1460,
+        "wires": [
+            [
+                "66bb621a76a13186",
+                "1a33f941b50e38d8"
+            ]
+        ]
+    },
+    {
+        "id": "e6d0a9ecb0b56d5c",
+        "type": "inject",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Disparador de valvula",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "valvula2",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 860,
+        "y": 1260,
+        "wires": [
+            [
+                "01bb6204515db810"
+            ]
+        ]
+    },
+    {
+        "id": "dcd6c9f22235b7c7",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "datosCiudad2",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 1420,
+        "wires": [
+            [
+                "e56e7699fb376330"
+            ]
+        ]
+    },
+    {
+        "id": "66bb621a76a13186",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "function 3",
+        "func": "msg.ciudad = flow.get(\"datosCiudad2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1880,
+        "y": 1520,
+        "wires": [
+            [
+                "c69ead3cb476f0f4"
+            ]
+        ]
+    },
+    {
+        "id": "82afbb8ecffc5f8b",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "function 4",
+        "func": "// Obtener el objeto actual (o uno vacío si no existe aún)\nlet ciudad = flow.get(\"datosCiudad2\") || {};\n\n// Actualizar solo el campo \"concentracion\"\nciudad.concentracion = msg.payload.concentracion; // Ajusta según dónde tengas el valor\n\n// Guardar el objeto modificado nuevamente\nflow.set(\"datosCiudad2\", ciudad);\nlet prueba = flow.get(\"datosCiudad2\") || {};\nconsole.log(\"fuego\" , prueba);\n// (Opcional) Verificar\nmsg.ciudad = ciudad;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1340,
+        "wires": [
+            [
+                "2fef373ea7a36588"
+            ]
+        ]
+    },
+    {
+        "id": "b4e4c216c08fb7ec",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Estado critico",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "🔴 Crítico\t",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 1620,
+        "wires": [
+            [
+                "578392ba56197111"
+            ]
+        ]
+    },
+    {
+        "id": "443e1fd8f52537e1",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 910,
+        "y": 1340,
+        "wires": [
+            [
+                "147599d650d9f7e9"
+            ]
+        ]
+    },
+    {
+        "id": "083b1bbcdd5cd393",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "c08ac066cd43cd8b",
+        "name": "Descripcion general",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .contenedor-horizontal {\n        display: flex;\n        align-items: center;\n        justify-content: space-around;\n        padding: 10px;\n        font-family: Arial, sans-serif;\n        text-align: center;\n        /* background-color: #f0f0f0; */\n        border-radius: 8px;\n        margin: 10px 20px;\n    }\n\n    .contenedor-horizontal div {\n        margin: 0 10px;\n    }\n\n    .etiqueta {\n        font-weight: bold;\n    }\n\n    .contenedor-horizontal p {\n        margin: 0;\n    }\n\n    .contenedor-horizontal p:first-child {\n        font-weight: bold;\n    }\n</style>\n\n<div class=\"contenedor-horizontal\">\n    <div>\n        <p>Nivel</p>\n        <p>{{msg.payload.nivel * 10 | number:2}}%</p>\n    </div>\n    <div>\n        <p>Presión</p>\n        <p>{{msg.payload.presion | number:2}} PSI</p>\n    </div>\n    <div>\n        <p>Concentración</p>\n        <p>{{msg.payload.concentracion}} ppm</p>\n    </div>\n    <div>\n        <p>Dirección</p>\n        <p>{{msg.payload.direccion}}</p>\n    </div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1440,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d174ffebf23c487",
+        "type": "join",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1070,
+        "y": 1740,
+        "wires": [
+            [
+                "374a51204e4fb67b"
+            ]
+        ]
+    },
+    {
+        "id": "ded1b19d4795f763",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Set topic nivel",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "nivel",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1740,
+        "wires": [
+            [
+                "6d174ffebf23c487"
+            ]
+        ]
+    },
+    {
+        "id": "374a51204e4fb67b",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Guardar datos",
+        "func": "let datos = flow.get('datosCiudad2') || {};\n\nmsg.payload = {\n    nombre: datos.nombre,\n    concentracion: datos.concentracion,\n    direccion: datos.direccion,\n    presion: msg.payload.presion,\n    nivel: msg.payload.nivel\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 1740,
+        "wires": [
+            [
+                "083b1bbcdd5cd393"
+            ]
+        ]
+    },
+    {
+        "id": "b7f7973b8078c7e1",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Validar consumo > 0",
+        "property": "payload.consumo",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 620,
+        "y": 1620,
+        "wires": [
+            [
+                "6c89d3b5757ae75b"
+            ]
+        ]
+    },
+    {
+        "id": "343f4ce283c46eef",
+        "type": "join",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Unir presion y consumo en payload",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 490,
+        "y": 1660,
+        "wires": [
+            [
+                "b7f7973b8078c7e1"
+            ]
+        ]
+    },
+    {
+        "id": "6c89d3b5757ae75b",
+        "type": "link out",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Link enviar consumo P2",
+        "mode": "link",
+        "links": [
+            "76eeba0af4176ccb"
+        ],
+        "x": 765,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "76eeba0af4176ccb",
+        "type": "link in",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Link recibir consumo P2",
+        "links": [
+            "6c89d3b5757ae75b"
+        ],
+        "x": 815,
+        "y": 1460,
+        "wires": [
+            [
+                "2ced170761c1f3a6"
+            ]
+        ]
+    },
+    {
+        "id": "c69ead3cb476f0f4",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "c08ac066cd43cd8b",
+        "name": "Alerta fuga gas tanque cerrado",
+        "order": 10,
+        "width": 6,
+        "height": 1,
+        "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<div class=\"alert-container\" id=\"alert-container2\"></div>\n\n<script>\n  (function(scope) {\n    scope.$watch('msg', function(msg) {\n      if (msg && msg.alerta === true && msg.ciudad) {\n        Swal.fire({\n          title: \"¡Fuga de Gas Detectada!\",\n          text: \"Se ha detectado una fuga de gas en: \" + msg.ciudad.nombre +\n            \". Tome precauciones inmediatas.\\nPor su seguridad se activará la ventilación al máximo y se cerrará la válvula de suministro.\",\n          icon: \"error\",\n          confirmButtonText: \"Entendido\",\n          confirmButtonColor: \"#ff0000\"\n        }).then(() => {\n          // Enviar un nuevo mensaje al flujo con alerta = false\n          scope.send({ alerta: false });\n        });\n      }\n    });\n  })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1890,
+        "y": 1580,
+        "wires": [
+            [
+                "7d03dde6b59bfa1b"
+            ]
+        ]
+    },
+    {
+        "id": "4b2713081afec830",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "b62f81231a279246",
+        "name": "Ventilador P2",
+        "order": 2,
+        "width": 3,
+        "height": 4,
+        "format": "<style>\n  .rotating-image {\n    margin-top: 40px;\n    width: 100px;\n    height: 100px;\n    transition: transform 0.05s linear;\n  }\n</style>\n\n<div>\n  <img\n    id=\"rotatingImage2\"\n    src=\"/ventilador.png\"\n    alt=\"Rotating Fan\"\n    class=\"rotating-image\"\n  />\n</div>\n\n<script>\n  (function(scope) {\n    let angle = 0;\n    let interval = null;\n    let lastSpeed = -1; // -1 para forzar la primera ejecución\n\n    function applyRotation() {\n      const imageElement = document.getElementById(\"rotatingImage2\");\n      imageElement.style.transform = `rotate(${angle}deg)`;\n    }\n\n    function updateRotation(speed) {\n      if (speed === 0) {\n        if (interval) {\n          clearInterval(interval);\n          interval = null;\n        }\n        return;\n      }\n\n      if (speed === lastSpeed) return;\n\n      if (interval) clearInterval(interval);\n\n      interval = setInterval(() => {\n        angle = (angle + 10) % 360;\n        applyRotation(); // Aplica el ángulo actual\n      }, speed);\n\n      lastSpeed = speed;\n    }\n\n    scope.$watch(\"msg\", function(msg) {\n      if (msg && msg.payload !== undefined) {\n        const payloadValue = parseInt(msg.payload, 10);\n        let speed;\n\n        if (payloadValue >= 1 && payloadValue <= 10) {\n          speed = 200;\n        } else if (payloadValue >= 11 && payloadValue <= 75) {\n          speed = 100;\n        } else if (payloadValue >= 76 && payloadValue <= 100) {\n          speed = 10;\n        } else {\n          speed = 0;\n        }\n\n        updateRotation(speed);\n      }\n    });\n\n    scope.$on(\"$destroy\", function() {\n      if (interval) clearInterval(interval);\n    });\n  })(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 890,
+        "y": 1900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca74fadd6bd71475",
+        "type": "link in",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "link in 3 P2",
+        "links": [
+            "0935314888241822"
+        ],
+        "x": 65,
+        "y": 1900,
+        "wires": [
+            [
+                "2bc08e92e116faf3"
+            ]
+        ]
+    },
+    {
+        "id": "23cfb007dca1b014",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "b62f81231a279246",
+        "name": "Slider ventilador P2",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .wrapper {\n        margin: 20px;\n        position: relative;\n        width: 87%;\n        height: 1.5rem;\n    }\n\n    .wrapper::before,\n    .wrapper::after {\n        content: '';\n        display: block;\n        position: absolute;\n        z-index: 99;\n        color: #fff;\n        height: 100%;\n        text-align: center;\n        font-size: 1.5rem;\n        line-height: 1;\n        padding: 0 0.75rem;\n        pointer-events: none;\n    }\n\n    .wrapper::before {\n        left: 0;\n        top: 0;\n    }\n\n    .wrapper::after {\n        right: 0;\n        top: 0;\n    }\n\n    input[type=\"range\"] {\n        position:absolute;\n        -webkit-appearance: none;\n        appearance: none;\n        background-color: rgba(255, 255, 255, 0.2);\n        top: 50%;\n        left: 50%;\n        margin: 0;\n        width: 15rem;\n        height: 3.5rem;\n        transform: translate(-50%, -50%);\n        border-radius: 1rem;\n        overflow: hidden;\n        cursor: col-resize;\n    }\n\n    input[type=\"range\"]::-webkit-slider-runnable-track {\n        background-color: rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        appearance: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-moz-range-thumb {\n        border: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n</style>\n\n<div class=\"wrapper\">\n    <input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"50\" ng-model=\"sliderValue2\" />\n</div>\n\n<script>\n    (function(scope) {\n    // Actualiza el slider cuando cambia\n    scope.$watch('sliderValue2', function(newValue) {\n    if (newValue !== undefined) {\n    scope.send({ payload: newValue });\n    }\n    });\n    \n    // Escucha nuevos valores desde el exterior (por ejemplo, Node-RED o backend)\n    scope.on('payload', function(msg) {\n    if (msg && typeof msg.payload === 'number') {\n    scope.sliderValue2 = msg.payload;\n    }\n    });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 670,
+        "y": 1860,
+        "wires": [
+            [
+                "4b2713081afec830"
+            ]
+        ]
+    },
+    {
+        "id": "aa203185084de920",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
         "name": "velocidad ventilador = 100",
         "rules": [
             {
@@ -2479,37 +3657,19 @@
         "to": "",
         "reg": false,
         "x": 430,
-        "y": 1100,
+        "y": 1900,
         "wires": [
             [
-                "7df77b2c4d632e1f",
-                "1cace0f5ab7337a9"
+                "23cfb007dca1b014",
+                "4b2713081afec830"
             ]
         ]
     },
     {
-        "id": "cc123f932a686064",
-        "type": "debug",
-        "z": "ed84d3e070727412",
-        "g": "1c0628dc9c34f4f0",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 260,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "8c5670e652ef5ce7",
+        "id": "2bc08e92e116faf3",
         "type": "switch",
         "z": "ed84d3e070727412",
-        "g": "1c0628dc9c34f4f0",
+        "g": "b1ec3d039689d046",
         "name": "Si estado es True",
         "property": "payload.estado",
         "propertyType": "msg",
@@ -2522,11 +3682,315 @@
         "repair": false,
         "outputs": 1,
         "x": 210,
-        "y": 1100,
+        "y": 1900,
+        "wires": [
+            [
+                "aa203185084de920"
+            ]
+        ]
+    },
+    {
+        "id": "26555eba38a5eb5b",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "Obtener datos de var flujo",
+        "func": "msg.ciudad = flow.get(\"datosCiudad1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 860,
+        "wires": [
+            [
+                "aef2b33a57ae564e"
+            ]
+        ]
+    },
+    {
+        "id": "9d19a3b315c6a6c8",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Obtener datos de var flujo",
+        "func": "msg.ciudad = flow.get(\"datosCiudad2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 1660,
+        "wires": [
+            [
+                "084c6441ee8e9f44"
+            ]
+        ]
+    },
+    {
+        "id": "1cace0f5ab7337a9",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "ad726ee97b3c56ec",
+        "name": "Ventilador P1",
+        "order": 2,
+        "width": 3,
+        "height": 4,
+        "format": "<style>\n  .rotating-image {\n    margin-top: 40px;\n    width: 100px;\n    height: 100px;\n    transition: transform 0.05s linear;\n  }\n</style>\n\n<div>\n  <img\n    id=\"rotatingImage1\"\n    src=\"/ventilador.png\"\n    alt=\"Rotating Fan\"\n    class=\"rotating-image\"\n  />\n</div>\n\n<script>\n  (function(scope) {\n    let angle = 0;\n    let interval = null;\n    let lastSpeed = -1; // -1 para forzar la primera ejecución\n\n    function applyRotation() {\n      const imageElement = document.getElementById(\"rotatingImage1\");\n      imageElement.style.transform = `rotate(${angle}deg)`;\n    }\n\n    function updateRotation(speed) {\n      if (speed === 0) {\n        if (interval) {\n          clearInterval(interval);\n          interval = null;\n        }\n        return;\n      }\n\n      if (speed === lastSpeed) return;\n\n      if (interval) clearInterval(interval);\n\n      interval = setInterval(() => {\n        angle = (angle + 10) % 360;\n        applyRotation(); // Aplica el ángulo actual\n      }, speed);\n\n      lastSpeed = speed;\n    }\n\n    scope.$watch(\"msg\", function(msg) {\n      if (msg && msg.payload !== undefined) {\n        const payloadValue = parseInt(msg.payload, 10);\n        let speed;\n\n        if (payloadValue >= 1 && payloadValue <= 10) {\n          speed = 200;\n        } else if (payloadValue >= 11 && payloadValue <= 75) {\n          speed = 100;\n        } else if (payloadValue >= 76 && payloadValue <= 100) {\n          speed = 10;\n        } else {\n          speed = 0;\n        }\n\n        updateRotation(speed);\n      }\n    });\n\n    scope.$on(\"$destroy\", function() {\n      if (interval) clearInterval(interval);\n    });\n  })(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1670,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca4b52459d6d4317",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Si estado es True",
+        "property": "alerta",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 210,
+        "y": 1820,
+        "wires": [
+            [
+                "aa203185084de920"
+            ]
+        ]
+    },
+    {
+        "id": "7d03dde6b59bfa1b",
+        "type": "debug",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1920,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "d9b2016a8168c0da",
+        "type": "link out",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "Link envia alerta P1",
+        "mode": "link",
+        "links": [
+            "902a80765e1907ad"
+        ],
+        "x": 2085,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "9e859c70cca70c58",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "alerta",
+                "pt": "msg",
+                "to": "payload.estado",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2060,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35d79753365ab065",
+        "type": "switch",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "property": "alerta",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 810,
+        "y": 1040,
         "wires": [
             [
                 "1d1bd6d13873be6a"
             ]
+        ]
+    },
+    {
+        "id": "902a80765e1907ad",
+        "type": "link in",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "Link recibe alerta P1",
+        "links": [
+            "d9b2016a8168c0da"
+        ],
+        "x": 655,
+        "y": 1040,
+        "wires": [
+            [
+                "35d79753365ab065"
+            ]
+        ]
+    },
+    {
+        "id": "1a33f941b50e38d8",
+        "type": "link out",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Link envia alerta P2",
+        "mode": "link",
+        "links": [
+            "d01690597d7edb6b"
+        ],
+        "x": 2095,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "d01690597d7edb6b",
+        "type": "link in",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Link recibe alerta P2",
+        "links": [
+            "1a33f941b50e38d8"
+        ],
+        "x": 65,
+        "y": 1820,
+        "wires": [
+            [
+                "ca4b52459d6d4317"
+            ]
+        ]
+    },
+    {
+        "id": "e57b0a5fa5a12ded",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "d6a565f559b0906a",
+        "name": "presionp1",
+        "order": 6,
+        "width": 5,
+        "height": 3,
+        "format": "<style>\n    .g-container {\n        width: 150px;\n        height: 250px;\n        margin-left: 35px;\n    }\n\n    .g-nums {\n        width: 96%;\n    }\n\n    .g-val {\n\n        left: 47%;\n        font-size: 15px;\n    }\n</style>\n\n\n<div id=\"{{'gauge_'+$id}}\" class=\"g-container\" style=\"-g-angle:4; --container-size:4.4\">\n\n\n    <div class=\"g-plate\">\n        <div class=\"g-sector g-sector-normal\" style=\"transform: rotate(193deg) skew(291deg, 23deg);\"></div>\n        <div class=\"g-sector g-sector-high\" style=\"transform: rotate(329deg) skew(12deg,23deg);\"></div>\n        <div class=\"g-ticks\">\n            <div class=\"g-tick\" style=\"--ga-tick:1;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:2;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:3;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:4;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:5;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:6;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:7;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:8;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:9;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:10;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:11;\"></div>\n        </div>\n        <div class=\"g-nums\">\n            <div class=\"g-num\" style=\"left: 23%;top: 71%;\">0</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 56%;\">20</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 39%;\">40</div>\n            <div class=\"g-num\" style=\"left: 19%;top: 24%;\">60</div>\n            <div class=\"g-num\" style=\"left: 31%;top: 14%;\">80</div>\n            <div class=\"g-num\" style=\"left: 47%;top: 10%;\">100</div>\n            <div class=\"g-num\" style=\"left: 63%;top: 14%;\">120</div>\n            <div class=\"g-num\" style=\"left: 74%;top: 25%;\">140</div>\n            <div class=\"g-num\" style=\"left: 79%;top: 40%;\">160</div>\n            <div class=\"g-num\" style=\"left: 78%;top: 56%;\">180</div>\n            <div class=\"g-num\" style=\"left:65%; top:71%;\">200</div>\n        </div>\n        <div class=\"g-label\">PRESIÓN</div>\n        <div class=\"g-needle\"></div>\n        <div class=\"g-needle-ring\"></div>\n        <div id=\"{{'gauge_val_'+$id}}\" class=\"g-val\"></div>\n    </div>\n\n\n</div>\n<script>\n    (function(scope) {\n    let min = 0;\n    let max = 200;\n    scope.$watch('msg', function(msg) {\n        if (msg) {\n            const v = Math.floor((( msg.payload- min) / (max - min)) * 100);\n            document.getElementById('gauge_'+scope.$id).style.setProperty('--g-angle', v);\n            document.getElementById('gauge_val_'+scope.$id).innerText = msg.payload;\n        }   \n  });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1020,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3680ed389112da9f",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "truncado",
+        "func": "msg.payload = Math.trunc( msg.payload * 100)/100 ;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 700,
+        "wires": [
+            [
+                "e57b0a5fa5a12ded"
+            ]
+        ]
+    },
+    {
+        "id": "46404e9ff2ae70e7",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "truncado",
+        "func": "msg.payload = Math.trunc( msg.payload * 100)/100 ;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 1500,
+        "wires": [
+            [
+                "0bb628b3cf316c54"
+            ]
+        ]
+    },
+    {
+        "id": "0bb628b3cf316c54",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "c08ac066cd43cd8b",
+        "name": "presionp2",
+        "order": 6,
+        "width": 5,
+        "height": 3,
+        "format": "<style>\n    .g-container {\n\n        width: 200px;\n        margin-left: 35px;\n    }\n\n    .g-nums {\n        width: 96%;\n    }\n\n    .g-val {\n\n        left: 47%;\n        font-size: 15px;\n    }\n</style>\n\n\n<div id=\"{{'gauge2_'+$id}}\" class=\"g-container\" style=\"-g-angle:4; --container-size:4.4\">\n\n\n    <div class=\"g-plate\">\n        <div class=\"g-sector g-sector-normal\" style=\"transform: rotate(193deg) skew(291deg, 23deg);\"></div>\n        <div class=\"g-sector g-sector-high\" style=\"transform: rotate(329deg) skew(12deg,23deg);\"></div>\n        <div class=\"g-ticks\">\n            <div class=\"g-tick\" style=\"--ga-tick:1;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:2;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:3;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:4;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:5;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:6;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:7;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:8;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:9;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:10;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:11;\"></div>\n        </div>\n        <div class=\"g-nums\">\n            <div class=\"g-num\" style=\"left: 23%;top: 71%;\">0</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 56%;\">20</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 39%;\">40</div>\n            <div class=\"g-num\" style=\"left: 19%;top: 24%;\">60</div>\n            <div class=\"g-num\" style=\"left: 31%;top: 14%;\">80</div>\n            <div class=\"g-num\" style=\"left: 47%;top: 10%;\">100</div>\n            <div class=\"g-num\" style=\"left: 63%;top: 14%;\">120</div>\n            <div class=\"g-num\" style=\"left: 74%;top: 25%;\">140</div>\n            <div class=\"g-num\" style=\"left: 79%;top: 40%;\">160</div>\n            <div class=\"g-num\" style=\"left: 78%;top: 56%;\">180</div>\n            <div class=\"g-num\" style=\"left:65%; top:71%;\">200</div>\n        </div>\n        <div class=\"g-label\">PRESIÓN</div>\n        <div class=\"g-needle\"></div>\n        <div class=\"g-needle-ring\"></div>\n        <div id=\"{{'gauge2_val_'+$id}}\" class=\"g-val\"></div>\n    </div>\n\n\n</div>\n<script>\n    (function(scope) {\n        let min = 0;\n        let max = 200;\n\n        // Variable global para almacenar el último valor\n        let lastPayload2= null;\n\n        // Función para actualizar el ángulo\n        function updateGauge(value) {\n            const v = Math.floor(((value - min) / (max - min)) * 100);\n            document.getElementById('gauge2_' + scope.$id).style.setProperty('--g-angle', v);\n            document.getElementById('gauge2_val_' + scope.$id).innerText = value;\n        }\n\n        // Escucha el cambio de mensaje\n        scope.$watch('msg', function(msg) {\n            if (msg) {\n                lastPayload2 = msg.payload; // Almacena el último valor recibido\n                updateGauge(lastPayload2);\n            }\n        });\n\n        // Manejar el evento de visibilidad de la página\n        document.addEventListener(\"visibilitychange\", function() {\n            if (!document.hidden && lastPayload2 !== null) {\n                // Restaura el valor del gauge cuando se vuelve a la pestaña\n                updateGauge(lastPayload2);\n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1020,
+        "y": 1500,
+        "wires": [
+            []
         ]
     },
     {
@@ -2668,7 +4132,7 @@
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
         "name": "Consumir gas",
-        "low": "1",
+        "low": "0",
         "high": "1",
         "inte": "false",
         "property": "consumo",
@@ -2687,7 +4151,7 @@
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
         "name": "Calcular presion resultante",
-        "func": "let presion = flow.get(\"ppasaje\") ; \nlet consumo = msg.consumo;\n\n\nif (presion>0){\n    flow.set(\"ppasaje\", (presion - consumo));\n}\n\nmsg.presionr = flow.get(\"ppasaje\"); \nreturn msg;",
+        "func": "let presion = flow.get(\"ppunto1\") ; \nlet consumo = msg.consumo;\n\n\nif (presion>0){\n    flow.set(\"ppunto1\", (presion - consumo));\n}\n\nmsg.presionr = flow.get(\"ppunto1\"); \nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -2872,11 +4336,11 @@
         "type": "change",
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
-        "name": "Set ppasaje a payload",
+        "name": "Set ppunto a payload",
         "rules": [
             {
                 "t": "set",
-                "p": "ppasaje",
+                "p": "ppunto1",
                 "pt": "flow",
                 "to": "presion",
                 "tot": "msg"
@@ -2922,7 +4386,7 @@
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
         "name": "",
-        "topic": "admin123/cilindros/punto1/valvula",
+        "topic": "admin123/cilindros/norte/valvula",
         "qos": "2",
         "datatype": "auto-detect",
         "broker": "70113bd572087aab",
@@ -2930,7 +4394,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 220,
+        "x": 210,
         "y": 320,
         "wires": [
             [
@@ -2949,7 +4413,7 @@
                 "t": "move",
                 "p": "payload",
                 "pt": "msg",
-                "to": "valvula",
+                "to": "valvulap1",
                 "tot": "flow"
             }
         ],
@@ -3005,7 +4469,7 @@
         "z": "74273795d1e74a6e",
         "g": "969d8996b0110f16",
         "name": "Si valvula == consumo (TRUE)",
-        "property": "valvula",
+        "property": "valvulap1",
         "propertyType": "flow",
         "rules": [
             {
@@ -3099,104 +4563,6 @@
         "broker": "70113bd572087aab",
         "x": 510,
         "y": 480,
-        "wires": []
-    },
-    {
-        "id": "63f76027b3399f33",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "1db8133a62cab60c",
-        "name": "SIMULAR FUGA DE GAS PUNTO 2",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "admin123/punto2/sensores/fuga",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 240,
-        "y": 580,
-        "wires": [
-            [
-                "7da0fb93c70ecbc9"
-            ]
-        ]
-    },
-    {
-        "id": "7da0fb93c70ecbc9",
-        "type": "mqtt out",
-        "z": "74273795d1e74a6e",
-        "g": "1db8133a62cab60c",
-        "name": "",
-        "topic": "",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "70113bd572087aab",
-        "x": 490,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "1a601e7a6d191818",
-        "type": "inject",
-        "z": "74273795d1e74a6e",
-        "g": "1db8133a62cab60c",
-        "name": "SIMULAR FUGA DE GAS PUNTO 3",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "true",
-                "v": "",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "admin123/punto3/sensores/fuga",
-        "x": 240,
-        "y": 640,
-        "wires": [
-            [
-                "f813178647af73dd"
-            ]
-        ]
-    },
-    {
-        "id": "f813178647af73dd",
-        "type": "mqtt out",
-        "z": "74273795d1e74a6e",
-        "g": "1db8133a62cab60c",
-        "name": "",
-        "topic": "",
-        "qos": "0",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "70113bd572087aab",
-        "x": 490,
-        "y": 640,
         "wires": []
     },
     {
@@ -3346,6 +4712,724 @@
         ]
     },
     {
+        "id": "bdf388fe84f5929e",
+        "type": "mqtt out",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "70113bd572087aab",
+        "x": 2050,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "abbc73519a43cf40",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Set datos a payload y su topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"id\":2,\"nombre\":\"MACHALA SUCURSAL SUR\",\"concentracion\":100,\"direccion\":\"Calle primavera y barceaba\"}",
+                "tot": "json"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/punto2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 640,
+        "wires": [
+            [
+                "bdf388fe84f5929e"
+            ]
+        ]
+    },
+    {
+        "id": "b64c79cbb1963c68",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Disparador datos",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 640,
+        "wires": [
+            [
+                "abbc73519a43cf40"
+            ]
+        ]
+    },
+    {
+        "id": "ee85d086284b972d",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Generar Presión",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "presion",
+        "payload": "{\"estado\":false}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 700,
+        "wires": [
+            [
+                "cf654264896d33aa"
+            ]
+        ]
+    },
+    {
+        "id": "cf654264896d33aa",
+        "type": "random",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Presión",
+        "low": "15",
+        "high": "15",
+        "inte": "true",
+        "property": "presion",
+        "x": 380,
+        "y": 700,
+        "wires": [
+            [
+                "29b2c3035b6c3512",
+                "70b59a5e52e1da6d"
+            ]
+        ]
+    },
+    {
+        "id": "7055b65fe7c82bc4",
+        "type": "random",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Consumir gas",
+        "low": "1",
+        "high": "1",
+        "inte": "false",
+        "property": "consumo",
+        "x": 840,
+        "y": 840,
+        "wires": [
+            [
+                "824c9e7b9d877577",
+                "ecbd08dd8175dfb3"
+            ]
+        ]
+    },
+    {
+        "id": "882c1868ae840680",
+        "type": "function",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Calcular presion resultante",
+        "func": "let presion = flow.get(\"ppunto_p2\") ; \nlet consumo = msg.consumo;\n\n\nif (presion>0){\n    flow.set(\"ppunto_p2\", (presion - consumo));\n}\n\nmsg.presionr = flow.get(\"ppunto_p2\"); \nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 720,
+        "wires": [
+            [
+                "824c9e7b9d877577"
+            ]
+        ]
+    },
+    {
+        "id": "0c4658f6189f0708",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Disparador de consumo",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "6",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "4",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 210,
+        "y": 940,
+        "wires": [
+            [
+                "1aafba5141555154"
+            ]
+        ]
+    },
+    {
+        "id": "c26ca30ae6ead40b",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Set presion topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/punto2/presion",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 700,
+        "wires": [
+            [
+                "bdf388fe84f5929e"
+            ]
+        ]
+    },
+    {
+        "id": "dd08bdda4cc7dcf9",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Set consumo a topic consumo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/punto2/consumo",
+                "tot": "str"
+            },
+            {
+                "t": "move",
+                "p": "consumo",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "presionr",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1830,
+        "y": 780,
+        "wires": [
+            [
+                "bdf388fe84f5929e"
+            ]
+        ]
+    },
+    {
+        "id": "85ef10671fbcda12",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Set presion a topic presion",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "admin123/cilindros/punto2/presion",
+                "tot": "str"
+            },
+            {
+                "t": "move",
+                "p": "presionr",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "consumo",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 840,
+        "wires": [
+            [
+                "bdf388fe84f5929e"
+            ]
+        ]
+    },
+    {
+        "id": "824c9e7b9d877577",
+        "type": "switch",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Validar presionr > 0",
+        "property": "presionr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1570,
+        "y": 840,
+        "wires": [
+            [
+                "dd08bdda4cc7dcf9",
+                "85ef10671fbcda12"
+            ]
+        ]
+    },
+    {
+        "id": "29b2c3035b6c3512",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Set ppunto a payload",
+        "rules": [
+            {
+                "t": "set",
+                "p": "ppunto_p2",
+                "pt": "flow",
+                "to": "presion",
+                "tot": "msg"
+            }
+        ],
+        "x": 500,
+        "y": 780,
+        "wires": [
+            [
+                "7055b65fe7c82bc4"
+            ]
+        ]
+    },
+    {
+        "id": "70b59a5e52e1da6d",
+        "type": "switch",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Validar presion > 0",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 700,
+        "wires": [
+            [
+                "c26ca30ae6ead40b"
+            ]
+        ]
+    },
+    {
+        "id": "a0185919abbf334f",
+        "type": "mqtt in",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "",
+        "topic": "admin123/cilindros/punto2/valvula",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "70113bd572087aab",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 880,
+        "wires": [
+            [
+                "d3185f0e1e4a21da"
+            ]
+        ]
+    },
+    {
+        "id": "d3185f0e1e4a21da",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Mover payload a valvula",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "valvulap2",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 880,
+        "wires": [
+            [
+                "6c9312ae69513302"
+            ]
+        ]
+    },
+    {
+        "id": "1aafba5141555154",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Mover payload a consumo",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "consumo",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 940,
+        "wires": [
+            [
+                "6c9312ae69513302"
+            ]
+        ]
+    },
+    {
+        "id": "6c9312ae69513302",
+        "type": "switch",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Si valvula == consumo (TRUE)",
+        "property": "valvulap2",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "consumo",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 950,
+        "y": 940,
+        "wires": [
+            [
+                "c9a23152d8e93a29"
+            ]
+        ]
+    },
+    {
+        "id": "c9a23152d8e93a29",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "consumo",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 940,
+        "wires": [
+            [
+                "7055b65fe7c82bc4"
+            ]
+        ]
+    },
+    {
+        "id": "bb50623ca3650235",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Fuga",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 820,
+        "wires": [
+            [
+                "7055b65fe7c82bc4"
+            ]
+        ]
+    },
+    {
+        "id": "ecbd08dd8175dfb3",
+        "type": "switch",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "",
+        "property": "payload.estado",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "null"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 990,
+        "y": 780,
+        "wires": [
+            [
+                "882c1868ae840680"
+            ],
+            [
+                "882c1868ae840680"
+            ],
+            [
+                "429f2eeec85a809f"
+            ]
+        ]
+    },
+    {
+        "id": "429f2eeec85a809f",
+        "type": "change",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "No consume",
+        "rules": [
+            {
+                "t": "set",
+                "p": "consumo",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1170,
+        "y": 800,
+        "wires": [
+            [
+                "882c1868ae840680"
+            ]
+        ]
+    },
+    {
+        "id": "b54d4a5e11474111",
+        "type": "link in",
+        "z": "74273795d1e74a6e",
+        "g": "002439cbc743be15",
+        "name": "Link recibe fuga punto 2",
+        "links": [
+            "6286436424c36dd0"
+        ],
+        "x": 685,
+        "y": 920,
+        "wires": [
+            [
+                "7055b65fe7c82bc4"
+            ]
+        ]
+    },
+    {
+        "id": "60534678f991e6f9",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "b717994f86bfd42c",
+        "name": "SIMULAR FUGA DE GAS PUNTO 2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "admin123/punto2/sensores/fuga",
+        "payload": "{\"id\":2,\"concentracion\":1000,\"estado\":true}",
+        "payloadType": "json",
+        "x": 240,
+        "y": 1040,
+        "wires": [
+            [
+                "968e399859c072d7",
+                "6286436424c36dd0"
+            ]
+        ]
+    },
+    {
+        "id": "968e399859c072d7",
+        "type": "mqtt out",
+        "z": "74273795d1e74a6e",
+        "g": "b717994f86bfd42c",
+        "name": "",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "70113bd572087aab",
+        "x": 510,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "d3f96eaf8900312e",
+        "type": "inject",
+        "z": "74273795d1e74a6e",
+        "g": "b717994f86bfd42c",
+        "name": "SIMULAR FUGA DE GAS PUNTO 2",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "admin123/punto2/sensores/fuga",
+        "payload": "{\"id\":2,\"concentracion\":100,\"estado\":false}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 1080,
+        "wires": [
+            [
+                "6286436424c36dd0",
+                "968e399859c072d7"
+            ]
+        ]
+    },
+    {
+        "id": "6286436424c36dd0",
+        "type": "link out",
+        "z": "74273795d1e74a6e",
+        "g": "b717994f86bfd42c",
+        "name": "Link envia fuga punto 2",
+        "mode": "link",
+        "links": [
+            "b54d4a5e11474111"
+        ],
+        "x": 465,
+        "y": 1080,
+        "wires": []
+    },
+    {
         "id": "5be65dbce585fe33",
         "type": "join",
         "z": "1fddb5bbb8ba27b8",
@@ -3474,7 +5558,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 720,
-        "y": 300,
+        "y": 280,
         "wires": []
     },
     {
@@ -3486,5 +5570,215 @@
         "x": 520,
         "y": 180,
         "wires": []
+    },
+    {
+        "id": "fd72c5cbed695966",
+        "type": "ui_template",
+        "z": "1fddb5bbb8ba27b8",
+        "group": "3ca910b5.3d50a",
+        "name": "gauge",
+        "order": 1,
+        "width": 2,
+        "height": 2,
+        "format": "\n<div id=\"{{'gauge_'+$id}}\" class=\"g-container\" style=\"--g-angle:0; --container-size:3;\">\n    <div id=\"bgr\" class=\"g-body\">\n        <div class=\"g-ring\">\n            <div class=\"g-plate\">\n                <div class=\"g-ticks\">\n                    <div class=\"g-tick\" style=\"--ga-tick:1;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:2;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:3;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:4;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:5;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:6;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:7;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:8;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:9;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:10;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:11;\"></div>\n                </div>\n                <div class=\"g-label\">Temperature</div>\n                <div class=\"g-needle\"></div>\n                <div class=\"g-needle-ring\"></div>\n                <div id=\"{{'gauge_val_'+$id}}\" class=\"g-val\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n<script>\n  (function(scope) {\n    let min = 0;\n    let max = 100;\n    scope.$watch('msg', function(msg) {\n        if (msg) {\n            const v = Math.floor(((msg.payload - min) / (max - min)) * 100);\n            document.getElementById('gauge_'+scope.$id).style.setProperty('--g-angle', v);\n            document.getElementById('gauge_val_'+scope.$id).innerText = msg.payload;\n        }   \n  });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 730,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b21d274b8315c0f7",
+        "type": "inject",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "6",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 370,
+        "y": 620,
+        "wires": [
+            [
+                "77202a2c1dea74ec",
+                "4726db59163e1b14",
+                "621f5130273563c7"
+            ]
+        ]
+    },
+    {
+        "id": "77202a2c1dea74ec",
+        "type": "random",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 580,
+        "y": 600,
+        "wires": [
+            [
+                "fd72c5cbed695966"
+            ]
+        ]
+    },
+    {
+        "id": "9aa3095c7d603553",
+        "type": "ui_template",
+        "z": "1fddb5bbb8ba27b8",
+        "group": "3ca910b5.3d50a",
+        "name": "gauge",
+        "order": 8,
+        "width": 3,
+        "height": 2,
+        "format": "<div id=\"{{'gauge_'+$id}}\" class=\"g-container\" style=\"--g-angle:0; --container-size:4\">\n    <div id=\"bgr\" class=\"g-body\">\n        <div class=\"g-ring\">\n            <div class=\"g-plate\">\n                \n                <div class=\"g-ticks\">\n                    <div class=\"g-tick\" style=\"--ga-tick:1;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:2;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:3;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:4;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:5;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:6;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:7;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:8;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:9;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:10;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:11;\"></div>\n\n                </div>\n                <div class=\"g-nums\">\n                    <div class=\"g-num\" style=\"left:24%; top:70%;\">0</div>\n                    <div class=\"g-num\" style=\"left:20%; top:26%;\">30</div>\n                    <div class=\"g-num\" style=\"left:47%; top:11%;\">50</div>\n                    <div class=\"g-num\" style=\"left:74%; top:26%;\">70</div>\n                    <div class=\"g-num\" style=\"left:65%; top:71%;\">100</div>\n                </div>\n                <div class=\"g-label\">Temperature</div>\n                <div class=\"g-needle\"></div>\n                <div class=\"g-needle-ring\"></div>\n                <div id=\"{{'gauge_val_'+$id}}\" class=\"g-val\"></div>\n            </div>\n            <div class=\"g-rivets\">\n                    <div class=g-rivet></div>\n                    <div class=g-rivet></div>\n                    <div class=g-rivet></div>\n                    <div class=g-rivet></div>\n                </div>\n        </div>\n    </div>\n</div>\n<script>\n    (function(scope) {\n    let min = 0;\n    let max = 100;\n    scope.$watch('msg', function(msg) {\n        if (msg) {\n            const v = Math.floor(((msg.payload - min) / (max - min)) * 100);\n            document.getElementById('gauge_'+scope.$id).style.setProperty('--g-angle', v);\n            document.getElementById('gauge_val_'+scope.$id).innerText = msg.payload;\n        }   \n  });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 730,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4726db59163e1b14",
+        "type": "random",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 580,
+        "y": 680,
+        "wires": [
+            [
+                "9aa3095c7d603553"
+            ]
+        ]
+    },
+    {
+        "id": "c351447745138c19",
+        "type": "ui_template",
+        "z": "1fddb5bbb8ba27b8",
+        "group": "3ca910b5.3d50a",
+        "name": "gauge-style",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "format": "<style id=\"hotNipi-gauge\">\n:root{\n    --needle-color:#001100;\n    --sec-high-color:#ff00004f;\n    --sec-normal-color:#00ff004f;\n}\n.g-container {\n    padding-top: 3px;\n    padding-bottom: 3px;\n    width: 100%;\n    height: 100%;\n    position: relative;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    user-select:none;\n}\n    \n.g-body{\n    width:98%;\n    height:98%;\n    border-radius:15%;\n    position:relative;\n    display: flex;\n    align-content: center;\n    align-items: center;\n    justify-content: center;\n    box-shadow: 0px 5px 8px #00000045;\n    background:linear-gradient(0deg, rgba(78,78,78,1) 0%, rgba(215,215,215,1) 99%, rgba(236,236,236,1) 100%);\n}\n\n.g-body::before {    \n    content: \"\";\n    background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgogIDxyZWN0IHdpZHRoPSc1JyBoZWlnaHQ9JzUnIGZpbGw9J3doaXRlJy8+CiAgPHBhdGggZD0nTTAgNUw1IDBaTTYgNEw0IDZaTS0xIDFMMSAtMVonIHN0cm9rZT0nIzg4OCcgc3Ryb2tlLXdpZHRoPScxJy8+Cjwvc3ZnPg==\"); \n    background-repeat: repeat;\n    position: absolute;\n    top: 0px;\n    right: 0px;\n    bottom: 0px;\n    left: 0px;\n    opacity: 0.1;\n    border-radius:15%;\n}\n\n.g-ring{\n    width:90%;\n    height:90%;\n    border-radius:50%;\n    position:relative;\n    display: flex;\n    align-content: center;\n    align-items: center;\n    justify-content: center;\n   \n    background:linear-gradient(180deg, rgba(78,78,78,1) 0%, rgba(215,215,215,1) 99%, rgba(236,236,236,1) 100%);;\n}\n.g-plate {\n    overflow:hidden;\n    width: 90%;\n    height: 90%;\n    border-radius: 50%;\n    position: relative;\n    box-shadow: inset 0 0 15px black;\n    background: radial-gradient(circle, #dd8400 3%, rgb(196 205 209) 1%, rgb(177 183 186) 40%, rgb(108 114 120) 100%);\n}\n.g-sector{\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n   \n    transform-origin: 0 0;\n}\n.g-sector-high {\n    background: var(--sec-high-color);\n    transform: rotate(329deg) skew(12deg, 23deg);\n}\n.g-sector-normal {\n    background:var(--sec-normal-color);\n    transform: rotate(329deg) skew(12deg, 23deg);\n}\n.g-ticks {\n    position: absolute;\n    top:0;\n    left:0;\n    width: 100%;\n    height: 100%;\n    filter: drop-shadow(2px 4px 6px black);\n}\n.g-tick {\n    transform: rotate(calc(27deg * var(--ga-tick) - 71deg));\n    background: #000;\n    position: relative;\n    left: 0;\n    top: 50%;\n    width: 100%;\n    height: 1%;\n    margin-bottom: -1%;\n    background: linear-gradient(90deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 2%,rgb(0 0 0 / 60%) 2%,rgb(0 0 0 / 60%) 10%,rgba(0,0,0,0) 10%);\n}\n.g-num {\n    position: absolute;\n}\n.g-nums {\n    position: absolute;\n    top:0;\n    width: 100%;\n    height: 100%;\n    color: #000000a1;\n    font-size: calc(var(--container-size) * 16%);\n    font-weight: 500;\n    filter: drop-shadow(2px 4px 6px black);\n}\n.g-needle {\n    transform: rotate(calc(270deg * calc(var(--g-angle, 0deg) / 99) - 45deg));\n    transition: transform 1s;\n    background: #000;\n    position: absolute;\n    left: 0;\n    top: 49%;\n    width: 100%;\n    height: 2%;\n    filter:drop-shadow(0px 1px 3px #00000080);\n    background: linear-gradient(90deg,rgba(2,0,36,0) 0,rgba(0,0,0,0) 15%,var(--needle-color) 15%,var(--needle-color) 50%,rgba(0,0,0,0) 50%);\n}\n.g-needle-ring {\n    position: absolute;\n    width: calc(var(--container-size) * 1.5%);\n    height: calc(var(--container-size) * 1.5%);\n    top: 50%;\n    left: 50%;\n    background: var(--needle-color);\n    border-radius: 50%;\n    transform: translate(-50%, -50%);\n    box-shadow: 0 1px 4px #0000009c;\n}\n.g-val{\n    position: absolute;\n    text-align: center;\n    left: 50%;\n    bottom: 8%;\n    width: 80px;\n    transform: translateX(-50%);\n    font-family: monospace;\n    font-size:  calc(var(--container-size) * 40%);\n    color: #000000a1;\n    filter: drop-shadow(2px 3px 2px #00000080);\n}\n.g-label{\n    position: absolute;\n    text-align: center;\n    left: 50%;\n    top: 55%;\n    width: 100%;\n    transform: translateX(-50%);\n    font-family: monospace;\n    font-size:  calc(var(--container-size) * 18%);\n    color: #000000a1;\n    filter: drop-shadow(2px 3px 2px #00000080);\n}\n.g-rivets{\n    position: absolute;\n    left:0;\n    top:0;\n    width: 100%;\n    height: 100%;\n}\n\n.g-rivet {\n    position: absolute;\n    width: calc(var(--container-size) * 2px);\n    height: calc(var(--container-size) * 2px);\n    border-radius: 50px;\n    background: linear-gradient(135deg, #adadad 0%,#d3d3d3 51%,#d1d1d1 68%,#8c8c8c 100%);\n    box-shadow: 0px 2px 4px #000, -1px -1px 5px rgba(0,0,0,0.2);\n    border: 1px solid rgba(255,255,255,0.1);\n}\n.g-rivet:nth-child(1){\n    top:calc(var(--container-size) * 1.5px);\n    left:calc(var(--container-size) * 1.5px);\n}\n.g-rivet:nth-child(2){\n    top:calc(var(--container-size) * 1.5px);\n    right:calc(var(--container-size) * 1.5px);\n}\n.g-rivet:nth-child(3){\n    bottom:calc(var(--container-size) * 1.5px);\n    left:calc(var(--container-size) * 1.5px);\n}\n.g-rivet:nth-child(4){\n    bottom:calc(var(--container-size) * 1.5px);\n    right:calc(var(--container-size) * 1.5px);\n}\n\n.g-rivet::before {\n    content: '';\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    width: calc(var(--container-size) * 10%);\n    height: calc(var(--container-size) * 10%);\n    box-shadow: inset 0px 1px 2px #222;\n    transform: translate(-50%, -50%);\n    border-radius: 50%;\n    border-bottom: 1px solid rgba(255,255,255,0.3);\n}\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "x": 790,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "621f5130273563c7",
+        "type": "random",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 580,
+        "y": 640,
+        "wires": [
+            [
+                "83600c0b876a7095"
+            ]
+        ]
+    },
+    {
+        "id": "83600c0b876a7095",
+        "type": "ui_template",
+        "z": "1fddb5bbb8ba27b8",
+        "group": "3ca910b5.3d50a",
+        "name": "gauge",
+        "order": 3,
+        "width": 2,
+        "height": 2,
+        "format": "<div id=\"{{'gauge_'+$id}}\" class=\"g-container\" style=\"--g-angle:0; --container-size:3\">\n    <div id=\"bgr\" class=\"g-body\">\n        <div class=\"g-ring\">\n            <div class=\"g-plate\">\n                <div class=\"g-ticks\">\n                    <div class=\"g-tick\" style=\"--ga-tick:1;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:2;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:3;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:4;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:5;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:6;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:7;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:8;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:9;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:10;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:11;\"></div>\n\n                </div>\n                <div class=\"g-nums\">\n                    <div class=\"g-num\" style=\"left:24%; top:70%;\">0</div>\n                    <div class=\"g-num\" style=\"left:20%; top:26%;\">30</div>\n                    <div class=\"g-num\" style=\"left:47%; top:11%;\">50</div>\n                    <div class=\"g-num\" style=\"left:74%; top:26%;\">70</div>\n                    <div class=\"g-num\" style=\"left:65%; top:71%;\">100</div>\n                </div>\n                <div class=\"g-label\">Temperature</div>\n                <div class=\"g-needle\"></div>\n                <div class=\"g-needle-ring\"></div>\n                <div id=\"{{'gauge_val_'+$id}}\" class=\"g-val\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n<script>\n    (function(scope) {\n    let min = 0;\n    let max = 100;\n    scope.$watch('msg', function(msg) {\n        if (msg) {\n            const v = Math.floor(((msg.payload - min) / (max - min)) * 100);\n            document.getElementById('gauge_'+scope.$id).style.setProperty('--g-angle', v);\n            document.getElementById('gauge_val_'+scope.$id).innerText = msg.payload;\n        }   \n  });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 730,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eb080df2e58aef8a",
+        "type": "ui_template",
+        "z": "1fddb5bbb8ba27b8",
+        "group": "2c0d82c5cbab11fd",
+        "name": "gauge",
+        "order": 2,
+        "width": 5,
+        "height": 3,
+        "format": "<style>\n\n.g-container{\n\nwidth: 200px;\nmargin-left:35px;\n}\n\n.g-nums{\n    width: 96%;\n}\n.g-val {\n\nleft: 47%;\nfont-size: 15px;}\n\n\n\n    </style>\n\n\n<div id=\"{{'gauge_'+$id}}\" class=\"g-container\" style=\"-g-angle:4; --container-size:5\">\n      \n    \n            <div class=\"g-plate\">\n                <div class=\"g-sector g-sector-normal\" style=\"transform: rotate(193deg) skew(291deg, 23deg);\"></div>\n                <div class=\"g-sector g-sector-high\" style=\"transform: rotate(329deg) skew(12deg,23deg);\"></div>\n                <div class=\"g-ticks\">\n                    <div class=\"g-tick\" style=\"--ga-tick:1;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:2;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:3;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:4;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:5;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:6;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:7;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:8;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:9;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:10;\"></div>\n                    <div class=\"g-tick\" style=\"--ga-tick:11;\"></div>\n                </div>\n                <div class=\"g-nums\">\n                    <div class=\"g-num\" style=\"left: 23%;top: 71%;\">0</div>\n                    <div class=\"g-num\" style=\"left: 13%;top: 56%;\">20</div>\n                    <div class=\"g-num\" style=\"left: 13%;top: 39%;\">40</div>\n                    <div class=\"g-num\" style=\"left: 19%;top: 24%;\">60</div>\n                    <div class=\"g-num\" style=\"left: 31%;top: 14%;\">80</div>\n                    <div class=\"g-num\" style=\"left: 47%;top: 10%;\">100</div>\n                    <div class=\"g-num\" style=\"left: 63%;top: 14%;\">120</div>\n                    <div class=\"g-num\" style=\"left: 74%;top: 25%;\">140</div>\n                    <div class=\"g-num\" style=\"left: 79%;top: 40%;\">160</div>\n                    <div class=\"g-num\" style=\"left: 78%;top: 56%;\">180</div>\n                    <div class=\"g-num\" style=\"left:65%; top:71%;\">200</div>\n                </div>\n                <div class=\"g-label\">Temperature</div>\n                <div class=\"g-needle\"></div>\n                <div class=\"g-needle-ring\"></div>\n                <div id=\"{{'gauge_val_'+$id}}\" class=\"g-val\"></div>\n            </div>\n     \n    \n</div>\n<script>\n(function(scope) {\n    let min = 0;\n    let max = 100;\n    scope.$watch('msg', function(msg) {\n        if (msg) {\n            const v = Math.floor(((msg.payload - min) / (max - min)) * 100);\n            document.getElementById('gauge_'+scope.$id).style.setProperty('--g-angle', v);\n            document.getElementById('gauge_val_'+scope.$id).innerText = msg.payload;\n        }   \n  });\n})(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 630,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2513bd9f06308c62",
+        "type": "ui_slider",
+        "z": "1fddb5bbb8ba27b8",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "2c0d82c5cbab11fd",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "200",
+        "step": 1,
+        "className": "",
+        "x": 470,
+        "y": 820,
+        "wires": [
+            [
+                "eb080df2e58aef8a"
+            ]
+        ]
     }
 ]
