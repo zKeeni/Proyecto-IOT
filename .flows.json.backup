@@ -139,7 +139,6 @@
             "0e3285607cbfc41d",
             "d019ea55b5e3fe3a",
             "5c5ee89b04338ee9",
-            "3f3e3e7073def319",
             "fcd0baf417f0fd56"
         ],
         "x": 14,
@@ -3919,7 +3918,7 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
-        "name": "presionp1",
+        "name": "Presion P1",
         "order": 6,
         "width": 5,
         "height": 3,
@@ -3929,8 +3928,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 460,
-        "y": 1060,
+        "x": 470,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -4033,7 +4032,7 @@
         "name": "",
         "events": "all",
         "x": 180,
-        "y": 1080,
+        "y": 1060,
         "wires": [
             [
                 "fcd0baf417f0fd56"
@@ -4072,24 +4071,6 @@
         "wires": []
     },
     {
-        "id": "3f3e3e7073def319",
-        "type": "debug",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 440,
-        "y": 980,
-        "wires": []
-    },
-    {
         "id": "fcd0baf417f0fd56",
         "type": "function",
         "z": "ed84d3e070727412",
@@ -4103,7 +4084,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 1060,
+        "y": 1020,
         "wires": [
             [
                 "e57b0a5fa5a12ded"
