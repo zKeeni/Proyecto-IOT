@@ -80,7 +80,6 @@
             "f4c38b6556a8367c",
             "7ab6a756468eec78",
             "fe9ff1d4dc59e5bd",
-            "ab3cc78b737a790a",
             "afb71e2ddc111536",
             "b98b3653f9dbb8f8",
             "afbf9c4d79d0185c",
@@ -128,7 +127,6 @@
             "1d1bd6d13873be6a",
             "8c5670e652ef5ce7",
             "26555eba38a5eb5b",
-            "1cace0f5ab7337a9",
             "d9b2016a8168c0da",
             "9e859c70cca70c58",
             "35d79753365ab065",
@@ -139,7 +137,10 @@
             "0e3285607cbfc41d",
             "d019ea55b5e3fe3a",
             "5c5ee89b04338ee9",
-            "fcd0baf417f0fd56"
+            "fcd0baf417f0fd56",
+            "c533dc8e307349f5",
+            "dbee563e42a07af4",
+            "70f25ef050637b79"
         ],
         "x": 14,
         "y": 419,
@@ -275,7 +276,6 @@
             "3c8f3249d4cbddd3",
             "a00b7c100644d27c",
             "2ee99f74550ca0c9",
-            "e8ffd0aab921e656",
             "95256d997c2041e2",
             "e56e7699fb376330",
             "f9f70714eecdf6aa",
@@ -318,7 +318,6 @@
             "6c89d3b5757ae75b",
             "76eeba0af4176ccb",
             "c69ead3cb476f0f4",
-            "4b2713081afec830",
             "ca74fadd6bd71475",
             "23cfb007dca1b014",
             "aa203185084de920",
@@ -329,7 +328,10 @@
             "1a33f941b50e38d8",
             "d01690597d7edb6b",
             "46404e9ff2ae70e7",
-            "0bb628b3cf316c54"
+            "0bb628b3cf316c54",
+            "698251fd19d405c5",
+            "a0b9da4bff51733f",
+            "a25c13cdb96c8218"
         ],
         "x": 14,
         "y": 1219,
@@ -650,19 +652,10 @@
         "className": ""
     },
     {
-        "id": "20bb081.66afff8",
-        "type": "ui_tab",
-        "name": "Ohh",
-        "icon": "dashboard",
-        "order": 5,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "3ca910b5.3d50a",
         "type": "ui_group",
         "name": "Group 1",
-        "tab": "20bb081.66afff8",
+        "tab": "",
         "order": 1,
         "disp": false,
         "width": "6",
@@ -672,7 +665,7 @@
         "id": "2c0d82c5cbab11fd",
         "type": "ui_group",
         "name": "Group 3",
-        "tab": "20bb081.66afff8",
+        "tab": "",
         "order": 3,
         "disp": false,
         "width": 5,
@@ -682,7 +675,7 @@
         "id": "d7e8ab4ae6aaf9bf",
         "type": "ui_group",
         "name": "Group 2",
-        "tab": "20bb081.66afff8",
+        "tab": "",
         "order": 2,
         "disp": false,
         "width": "6",
@@ -779,7 +772,7 @@
         "height": 1
     },
     {
-        "id": "66deccecc5653024",
+        "id": "5e33fa35b4582ba2",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -789,32 +782,42 @@
         "height": 1
     },
     {
-        "id": "feb040b43e9a7a9a",
+        "id": "ea2a2044dadc594c",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "d6a565f559b0906a",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "31fadaa20bd8eda2",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "c08ac066cd43cd8b",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "f90a36faf8b4904b",
+        "type": "ui_spacer",
+        "z": "ed84d3e070727412",
+        "name": "spacer",
+        "group": "c08ac066cd43cd8b",
         "order": 9,
         "width": 2,
         "height": 1
     },
     {
-        "id": "6ff695b12aef7a1d",
+        "id": "23b52a4372d8f9ec",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
-        "group": "c08ac066cd43cd8b",
-        "order": 2,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "3421e54a8f35606b",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "c08ac066cd43cd8b",
-        "order": 9,
+        "group": "b62f81231a279246",
+        "order": 3,
         "width": 2,
         "height": 1
     },
@@ -1022,35 +1025,6 @@
         ]
     },
     {
-        "id": "ab3cc78b737a790a",
-        "type": "ui_gauge",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "name": "NIVELES ",
-        "group": "d6a565f559b0906a",
-        "order": 5,
-        "width": 4,
-        "height": 3,
-        "gtype": "wave",
-        "title": "Nivel",
-        "label": "%",
-        "format": "{{payload * 10}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 840,
-        "y": 600,
-        "wires": []
-    },
-    {
         "id": "afb71e2ddc111536",
         "type": "range",
         "z": "ed84d3e070727412",
@@ -1068,7 +1042,7 @@
         "wires": [
             [
                 "a769c677763b97df",
-                "ab3cc78b737a790a"
+                "c533dc8e307349f5"
             ]
         ]
     },
@@ -1381,7 +1355,7 @@
         "group": "ad726ee97b3c56ec",
         "name": "Switch valvula",
         "order": 1,
-        "width": 3,
+        "width": 2,
         "height": 4,
         "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\n  display: block; /* Añadido para centrar */\n  margin: 0 auto; /* Añadido para centrar */\n  width: 50px;\n  height: 120px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: #ffc900;\n}\n\n.valve-closed {\ncolor: #ff1f00;\n}\n\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChangeValve1()\">\n  <img\n    ng-src=\"{{switchStateValve1 ? '/valvula_abierta.png' : '/valvula_cerrada.png'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchStateValve1, 'valve-closed': !switchStateValve1}\">\n    {{switchStateValve1 ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function(scope) {\n  scope.switchStateValve1 = true;\n\n  scope.confirmChangeValve1 = function() {\n    const previousState = scope.switchStateValve1;\n    const newState = !previousState;\n\n    Swal.fire({\n      title: '¿Estás seguro?',\n      text: 'Confirma para cambiar VÁLVULA 1',\n      icon: 'warning',\n      showCancelButton: true,\n      confirmButtonText: 'Sí',\n      cancelButtonText: 'No',\n      confirmButtonColor: '#ff7b00',\n      cancelButtonColor: '#d33',\n    }).then((result) => {\n      if (result.isConfirmed) {\n        scope.switchStateValve1 = newState;\n        scope.send({ topic: \"valvula1\", payload: scope.switchStateValve1 });\n      } else {\n        scope.switchStateValve1 = previousState;\n      }\n      scope.$apply();\n    });\n  };\n\n  scope.$watch(\"msg\", function(msg) {\n    if (msg && msg.topic === \"valvula1\" && msg.payload !== undefined) {\n      scope.switchStateValve1 = msg.payload;\n      scope.$apply();\n    }\n  });\n})(scope);\n</script>",
         "storeOutMessages": true,
@@ -1678,7 +1652,7 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Notificacion fuga gas sensor ambiente",
-        "order": 8,
+        "order": 7,
         "width": 6,
         "height": 1,
         "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<!-- Componente de alerta -->\n<div class=\"alert-container\" id=\"alert-container11\"></div>\n\n<script>\n  (function (scope) {\n    let lastPayload = null; // Variable para almacenar el último valor recibido\n    let alertActive = false; // Estado de la alerta activa\n\n    scope.$watch(\"msg\", function (msg) {\n      if (msg && msg.payload.estado !== lastPayload) {\n        lastPayload = msg.payload.estado; // Actualiza el último valor recibido\n\n        if (msg.payload.estado === true && !alertActive) {\n          alertActive = true;\n          Swal.fire({\n            title: \"¡Fuga de Gas Detectada!\",\n            text: \"Se ha detectado una fuga de gas en: \"+  msg.ciudad.nombre +  \". Tome precauciones inmediatas. +\\n + Por su seguridad se activara la ventilacion al maximo y se cerrara la valvula de suministro\",\n            icon: \"error\",\n            confirmButtonText: \"Entendido\",\n            confirmButtonColor: \"#ff0000\",\n          }).then(() => {\n            scope.send({ payload: true });\n            alertActive = false; // Reinicia el estado de alerta después de cerrar\n          });\n        }\n      }\n    });\n  })(scope);\n</script>",
@@ -2136,7 +2110,7 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Descripcion general",
-        "order": 7,
+        "order": 10,
         "width": 14,
         "height": 2,
         "format": "<style>\n    .contenedor-horizontal {\n        display: flex;\n        align-items: center;\n        justify-content: space-around;\n        padding: 10px;\n        font-family: Arial, sans-serif;\n        text-align: center;\n        /* background-color: #f0f0f0; */\n        border-radius: 8px;\n        margin: 10px 20px;\n    }\n\n    .contenedor-horizontal div {\n        margin: 0 10px;\n    }\n\n    .etiqueta {\n        font-weight: bold;\n    }\n\n    .contenedor-horizontal p {\n        margin: 0;\n    }\n\n    .contenedor-horizontal p:first-child {\n        font-weight: bold;\n    }\n</style>\n\n<div class=\"contenedor-horizontal\">\n    <div>\n        <p>Nivel</p>\n        <p>{{msg.payload.nivel * 10 | number:2}}%</p>\n    </div>\n    <div>\n        <p>Presión</p>\n        <p>{{msg.payload.presion | number:2}} PSI</p>\n    </div>\n    <div>\n        <p>Concentración</p>\n        <p>{{msg.payload.concentracion}} ppm</p>\n    </div>\n    <div>\n        <p>Dirección</p>\n        <p>{{msg.payload.direccion}}</p>\n    </div>\n</div>",
@@ -2324,7 +2298,7 @@
         "g": "eca886a5d7cbed9d",
         "group": "d6a565f559b0906a",
         "name": "Alerta fuga gas tanque cerrado",
-        "order": 10,
+        "order": 9,
         "width": 6,
         "height": 1,
         "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n\n<style>\n  body .swal2-popup {\n    font-family: Arial, sans-serif;\n    background: #262626;\n    color: #ffffff;\n    width: auto;\n    border-radius: 8px;\n    padding: 10px;\n  }\n\n  div:where(.swal2-icon).swal2-error {\n    border-color: #ffffff;\n    color: #ffffff;\n  }\n\n  .alert-container {\n    text-align: center;\n    font-size: 16px;\n    color: #ffffff;\n  }\n</style>\n\n<div class=\"alert-container\" id=\"alert-container1\"></div>\n\n<script>\n  (function(scope) {\n    scope.$watch('msg', function(msg) {\n      if (msg && msg.alerta === true && msg.ciudad) {\n        Swal.fire({\n          title: \"¡Fuga de Gas Detectada!\",\n          text: \"Se ha detectado una fuga de gas en: \" + msg.ciudad.nombre +\n            \". Tome precauciones inmediatas.\\nPor su seguridad se activará la ventilación al máximo y se cerrará la válvula de suministro.\",\n          icon: \"error\",\n          confirmButtonText: \"Entendido\",\n          confirmButtonColor: \"#ff0000\"\n        }).then(() => {\n          // Enviar un nuevo mensaje al flujo con alerta = false\n          scope.send({ alerta: false });\n        });\n      }\n    });\n  })(scope);\n</script>",
@@ -2349,17 +2323,17 @@
         "order": 3,
         "width": 0,
         "height": 0,
-        "format": "<style>\n    .wrapper {\n        margin: 20px;\n        position: relative;\n        width: 87%;\n        height: 1.5rem;\n    }\n\n    .wrapper::before,\n    .wrapper::after {\n        content: '';\n        display: block;\n        position: absolute;\n        z-index: 99;\n        color: #fff;\n        height: 100%;\n        text-align: center;\n        font-size: 1.5rem;\n        line-height: 1;\n        padding: 0 0.75rem;\n        pointer-events: none;\n    }\n\n    .wrapper::before {\n        left: 0;\n        top: 0;\n    }\n\n    .wrapper::after {\n        right: 0;\n        top: 0;\n    }\n\n    input[type=\"range\"] {\n        position:absolute;\n        -webkit-appearance: none;\n        appearance: none;\n        background-color: rgba(255, 255, 255, 0.2);\n        top: 50%;\n        left: 50%;\n        margin: 0;\n        width: 15rem;\n        height: 3.5rem;\n        transform: translate(-50%, -50%);\n        border-radius: 1rem;\n        overflow: hidden;\n        cursor: col-resize;\n    }\n\n    input[type=\"range\"]::-webkit-slider-runnable-track {\n        background-color: rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        appearance: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-moz-range-thumb {\n        border: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n</style>\n\n<div class=\"wrapper\">\n    <input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"50\" ng-model=\"sliderValue1\" />\n</div>\n\n<script>\n    (function(scope) {\n    // Actualiza el slider cuando cambia\n    scope.$watch('sliderValue1', function(newValue) {\n    if (newValue !== undefined) {\n    scope.send({ payload: newValue });\n    }\n    });\n    \n    // Escucha nuevos valores desde el exterior (por ejemplo, Node-RED o backend)\n    scope.on('payload', function(msg) {\n    if (msg && typeof msg.payload === 'number') {\n    scope.sliderValue1 = msg.payload;\n    }\n    });\n    })(scope);\n</script>",
+        "format": "<style>\n    .wrapper {\n        margin: 20px 20px 20px 10px;\n        position: relative;\n        width: 87%;\n        height: 1.5rem;\n    }\n\n    .wrapper::before,\n    .wrapper::after {\n        content: '';\n        display: block;\n        position: absolute;\n        z-index: 99;\n        color: #fff;\n        height: 100%;\n        text-align: center;\n        font-size: 1.5rem;\n        line-height: 1;\n        padding: 0 0.75rem;\n        pointer-events: none;\n    }\n\n    .wrapper::before {\n        left: 0;\n        top: 0;\n    }\n\n    .wrapper::after {\n        right: 0;\n        top: 0;\n    }\n\n    input[type=\"range\"] {\n        position:absolute;\n        -webkit-appearance: none;\n        appearance: none;\n        background-color: rgba(255, 255, 255, 0.2);\n        top: 50%;\n        left: 50%;\n        margin: 0;\n        width: 15rem;\n        height: 3.5rem;\n        transform: translate(-50%, -50%);\n        border-radius: 1rem;\n        overflow: hidden;\n        cursor: col-resize;\n    }\n\n    input[type=\"range\"]::-webkit-slider-runnable-track {\n        background-color: rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        appearance: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-moz-range-thumb {\n        border: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n</style>\n\n<div class=\"wrapper\">\n    <input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"50\" ng-model=\"sliderValue1\" />\n</div>\n\n<script>\n    (function(scope) {\n    // Actualiza el slider cuando cambia\n    scope.$watch('sliderValue1', function(newValue) {\n    if (newValue !== undefined) {\n    scope.send({ payload: newValue });\n    }\n    });\n    \n    // Escucha nuevos valores desde el exterior (por ejemplo, Node-RED o backend)\n    scope.on('payload', function(msg) {\n    if (msg && typeof msg.payload === 'number') {\n    scope.sliderValue1 = msg.payload;\n    }\n    });\n    })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1450,
-        "y": 1080,
+        "x": 1270,
+        "y": 1120,
         "wires": [
             [
-                "1cace0f5ab7337a9"
+                "70f25ef050637b79"
             ]
         ]
     },
@@ -2383,12 +2357,12 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1190,
+        "x": 1030,
         "y": 1120,
         "wires": [
             [
                 "7df77b2c4d632e1f",
-                "1cace0f5ab7337a9"
+                "70f25ef050637b79"
             ]
         ]
     },
@@ -2497,35 +2471,6 @@
         ]
     },
     {
-        "id": "e8ffd0aab921e656",
-        "type": "ui_gauge",
-        "z": "ed84d3e070727412",
-        "g": "b1ec3d039689d046",
-        "name": "NIVELES ",
-        "group": "c08ac066cd43cd8b",
-        "order": 5,
-        "width": 4,
-        "height": 3,
-        "gtype": "wave",
-        "title": "Nivel",
-        "label": "%",
-        "format": "{{payload * 10}}",
-        "min": 0,
-        "max": "100",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 840,
-        "y": 1400,
-        "wires": []
-    },
-    {
         "id": "95256d997c2041e2",
         "type": "range",
         "z": "ed84d3e070727412",
@@ -2542,8 +2487,8 @@
         "y": 1460,
         "wires": [
             [
-                "e8ffd0aab921e656",
-                "ded1b19d4795f763"
+                "ded1b19d4795f763",
+                "a0b9da4bff51733f"
             ]
         ]
     },
@@ -2894,7 +2839,7 @@
         "group": "b62f81231a279246",
         "name": "Switch valvula",
         "order": 1,
-        "width": 3,
+        "width": 2,
         "height": 4,
         "format": "<script src=\"https://cdn.jsdelivr.net/npm/sweetalert2@11\"></script>\n<style>\n.valve-container {\ntext-align: center;\ncursor: pointer;\npadding: 20px\n}\n\n.valve-image {\n  display: block; /* Añadido para centrar */\n  margin: 0 auto; /* Añadido para centrar */\n  width: 50px;\n  height: 120px;\n}\n\n.valve-text {\nfont-size: 16px;\nfont-weight: bold;\nmargin-top: 8px;\n}\n\n.valve-open {\ncolor: #ffc900;\n}\n\n.valve-closed {\ncolor: #ff1f00;\n}\n\n</style>\n\n<!-- Válvula control -->\n<div class=\"valve-container\" ng-click=\"confirmChangeValve2()\">\n  <img\n    ng-src=\"{{switchStateValve2 ? '/valvula_abierta.png' : '/valvula_cerrada.png'}}\"\n    alt=\"Válvula\"\n    class=\"valve-image\"\n  />\n  <p class=\"valve-text\" ng-class=\"{'valve-open': switchStateValve2, 'valve-closed': !switchStateValve2}\">\n    {{switchStateValve2 ? 'Válvula Abierta' : 'Válvula Cerrada'}}\n  </p>\n</div>\n\n<script>\n  (function(scope) {\n  scope.switchStateValve2 = true;\n\n  scope.confirmChangeValve2 = function() {\n    const previousState = scope.switchStateValve2;\n    const newState = !previousState;\n\n    Swal.fire({\n      title: '¿Estás seguro?',\n      text: 'Confirma para cambiar VÁLVULA 2',\n      icon: 'warning',\n      showCancelButton: true,\n      confirmButtonText: 'Sí',\n      cancelButtonText: 'No',\n      confirmButtonColor: '#ff7b00',\n      cancelButtonColor: '#d33',\n    }).then((result) => {\n      if (result.isConfirmed) {\n        scope.switchStateValve2 = newState;\n        scope.send({ topic: \"valvula2\", payload: scope.switchStateValve2 });\n      } else {\n        scope.switchStateValve2 = previousState;\n      }\n      scope.$apply();\n    });\n  };\n\n  scope.$watch(\"msg\", function(msg) {\n    if (msg && msg.topic === \"valvula2\" && msg.payload !== undefined) {\n      scope.switchStateValve2 = msg.payload;\n      scope.$apply();\n    }\n  });\n})(scope);\n</script>",
         "storeOutMessages": true,
@@ -3579,28 +3524,6 @@
         ]
     },
     {
-        "id": "4b2713081afec830",
-        "type": "ui_template",
-        "z": "ed84d3e070727412",
-        "g": "b1ec3d039689d046",
-        "group": "b62f81231a279246",
-        "name": "Ventilador P2",
-        "order": 2,
-        "width": 3,
-        "height": 4,
-        "format": "<style>\n  .rotating-image {\n    margin-top: 40px;\n    width: 100px;\n    height: 100px;\n    transition: transform 0.05s linear;\n  }\n</style>\n\n<div>\n  <img\n    id=\"rotatingImage2\"\n    src=\"/ventilador.png\"\n    alt=\"Rotating Fan\"\n    class=\"rotating-image\"\n  />\n</div>\n\n<script>\n  (function(scope) {\n    let angle = 0;\n    let interval = null;\n    let lastSpeed = -1; // -1 para forzar la primera ejecución\n\n    function applyRotation() {\n      const imageElement = document.getElementById(\"rotatingImage2\");\n      imageElement.style.transform = `rotate(${angle}deg)`;\n    }\n\n    function updateRotation(speed) {\n      if (speed === 0) {\n        if (interval) {\n          clearInterval(interval);\n          interval = null;\n        }\n        return;\n      }\n\n      if (speed === lastSpeed) return;\n\n      if (interval) clearInterval(interval);\n\n      interval = setInterval(() => {\n        angle = (angle + 10) % 360;\n        applyRotation(); // Aplica el ángulo actual\n      }, speed);\n\n      lastSpeed = speed;\n    }\n\n    scope.$watch(\"msg\", function(msg) {\n      if (msg && msg.payload !== undefined) {\n        const payloadValue = parseInt(msg.payload, 10);\n        let speed;\n\n        if (payloadValue >= 1 && payloadValue <= 10) {\n          speed = 200;\n        } else if (payloadValue >= 11 && payloadValue <= 75) {\n          speed = 100;\n        } else if (payloadValue >= 76 && payloadValue <= 100) {\n          speed = 10;\n        } else {\n          speed = 0;\n        }\n\n        updateRotation(speed);\n      }\n    });\n\n    scope.$on(\"$destroy\", function() {\n      if (interval) clearInterval(interval);\n    });\n  })(scope);\n</script>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 890,
-        "y": 1900,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "ca74fadd6bd71475",
         "type": "link in",
         "z": "ed84d3e070727412",
@@ -3624,7 +3547,7 @@
         "g": "b1ec3d039689d046",
         "group": "b62f81231a279246",
         "name": "Slider ventilador P2",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
         "format": "<style>\n    .wrapper {\n        margin: 20px;\n        position: relative;\n        width: 87%;\n        height: 1.5rem;\n    }\n\n    .wrapper::before,\n    .wrapper::after {\n        content: '';\n        display: block;\n        position: absolute;\n        z-index: 99;\n        color: #fff;\n        height: 100%;\n        text-align: center;\n        font-size: 1.5rem;\n        line-height: 1;\n        padding: 0 0.75rem;\n        pointer-events: none;\n    }\n\n    .wrapper::before {\n        left: 0;\n        top: 0;\n    }\n\n    .wrapper::after {\n        right: 0;\n        top: 0;\n    }\n\n    input[type=\"range\"] {\n        position:absolute;\n        -webkit-appearance: none;\n        appearance: none;\n        background-color: rgba(255, 255, 255, 0.2);\n        top: 50%;\n        left: 50%;\n        margin: 0;\n        width: 15rem;\n        height: 3.5rem;\n        transform: translate(-50%, -50%);\n        border-radius: 1rem;\n        overflow: hidden;\n        cursor: col-resize;\n    }\n\n    input[type=\"range\"]::-webkit-slider-runnable-track {\n        background-color: rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        appearance: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-moz-range-thumb {\n        border: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n</style>\n\n<div class=\"wrapper\">\n    <input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"50\" ng-model=\"sliderValue2\" />\n</div>\n\n<script>\n    (function(scope) {\n    // Actualiza el slider cuando cambia\n    scope.$watch('sliderValue2', function(newValue) {\n    if (newValue !== undefined) {\n    scope.send({ payload: newValue });\n    }\n    });\n    \n    // Escucha nuevos valores desde el exterior (por ejemplo, Node-RED o backend)\n    scope.on('payload', function(msg) {\n    if (msg && typeof msg.payload === 'number') {\n    scope.sliderValue2 = msg.payload;\n    }\n    });\n    })(scope);\n</script>",
@@ -3637,7 +3560,7 @@
         "y": 1860,
         "wires": [
             [
-                "4b2713081afec830"
+                "a25c13cdb96c8218"
             ]
         ]
     },
@@ -3666,7 +3589,7 @@
         "wires": [
             [
                 "23cfb007dca1b014",
-                "4b2713081afec830"
+                "a25c13cdb96c8218"
             ]
         ]
     },
@@ -3734,28 +3657,6 @@
             [
                 "084c6441ee8e9f44"
             ]
-        ]
-    },
-    {
-        "id": "1cace0f5ab7337a9",
-        "type": "ui_template",
-        "z": "ed84d3e070727412",
-        "g": "eca886a5d7cbed9d",
-        "group": "ad726ee97b3c56ec",
-        "name": "Ventilador P1",
-        "order": 2,
-        "width": 3,
-        "height": 4,
-        "format": "<style>\n  .rotating-image {\n    margin-top: 40px;\n    width: 100px;\n    height: 100px;\n    transition: transform 0.05s linear;\n  }\n</style>\n\n<div>\n  <img\n    id=\"rotatingImage1\"\n    src=\"/ventilador.png\"\n    alt=\"Rotating Fan\"\n    class=\"rotating-image\"\n  />\n</div>\n\n<script>\n  (function(scope) {\n    let angle = 0;\n    let interval = null;\n    let lastSpeed = -1; // -1 para forzar la primera ejecución\n\n    function applyRotation() {\n      const imageElement = document.getElementById(\"rotatingImage1\");\n      imageElement.style.transform = `rotate(${angle}deg)`;\n    }\n\n    function updateRotation(speed) {\n      if (speed === 0) {\n        if (interval) {\n          clearInterval(interval);\n          interval = null;\n        }\n        return;\n      }\n\n      if (speed === lastSpeed) return;\n\n      if (interval) clearInterval(interval);\n\n      interval = setInterval(() => {\n        angle = (angle + 10) % 360;\n        applyRotation(); // Aplica el ángulo actual\n      }, speed);\n\n      lastSpeed = speed;\n    }\n\n    scope.$watch(\"msg\", function(msg) {\n      if (msg && msg.payload !== undefined) {\n        const payloadValue = parseInt(msg.payload, 10);\n        let speed;\n\n        if (payloadValue >= 1 && payloadValue <= 10) {\n          speed = 200;\n        } else if (payloadValue >= 11 && payloadValue <= 75) {\n          speed = 100;\n        } else if (payloadValue >= 76 && payloadValue <= 100) {\n          speed = 10;\n        } else {\n          speed = 0;\n        }\n\n        updateRotation(speed);\n      }\n    });\n\n    scope.$on(\"$destroy\", function() {\n      if (interval) clearInterval(interval);\n    });\n  })(scope);\n</script>\n",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 1670,
-        "y": 1120,
-        "wires": [
-            []
         ]
     },
     {
@@ -4089,6 +3990,163 @@
             [
                 "e57b0a5fa5a12ded"
             ]
+        ]
+    },
+    {
+        "id": "dbee563e42a07af4",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "d6a565f559b0906a",
+        "name": "Niveles",
+        "order": 5,
+        "width": 4,
+        "height": 3,
+        "format": "<div style=\"width: 100%; text-align: center;\">\n\n    <div class=\"cylinder-container-horizontal\">\n        <div class=\"cylinder-fill-horizontal\"\n             id=\"cylinderFill\"\n             ng-style=\"{'width': msg.payload + '%'}\">\n        </div>\n\n        <div class=\"cylinder-text-overlay\"\n             id=\"cylinderText\">\n            {{msg.payload | number:2}}%\n        </div>\n\n        <div class=\"cylinder-outline-horizontal\"></div>\n    </div>\n</div>\n\n<style>\n.cylinder-container-horizontal {\n    position: relative;\n    width: 200px;\n    height: 60px;\n    margin: auto;\n    margin-top: 60px;\n    background: #444;\n    border-radius: 30px;\n    overflow: hidden;\n    border: 2px solid #999;\n}\n\n.cylinder-fill-horizontal {\n    position: absolute;\n    left: 0;\n    height: 100%;\n    border-radius: 30px 0 0 30px;\n    transition: width 0.5s ease-in-out;\n    z-index: 0;\n}\n\n.cylinder-text-overlay {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-weight: bold;\n    font-size: 16px;\n    z-index: 1;\n    pointer-events: none;\n    color: black;\n}\n\n.cylinder-outline-horizontal {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    border-radius: 30px;\n    box-shadow: inset 0 0 8px rgba(0,0,0,0.6);\n    z-index: 2;\n}\n</style>\n\n<script>\n(function(scope) {\n    scope.$watch('msg.payload', function(value) {\n        const fill = document.getElementById(\"cylinderFill\");\n        const text = document.getElementById(\"cylinderText\");\n        const val = parseFloat(value);\n\n        if (fill && text && !isNaN(val)) {\n            let bgColor = \"#ff1700\"; // por defecto\n            if (val >= 75) {\n                bgColor = \"#ffb600\";\n                color = \"black\";\n            } else if (val >= 50) {\n                bgColor = \"#ff8b00\";\n                color = \"black\";\n            } else if (val >= 25) {\n                bgColor = \"#ff5100\";\n                color = \"white\";\n            } else {\n                bgColor = \"#ff1700\";\n                color = \"white\";\n            }\n\n            fill.style.backgroundColor = bgColor;\n            text.style.color = color;\n        }\n    });\n})(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1000,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "021bd1d8d3ad2b8e",
+        "type": "inject",
+        "z": "ed84d3e070727412",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 610,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c533dc8e307349f5",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "function 6",
+        "func": "msg.payload = parseFloat((msg.payload * 10).toFixed(2));\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 620,
+        "wires": [
+            [
+                "dbee563e42a07af4"
+            ]
+        ]
+    },
+    {
+        "id": "70f25ef050637b79",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "group": "ad726ee97b3c56ec",
+        "name": "Ventilador",
+        "order": 2,
+        "width": 4,
+        "height": 4,
+        "format": "<style>\n    .fan {\n        width: 120px;\n        height: 120px;\n        margin: 30px auto 0 auto;\n        background-color: #fff;\n        border: 1px solid #ccc;\n        border-radius: 10px;\n        box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n\n    /* Animación de giro, velocidad variable */\n    @keyframes spin {\n        from {\n            transform: rotate(0deg);\n        }\n\n        to {\n            transform: rotate(360deg);\n        }\n    }\n\n    .spinning {\n        animation-name: spin;\n        animation-iteration-count: infinite;\n        animation-timing-function: linear;\n    }\n\n    /* Texto de estado fuera del cuadro */\n    #status-container {\n        text-align: center;\n        margin-top: 10px;\n        font-family: Arial, sans-serif;\n        font-weight: bold;\n        font-size: 16px;\n        color: white;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        gap: 8px;\n        user-select: none;\n    }\n</style>\n\n<div>\n    <div class=\"fan\">\n        <svg id=\"fan-svg\" viewBox=\"0 0 64 64\" width=\"150\" height=\"150\" xmlns=\"http://www.w3.org/2000/svg\">\n            <circle cx=\"32\" cy=\"32\" r=\"5\" fill=\"#333\" />\n            <rect x=\"30\" y=\"10\" width=\"4\" height=\"20\" fill=\"#666\" />\n            <rect x=\"30\" y=\"34\" width=\"4\" height=\"20\" fill=\"#666\" />\n            <rect x=\"10\" y=\"30\" width=\"20\" height=\"4\" fill=\"#666\" />\n            <rect x=\"34\" y=\"30\" width=\"20\" height=\"4\" fill=\"#666\" />\n        </svg>\n    </div>\n    <div id=\"status-container\">\n        <span id=\"status-emoji\">🔴</span>\n        <span id=\"status-text\">Ventilación apagada</span>\n    </div>\n</div>\n\n<script>\n    (function(scope) {\n        const fan = document.getElementById('fan-svg');\n        const statusText = document.getElementById('status-text');\n        const statusEmoji = document.getElementById('status-emoji');\n\n        scope.$watch('msg', function(msg) {\n            if (!msg || msg.payload === undefined) return;\n\n            let speed = Number(msg.payload);\n\n            if (isNaN(speed) || speed <= 0) {\n                fan.style.animationDuration = '';\n                fan.classList.remove('spinning');\n                statusText.textContent = \"Ventilación apagada\";\n                statusEmoji.textContent = \"🔴\";\n                return;\n            }\n\n            let duration = 5 / speed;\n\n            if (duration < 0.1) duration = 0.1;\n            if (duration > 5) duration = 5;\n\n            fan.style.animationDuration = duration + 's';\n            fan.classList.add('spinning');\n            statusText.textContent = \"Ventilación encendida\";\n            statusEmoji.textContent = \"🟢\";\n        });\n    })(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1480,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "698251fd19d405c5",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "c08ac066cd43cd8b",
+        "name": "Niveles",
+        "order": 5,
+        "width": 4,
+        "height": 3,
+        "format": "<div style=\"width: 100%; text-align: center;\">\n\n    <div class=\"cylinder-container-horizontal\">\n        <div class=\"cylinder-fill-horizontal\"\n             id=\"cylinderFill2\"\n             ng-style=\"{'width': msg.payload + '%'}\">\n        </div>\n\n        <div class=\"cylinder-text-overlay\"\n             id=\"cylinderText2\">\n            {{msg.payload | number:2}}%\n        </div>\n\n        <div class=\"cylinder-outline-horizontal\"></div>\n    </div>\n</div>\n\n<style>\n.cylinder-container-horizontal {\n    position: relative;\n    width: 200px;\n    height: 60px;\n    margin: auto;\n    margin-top: 60px;\n    background: #444;\n    border-radius: 30px;\n    overflow: hidden;\n    border: 2px solid #999;\n}\n\n.cylinder-fill-horizontal {\n    position: absolute;\n    left: 0;\n    height: 100%;\n    border-radius: 30px 0 0 30px;\n    transition: width 0.5s ease-in-out;\n    z-index: 0;\n}\n\n.cylinder-text-overlay {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-weight: bold;\n    font-size: 16px;\n    z-index: 1;\n    pointer-events: none;\n    color: black;\n}\n\n.cylinder-outline-horizontal {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    border-radius: 30px;\n    box-shadow: inset 0 0 8px rgba(0,0,0,0.6);\n    z-index: 2;\n}\n</style>\n\n<script>\n(function(scope) {\n    scope.$watch('msg.payload', function(value) {\n        const fill = document.getElementById(\"cylinderFill2\");\n        const text = document.getElementById(\"cylinderText2\");\n        const val = parseFloat(value);\n\n        if (fill && text && !isNaN(val)) {\n            let bgColor = \"#ff1700\"; // por defecto\n            if (val >= 75) {\n                bgColor = \"#ffb600\";\n                color = \"black\";\n            } else if (val >= 50) {\n                bgColor = \"#ff8b00\";\n                color = \"black\";\n            } else if (val >= 25) {\n                bgColor = \"#ff5100\";\n                color = \"white\";\n            } else {\n                bgColor = \"#ff1700\";\n                color = \"white\";\n            }\n\n            fill.style.backgroundColor = bgColor;\n            text.style.color = color;\n        }\n    });\n})(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1000,
+        "y": 1420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a0b9da4bff51733f",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "function 7",
+        "func": "msg.payload = parseFloat((msg.payload * 10).toFixed(2));\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 1420,
+        "wires": [
+            [
+                "698251fd19d405c5"
+            ]
+        ]
+    },
+    {
+        "id": "a25c13cdb96c8218",
+        "type": "ui_template",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "group": "b62f81231a279246",
+        "name": "Ventilador P2",
+        "order": 2,
+        "width": 4,
+        "height": 4,
+        "format": "<style>\n    .fan {\n        width: 120px;\n        height: 120px;\n        margin: 30px auto 0 auto;\n        background-color: #fff;\n        border: 1px solid #ccc;\n        border-radius: 10px;\n        box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n        display: flex;\n        align-items: center;\n        justify-content: center;\n    }\n\n    /* Animación de giro, velocidad variable */\n    @keyframes spin {\n        from {\n            transform: rotate(0deg);\n        }\n\n        to {\n            transform: rotate(360deg);\n        }\n    }\n\n    .spinning {\n        animation-name: spin;\n        animation-iteration-count: infinite;\n        animation-timing-function: linear;\n    }\n\n    /* Texto de estado fuera del cuadro */\n    #status-container {\n        text-align: center;\n        margin-top: 10px;\n        font-family: Arial, sans-serif;\n        font-weight: bold;\n        font-size: 16px;\n        color: white;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        gap: 8px;\n        user-select: none;\n    }\n</style>\n\n<div>\n    <div class=\"fan\">\n        <svg id=\"fan-svg2\" viewBox=\"0 0 64 64\" width=\"150\" height=\"150\" xmlns=\"http://www.w3.org/2000/svg\">\n            <circle cx=\"32\" cy=\"32\" r=\"5\" fill=\"#333\" />\n            <rect x=\"30\" y=\"10\" width=\"4\" height=\"20\" fill=\"#666\" />\n            <rect x=\"30\" y=\"34\" width=\"4\" height=\"20\" fill=\"#666\" />\n            <rect x=\"10\" y=\"30\" width=\"20\" height=\"4\" fill=\"#666\" />\n            <rect x=\"34\" y=\"30\" width=\"20\" height=\"4\" fill=\"#666\" />\n        </svg>\n    </div>\n    <div id=\"status-container2\">\n        <span id=\"status-emoji2\">🔴</span>\n        <span id=\"status-text2\">Ventilación apagada</span>\n    </div>\n</div>\n\n<script>\n    (function(scope) {\n        const fan = document.getElementById('fan-svg2');\n        const statusText = document.getElementById('status-text2');\n        const statusEmoji = document.getElementById('status-emoji2');\n\n        scope.$watch('msg', function(msg) {\n            if (!msg || msg.payload === undefined) return;\n\n            let speed = Number(msg.payload);\n\n            if (isNaN(speed) || speed <= 0) {\n                fan.style.animationDuration = '';\n                fan.classList.remove('spinning');\n                statusText.textContent = \"Ventilación apagada\";\n                statusEmoji.textContent = \"🔴\";\n                return;\n            }\n\n            let duration = 5 / speed;\n\n            if (duration < 0.1) duration = 0.1;\n            if (duration > 5) duration = 5;\n\n            fan.style.animationDuration = duration + 's';\n            fan.classList.add('spinning');\n            statusText.textContent = \"Ventilación encendida\";\n            statusEmoji.textContent = \"🟢\";\n        });\n    })(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 850,
+        "y": 1900,
+        "wires": [
+            []
         ]
     },
     {
@@ -4520,7 +4578,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 530,
+        "x": 470,
         "y": 320,
         "wires": [
             [
