@@ -3,10 +3,8 @@
 ## 🖼️ Diseño
 > Puedes agregar aquí una imagen del dashboard (como la que compartiste) usando:
 
-```markdown
 ![Dashboard](./archivos/Dashboard%20inicial.png)
 ![Historial de consumo](./archivos/Historial%20de%20consumo.png)
-```
 
 Este proyecto es un dashboard interactivo creado con Node-RED que permite gestionar y monitorear tanques de gas distribuidos en distintas zonas de una ciudad.
 
