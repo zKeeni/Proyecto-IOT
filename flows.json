@@ -650,19 +650,10 @@
         "className": ""
     },
     {
-        "id": "20bb081.66afff8",
-        "type": "ui_tab",
-        "name": "Ohh",
-        "icon": "dashboard",
-        "order": 5,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "3ca910b5.3d50a",
         "type": "ui_group",
         "name": "Group 1",
-        "tab": "20bb081.66afff8",
+        "tab": "",
         "order": 1,
         "disp": false,
         "width": "6",
@@ -672,7 +663,7 @@
         "id": "2c0d82c5cbab11fd",
         "type": "ui_group",
         "name": "Group 3",
-        "tab": "20bb081.66afff8",
+        "tab": "",
         "order": 3,
         "disp": false,
         "width": 5,
@@ -682,7 +673,7 @@
         "id": "d7e8ab4ae6aaf9bf",
         "type": "ui_group",
         "name": "Group 2",
-        "tab": "20bb081.66afff8",
+        "tab": "",
         "order": 2,
         "disp": false,
         "width": "6",

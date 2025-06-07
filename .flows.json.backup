@@ -1997,7 +1997,7 @@
         "type": "http request",
         "z": "ed84d3e070727412",
         "g": "3366b3234dc8cf7b",
-        "name": "",
+        "name": "Solicitud clima",
         "method": "GET",
         "ret": "txt",
         "paytoqs": "ignore",
@@ -2009,7 +2009,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1010,
+        "x": 1020,
         "y": 220,
         "wires": [
             [
