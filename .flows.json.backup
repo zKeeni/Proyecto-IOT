@@ -134,7 +134,13 @@
             "35d79753365ab065",
             "902a80765e1907ad",
             "e57b0a5fa5a12ded",
-            "3680ed389112da9f"
+            "3680ed389112da9f",
+            "fb2ad3264e849b25",
+            "0e3285607cbfc41d",
+            "d019ea55b5e3fe3a",
+            "5c5ee89b04338ee9",
+            "3f3e3e7073def319",
+            "fcd0baf417f0fd56"
         ],
         "x": 14,
         "y": 419,
@@ -1110,7 +1116,7 @@
                 "662d9e463741798e",
                 "de890ab489854ac3",
                 "77586fe3e35bfc10",
-                "3680ed389112da9f"
+                "fb2ad3264e849b25"
             ]
         ]
     },
@@ -1198,8 +1204,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 930,
-        "y": 760,
+        "x": 1090,
+        "y": 800,
         "wires": [
             [
                 "2abda30277bd5535"
@@ -3917,14 +3923,14 @@
         "order": 6,
         "width": 5,
         "height": 3,
-        "format": "<style>\n    .g-container {\n        width: 150px;\n        height: 250px;\n        margin-left: 35px;\n    }\n\n    .g-nums {\n        width: 96%;\n    }\n\n    .g-val {\n\n        left: 47%;\n        font-size: 15px;\n    }\n</style>\n\n\n<div id=\"{{'gauge_'+$id}}\" class=\"g-container\" style=\"-g-angle:4; --container-size:4.4\">\n\n\n    <div class=\"g-plate\">\n        <div class=\"g-sector g-sector-normal\" style=\"transform: rotate(193deg) skew(291deg, 23deg);\"></div>\n        <div class=\"g-sector g-sector-high\" style=\"transform: rotate(329deg) skew(12deg,23deg);\"></div>\n        <div class=\"g-ticks\">\n            <div class=\"g-tick\" style=\"--ga-tick:1;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:2;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:3;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:4;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:5;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:6;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:7;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:8;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:9;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:10;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:11;\"></div>\n        </div>\n        <div class=\"g-nums\">\n            <div class=\"g-num\" style=\"left: 23%;top: 71%;\">0</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 56%;\">20</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 39%;\">40</div>\n            <div class=\"g-num\" style=\"left: 19%;top: 24%;\">60</div>\n            <div class=\"g-num\" style=\"left: 31%;top: 14%;\">80</div>\n            <div class=\"g-num\" style=\"left: 47%;top: 10%;\">100</div>\n            <div class=\"g-num\" style=\"left: 63%;top: 14%;\">120</div>\n            <div class=\"g-num\" style=\"left: 74%;top: 25%;\">140</div>\n            <div class=\"g-num\" style=\"left: 79%;top: 40%;\">160</div>\n            <div class=\"g-num\" style=\"left: 78%;top: 56%;\">180</div>\n            <div class=\"g-num\" style=\"left:65%; top:71%;\">200</div>\n        </div>\n        <div class=\"g-label\">PRESIÓN</div>\n        <div class=\"g-needle\"></div>\n        <div class=\"g-needle-ring\"></div>\n        <div id=\"{{'gauge_val_'+$id}}\" class=\"g-val\"></div>\n    </div>\n\n\n</div>\n<script>\n    (function(scope) {\n    let min = 0;\n    let max = 200;\n    scope.$watch('msg', function(msg) {\n        if (msg) {\n            const v = Math.floor((( msg.payload- min) / (max - min)) * 100);\n            document.getElementById('gauge_'+scope.$id).style.setProperty('--g-angle', v);\n            document.getElementById('gauge_val_'+scope.$id).innerText = msg.payload;\n        }   \n  });\n})(scope);\n</script>",
+        "format": "<style>\n    .g-container {\n        width: 150px !important;\n        height: 250px !important;\n        margin-left: 35px;\n    }\n\n    .g-nums {\n        width: 96%;\n    }\n\n    .g-val {\n\n        left: 47%;\n        font-size: 15px;\n    }\n</style>\n\n\n<div id=\"{{'gauge_'+$id}}\" class=\"g-container\" style=\"-g-angle:4; --container-size:4.4\">\n\n\n    <div class=\"g-plate\">\n        <div class=\"g-sector g-sector-normal\" style=\"transform: rotate(193deg) skew(291deg, 23deg);\"></div>\n        <div class=\"g-sector g-sector-high\" style=\"transform: rotate(329deg) skew(12deg,23deg);\"></div>\n        <div class=\"g-ticks\">\n            <div class=\"g-tick\" style=\"--ga-tick:1;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:2;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:3;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:4;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:5;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:6;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:7;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:8;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:9;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:10;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:11;\"></div>\n        </div>\n        <div class=\"g-nums\">\n            <div class=\"g-num\" style=\"left: 23%;top: 71%;\">0</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 56%;\">20</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 39%;\">40</div>\n            <div class=\"g-num\" style=\"left: 19%;top: 24%;\">60</div>\n            <div class=\"g-num\" style=\"left: 31%;top: 14%;\">80</div>\n            <div class=\"g-num\" style=\"left: 47%;top: 10%;\">100</div>\n            <div class=\"g-num\" style=\"left: 63%;top: 14%;\">120</div>\n            <div class=\"g-num\" style=\"left: 74%;top: 25%;\">140</div>\n            <div class=\"g-num\" style=\"left: 79%;top: 40%;\">160</div>\n            <div class=\"g-num\" style=\"left: 78%;top: 56%;\">180</div>\n            <div class=\"g-num\" style=\"left:65%; top:71%;\">200</div>\n        </div>\n        <div class=\"g-label\">PRESIÓN</div>\n        <div class=\"g-needle\"></div>\n        <div class=\"g-needle-ring\"></div>\n\n        <div id=\"{{'gauge_val_'+$id}}\" class=\"g-val\"></div>\n\n    </div>\n\n\n</div>\n<script>\n    (function(scope) {\n    let min = 0;\n    let max = 200;\n\n    function actualizarGauge(presion) {\n        let presionTrunc = Math.trunc(presion * 100) / 100;\n        const v = Math.floor(((presionTrunc - min) / (max - min)) * 100);\n        document.getElementById('gauge_' + scope.$id).style.setProperty('--g-angle', v);\n        document.getElementById('gauge_val_' + scope.$id).innerText = presionTrunc;\n    }\n\n    scope.$watch('msg', function(msg) {\n       if (msg && msg.presion !== undefined) {\n        actualizarGauge(msg.presion);\n       }\n    });\n})(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1020,
-        "y": 700,
+        "x": 460,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -3935,19 +3941,17 @@
         "z": "ed84d3e070727412",
         "g": "eca886a5d7cbed9d",
         "name": "truncado",
-        "func": "msg.payload = Math.trunc( msg.payload * 100)/100 ;\nreturn msg;",
+        "func": "console.log(msg.presion);\nmsg.presion = Math.trunc( msg.payload * 100)/100 ;\nconsole.log(msg.presion + \"XD\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 860,
-        "y": 700,
+        "x": 1060,
+        "y": 1040,
         "wires": [
-            [
-                "e57b0a5fa5a12ded"
-            ]
+            []
         ]
     },
     {
@@ -3991,6 +3995,119 @@
         "y": 1500,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "fb2ad3264e849b25",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "flow presionP1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "presionP1",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 720,
+        "wires": [
+            [
+                "5c5ee89b04338ee9"
+            ]
+        ]
+    },
+    {
+        "id": "0e3285607cbfc41d",
+        "type": "ui_ui_control",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "",
+        "events": "all",
+        "x": 180,
+        "y": 1080,
+        "wires": [
+            [
+                "fcd0baf417f0fd56"
+            ]
+        ]
+    },
+    {
+        "id": "d019ea55b5e3fe3a",
+        "type": "link in",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "Link recibe actualizar presionP1",
+        "links": [
+            "5c5ee89b04338ee9"
+        ],
+        "x": 215,
+        "y": 980,
+        "wires": [
+            [
+                "fcd0baf417f0fd56"
+            ]
+        ]
+    },
+    {
+        "id": "5c5ee89b04338ee9",
+        "type": "link out",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "Link actualizar presionP1",
+        "mode": "link",
+        "links": [
+            "d019ea55b5e3fe3a"
+        ],
+        "x": 1055,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "3f3e3e7073def319",
+        "type": "debug",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "fcd0baf417f0fd56",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "g": "eca886a5d7cbed9d",
+        "name": "function 5",
+        "func": "msg.presion = flow.get(\"presionP1\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1060,
+        "wires": [
+            [
+                "e57b0a5fa5a12ded"
+            ]
         ]
     },
     {
