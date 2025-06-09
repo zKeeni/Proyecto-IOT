@@ -144,7 +144,7 @@
         ],
         "x": 14,
         "y": 419,
-        "w": 2172,
+        "w": 2152,
         "h": 742
     },
     {
@@ -202,9 +202,9 @@
             "6a89e6ec70116b66",
             "a5162c4aa79f7f5a"
         ],
-        "x": 14,
+        "x": 24,
         "y": 179,
-        "w": 732,
+        "w": 722,
         "h": 122
     },
     {
@@ -327,16 +327,17 @@
             "7d03dde6b59bfa1b",
             "1a33f941b50e38d8",
             "d01690597d7edb6b",
-            "46404e9ff2ae70e7",
             "0bb628b3cf316c54",
             "698251fd19d405c5",
             "a0b9da4bff51733f",
-            "a25c13cdb96c8218"
+            "a25c13cdb96c8218",
+            "949c70073356990f",
+            "30fedfb3daf89df6"
         ],
         "x": 14,
         "y": 1219,
         "w": 2122,
-        "h": 722
+        "h": 902
     },
     {
         "id": "3e6e56dcfdf5ebfb",
@@ -772,7 +773,7 @@
         "height": 1
     },
     {
-        "id": "5e33fa35b4582ba2",
+        "id": "508ea9b7177158ac",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -782,7 +783,7 @@
         "height": 1
     },
     {
-        "id": "ea2a2044dadc594c",
+        "id": "f9e7767ad9311ff4",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -792,7 +793,7 @@
         "height": 1
     },
     {
-        "id": "31fadaa20bd8eda2",
+        "id": "a15d34d42bab7ac5",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
@@ -802,22 +803,12 @@
         "height": 1
     },
     {
-        "id": "f90a36faf8b4904b",
+        "id": "f0a2dc507550342a",
         "type": "ui_spacer",
         "z": "ed84d3e070727412",
         "name": "spacer",
         "group": "c08ac066cd43cd8b",
         "order": 9,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "23b52a4372d8f9ec",
-        "type": "ui_spacer",
-        "z": "ed84d3e070727412",
-        "name": "spacer",
-        "group": "b62f81231a279246",
-        "order": 3,
         "width": 2,
         "height": 1
     },
@@ -2535,7 +2526,7 @@
                 "84016675def9d3ae",
                 "6d174ffebf23c487",
                 "343f4ce283c46eef",
-                "46404e9ff2ae70e7"
+                "949c70073356990f"
             ]
         ]
     },
@@ -2624,7 +2615,7 @@
         "repair": false,
         "outputs": 4,
         "x": 930,
-        "y": 1560,
+        "y": 1580,
         "wires": [
             [
                 "0eb0b541ace7d2d5"
@@ -3533,7 +3524,7 @@
             "0935314888241822"
         ],
         "x": 65,
-        "y": 1900,
+        "y": 2080,
         "wires": [
             [
                 "2bc08e92e116faf3"
@@ -3547,7 +3538,7 @@
         "g": "b1ec3d039689d046",
         "group": "b62f81231a279246",
         "name": "Slider ventilador P2",
-        "order": 4,
+        "order": 3,
         "width": 0,
         "height": 0,
         "format": "<style>\n    .wrapper {\n        margin: 20px;\n        position: relative;\n        width: 87%;\n        height: 1.5rem;\n    }\n\n    .wrapper::before,\n    .wrapper::after {\n        content: '';\n        display: block;\n        position: absolute;\n        z-index: 99;\n        color: #fff;\n        height: 100%;\n        text-align: center;\n        font-size: 1.5rem;\n        line-height: 1;\n        padding: 0 0.75rem;\n        pointer-events: none;\n    }\n\n    .wrapper::before {\n        left: 0;\n        top: 0;\n    }\n\n    .wrapper::after {\n        right: 0;\n        top: 0;\n    }\n\n    input[type=\"range\"] {\n        position:absolute;\n        -webkit-appearance: none;\n        appearance: none;\n        background-color: rgba(255, 255, 255, 0.2);\n        top: 50%;\n        left: 50%;\n        margin: 0;\n        width: 15rem;\n        height: 3.5rem;\n        transform: translate(-50%, -50%);\n        border-radius: 1rem;\n        overflow: hidden;\n        cursor: col-resize;\n    }\n\n    input[type=\"range\"]::-webkit-slider-runnable-track {\n        background-color: rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        appearance: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n\n    input[type=\"range\"]::-moz-range-thumb {\n        border: none;\n        width: 0;\n        height: 0;\n        box-shadow: -20rem 0 0 20rem rgba(255, 255, 255, 0.2);\n    }\n</style>\n\n<div class=\"wrapper\">\n    <input type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"50\" ng-model=\"sliderValue2\" />\n</div>\n\n<script>\n    (function(scope) {\n    // Actualiza el slider cuando cambia\n    scope.$watch('sliderValue2', function(newValue) {\n    if (newValue !== undefined) {\n    scope.send({ payload: newValue });\n    }\n    });\n    \n    // Escucha nuevos valores desde el exterior (por ejemplo, Node-RED o backend)\n    scope.on('payload', function(msg) {\n    if (msg && typeof msg.payload === 'number') {\n    scope.sliderValue2 = msg.payload;\n    }\n    });\n    })(scope);\n</script>",
@@ -3557,7 +3548,7 @@
         "templateScope": "local",
         "className": "",
         "x": 670,
-        "y": 1860,
+        "y": 2040,
         "wires": [
             [
                 "a25c13cdb96c8218"
@@ -3585,7 +3576,7 @@
         "to": "",
         "reg": false,
         "x": 430,
-        "y": 1900,
+        "y": 2080,
         "wires": [
             [
                 "23cfb007dca1b014",
@@ -3610,7 +3601,7 @@
         "repair": false,
         "outputs": 1,
         "x": 210,
-        "y": 1900,
+        "y": 2080,
         "wires": [
             [
                 "aa203185084de920"
@@ -3676,7 +3667,7 @@
         "repair": false,
         "outputs": 1,
         "x": 210,
-        "y": 1820,
+        "y": 2000,
         "wires": [
             [
                 "aa203185084de920"
@@ -3806,7 +3797,7 @@
             "1a33f941b50e38d8"
         ],
         "x": 65,
-        "y": 1820,
+        "y": 2000,
         "wires": [
             [
                 "ca4b52459d6d4317"
@@ -3829,7 +3820,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 470,
+        "x": 490,
         "y": 1020,
         "wires": [
             []
@@ -3855,27 +3846,6 @@
         ]
     },
     {
-        "id": "46404e9ff2ae70e7",
-        "type": "function",
-        "z": "ed84d3e070727412",
-        "g": "b1ec3d039689d046",
-        "name": "truncado",
-        "func": "msg.payload = Math.trunc( msg.payload * 100)/100 ;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 1500,
-        "wires": [
-            [
-                "0bb628b3cf316c54"
-            ]
-        ]
-    },
-    {
         "id": "0bb628b3cf316c54",
         "type": "ui_template",
         "z": "ed84d3e070727412",
@@ -3885,14 +3855,14 @@
         "order": 6,
         "width": 5,
         "height": 3,
-        "format": "<style>\n    .g-container {\n\n        width: 200px;\n        margin-left: 35px;\n    }\n\n    .g-nums {\n        width: 96%;\n    }\n\n    .g-val {\n\n        left: 47%;\n        font-size: 15px;\n    }\n</style>\n\n\n<div id=\"{{'gauge2_'+$id}}\" class=\"g-container\" style=\"-g-angle:4; --container-size:4.4\">\n\n\n    <div class=\"g-plate\">\n        <div class=\"g-sector g-sector-normal\" style=\"transform: rotate(193deg) skew(291deg, 23deg);\"></div>\n        <div class=\"g-sector g-sector-high\" style=\"transform: rotate(329deg) skew(12deg,23deg);\"></div>\n        <div class=\"g-ticks\">\n            <div class=\"g-tick\" style=\"--ga-tick:1;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:2;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:3;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:4;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:5;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:6;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:7;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:8;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:9;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:10;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:11;\"></div>\n        </div>\n        <div class=\"g-nums\">\n            <div class=\"g-num\" style=\"left: 23%;top: 71%;\">0</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 56%;\">20</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 39%;\">40</div>\n            <div class=\"g-num\" style=\"left: 19%;top: 24%;\">60</div>\n            <div class=\"g-num\" style=\"left: 31%;top: 14%;\">80</div>\n            <div class=\"g-num\" style=\"left: 47%;top: 10%;\">100</div>\n            <div class=\"g-num\" style=\"left: 63%;top: 14%;\">120</div>\n            <div class=\"g-num\" style=\"left: 74%;top: 25%;\">140</div>\n            <div class=\"g-num\" style=\"left: 79%;top: 40%;\">160</div>\n            <div class=\"g-num\" style=\"left: 78%;top: 56%;\">180</div>\n            <div class=\"g-num\" style=\"left:65%; top:71%;\">200</div>\n        </div>\n        <div class=\"g-label\">PRESIÓN</div>\n        <div class=\"g-needle\"></div>\n        <div class=\"g-needle-ring\"></div>\n        <div id=\"{{'gauge2_val_'+$id}}\" class=\"g-val\"></div>\n    </div>\n\n\n</div>\n<script>\n    (function(scope) {\n        let min = 0;\n        let max = 200;\n\n        // Variable global para almacenar el último valor\n        let lastPayload2= null;\n\n        // Función para actualizar el ángulo\n        function updateGauge(value) {\n            const v = Math.floor(((value - min) / (max - min)) * 100);\n            document.getElementById('gauge2_' + scope.$id).style.setProperty('--g-angle', v);\n            document.getElementById('gauge2_val_' + scope.$id).innerText = value;\n        }\n\n        // Escucha el cambio de mensaje\n        scope.$watch('msg', function(msg) {\n            if (msg) {\n                lastPayload2 = msg.payload; // Almacena el último valor recibido\n                updateGauge(lastPayload2);\n            }\n        });\n\n        // Manejar el evento de visibilidad de la página\n        document.addEventListener(\"visibilitychange\", function() {\n            if (!document.hidden && lastPayload2 !== null) {\n                // Restaura el valor del gauge cuando se vuelve a la pestaña\n                updateGauge(lastPayload2);\n            }\n        });\n    })(scope);\n</script>",
+        "format": "<style>\n    .g-container {\n        width: 150px !important;\n        height: 250px !important;\n        margin-left: 35px;\n    }\n\n    .g-nums {\n        width: 96%;\n    }\n\n    .g-val {\n\n        left: 47%;\n        font-size: 15px;\n    }\n</style>\n\n\n<div id=\"{{'gauge_'+$id}}\" class=\"g-container\" style=\"-g-angle:4; --container-size:4.4\">\n\n\n    <div class=\"g-plate\">\n        <div class=\"g-sector g-sector-normal\" style=\"transform: rotate(193deg) skew(291deg, 23deg);\"></div>\n        <div class=\"g-sector g-sector-high\" style=\"transform: rotate(329deg) skew(12deg,23deg);\"></div>\n        <div class=\"g-ticks\">\n            <div class=\"g-tick\" style=\"--ga-tick:1;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:2;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:3;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:4;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:5;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:6;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:7;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:8;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:9;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:10;\"></div>\n            <div class=\"g-tick\" style=\"--ga-tick:11;\"></div>\n        </div>\n        <div class=\"g-nums\">\n            <div class=\"g-num\" style=\"left: 23%;top: 71%;\">0</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 56%;\">20</div>\n            <div class=\"g-num\" style=\"left: 13%;top: 39%;\">40</div>\n            <div class=\"g-num\" style=\"left: 19%;top: 24%;\">60</div>\n            <div class=\"g-num\" style=\"left: 31%;top: 14%;\">80</div>\n            <div class=\"g-num\" style=\"left: 47%;top: 10%;\">100</div>\n            <div class=\"g-num\" style=\"left: 63%;top: 14%;\">120</div>\n            <div class=\"g-num\" style=\"left: 74%;top: 25%;\">140</div>\n            <div class=\"g-num\" style=\"left: 79%;top: 40%;\">160</div>\n            <div class=\"g-num\" style=\"left: 78%;top: 56%;\">180</div>\n            <div class=\"g-num\" style=\"left:65%; top:71%;\">200</div>\n        </div>\n        <div class=\"g-label\">PRESIÓN</div>\n        <div class=\"g-needle\"></div>\n        <div class=\"g-needle-ring\"></div>\n\n        <div id=\"{{'gauge_val_'+$id}}\" class=\"g-val\"></div>\n\n    </div>\n\n\n</div>\n<script>\n    (function(scope) {\n    let min = 0;\n    let max = 200;\n\n    function actualizarGauge(presion) {\n        let presionTrunc = Math.trunc(presion * 100) / 100;\n        const v = Math.floor(((presionTrunc - min) / (max - min)) * 100);\n        document.getElementById('gauge_' + scope.$id).style.setProperty('--g-angle', v);\n        document.getElementById('gauge_val_' + scope.$id).innerText = presionTrunc;\n    }\n\n    scope.$watch('msg', function(msg) {\n       if (msg && msg.presion !== undefined) {\n        actualizarGauge(msg.presion);\n       }\n    });\n})(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1020,
-        "y": 1500,
+        "x": 440,
+        "y": 1880,
         "wires": [
             []
         ]
@@ -3965,7 +3935,8 @@
         "name": "Link actualizar presionP1",
         "mode": "link",
         "links": [
-            "d019ea55b5e3fe3a"
+            "d019ea55b5e3fe3a",
+            "6d6319ddb0455223"
         ],
         "x": 1055,
         "y": 720,
@@ -4008,8 +3979,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1000,
-        "y": 620,
+        "x": 1020,
+        "y": 600,
         "wires": [
             []
         ]
@@ -4055,7 +4026,7 @@
         "finalize": "",
         "libs": [],
         "x": 860,
-        "y": 620,
+        "y": 600,
         "wires": [
             [
                 "dbee563e42a07af4"
@@ -4094,14 +4065,14 @@
         "order": 5,
         "width": 4,
         "height": 3,
-        "format": "<div style=\"width: 100%; text-align: center;\">\n\n    <div class=\"cylinder-container-horizontal\">\n        <div class=\"cylinder-fill-horizontal\"\n             id=\"cylinderFill2\"\n             ng-style=\"{'width': msg.payload + '%'}\">\n        </div>\n\n        <div class=\"cylinder-text-overlay\"\n             id=\"cylinderText2\">\n            {{msg.payload | number:2}}%\n        </div>\n\n        <div class=\"cylinder-outline-horizontal\"></div>\n    </div>\n</div>\n\n<style>\n.cylinder-container-horizontal {\n    position: relative;\n    width: 200px;\n    height: 60px;\n    margin: auto;\n    margin-top: 60px;\n    background: #444;\n    border-radius: 30px;\n    overflow: hidden;\n    border: 2px solid #999;\n}\n\n.cylinder-fill-horizontal {\n    position: absolute;\n    left: 0;\n    height: 100%;\n    border-radius: 30px 0 0 30px;\n    transition: width 0.5s ease-in-out;\n    z-index: 0;\n}\n\n.cylinder-text-overlay {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-weight: bold;\n    font-size: 16px;\n    z-index: 1;\n    pointer-events: none;\n    color: black;\n}\n\n.cylinder-outline-horizontal {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    border-radius: 30px;\n    box-shadow: inset 0 0 8px rgba(0,0,0,0.6);\n    z-index: 2;\n}\n</style>\n\n<script>\n(function(scope) {\n    scope.$watch('msg.payload', function(value) {\n        const fill = document.getElementById(\"cylinderFill2\");\n        const text = document.getElementById(\"cylinderText2\");\n        const val = parseFloat(value);\n\n        if (fill && text && !isNaN(val)) {\n            let bgColor = \"#ff1700\"; // por defecto\n            if (val >= 75) {\n                bgColor = \"#ffb600\";\n                color = \"black\";\n            } else if (val >= 50) {\n                bgColor = \"#ff8b00\";\n                color = \"black\";\n            } else if (val >= 25) {\n                bgColor = \"#ff5100\";\n                color = \"white\";\n            } else {\n                bgColor = \"#ff1700\";\n                color = \"white\";\n            }\n\n            fill.style.backgroundColor = bgColor;\n            text.style.color = color;\n        }\n    });\n})(scope);\n</script>\n",
+        "format": "<div style=\"width: 100%; text-align: center;\">\n\n    <div class=\"cylinder-container-horizontal\">\n        <div class=\"cylinder-fill-horizontal\" id=\"cylinderFill2\" ng-style=\"{'width': msg.payload + '%'}\">\n        </div>\n\n        <div class=\"cylinder-text-overlay\" id=\"cylinderText2\">\n            {{msg.payload | number:2}}%\n        </div>\n\n        <div class=\"cylinder-outline-horizontal\"></div>\n    </div>\n</div>\n\n<style>\n    .cylinder-container-horizontal {\n        position: relative;\n        width: 200px;\n        height: 60px;\n        margin: auto;\n        margin-top: 60px;\n        background: #444;\n        border-radius: 30px;\n        overflow: hidden;\n        border: 2px solid #999;\n    }\n\n    .cylinder-fill-horizontal {\n        position: absolute;\n        left: 0;\n        height: 100%;\n        border-radius: 30px 0 0 30px;\n        transition: width 0.5s ease-in-out;\n        z-index: 0;\n    }\n\n    .cylinder-text-overlay {\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        transform: translate(-50%, -50%);\n        font-weight: bold;\n        font-size: 16px;\n        z-index: 1;\n        pointer-events: none;\n        color: black;\n    }\n\n    .cylinder-outline-horizontal {\n        position: absolute;\n        width: 100%;\n        height: 100%;\n        border-radius: 30px;\n        box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);\n        z-index: 2;\n    }\n</style>\n\n<script>\n    (function(scope) {\n    scope.$watch('msg.payload', function(value) {\n        const fill = document.getElementById(\"cylinderFill2\");\n        const text = document.getElementById(\"cylinderText2\");\n        const val = parseFloat(value);\n\n        if (fill && text && !isNaN(val)) {\n            let bgColor = \"#ff1700\"; // por defecto\n            if (val >= 75) {\n                bgColor = \"#ffb600\";\n                color = \"black\";\n            } else if (val >= 50) {\n                bgColor = \"#ff8b00\";\n                color = \"black\";\n            } else if (val >= 25) {\n                bgColor = \"#ff5100\";\n                color = \"white\";\n            } else {\n                bgColor = \"#ff1700\";\n                color = \"white\";\n            }\n\n            fill.style.backgroundColor = bgColor;\n            text.style.color = color;\n        }\n    });\n})(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1000,
-        "y": 1420,
+        "x": 1020,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -4120,7 +4091,7 @@
         "finalize": "",
         "libs": [],
         "x": 860,
-        "y": 1420,
+        "y": 1400,
         "wires": [
             [
                 "698251fd19d405c5"
@@ -4144,9 +4115,102 @@
         "templateScope": "local",
         "className": "",
         "x": 850,
-        "y": 1900,
+        "y": 2080,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "949c70073356990f",
+        "type": "change",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "flow presionP2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "presionP2",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 940,
+        "y": 1520,
+        "wires": [
+            [
+                "30fedfb3daf89df6"
+            ]
+        ]
+    },
+    {
+        "id": "30fedfb3daf89df6",
+        "type": "link out",
+        "z": "ed84d3e070727412",
+        "g": "b1ec3d039689d046",
+        "name": "Link actualizar presionP2",
+        "mode": "link",
+        "links": [
+            "6d6319ddb0455223",
+            "bb2830a761d54c2d"
+        ],
+        "x": 1065,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "671aca8f7d117c36",
+        "type": "ui_ui_control",
+        "z": "ed84d3e070727412",
+        "name": "",
+        "events": "all",
+        "x": 150,
+        "y": 1920,
+        "wires": [
+            [
+                "35fe2ceba20aee90"
+            ]
+        ]
+    },
+    {
+        "id": "bb2830a761d54c2d",
+        "type": "link in",
+        "z": "ed84d3e070727412",
+        "name": "Link recibe actualizar presionP2",
+        "links": [
+            "30fedfb3daf89df6"
+        ],
+        "x": 185,
+        "y": 1840,
+        "wires": [
+            [
+                "35fe2ceba20aee90"
+            ]
+        ]
+    },
+    {
+        "id": "35fe2ceba20aee90",
+        "type": "function",
+        "z": "ed84d3e070727412",
+        "name": "function 8",
+        "func": "msg.presion = flow.get(\"presionP2\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1880,
+        "wires": [
+            [
+                "0bb628b3cf316c54"
+            ]
         ]
     },
     {
